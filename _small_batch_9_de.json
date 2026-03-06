@@ -1,0 +1,328 @@
+{
+  "201": {
+    "PROSE": [
+      "‚Vergessen Sie's, das ist gut für uns', sagt Terri. ‚Stollard und Rufus werden die Stimmen der weichen Brexit-Befürworter unter sich aufteilen. Und einige von denen werden zu uns herüberwandern, um uns gegen Noysom-Reek zu unterstützen.'",
+      "Man kann nur hoffen."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter\" ►194"
+    ]
+  },
+  "202": {
+    "PROSE": [
+      "Augenblicklich gleitet eine Milchglastür zur Seite und eine Armee von Ärzten und Krankenschwestern marschiert heraus. Sie bringen Abednego im Eiltempo in eine Privatsuite im obersten Stockwerk des Krankenhauses. Während er Bluttests (nun ja, Füllwattentests) und Röntgenaufnahmen und CT-Scans bekommt, wird Ihnen ein Hummeressen mit einer recht passablen Flasche Pouilly-Fumé serviert.",
+      "Schließlich wird ein Oberarzt gerufen. Er geht Abdegnos Ergebnisse durch, während Sie eine Maniküre genießen.",
+      "Er legt seine Unterlagen beiseite. ‚Hm. Hem. Ja. Wie ich vermutet habe.'",
+      "‚Was ist es, Herr Doktor?'",
+      "‚Dieser Teddybär ist bei bester Gesundheit.'",
+      "‚Aber was ist mit dem Verband?'",
+      "Er reißt ihn weg. Auf Abdegnos Stirn ist ein roter Tintenfleck. Der Doktor schnippt mit den Fingern und eine Krankenschwester reicht ihm eine Flasche Fleckenentferner. ‚Zwei Tropfen, nicht öfter als dreimal täglich.'",
+      "Er rauscht hinaus, während ein Assistent Ihnen die Rechnung für Abdegnos Behandlung überreicht. Und als Sie die Endsumme sehen – da brauchen Sie wirklich die Notaufnahme."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Haltung bewahren\" ►368"
+    ]
+  },
+  "203": {
+    "ROUTES": [
+      "[IF box:203.box1] ►125",
+      "[ELSE] [EFFECT tick:203.box1] ►18"
+    ]
+  },
+  "204": {
+    "PROSE": [
+      "Im Vorfeld des Abstimmungstages wird der Wahlkampf ausgesetzt. Die letzten Umfragen sehen Remain knapp vorne. Wer weiß, wie viel man darauf geben kann?",
+      "‚Dies ist der Tag der Abrechnung, Wilkins', sagen Sie. ‚Mischen Sie mir besser einen steifen Gin Tonic.'"
+    ],
+    "TOSS_TWO": [
+      "[BOTH HEADS] \"Weiter\" ►221",
+      "[BOTH TAILS] \"Weiter\" ►429",
+      "[HEAD AND TAIL] \"Weiter\" ►221"
+    ]
+  },
+  "205": {
+    "PROSE": [
+      "‚Bill, lassen Sie uns erwachsen sein. Ein Polizist muss jemanden nicht verabscheuen, bevor er ihn wegen einer Straftat verhaftet. Wir müssen nicht vor Eifer brennen, um unsere Arbeit ordentlich zu machen. In diesem Land glauben wir an Werte wie Pflichtbewusstsein und Professionalität. Lassen wir also nicht zu, dass die Brexit-Frage uns in einen geifernden Mob verwandelt, der verlangt, dass Politiker sich dem Dogma beugen. Wissen Sie, wohin das führt? Schauen Sie sich Sekten auf der ganzen Welt an, alle geführt von Heuchlern, die sich auf Kosten ihrer Anhänger bereichern. Nein, ich bin hier, um eine Aufgabe zu erledigen. Man hat mir aufgetragen, den Brexit umzusetzen, und genau das werde ich tun. Und ich tue es, weil ich ein Credo habe. Ja, das habe ich. Aber dieses Credo heißt nicht Brexit, es heißt Demokratie.'"
+    ],
+    "GOTO": [
+      "[IF keyword:UNCTION] \"Vorwärts\" ►28",
+      "[ELSE] \"Vorwärts\" ►594"
+    ]
+  },
+  "206": {
+    "PROSE": [
+      "‚Und was nun, Premierminister(in)?' fragt Wilkins, während er Ihren Nachmittagstee anrichtet. ‚Mit dem Brexit voranschreiten oder nicht? Ach, übrigens – Marmelade oder Clotted Cream?'",
+      "‚Beides, selbstverständlich, Wilkins. Es ist ein Scone. Was den Brexit betrifft … das Volk hat gesprochen.'",
+      "‚Jetzt schon zum zweiten Mal. Der Wille des Volkes scheint ein wenig wankelmütig, wenn ich das sagen darf. Meine Oma ist nicht so verwirrt, und die hält die Hälfte der Zeit die Fernbedienung für ihr Handy.'",
+      "‚Es steht uns nicht zu, das zu beurteilen. Die Öffentlichkeit wartet darauf, dass man ihr erklärt, wofür sie gestimmt hat, und morgen werde ich es ihr sagen.'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Mit dem Brexit fortfahren\" ►763",
+      "[OPTION] \"Verkünden, dass Sie die Artikel-50-Erklärung widerrufen und Großbritannien in der EU bleibt\" ►255"
+    ]
+  },
+  "207": {
+    "PROSE": [
+      "In der letzten Woche legt Leave in den Umfragen kräftig zu und übernimmt eine deutliche Führung. Das Pfund beginnt gegenüber dem Euro zu fallen, aber nicht genug, um das Blatt zu wenden. Die rechte Presse schlägt triumphale Töne an, und die Wähler scheinen überzeugt.",
+      "‚Wenigstens ist es ein Ende der Ungewissheit', sagen Sie zum Schatzkanzler, während Sie gemeinsam die Verkündung der Ergebnisse verfolgen.",
+      "‚Vermutlich.' Er klopft seine Taschen ab und vergisst dabei, dass er vor zwölf Jahren mit dem Rauchen aufgehört hat. ‚Ein bisschen so, als würde man erfahren, dass dieser Schmerz in der Seite definitiv ein Tumor ist.'"
+    ],
+    "GOTO": [
+      "[IF keyword:EIGER] \"Weiter so\" ►92",
+      "[ELSE] \"Weiter so\" ►446"
+    ]
+  },
+  "208": {
+    "PROSE": [
+      "‚Nun, natürlich sage ich das schon seit Jahren', antwortet Colin Fungale in einem Tonfall, der auf halbem Weg zwischen gesundem Menschenverstand und Selbstbeweihräucherung liegt. ‚Mit einem Punktesystem können wir eine gerechtere Aufnahme der Einwanderer haben, die wir wirklich brauchen, und wir werden diesen Hahn je nach Bedarf auf- und zudrehen können.'",
+      "Bob Owlbear schüttelt den Kopf. ‚Wie kommt es, dass Länder wie Kanada und Australien, die Punktesysteme eingeführt haben, zugeben mussten, dass sie nicht funktionieren? In Australien – schauen Sie sich die Leute an, die dorthin gezogen sind, weil ihnen tatsächlich ein Job angeboten wurde, genau wie bei unserem jetzigen EU-System. Nach fünf Jahren ist nur einer von hundert dieser Einwanderer ohne Arbeit. Dann schauen Sie sich die Leute an, die über das australische Punktesystem zugelassen wurden. Fünfzehn Prozent von denen landen in der Arbeitslosigkeit. Nicht gerade effizient, oder?'",
+      "‚Außerdem, ich dachte, der Schlachtruf des Brexits war, Bürokratie abzuschaffen?' wirft Lucy Tooth ein. ‚In dem Moment, wo man ein Punktesystem hat, muss man die Bürokratie aufblähen, um damit umzugehen. Derzeit können EU-Bürger hierherkommen, wenn sie einen Job haben. Der Auswahlprozess wird also an die Privatwirtschaft ausgelagert. Ihr Punktesystem wird eine Armee von Beamten brauchen – und wie Bob gerade sagte, haben sich Punktesysteme nicht einmal als zwecktauglich erwiesen. Großbritannien hat bereits einen besseren Anteil an qualifizierten Einwanderern als Australien, Frankreich oder die USA. Das System, das wir haben, funktioniert doch.'",
+      "Der Versuch eines lockeren Tons war angesichts ihres höflichen Mittelschicht-Akzents etwas unglücklich gewählt, aber der Rest war nicht allzu chaotisch. Sie sollten sie besser im Auge behalten, falls die nächste Wahl erneut eine Koalition hervorbringt. Nicht, dass Sie sich vorstellen könnten, dass die Lib Dems diesen Fehler je wieder begehen würden.",
+      "Sie spulen durch die restlichen Antworten vor. Thomas Tode erwähnt, wie Punktesysteme anfällig für Lobbyismus sind, obwohl selbst er sich nicht sicher zu sein scheint, worauf er hinauswill. Ein Mann im Publikum mit einem Hals voller spinnenartiger Tattoos sorgt sich, ob seine Fußballmannschaft ihre Schlüsselspieler behalten kann, deren Namen allesamt wie Haltestellen der Stambouler Eisenbahn klingen. Es ist der übliche Eintopf aus Fehlinformationen, Eigeninteressen und halbverstandenen Konzepten. Nicht, dass Sie sich beklagen. Zu wissen, wie man diesen Eintopf umrührt – das ist es, was Sie an der Macht hält."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Vielleicht wird es Zeit fürs Bett\" ►125",
+      "[OPTION] \"Zur nächsten Frage springen\" ►405"
+    ]
+  },
+  "209": {
+    "PROSE": [
+      "Sie sind bei BBC Radio und werden von Bill Appleby interviewt. Interviewt? Gegrillt trifft es eher. Regelrecht filetiert.",
+      "‚Also dann, Premierminister(in)', sagt Appleby. ‚Colin Fungale sagt, Sie drehen sich, wie der Wind weht. Keine Überzeugung, das ist der Vorwurf. Wie können Sie den Brexit umsetzen, wenn Sie nicht daran glauben?'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"‚Aber ich glaube doch daran.'\" ►816",
+      "[OPTION] \"‚Was ist mit Fungales eigener Bilanz?'\" ►164",
+      "[OPTION] \"‚Es ist Politik, Bill, keine Religion.'\" ►205"
+    ]
+  },
+  "210": {
+    "PROSE": [
+      "Als Nächstes betrachten wir den Zustand der Beziehung des Vereinigten Königreichs zur Europäischen Union. Kann man nach dem mitunter erbitterten Scheidungsverfahren noch befreundet bleiben?"
+    ],
+    "GOTO": [
+      "[IF Goodwill<=25] \"Schwache Hoffnung\" ►702",
+      "[ELSEIF Goodwill>=60] \"Hoffentlich mit Vorzügen\" ►848",
+      "[ELSE] \"Es ist kompliziert\" ►144"
+    ]
+  },
+  "211": {
+    "PROSE": [
+      "‚Großbritannien kann doch gar keine neuen Abkommen schließen, bevor der Brexit vollzogen ist, oder? Erinnern Sie sich, wie mein Vater seelenruhig verkündet hat, ein Dutzend Handelsabkommen würde am Tag nach unserem EU-Austritt zur Unterschrift bereitliegen, und dann musste er zwei Tage später vor die Kameras gezerrt werden, um zuzugeben, dass wir nicht einmal mit Verhandlungen beginnen konnten? Tragisch. Was ich dafür in der Schule einstecken musste.'",
+      "‚Es gibt reichlich Spielraum für informelle Gespräche. Wir können den Grundstein für künftige Abkommen legen.'",
+      "‚Können Sie das? Das ist doch eine ziemliche Grauzone, oder? Wo verläuft die Grenze zwischen formellen Handelsverhandlungen und einem vorbereitenden Plausch?'",
+      "‚Wo auch immer diese Grenze liegt, ich bin zuversichtlich, dass wir die Einzelheiten von Verträgen besprechen können, ohne sie zu überschreiten.'",
+      "‚Ist das Zuversicht oder ist es der Dunning-Kruger-Effekt? Sehen Sie, Sie mögen glauben, im Recht zu sein, aber wie werden sich die anderen 27 Staaten wohl fühlen? Es herrscht ohnehin schon wenig Wohlwollen, und es braucht nur einen Unzufriedenen, um das Ganze in die Luft zu jagen.'",
+      "Dunning-Kruger? Ist das eine deutsche Thrash-Metal-Band? Besser nicht fragen, falls sie Sie für hoffnungslos altmodisch hält."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter\" ►700"
+    ]
+  },
+  "212": {
+    "PROSE": [
+      "Sie ringen sich zu einem letzten Kraftakt durch, aber es war ein langer Weg, und niemand ist in der Stimmung, sich jetzt noch von Ihnen beraten zu lassen. Ihre Gegner wenden Ihre eigenen Argumente gegen Sie. ‚Das Herz des Premierministers/der Premierministerin war nie beim Brexit', sagt Thomas Tode, der für Leave Wahlkampf macht wie der seltsame kleine Lemming verdrehter Logik, der er ist. ‚Deshalb stecken wir in diesem Schlamassel. Weil wir das Ergebnis des ersten Referendums nicht voll und ganz angenommen haben.'",
+      "Sie setzen sich mit Ron Beardsley, Ihrem Stabschef, zusammen, um die Ergebnisse bei ihrer Verkündung zu verfolgen. ‚Das Problem ist, dass den Wählern eine Zeitmaschine verkauft wurde, die sie ins gelobte Land ihrer Jugend zurückbringen soll', sagt er.",
+      "‚Wobei es sich in Wirklichkeit um eine Sterbehilfemaschine handelt.' Sie nicken. ‚Ich glaube, ich habe mal ein Science-Fiction-Stück darüber gesehen.'"
+    ],
+    "TOSS_TWO": [
+      "[BOTH HEADS] \"Weiter\" ►173",
+      "[BOTH TAILS] \"Weiter\" ►127",
+      "[HEAD AND TAIL] \"Weiter\" ►127"
+    ]
+  },
+  "213": {
+    "ONENTER": [
+      "[EFFECT Economy-1]",
+      "[EFFECT Popularity+2]"
+    ],
+    "PROSE": [
+      "Die von Ihnen angekündigte Finanzierung ist größtenteils Kosmetik, aber es fällt Ihren Gegnern schwer, Pläne zur Erhöhung der NHS-Ausgaben zu kritisieren. Sie sind darauf reduziert zu sagen, dass es nicht genug sei, was Ihre Minister locker mit dem Hinweis kontern, es handele sich um ‚Phase eins'. Alles in allem denken Sie, dass Sie damit durchgekommen sind."
+    ],
+    "REPORT": [
+      "<strong>-1% Wirtschaft</strong>: Sie müssen Geld ausgeben, das das Finanzministerium nicht hat.",
+      "<strong>+2% Beliebtheit</strong>: Die Wähler begrüßen jedes Versprechen von mehr Mitteln für den NHS."
+    ],
+    "GOTO": [
+      "[IF keyword:DODO] \"Weiter\" ►431",
+      "[ELSE] [EFFECT getItem:the NHS] \"Weiter\" ►450"
+    ]
+  },
+  "214": {
+    "ROUTES": [
+      "[IF keyword:CLARION OR keyword:QUORUM] ►264",
+      "[ELSE] ►280"
+    ]
+  },
+  "215": {
+    "ONENTER": [
+      "[EFFECT Authority+2]",
+      "[EFFECT Economy+5]",
+      "[EFFECT getItem:Residency Rights]"
+    ],
+    "PROSE": [
+      "‚Nein, wir lassen uns nicht über den Tisch ziehen.'",
+      "‚Wie bitte?' sagt Alprèves. ‚Über den Tisch?'",
+      "‚So diplomatisch wie möglich möchte ich, dass Sie den Spaniern sagen, sie sollen mit ihren Kastagnetten spielen gehen. Ich gebe Erpressung nicht nach – nicht, wenn es um unbescholtene Rentner geht.'",
+      "Er kann sehen, dass Sie eine starke Position haben, oder zumindest wird es in den Medien so wirken. Ein, zwei Tage später kommt er mit neuen Bedingungen zurück. Es stellt sich heraus, dass die Spanier nachgegeben und dem Abkommen zugestimmt haben."
+    ],
+    "REPORT": [
+      "<strong>+2% Autorität</strong>: Sie haben gezeigt, dass Sie hart verhandeln können.",
+      "<strong>+5% Wirtschaft</strong>: Die britische Wirtschaft braucht diese EU-Bürger, und es hilft, nicht eine Million Rentner aus Spanien zurückzubekommen."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Was kommt als Nächstes?\" ►200"
+    ]
+  },
+  "216": {
+    "ONENTER": [
+      "[EFFECT Authority+10]",
+      "[EFFECT Economy-5]",
+      "[EFFECT Goodwill-15]",
+      "[EFFECT Popularity+10]",
+      "[EFFECT getKW:HEMLOCK]",
+      "[EFFECT getItem:Immigration]"
+    ],
+    "PROSE": [
+      "Ihre Berater erwarten Sie, als die Türen aufgehen und die Minister zum Büfett-Mittagessen in die Sonne strömen.",
+      "‚Was ist das Ergebnis, Premierminister(in)?' fragt Ihre Pressesprecherin.",
+      "‚Wir machen die Schotten dicht, Lizzie. Raus aus der Freizügigkeit. Stattdessen führen wir das Punktesystem nach australischem Vorbild ein, über das die Kippers uns seit Ewigkeiten die Ohren volljammern.'",
+      "‚Aber …'",
+      "‚Aber was?'",
+      "‚Die Kippers sind Idioten. Punktesysteme verursachen ein bürokratisches Chaos, und sie funktionieren nicht einmal.'",
+      "‚Erzählen Sie mir was Neues. Ich bin wie der Vorstandsvorsitzende einer Firma, deren Aktionäre allesamt Schimpansen sind. Wiederholen Sie das natürlich nicht.'"
+    ],
+    "REPORT": [
+      "<strong>+10% Autorität</strong>: Der kompromisslose Kurs festigt Ihren Machtgriff.",
+      "<strong>-5% Wirtschaft</strong>: Die Märkte sehen stürmische Zeiten voraus.",
+      "<strong>-15% Wohlwollen</strong>: Ihre Politik bringt Ihnen keine Freunde in der EU.",
+      "<strong>+10% Beliebtheit</strong>: Die Wähler begrüßen die Aussicht auf weniger Einwanderung, selbst wenn es ein Mythos ist."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter\" ►150"
+    ]
+  },
+  "217": {
+    "PROSE": [
+      "‚Nicht viele Leute wissen das', sagt McKay, ‚aber die Gemeinsame Sicherheits- und Verteidigungspolitik wurde tatsächlich von uns und den Franzosen ins Leben gerufen. Das war 1998.' Er wirft einen ironischen Blick auf die Ruine des viktorianischen Seeforts.",
+      "‚Und seitdem versucht die EU, daraus etwas zu machen, das sie nie sein sollte. Das ist die Denkweise der Kommission in Reinform.'",
+      "‚Zum Glück haben wir es per Veto blockiert', sagt McKay mit dem Blick eines Menschen, der eine knapp abgewendete Katastrophe betrachtet. ‚Können Sie sich vorstellen, was für ein Desaster es wäre, unsere Jungs in Regimentern neben den Belgiern einzusetzen?'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Fragen, wie EU-Militärmissionen autorisiert werden\" ►343",
+      "[OPTION] \"Fragen, welche Art von Missionen EU-Streitkräfte durchführen\" ►632",
+      "[OPTION] \"Über etwas anderes reden\" ►432"
+    ]
+  },
+  "218": {
+    "PROSE": [
+      "Abednego wuchs in einem Pfarrhaus auf, und Sie wissen, dass er es nicht gutheißen würde, Geld auszugeben, um sich vorzudrängeln. Sie lassen sich auf einem rutschigen Plastikstuhl nieder und warten eine unbestimmte Zeit, während dieselben Werbespots auf dem Bildschirm laufen, dieselben Jingles wiederholt werden, Stunde um Stunde, bis Sie beinahe versucht sind, mitzusingen.",
+      "‚Was ist das Problem? Erzählen Sie es Dr. Happy.'",
+      "Sie stutzen. Es ist ein Roboter-Verkaufsautomat. Darin sehen Sie Schokoriegel, Limonade, Packungen mit Aspirin und Verbandsmaterial.",
+      "‚Ich hätte gern einen echten Menschen.'",
+      "Ein Kind in Krankenschwesteruniform eilt herbei. ‚Hier ist ein Mensch', sagt Dr. Happy. ‚Dieser Mensch arbeitet mit mir zusammen.'",
+      "Das Kind nickt und hält eine Spritze hoch. Es scheint kein Englisch zu sprechen.",
+      "‚Was ist das Problem?' wiederholt der Roboter.",
+      "Abednego schaut das Kind an, dann dreht sich sein Kopf in einer vollen Drehung zu Ihnen. ‚Wissen Sie, was sie getan hat?' sagt er mit grauenvoller Stimme.",
+      "Das kann nicht sein. Abednego hat doch sicher nie <em>Der Exorzist</em> gesehen."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter\" ►368"
+    ]
+  },
+  "219": {
+    "PROSE": [
+      "‚Die logischen Märkte, die man dort ins Visier nehmen sollte, sind Orte wie Indien und China. Die haben eine wachsende Mittelschicht, zunehmenden Wohlstand, aber ihre Dienstleistungssektoren sind schwach.'",
+      "‚Was für Dienstleistungen?'",
+      "‚Bankwesen, Buchhaltung, Versicherungen. Schauen Sie sich nur Indien an. Ein Fünftel der Weltbevölkerung, aber sie machen nur etwa 2% der Versicherungsprämien aus. Wenn man da reinkommt, steht einem die Welt offen wie eine Auster.'",
+      "‚Auster?'",
+      "Sie schenkt Ihnen einen Blick mit Zeitzünder. ‚Ich mag keine Austern.'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter\" ►700"
+    ]
+  },
+  "220": {
+    "PROSE": [
+      "‚Wir müssen hoffen, dass wir eine Lösung finden', sagt Dent. ‚Das Finanzwesen war über hundert Jahre lang eine der Schlüsselstärken Großbritanniens.'",
+      "‚Es ist ein weiterer Bereich, in dem die EU bei der vollständigen Integration etwas hinterherhinkte', sagt Stollard. ‚Aufgrund der tiefen Verwurzelung, die Dennis gerade ansprach, waren wir diejenigen, die wirklich darauf gedrängt haben.'",
+      "‚Schön zu hören, dass Sie beide sich mal einig sind.'",
+      "Sie schauen einander an wie zwei feindliche Soldaten, die sich versehentlich ins Niemandsland verirrt haben. ‚Nun, wir unterscheiden uns wohl darin, wie wir die Zukunft sehen', sagt Dent. ‚Ich glaube, unsere Finanzinstitute werden von Stärke zu Stärke eilen, sobald sie von den erstickenden Vorschriften europäischer Bürokraten befreit sind.'",
+      "‚Während ich befürchte, dass wir ohne Finanzpässe für den freien Handel mit dem Binnenmarkt viel Geschäft verlieren werden. Die Schweizer Banken in London werden als Erstes ihre Koffer packen.'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"‚Ich kann nicht glauben, dass die EU Großbritanniens finanzielle Schlagkraft und Expertise verlieren will.'\" ►118",
+      "[OPTION] \"‚Was haben wir in der Hand, um ein gutes Abkommen mit der EU herauszuschlagen?'\" ►495",
+      "[OPTION] \"‚Lassen Sie uns für heute Schluss machen.'\" ►81"
+    ]
+  },
+  "221": {
+    "PROSE": [
+      "Ein wenig aufregender Wahlkampf endet mit einer knappen, aber deutlichen Mehrheit für Remain, größtenteils dank der Mobilisierung junger Wähler.",
+      "Bob Fobber tritt im Fernsehen auf, um darüber zu sprechen, wie die Regierung reagieren wird.",
+      "‚Als Vorsitzender der einzigen großen Partei, die sich gegen den Brexit gestellt hat', sagt der Reporter, ‚hoffen Sie natürlich auf einen Aufschwung der LibDem-Werte als Folge davon.'",
+      "‚Das war keine Parlamentswahl', sagt Fobber und bringt die ganze staatsmännische Würde eines Handelsreisenden auf. ‚Es ist viel wichtiger als das. Man hat uns gesagt, 52% seien ein überwältigendes Mandat für einen harten Brexit. Tja, was ist jetzt, wo die Abstimmung andersherum ausgegangen ist?'",
+      "Das ist eine gute Frage. Ihre politische Zukunft könnte davon abhängen, wie Sie sie beantworten."
+    ],
+    "GOTO": [
+      "[IF keyword:EIGER] \"Weiter\" ►473",
+      "[ELSE] \"Weiter\" ►714"
+    ]
+  },
+  "222": {
+    "PROSE": [
+      "Er erwidert Ihren Blick mit einem eulenhaften Blinzeln, sagt aber nichts. Alle Heiligen, der Mann ist schwer zu durchschauen.",
+      "‚Also, was meinen Sie?'",
+      "‚Eine Wahl?'",
+      "‚Das ist die Idee.'",
+      "‚Und warum erzählen Sie mir das?'",
+      "Harte Arbeit, das. Sie schenken ihm ein breites Lächeln – entweder das oder Zähne zusammenbeißen. ‚Weil ich Ihre Unterstützung im Unterhaus brauche. Wissen Sie, um das Gesetz zur festen Legislaturperiode zu umgehen.'",
+      "‚Ich könnte einen Misstrauensantrag gegen die Regierung stellen.'",
+      "‚Das würde den Zweck erfüllen, nehme ich an, aber mir wäre eine Zweidrittelmehrheit lieber, die eine Neuwahl durchwinkt.'",
+      "Sie sind sich nicht sicher, ob er darüber nachdenkt oder nicht. Nach einem Moment sagt er: ‚Ein Misstrauensantrag, das ist der einzige Deal, den ich mache.'",
+      "Autsch. Das ist kaum ein Deal. Sie müssten ein Drittel Ihrer eigenen Abgeordneten dazu bringen, zusammen mit Labour gegen Ihre eigene Regierung zu stimmen."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"‚Gut, ich spiele nach Ihren Regeln.'\" ►143",
+      "[OPTION] \"‚Kommt nicht in Frage.'\" ►13"
+    ]
+  },
+  "223": {
+    "PROSE": [
+      "‚Ich habe einen Vorschlag', sagt Jean-Jacques Terlamen, der Präsident der Kommission. ‚Was wäre, wenn die Regeln zur Beschränkung des Aufenthaltsrechts eines Bürgers in einem anderen Staat in einem Vertrag verankert würden?'",
+      "‚Könnten Sie das bitte erläutern?' fragt ein anderer Minister.",
+      "‚Nun …' Terlamen scheint spontan zu improvisieren, aber er ist gut darin. ‚Ein Bürger darf sich nur drei Monate in einem anderen Staat aufhalten. Danach muss er beschäftigt sein, studieren oder finanziell unabhängig sein. Der Staat ist nicht verpflichtet, EU-Bürgern ohne Arbeit Wohngeld oder Sozialhilfe zu zahlen.'",
+      "Sie zucken die Achseln. ‚Sie sagen nichts Neues. Wir kennen alle die Regeln.'",
+      "‚Ja, aber diese Beschränkungen sind lediglich Richterrecht. Sie ergeben sich aus Urteilen des Europäischen Gerichtshofs. Was wäre, wenn sie in die Artikel der bestehenden Verträge aufgenommen würden?'",
+      "Sie können sehen, warum er das vorschlägt. Als Bestandteil eines Vertrags würden die Beschränkungen der Freizügigkeit als Grundprinzipien der EU gelten und nicht nur als Ad-hoc-Entscheidungen des EuGH, die verschiedene Staaten auf ihre eigene Weise auslegen können und es auch tun. Was noch raffinierter ist: Bei der Debatte über den neuen Vertragsartikel gäbe es die Möglichkeit, die Regeln zu verschärfen. Vielleicht die Dreimonatsfrist abschaffen, zum Beispiel. Und das könnte ein eleganter Weg sein, separatistischen Bewegungen wie dem Front National in Frankreich den Boden unter den Füßen wegzuziehen.",
+      "Sie alle warten auf Ihre Antwort."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"‚Inwiefern macht ein neuer EU-Vertrag einen Unterschied für Großbritannien, wenn wir doch austreten?'\" ►440",
+      "[OPTION] \"‚Das geht bei Weitem nicht weit genug. Die Stimmung in Großbritannien wird sich nicht mit juristischen Feinheiten an den Regeln zufriedengeben.'\" ►115"
+    ]
+  },
+  "224": {
+    "PROSE": [
+      "‚Hmm, mal sehen. Das Großbritannien nach dem Brexit wird ein ganz anderer Ort sein, nicht wahr? Denken Sie an die Einwanderung. Oder die Auswirkungen auf die Landschaft.'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"‚Landschaft? Wirklich?'\" ►472",
+      "[OPTION] \"‚Was hat internationaler Handel mit der Einwanderungsfrage zu tun?'\" ►63",
+      "[OPTION] \"‚Genug von den Bedrohungen.'\" ►700"
+    ]
+  },
+  "225": {
+    "PROSE": [
+      "Wer hätte gedacht, dass der Austritt aus der Europäischen Union so kompliziert sein könnte? Sie haben eine Armee von Beamten, Ministern, Sonderberatern und Beratern, die Ihnen förmlich die Tür einrennen, um Ihnen Ratschläge zu geben. Und selbst wenn die Sie im Stich lassen, gibt es immer noch Hörensagen und anekdotische Belege als Rettungsanker. Worüber möchten Sie sich informieren?"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Ein Briefing über Großbritanniens Austrittskosten\" ►112",
+      "[OPTION] \"Eine Diskussion über künftige Handelsabkommen mit der EU\" ►651",
+      "[OPTION] \"Den Status von EU-Bürgern, die bereits hier leben, erörtern\" ►612",
+      "[OPTION] \"Göttliche Eingebung suchen bezüglich der Risiken und Vorteile einer Neuwahl\" ►69",
+      "[OPTION] \"Sicherheits- und Verteidigungsfragen erörtern\" ►628",
+      "[OPTION] \"Wer hat Zeit für Planung? Jetzt ist Handeln gefragt\" ►250"
+    ]
+  }
+}

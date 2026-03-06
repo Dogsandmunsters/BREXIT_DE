@@ -1,0 +1,350 @@
+{
+  "726": {
+    "PROSE": [
+      "Die Kandidatenliste wurde auf Sie, Tiffany Rufus und Gervais Noysom-Reek zusammengestrichen.",
+      "‚Ich kann doch unmöglich gegen diesen lächerlichen Trottel verlieren?'",
+      "Ihr Stabschef blickt sorgenvoll drein. ‚Die Parteimitglieder hängen an seinen Lippen.'",
+      "‚Natürlich tun sie das, Ron. Die Hälfte von denen hält <em>Dad</em><em>'</em><em>s Army</em> für eine akkurate Darstellung unserer Beziehung zu Europa.'",
+      "‚Er drängt auf den Brexit, den sie sich wünschen. Kein Deal, keine Einwanderer, schickt die elenden Ausländer zum Teufel.'",
+      "‚Zum Glück haben wir noch eine Runde Parlamentsabstimmung, bevor es an die Mitglieder geht. Tiffany Rufus wird vermutlich alle gemäßigten Stimmen einsammeln. Ich muss nur überzeugender wirken als Noysom-Reek, wenn es darum geht, einen starken Brexit zu liefern.'"
+    ],
+    "GOTO": [
+      "[IF keyword:OPAL AND Authority<=45] \"Weiterkämpfen\" ►107",
+      "[ELSE] \"Weiterkämpfen\" ►615"
+    ]
+  },
+  "727": {
+    "PROSE": [
+      "Die Launen der Parteimitglieder ändern sich schneller als das Wetter. Um herauszufinden, wie sie am Tag der Abstimmung gestimmt sind, hilft nur ein Münzwurf."
+    ],
+    "TOSS_TWO": [
+      "[BOTH HEADS] \"Weiter\" ►782",
+      "[BOTH TAILS] \"Weiter\" ►519",
+      "[HEAD AND TAIL] \"Weiter\" ►782"
+    ]
+  },
+  "728": {
+    "PROSE": [
+      "Sie stimmen einem BBC-Auftritt zu, doch kaum eine Minute nach Beginn des Interviews bereuen Sie es bereits. Von Bill Appleby in der Sendung <em>Now Then</em> gegrillt zu werden, ist wie Waterboarding in Guantanamo Bay, nur ohne den guten Polizisten, der anbietet, alles zu beenden.",
+      "‚Sie haben zugegeben, dass Sie den Leuten einfach erzählen, was sie hören wollen.'",
+      "‚Ich glaube nicht, dass ich das jemals offiziell gesagt habe, Bill.'",
+      "‚Also haben Sie es gesagt.'",
+      "‚Ich kann mich nicht an den genauen Wortlaut –'",
+      "‚Spielt der Stress Ihrem Gedächtnis Streiche? Wird Ihnen der Job zu viel? Oder ist es das alte Lügengespinst? Was davon, Premierminister(in)?'",
+      "Sie tupfen eine Schweißperle von Ihrer Wange, während Sie Ihre Antwort abwägen."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"‚Ich habe gesagt und getan, was nötig war, um das Land auf Kurs zu halten.'\" ►426",
+      "[OPTION] \"‚Das sind wieder Fake News, fabriziert von den Saboteuren. Ich lasse mich gern an Taten messen, nicht an Worten.'\" ►545"
+    ]
+  },
+  "729": {
+    "PROSE": [
+      "‚Gut, lassen Sie uns da etwas tiefer bohren', sagt Bill Appleby, und Sie wissen, dass er am gefährlichsten ist, wenn er diesen vernünftigen Tonfall anschlägt. ‚Was haben Sie erreicht? Welche Handelsabkommen haben Sie zum Beispiel abgeschlossen?'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"‚Wir können keine Abkommen schließen, solange der Brexit nicht vollzogen ist, Bill. Das sollten Sie wissen.'\" ►404",
+      "[OPTION] \"‚Die Abkommen werden von selbst kommen. Wir werden uns vor Angeboten kaum retten können. Der Rest der Welt braucht Großbritannien mehr als wir ihn.'\" ►844"
+    ]
+  },
+  "730": {
+    "PROSE": [
+      "Keine Sterne sind am trüben, gelblich flimmernden Himmel zu sehen. Nur stadiongroße Bildschirme, heliumgefüllt, leuchtend von herabrieselnden Pixeln, die sich zwischen den schmutzverkrusteten Wolkenkratzern hindurchschieben und für sonnige Strände und unvorstellbar glamouröse Vergnügungen werben. Für die gebeugten, schlurfenden Massen sind solche Versprechen jenseits jeder Hoffnung.",
+      "Der Mann hinter Ihnen in der Schlange schnüffelt in die Luft und schmatzt. ‚Jod. Das werden die Opfer des frühen Abends sein. Schlägereien an den Tafeln, solche Sachen. Ein Hauch von MRSA auch, finden Sie nicht? Der Wetterbericht hat eine gewisse Wahrscheinlichkeit für Eiterungen vorhergesagt.'",
+      "‚Ich weiß nicht…'",
+      "Sie wissen nicht, was Sie hier machen. Sie stecken in einem viel zu großen Schlafanzug und haben einen Teddybären unter dem Arm. Aber das ist ja Abednego. Sie haben ihn seit Jahren nicht mehr gesehen.",
+      "Eine Krankenschwester kommt die Schlange entlang, begleitet von zwei kräftigen Wächtern mit Elektroschockern. ‚Geht es um Sie oder den Bären?', fragt er, den Stift über dem ramponierten Tablet in seiner Hand.",
+      "Abednego hat einen Verband über einem Auge. Das war Ihnen vorher nicht aufgefallen. Ein roter Fleck, den Sie wohl mit einem Filzstift gemacht haben, verstärkt seinen jämmerlichen Anblick.",
+      "‚Kommen Sie schon', sagt die Krankenschwester. ‚Sie sind ja gleich an der Tür, oder?'",
+      "Er hat recht. Die Leute direkt vor Ihnen schlurfen unter einem flackernden Neonlicht ins Krankenhaus. Ein mit Klebeband befestigtes Stück Pappe verdeckt ein zerbrochenes Fenster. Sie halten Abednego hoch. ‚Es ist für ihn.'",
+      "Die Krankenschwester notiert etwas und geht zum nächsten Patienten weiter. ‚Halten Sie Ihre Kreditkarte bereit', sagt er über die Schulter."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter\" ►342"
+    ]
+  },
+  "731": {
+    "PROSE": [
+      "Zur Freude der rechten Presse peitschen Sie die Anti-EU-Stimmung bis zum Siedepunkt auf. Titelbilder zeigen Sie als mit Waid bemalte Anführerin der Icener, als Bulldogge, die sich in Europas prallen Schenkel verbeißt, und als tapferen Tommy, der die Kreidefelsen von Dover gegen eine Hunnen-Invasion verteidigt.",
+      "Einst hätten Sie es vielleicht angeprangert, dass eine so wichtige Entscheidung auf der Grundlage von Karikaturen statt vernünftiger Debatte getroffen wird. Doch es ist eine neue Welt, in der Logik verachtet wird, und Sie können sich ebenso gut darauf einstellen.",
+      "Am Wahltag deuten die Nachwahlbefragungen auf überwältigende Unterstützung für einen harten Brexit hin, aber dennoch sitzen Sie nervös auf, als die Ergebnisse eintreffen."
+    ],
+    "TOSS_TWO": [
+      "[BOTH HEADS] \"Weiter\" ►173",
+      "[BOTH TAILS] \"Weiter\" ►127",
+      "[HEAD AND TAIL] \"Weiter\" ►127"
+    ]
+  },
+  "732": {
+    "PROSE": [
+      "Da Sie erst kürzlich für den Verbleib in der EU geworben haben, kann Ihr Versuch, sich als Brexit-Befürworterin auszugeben, niemanden überzeugen."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter\" ►653"
+    ]
+  },
+  "733": {
+    "PROSE": [
+      "‚Da haben wir eine echte Büchse der Pandora', sagen Sie zu Ihrem Stabschef. ‚Nein, setz dich nicht hin, Ron. Keine Zeit dafür. Du musst mir sagen, welche Fragen beim nächsten Durchgang auf den Stimmzettel kommen.'",
+      "‚Knifflig. Keine der Fokusgruppen hatte einen Sieg für Remain vorhergesagt. Wir hätten nie gedacht, dass es dazu kommt.'",
+      "‚Ich kann ja wohl kaum rausgehen und das sagen, oder? „Einen Moment bitte, damit haben wir nicht gerechnet.\\“ Regierung auf den letzten Drücker käme wohl nicht so gut an, oder?'",
+      "Ron steht da und windet seinen Pfeifenstiel. Sobald die Besprechung vorbei ist, wird er im Garten stehen und ein Freudenfeuer aus giftigem Tabak qualmen. ‚Alles, was wir fragen können – wollen sie mehr Zugeständnisse von der EU, oder wollen sie engere Verbindungen?'",
+      "Das muss reichen."
+    ],
+    "TOSS_TWO": [
+      "[BOTH HEADS] \"Weiter\" ►620",
+      "[BOTH TAILS] \"Weiter\" ►676",
+      "[HEAD AND TAIL] \"Weiter\" ►578"
+    ]
+  },
+  "734": {
+    "PROSE": [
+      "Im Laufe der nächsten Tage treten Ihre Gegner aus der Deckung.",
+      "Tiffany Rufus, die Innenministerin, war eine Remain-Kämpferin und versucht sich nun als Stimme eines gemäßigten und vernünftigen Brexits neu zu positionieren.",
+      "Amelia Dimple, die aussieht wie die verrückte Tante, die nach einem einzigen Sherry anfängt, Unsinn zu reden, wirft ihren Hut in den Ring als Kandidatin ohne erkennbares Programm – außer der Überzeugung, dass gemäßigt und vernünftig Schimpfwörter sind.",
+      "Und von den Hinterbänken kommt ein dunkles Pferd in Gestalt von Gervais Noysom-Reek, der Sorte Oberschicht-Trottel, dessen reaktionäre Ansichten von einem BBC-Redakteur als zu klischeehaft abgelehnt würden, um glaubwürdig zu sein. Natürlich lieben ihn die treuen Parteimitglieder.",
+      "Und da ist natürlich noch Dennis Dent, der Minister für den EU-Austritt.",
+      "‚Drei Geschmacksrichtungen Brexit, an denen man sich die Zähne ausbeißen kann', sagt Ihre Pressesprecherin Terri Trough. ‚Und dann ist da Ms Rufus, die offensichtlich lieber in der EU bleiben würde, aber das ganz bestimmt nicht laut sagen wird.'",
+      "‚Was die Frage aufwirft, wo Sie stehen, Premierminister(in)', sagt Ron Beardsley. ‚Entschuldigung, ich meine, wo Sie sagen werden, dass Sie stehen. Irgendwie müssen Sie sich von der Meute abheben.'",
+      "‚Das sollte doch einfach sein. Rufus ist eine verkappte Remainerin, und der Rest ist nachweislich verrückt.'",
+      "‚Stellen Sie sich das wie eine Reality-TV-Show vor', sagt Terri. ‚Die Leute stimmen nicht für den Netten. Sie wollen den, der unberechenbar und theatralisch ist, weil das interessanter ist.'",
+      "‚Ja. Nein. Theatralisch liegt mir nicht so.'",
+      "‚Dann kommt es auf Ihre Haltung zum Brexit an', sagt Ron. ‚Sie müssen in die letzte Runde kommen, indem Sie die Mehrheit der Parlamentsfraktion ansprechen, dann wählen die Parteimitglieder zwischen den letzten beiden Kandidaten.'",
+      "‚Das ist knifflig, wenn man bedenkt, dass etliche Abgeordnete den harten Brexit für einen Sprung in den Abgrund halten, während die Parteibasis glaubt, er würde uns in den Himmel katapultieren.'",
+      "‚Sie müssen sich entscheiden', beharrt Terri. ‚Stellen Sie sich vor, Sie sind in der Frühstücksshow und einer dieser schrecklich aufgedrehten Moderatoren fragt Sie: „Also, was meinen Sie, Premierminister(in)? Steuern wir auf verbrannten Toast zu oder ein köstliches Full English?\\“ Was antworten Sie ihm?'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"‚Das einzige Risiko besteht darin, dass wir die Nerven verlieren. Es gibt jene – Volksfeinde –, die den Brexit verwässern wollen. Wir müssen wachsam sein. Ich sehe mich als Verfechter(in) des reinen Brexits, vom Volk gewählt, um diese Verräter und Abtrünnigen auszumerzen.'\" ►671",
+      "[OPTION] \"‚Großbritannien verlässt die Europäische Union. Das steht außer Frage. Aber welche Art von Beziehung wollen wir künftig mit Europa und dem Rest der Welt? Ich stehe für einen entschlossenen, sauberen Brexit, der die Möglichkeit einer strahlenden Zukunft eröffnet.'\" ►592",
+      "[OPTION] \"‚Edmund Burke sagte, ein Politiker verrät das öffentliche Vertrauen, wenn er nur tut, was die Wähler fordern, anstatt die besten Interessen der Wähler zu berücksichtigen. Ist der Brexit der richtige Kurs? Solange ich die Führung habe, ist es meine Aufgabe, das zu entscheiden – und wenn das Volk anderer Meinung ist, kann es mich abwählen.'\" ►317"
+    ]
+  },
+  "735": {
+    "ONENTER": [
+      "[EFFECT Popularity-1]"
+    ],
+    "PROSE": [
+      "Einige Tage später reagiert die Presse auf Ihre Urlaubswahl. Sie seufzen resigniert, als Sie den <em>Daily Crusade</em> in die Hand nehmen.",
+      "Der Leitartikel geißelt Sie dafür, in Frankreich Urlaub zu machen und gutes britisches Geld bei diesen traktorblockierenden, reifenverbrennenden französischen Bauern auszugeben, die nichts lieber täten, als ‚fleißige englische Landwirte in den Ruin zu treiben'.",
+      "Selbst Zeitungen wie der <em>Hypsterion</em> greifen Sie an, weil Sie reich genug sind, einen schönen Urlaub in Frankreich zu machen, während Sie es durch den Brexit-Pfundverfall für alle anderen teurer gemacht haben. Sie weisen darauf hin, dass bei der Einführung von Grenz- und Visakontrollen alle mehr für Reisen nach Europa zahlen müssen.",
+      "Immerhin ist es typischer Sommerloch-Stoff und wird bald vergessen sein."
+    ],
+    "REPORT": [
+      "<strong>-1% Beliebtheit</strong>: Ihr Auslandsurlaub kommt beim typischen Leave-Wähler auf der Straße nicht gut an."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter geht's\" ►125"
+    ]
+  },
+  "736": {
+    "PROSE": [
+      "Sie haben die zweijährige Anlaufzeit bis zum Brexit überstanden, doch in welchem Zustand befinden sich Sie und das Land? Es ist Zeit, Bilanz zu ziehen und einen Blick in die Zukunft zu werfen.",
+      "Zunächst: Ihr Machtgefüge."
+    ],
+    "GOTO": [
+      "[IF Authority<=39] \"Etwas wackelig\" ►850",
+      "[ELSEIF Authority>=76] \"Eine eiserne Faust im eisernen Handschuh\" ►804",
+      "[ELSE] \"Schauen wir mal\" ►515"
+    ]
+  },
+  "737": {
+    "PROSE": [
+      "Eine Stunde später, erfrischt von einer Dusche, nippen Sie an starkem schwarzen Kaffee im großen Konferenzraum, als Sir Harvey Doggerbank hereingeführt wird.",
+      "‚Sir Harvey. Es tut mir leid, ich habe nur ein paar Minuten vor meinem Treffen mit dem Schatzkanzler.'",
+      "‚Ich weiß, dass Sie viel zu tun haben, Premierminister(in). Aufregende Zeiten, nicht wahr? Die Gelegenheit klopft für Großbritannien an, was?'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"‚Nun, das hängt ganz von den Brexit-Verhandlungen ab.'\" ►387",
+      "[OPTION] \"‚Hoffen wir, dass es eine Chance ist und kein Desaster.'\" ►153",
+      "[OPTION] \"‚In der Tat. Eine glorreiche neue Zukunft erwartet uns.'\" ►567",
+      "[OPTION] \"‚Ehrlich gesagt geht es jetzt vor allem um Schadensbegrenzung.'\" ►270"
+    ]
+  },
+  "738": {
+    "PROSE": [
+      "Kämpferische Worte, doch haben Sie die Bilanz, um das zu untermauern?"
+    ],
+    "GOTO": [
+      "[IF !keyword:BLEAK AND !keyword:HEMLOCK AND !keyword:KOALA AND !keyword:LEAF] \"Weiter\" ►380",
+      "[ELSE] \"Weiter\" ►371"
+    ]
+  },
+  "739": {
+    "ONENTER": [
+      "[EFFECT Popularity-2]"
+    ],
+    "PROSE": [
+      "Das Problem verschwindet nicht, und langfristig wird es dem Friedensprozess ernsthaften Schaden zufügen, aber kurzfristig ist der Schaden hauptsächlich politischer Natur."
+    ],
+    "REPORT": [
+      "<strong>-2% Beliebtheit</strong>: Sie überlassen Nordirland de facto einem Status, als wäre es noch Teil der EU, zum Ärger der Brexiteers."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter im Programm\" ►49"
+    ]
+  },
+  "740": {
+    "ONENTER": [
+      "[EFFECT Authority-2]",
+      "[EFFECT Economy+5]",
+      "[EFFECT getItem:Residency Rights]"
+    ],
+    "PROSE": [
+      "Der Deal steht. Aber er wird zuhause nicht gut aussehen."
+    ],
+    "REPORT": [
+      "<strong>-2% Autorität</strong>: Ihre Kritiker nennen Sie eine schwache Verhandlungsführerin.",
+      "<strong>+5% Wirtschaft</strong>: Die britische Wirtschaft braucht diese EU-Bürger, und es hilft, nicht eine Million Rentner aus Spanien zurückzubekommen.",
+      "Die Regelungen bezüglich der Aufenthaltsrechte wurden nun vereinbart."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Nächster Punkt auf der Tagesordnung…\" ►666"
+    ]
+  },
+  "741": {
+    "PROSE": [
+      "‚Chinesischer Stahl zum Beispiel', sagt Stollard. ‚Derzeit wird der durch Anti-Dumping-Maßnahmen der EU abgedeckt, die natürlich auch die britische Stahlindustrie schützen. Aber sobald wir zu WTO-Regeln wechseln und versuchen, dasselbe Schutzniveau aufrechtzuerhalten, kann China Einspruch erheben, wie jedes WTO-Mitglied. Sie werden darauf bestehen, dass wir eine neue Untersuchung durchführen, um nachzuweisen, dass die bestehenden Anti-Dumping-Maßnahmen keine unfaire Handelseinschränkung darstellen.'",
+      "‚Aber die EU hat diese Maßnahmen doch bereits festgelegt.'",
+      "‚Das ist eine Sache zwischen der EU und China. Sobald wir in der WTO auf eigenen Beinen stehen, gelten neue Spielregeln – in einem Spiel, in dem wir nur ein Zehntel des Einflusses haben. Wir müssen eigene Abteilungen zur Untersuchung von Handelsschutzmaßnahmen aufbauen und Rechtsanwälte für Streitbeilegung einstellen, und selbst dann kann sich das über Jahre hinziehen.'",
+      "‚Es gibt ein ganz einfaches Mittel', höhnt Barkwell. ‚Wir akzeptieren einfach Chinas Stahl, während die Untersuchung läuft.'",
+      "Stollard kneift sich an den Nasenrücken. Sie wissen, wie er sich fühlt. Sie könnten selbst ein Aspirin vertragen. ‚Erstens geht es nicht nur um China. Wir werden von Dutzenden solcher Fälle getroffen, und sei es nur, weil unsere Konkurrenten sehen, dass wir nicht in der Lage sind, auf all diese Streitigkeiten gleichzeitig zu reagieren. Und zweitens stellen Sie sich vor, was mit der heimischen Stahlindustrie passiert, wenn wir von zwanzig Millionen Tonnen billigem chinesischem Stahl überschwemmt werden.'",
+      "‚Überschwemmt würde ich nicht sagen', wirft Strewel ein. ‚Vielleicht eher „stahl-geflutet\\“. Eine Bewährungsprobe unserer Standfestigkeit. Hoho.'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter\" ►454"
+    ]
+  },
+  "742": {
+    "PROSE": [
+      "Handel und Einwanderung bestimmten den Großteil der medialen Berichterstattung über die Brexit-Gespräche, doch vielen Menschen lag vor allem am Herzen, wie Großbritannien weiterhin mit dem Rest Europas bei der Terrorismusbekämpfung, Polizeiarbeit und Militäreinsätzen zusammenarbeiten würde.",
+      "‚Sie haben sich nützliche Freunde gemacht, indem Sie diese Fragen frühzeitig geklärt haben', bemerkt Jean-Jacques Terlamen, der Präsident der Europäischen Kommission, bei einem informellen Abendessen.",
+      "‚Wirklich? Ich dachte, einige von ihnen wären vom Ergebnis enttäuscht.'",
+      "‚Keineswegs enttäuscht. Ermutigt. Wir alle hoffen, dass Sie eines Tages das britische Volk aus dem Dschungel herausführen und zurück in die Stadt auf dem Hügel.'",
+      "‚Die Brexit-Hardliner sind also jetzt die Roten Khmer?'",
+      "‚Ich hoffe nicht. Aber wenn ein irrsinniges Projekt zu scheitern beginnt, senkt das selten den Irrsinnspegel. Pol Pot hat auch nicht damit angefangen, Experten totprügeln zu lassen, wissen Sie.'",
+      "Vielleicht ist es ganz gut, dass die EU empfänglich ist für das Abkommen, das Sie vorschlagen möchten. Ein weicherer Brexit wird mehr Wähler zufriedenstellen und die Gefahr minimieren, dass Großbritannien in doktrinären Autoritarismus abrutscht."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Eine EWR-ähnliche Beziehung wie Norwegen sie hat vorschlagen\" ►82",
+      "[OPTION] \"Ein etwas distanzierteres Schweizer Modell anstreben\" ►417"
+    ]
+  },
+  "743": {
+    "PROSE": [
+      "Noch eine Wahl? Das wäre Wahnsinn. Und heutzutage gibt es bereits mehr als genug Wahnsinn, der die politischen Gewässer aufwühlt, ohne dass Sie noch dazu beitragen."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter\" ►666"
+    ]
+  },
+  "744": {
+    "PROSE": [
+      "Rufus verschiebt geschickt ihre Position in Richtung eines entschlossenen, aber nicht extremen Brexits, während Stollard auf dem Flügel des weichen Brexits bleibt. Das stellt Sie in direkten Wettbewerb mit Strewel um die Stimmen der Ultra-Hard-Brexit-Befürworter.",
+      "‚Das ist ziemlich clever', sagt Ron Beardsley widerwillig. ‚Es würde mich nicht wundern, wenn Stollard und Rufus das gemeinsam eingefädelt hätten.'",
+      "‚Was bedeutet das?'",
+      "‚Ich fürchte, entweder Sie oder Peter Strewel scheiden in der nächsten Runde aus, Premierminister(in).'",
+      "‚Wer von uns?'",
+      "‚Wer weniger überzeugend in seinem Bekenntnis zum Brexit ist.'"
+    ],
+    "GOTO": [
+      "[IF keyword:GAZELLE OR keyword:SANCTION] \"Weiter\" ►377",
+      "[ELSE] CONTINUE"
+    ],
+    "COUNT_GOTO": [
+      "keyword:BLEAK",
+      "keyword:HEMLOCK",
+      "keyword:KOALA",
+      "[>=2] \"Weiter\" ►597",
+      "[ELSE] \"Weiter\" ►522"
+    ]
+  },
+  "745": {
+    "PROSE": [
+      "‚Was glauben Sie, passiert, wenn die Abgeordneten den Deal ablehnen?'",
+      "Er sieht aus wie ein Schüler, der seine Hausaufgaben nicht gemacht hat. ‚Äh… wir gehen zurück an den Verhandlungstisch?'",
+      "‚Nein. Das Datum des EU-Austritts steht auf der Titelseite des Brexit-Gesetzes, und die Schäfchen für diese Abstimmung sind bereits gezählt. In wenigen Wochen sind wir draußen. Die Wahl, die ich diesem Haufen geben werde, ist: kein Deal oder kein Deal. Also raten Sie mal, wie sie abstimmen.'",
+      "Am Tag der Abstimmung gibt es eine lange und erbitterte Debatte, als die Abgeordneten begreifen, dass sie keinen Einfluss mehr auf die Ereignisse haben. Wie auch immer die Abstimmung ausgeht, Großbritannien wird die EU verlassen und der künftige Handel wird nach WTO-Regeln laufen – für die ein oder zwei Jahrzehnte, die neue Freihandelsabkommen brauchen werden."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter\" ►419"
+    ]
+  },
+  "746": {
+    "PROSE": [
+      "Wie üblich wird die Debatte vom zeitlosen TV-Urgestein Martin Mugglemore moderiert und aus irgendeinem regionalen Provinznest gesendet. Das Publikum hat den sauren Gesichtsausdruck einer Menge Römer, denen man ihr Brot vorenthalten hat. Sie spulen vor bis zu dem Punkt, an dem Mugglemore die Gäste vorstellt. Das wird Ihnen verraten, ob es ein Schwergewichtskampf oder eine Kissenschlacht wird.",
+      "Als Erster ist Colin Fungale dran. Ist er gerade UKIP-Chef oder nicht? Sie können sich nie daran erinnern. Da ist der Mund wie der Verschluss einer alten Handtasche. Augen wie zwei große Murmeln, die ihm den Blick einer selbstgefälligen Forelle verleihen. Unterhaltsam ist er allemal, zumindest in der Variante Backstein-auf-den-Bildschirm-werfen.",
+      "Als Nächster kommt Bob Owlbear, der stellvertretende Oppositionsführer. Nun ja, der stellvertretende Vorsitzende der Labour Party jedenfalls, falls man die als Opposition zählen kann; manchmal fühlt es sich so an, als wären Ihre eigenen Minister ein weitaus effektiveres Rudel Feinde, als Labour es je sein könnte. Wie üblich sitzt Owlbear blinzelnd hinter seiner schweren Brille da und sieht aus wie ein etwas schlankerer Billy Bunter unter starker Medikation.",
+      "Für die Liberaldemokraten gibt es die obligatorische Alibifrau der Sendung. Lucy Tooth, glauben Sie, hat Mugglemore sie genannt. Tatsächlich haben Sie das Gefühl, sie im Unterhaus gesehen zu haben. Bei nur etwa fünf Abgeordneten der Liberaldemokraten sollte man meinen, sie wären leichter zu merken. Sie könnten zurückspulen und nachschauen, aber das würde die ganze Anstrengung erfordern, nach der Fernbedienung zu greifen. Wen kümmert's? Sie wirkt gebildet, eloquent, vernünftig und lächelt viel. Das gemeine Volk wird sie also hassen.",
+      "‚Und wer vertritt uns?', fordern Sie den Bildschirm auf. O Gott, nein. Es ist diese Pestbeule Thomas Tode, gescheitertes Relikt der Leave-Kampagne. Da sitzt er, grinst im Studiolicht wie eine Albino-Kaulquappe, die auf einem Stein zum Trocknen ausgesetzt wurde. Und er trägt ein offenes Hemd. Versucht, wie ein Mann des Volkes auszusehen, das kleine Wiesel."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Die Fragen vorspulen\" ►574",
+      "[OPTION] \"Lieber den Spätfilm schauen\" ►467"
+    ]
+  },
+  "747": {
+    "PROSE": [
+      "Es klopft an der Tür, und Wilkins führt drei Ihrer ranghöchsten Minister herein. Alan Stollard schlendert herein und sieht dabei eher aus wie ein Labour-Chef aus den Siebzigern als wie der Schatzkanzler. Er hält eine Lederaktentasche, die praktisch aus allen Nähten platzt vor Dokumenten und Akten.",
+      "Er nickt Ihnen zu. ‚Guten Morgen, Premierminister(in).'",
+      "Er setzt sich und legt akribisch ordentliche Stapel von Dokumenten auf dem Tisch vor sich aus, bevor er nach der Frühstückskarte greift.",
+      "Hinter ihm kommt der Außenhandelsminister Leslie Barkwell. Er sieht adrett und wohlgeföhnt aus, mit einem perfekt geschneiderten Anzug und einer leuchtend blauen Krawatte mit kleinen Tupfen. Seine Krawatte erinnert Sie tatsächlich an die EU-Flagge, was seltsam ist, wenn man bedenkt, dass Barkwell ein überzeugter Brexiteer ist.",
+      "Er lächelt Sie höflich an und bittet mit seiner üblichen mokanten Überhöflichkeit um Erlaubnis, sich setzen zu dürfen. Sie nicken. Er setzt sich, etwas steif, mit geradem Rücken, die Hände ordentlich vor sich gefaltet, den Blick auf Sie gerichtet. Er sieht aus wie ein Einbrecher, dessen Anwalt ihm einen Anzug für die Verhandlung verordnet hat.",
+      "Nach ihm kommt Denis Dent, der Minister des neu geschaffenen Ministeriums für den EU-Austritt. Blauer Anzug, rote Krawatte, die ganze Zeit grinsend. Sein Haar schneeweiß und adrett geschnitten. Rote Krawatte, blauer Anzug, weißes Haar – ein wandelnder Union Jack. Er schreitet zielstrebig zu seinem Stuhl und setzt sich entschlossen.",
+      "‚Guten Morgen, meine Herren', sagen Sie mit einem Blick auf Ihre Uhr. ‚Ich brauche nur noch ein oder zwei Minuten.'",
+      "‚Peter kommt mal wieder zu spät, was?', sagt Barkwell.",
+      "Sie nicken resigniert. Stollard verdreht die Augen. Dent gluckst.",
+      "Die Tür fliegt auf und herein stolpert Peter Strewel, der Außenminister.",
+      "‚Herrje, Leute, tut mir leid, dass ich zu spät bin!', ruft er laut, während er sich zu seinem Platz schlängelt, eine Aktenmappe unter dem Arm. Sein Anzug ist ein zerknittertes Desaster, und sein Haar gleicht einer Perücke aus dem Fell eines Albino-Orang-Utans, obwohl Sie wissen, dass es echt ist. Er plumpst auf seinen Stuhl und sieht aus wie eine aufgeblähte Stoffpuppe.",
+      "Eine der Downing-Street-Mitarbeiterinnen tritt vor. ‚Ich hätte gern das Kontinentale', sagt Stollard und reicht ihr die Karte.",
+      "‚Nichts für mich, danke', sagt Barkwell. ‚Ich habe schon gegessen.'",
+      "Dent grinst die Kellnerin an. ‚Rührei, ohne Lachs für mich, danke.' Er wendet sich an Strewel.",
+      "‚English Breakfast, bei Gott!', ruft Strewel und knallt die Faust auf den Tisch, dass die Teller und das Besteck klirren.",
+      "Sie seufzen und greifen nach dem Kaffee. Das könnte ein langer Morgen werden."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter geht's\" ►630"
+    ]
+  },
+  "748": {
+    "PROSE": [
+      "In den nächsten Tagen verschiebt Tiffany Rufus ihre Position deutlich stärker in Richtung Brexit. Sie vermuten, dass sie den Deal mit Dennis Dent geschlossen hat, den Sie abgelehnt haben, da er aus dem Rennen ausgeschieden ist.",
+      "Bei einem Auftritt in der Sendung <em>Now Then</em> werden Sie von Bill Appleby nach Rufus' Strategie gefragt. ‚Sie sagt, sie sei für einen klaren Bruch mit der EU, aber ohne Brücken zu verbrennen. Ist das möglich? Die Art Scheidung, bei der man trotzdem noch gemeinsam in den Familienurlaub fährt?'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"‚Ehrlich gesagt, Bill, wer kann bei dem, was Tiffany Rufus diese Woche glaubt, noch mithalten?'\" ►171",
+      "[OPTION] \"‚Was auch immer Tiffany Rufus sagt – Tatsache ist, sie ist im Herzen eine Remainerin.'\" ►241",
+      "[OPTION] \"‚Wir brauchen den besten Brexit für Großbritannien. Vergessen Sie Begriffe wie hart oder weich, ich will einen Brexit mit gesundem Menschenverstand.'\" ►442"
+    ]
+  },
+  "749": {
+    "ONENTER": [
+      "[EFFECT Economy+5]",
+      "[EFFECT getItem:Residency Rights]"
+    ],
+    "PROSE": [
+      "Trotz einiger Proteste seitens der Spanier, die die meisten britischen Residenten haben, hat die EU einem Gegenseitigkeitsabkommen zugestimmt. Sie werden das Recht aller derzeit in der EU lebenden britischen Staatsbürger auf Verbleib bestätigen, solange Sie dasselbe für EU-Bürger in Großbritannien tun.",
+      "Ausnahmsweise haben Sie einmal gute Nachrichten für die Presse."
+    ],
+    "REPORT": [
+      "<strong>+5% Wirtschaft</strong>: Die britische Wirtschaft braucht diese EU-Bürger, und es hilft, nicht eine Million Rentner aus Spanien zurückzubekommen.",
+      "Die Frage der Aufenthaltsrechte wurde geregelt."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Es geht aufwärts\" ►200"
+    ]
+  },
+  "750": {
+    "PROSE": [
+      "‚Die EU möchte die Finanzfrage schnell geklärt haben', sagt der Schatzkanzler. ‚Das würde uns Spielraum geben, den Preis herunterzuhandeln. Außerdem könnten wir die Austrittsgebühr mit unseren laufenden Zahlungen für eine Übergangszeit nach 2019 bündeln. Dann ist die Pille für die Leave-Presse leichter zu schlucken.'",
+      "Dent starrt ihn an, immer auf der Hut vor Anzeichen ideologischer Unreinheit. ‚Die patriotische Presse, meinen Sie. Die loyale Presse.'",
+      "‚<em>Ich bin ein Brexiter</em>', kontert Stollard mit einem hauchdünnen Lächeln angesichts von Dents offensichtlicher Verwirrung. ‚Nun, dann gibt es die Möglichkeit, die Rechnung abzulehnen. Man könnte einen Appell an den Internationalen Gerichtshof als optimale Politik für alle Beteiligten verpacken. „Angesichts unserer begrenzten Zeit für die Artikel-50-Verhandlungen… Komplexe Materie… Vertragliche Fragen… Am besten juristisch zu klären…\\“ Und so weiter. Mit ein bisschen Hinterzimmer-Diplomatie über die kleineren Staaten könnten wir das der EU verkaufen und müssten kein Pressemassaker fürchten. Außerdem vertagt es das Problem auf einen späteren Zeitpunkt.'",
+      "Selbst Dent ist davon angetan. ‚Gut, gut. Das lässt uns entschlossen aussehen, und was auch immer das Gericht entscheidet, kann uns niemand die Schuld geben. Das ist viel besser, als gleich bei der ersten Sitzung das verdammte Scheckbuch zu zücken.'",
+      "‚Eine Win-win-Situation, könnte man sagen', murmelt Stollard, ‚wenn da nicht die Tatsache wäre, dass wir das Geld trotzdem auftreiben müssen. Wie bei so vielen dieser Fragen geht es nicht darum, wie man eine Lösung findet, sondern welches Problem wir zu lösen versuchen. Das wirtschaftlich beste Ergebnis oder das politisch beste?'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"‚Beides, selbstverständlich.'\" ►305",
+      "[OPTION] \"‚Wir müssen tun, was am besten für das Land ist.'\" ►382",
+      "[OPTION] \"‚Da wir nun mal Politiker sind…'\" ►341"
+    ]
+  }
+}

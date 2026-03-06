@@ -1,7 +1,7 @@
 {
-  "name": "Can You Brexit?",
-  "short_name": "Can You Brexit?",
-  "description": "A political satire gamebook set in Britain, 2016",
+  "name": "Schaffst du den Brexit?",
+  "short_name": "Schaffst du den Brexit?",
+  "description": "Ein politisches Satire-Spielbuch im Großbritannien des Jahres 2016",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#fafaf8",

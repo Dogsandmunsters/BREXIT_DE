@@ -1,0 +1,343 @@
+{
+  "1": {
+    "PROSE": [
+      "The light creeps in under your eyelids like the water seeping into your car that's just careened off the road and into the river. The windows bulge under the pressure and then burst inwards – strangely not with a crack but with a swish like curtains being drawn. In seconds the water turns into a gushing torrent. Your lungs are starting to fill with water as the limo sinks deeper into the black waters –",
+      "'No!' you cry as you sit bolt upright.  Wildly you look around the back seat of the... Wait a minute. This isn't your car. It's the bedroom of Number 10.",
+      "'Are you all right, Prime Minister?' says a soft voice. 'You asked to be woken at six-thirty.'",
+      "You give a groan as a dull headache starts pulsing behind your eyes. It feels like you've had about thirty minutes' sleep at best.",
+      "'What do you reckon about drowning, Wilkins? It's supposed to be a peaceful way to go, isn't it?'",
+      "'I believe the evidence is sketchy, Prime Minister.'",
+      "He indicates the cup of tea beside you, along with a stack of newspapers. Yesterday you gave notice to the European Union of Britain's decision to invoke Article 50. You notice the Daily Heil has led with something about the glorious new dawn of Brexit. And why not? They aren't the ones who actually have to deliver it."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Remind yourself what it actually meant when you declared Article 50\" ►199",
+      "[OPTION] \"Get ready for the day ahead\" ►289"
+    ]
+  },
+  "2": {
+    "PROSE": [
+      "'There isn't really such a thing as a Swiss model, per se,' explains the Chancellor. 'Not in the sense that Norway and the other European Economic Area countries have a defined structure for how they interact with the EU.'",
+      "Dent can see you're confused. 'What Switzerland has is more of a raft of bespoke agreements that substitute for the EEA's off-the-peg, one-size-fits-all arrangement. Obviously those bespoke deals are specific to Swiss needs, but it could be useful if we're thinking along similar lines.'",
+      "'They're outside the EEA but still in the European Free Trade Area,' says Strewel. 'Only really we'd rather be right out of the whole shebang, wouldn't we? We want Savile Row, not Moss Bros.'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"'How did Switzerland end up with this model?'\" ►754",
+      "[OPTION] \"'What do they pay into the EU?'\" ►691",
+      "[OPTION] \"'What does EFTA membership actually give them?'\" ►231",
+      "[OPTION] \"'Explain the process behind making those bespoke deals. Could we do the same?'\" ►576"
+    ]
+  },
+  "3": {
+    "PROSE": [
+      "<em>O thou of little faith…</em> springs to mind. Of course. Nearly four in ten Scots voted for Brexit. They can't have been impressed by seeing Kirstin Pike get up the next day and invite EU nationals to come to Scotland in their thousands.",
+      "'And you're right, Lord. The SNP have made a right mess of their economy. They have almost a dozen constituencies where only a slight swing would give us a win. They're not going to lose out to Labour, after all, but any Scotsman who's worried about the threat of leaving the UK, or Scotland trying to stay in the EU via the back door, has no choice but to vote Conservative.'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"'But how would I call a snap election?'\" ►35",
+      "[OPTION] \"'I suppose I can discount Labour as a threat, at least.'\" ►626",
+      "[OPTION] \"'The Liberal Democrats look weak but might yet be a force to reckon with. They're campaigning hard for Remain.'\" ►784",
+      "[OPTION] \"'Amen, Lord. I have to get back to matters of state.'\" ►666"
+    ]
+  },
+  "4": {
+    "ROUTES": [
+      "[IF keyword:MAPLE] ►458",
+      "[ELSE] ►200"
+    ]
+  },
+  "5": {
+    "PROSE": [
+      "The Commission is keen to discuss the future of EU citizens already living in Britain – as is the UK government to secure the rights of British subjects living in Europe, and you need a refresher on the basics.",
+      "You pick up the phone and call the QC who briefed you before.",
+      "'I'm going to need a quick reminder about residency rights, so can you – ?'",
+      "'It's all in the email, Prime Minister.'",
+      "'What email?'",
+      "'The one I've just sent you. There's a summary of all the salient points.'",
+      "'But how did you – ?'",
+      "'I've worked with ministers before.'",
+      "You take a look and sure enough there's a list of everything you discussed. EU citizens currently count as permanent residents, but once Britain has left the EU they'll be subject to the same rules as non-EU immigrants. To qualify for permanent residency an immigrant needs either to be in work, or to be related to a British citizen or permanent resident.  They also have to have lived here for at least five years. If they're working, they must also be earning a minimum of £35,000 unless they've been here for ten years already or have an exempted job, such as nursing.",
+      "If someone is not paying taxes in Britain they have to have CSI, that is Comprehensive Sickness Insurance, so that they won't be a drain on the NHS. Any time spent living here without CSI does not count towards the five years required to qualify for permanent residency.",
+      "There's a lot more in the email about exemptions, qualifications, definitions, and so on, but you needn't bother with that. It's what you have civil servants for."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Carry on\" ►666"
+    ]
+  },
+  "6": {
+    "PROSE": [
+      "'The EU employs a rather arcane bookkeeping system whereby commitments to spend are figured separately from allocations for spending, so – '",
+      "'Perhaps the t-shirt version for now, Ron.'",
+      "A frown as his big brain wrestles the problem down to smaller proportions. 'It's like a credit card, prime minister. The EU spends more every year than its budget allocation. Quite a bit more, actually. So it puts it on the card, sort of thing, and then to cover the payments it goes back to the member states for more money.'",
+      "'Sounds quite barmy. Who came up with that?'",
+      "'Well… originally it's a method used by French corporate accountants, I believe. It's called the <em>reste à liquider</em> – the \"still to pay\" fee. The thing is, while Britain would obviously cover our share of that until Brexit, the funding terms are in seven year blocks. The last funding term started in 2014, so the Commission will want us to pay for the rest of 2019 and all of 2020 as well.'",
+      "'They should have got the spending under control long before this. It's exactly the sort of malarkey that had people up in arms about the EU.'",
+      "Ron looks at you. You can sense a billion calculations popping off behind those watery, bottle-lensed eyes. But with only ten minutes to the meeting there's no time to dig any deeper right now."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Onwards\" ►374"
+    ]
+  },
+  "7": {
+    "ONENTER": [
+      "[EFFECT getKW:DODO]",
+      "[EFFECT getItem:International Trade Deals]",
+      "[EFFECT Authority-5]",
+      "[EFFECT Goodwill-12]",
+      "[EFFECT Popularity+12]"
+    ],
+    "PROSE": [
+      "Puppet or not, you have a great story to sell to the public. You particularly appreciate the headline one of the tabloids comes up with: \"YOU'RE HIRED! BRITAIN NABS THE DEAL THE EU COULDN'T CLOSE.\""
+    ],
+    "REPORT": [
+      "<strong>-5% Authority</strong>: your MPs can see you had no choice.",
+      "<strong>-12% Goodwill</strong>: the EU are livid.",
+      "<strong>+12% Popularity</strong>: luckily most voters think it's a great deal.",
+      "International trade deals are now in place."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Continue\" ►666"
+    ]
+  },
+  "8": {
+    "PROSE": [
+      "Even to your own ears, your rhetoric sounds tired and unconvincing. Talk of justifiable risks sounds reckless now that the country has had a glimpse into the abyss of Brexit. Most realize that Britain outside the EU will be a very different land from the one in which they grew up. Every argument you muster just drives more voters towards Remain.",
+      "On the night of the vote you sit despondently in front of the television. It's off, and you can't see the remote. You can't even be bothered to call Wilkins. What difference does any of this make now? It was a game played for no reason but to keep playing."
+    ],
+    "TOSS_TWO": [
+      "[BOTH HEADS] \"Continue\" ►403",
+      "[BOTH TAILS] \"Continue\" ►313",
+      "[HEAD AND TAIL] \"Continue\" ►313"
+    ]
+  },
+  "9": {
+    "PROSE": [
+      "Strewel was expecting you to fight him on either a Leave or Remain ticket, both of which he was prepared for. The one tactic he never anticipated was that you would refute the factious politics of the last three years.",
+      "The British people, by nature moderate and conciliatory, seize at your proposals as the life preserver that could save the country from going under. More importantly, the Tory party members who will decide this contest see which way the wind is blowing. Polls suggest that the less extreme of them are beginning to appreciate the wisdom of supporting a concordant solution, without which the party was always in danger of winning a Pyrrhic victory.",
+      "You have Strewel on the ropes. Can you finish him off?"
+    ],
+    "GOTO": [
+      "[IF Popularity>=53] \"Continue\" ►519",
+      "[ELSE] \"Continue\" ►347"
+    ]
+  },
+  "10": {
+    "ONENTER": [
+      "[EFFECT getItem:Second EU Referendum]"
+    ],
+    "PROSE": [
+      "'Ever had a near miss, Wilkins?' you ask as he draws back the curtains to reveal a sky of dazzling sunlight.",
+      "'I got four out of five numbers on the Euromillions once, only it turned out to be an old ticket.'",
+      "'I mean a near disaster. A piano crashing to the pavement two steps behind you. A gas leak, only you were woken by the cat. Escaping death by a whisker, so to speak.'",
+      "'Can't say I have, Prime Minister.'",
+      "'This is like that. I feel as though I'd just driven through a ten-car pile up, burning wreckage and screaming on all sides, only I sailed right through and came out without a scratch. I'm living a charmed life, Wilkins. Untainted by a campaign that could have ended my career.'",
+      "He opens the wardrobe. 'On with the job, then?'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Continue\" ►450"
+    ]
+  },
+  "11": {
+    "PROSE": [
+      "'Your real Death Star there is the whole legal issue of international trade talks. Then there's the shaky position of existing trade deals, or those that are being negotiated by the EU at the moment. We might not inherit those automatically. There's the time it takes to negotiate trade deals, too – we can move faster than a monolithic bloc like the EU, but we've got to do lots of bitty deals and meanwhile the pressure is mounting and the national debt is climbing.'",
+      "'I don't think your father would agree with you on any of those points.'",
+      "'You're kidding, right? He knows all right. Haven't you noticed that glassy look in his eyes? It's fear. Constant, blood-curdling, ball-shrivelling fear.'",
+      "'Oh, come on. Britain has faced worse threats before.'",
+      "'The Dunkirk spirit, yeah? We're all in it together? Except those voters who wanted their country back aren't going to like the country they actually get.'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"'What do you mean by that?'\" ►224",
+      "[OPTION] \"'What legal issues are you talking about?'\" ►211",
+      "[OPTION] \"'I don't think it will take too long to hammer out a few simple trade agreements.'\" ►198",
+      "[OPTION] \"'Let's not focus on the negative.'\" ►700"
+    ]
+  },
+  "12": {
+    "ONENTER": [
+      "[EFFECT Authority+1]"
+    ],
+    "PROSE": [
+      "Appleby laughs at that, but the audience don't laugh with him. And behind them you sense the British people. They believe you. Conditioned by half-remembered history lessons when they gazed in boredom at the red maps of Empire, and with contempt for foreigners and clever-clogs bred into the bone, they really do imagine that the rest of the world will beg Britain's forgiveness.",
+      "You leave the studio with a renewed spring in your step."
+    ],
+    "REPORT": [
+      "<strong>+1% Authority</strong>: MPs love a leader with unshakeable self-assurance. They mistake it for competence."
+    ],
+    "GOTO": [
+      "[IF keyword:NYLON] \"Continue\" ►193",
+      "[ELSE] \"Continue\" ►726"
+    ]
+  },
+  "13": {
+    "PROSE": [
+      "To call an election before 2020, when the current Parliamentary term ends, you need two thirds of MPs to vote for one. The notepad on your desk is covered with doodles of the Commons benches, all of which show your own party having less than 55% of the seats.",
+      "The LibDems have nothing to lose from an election, having been punished by their supporters last time for entering a coalition with the Conservatives. This time round, with their policy of strong support for Remain, they might hope to pick up a dozen seats. The trouble is, even with LibDem support in a vote, you don't have the necessary two-thirds majority. And that's assuming you don't have any dissenters in your own ranks."
+    ],
+    "GOTO": [
+      "[IF Goodwill>=60] \"Continue\" ►271",
+      "[ELSE] \"Continue\" ►796"
+    ]
+  },
+  "14": {
+    "PROSE": [
+      "Sterling is falling faster than Wile E Coyote carrying an anvil. People are angry that their shopping bill gets more eye-wateringly expensive every week."
+    ],
+    "GOTO": [
+      "[IF Economy<50] \"Continue\" ►502",
+      "[ELSE] \"Continue\" ►311"
+    ]
+  },
+  "15": {
+    "ONENTER": [
+      "[EFFECT Authority+1]",
+      "[EFFECT Goodwill+1]"
+    ],
+    "PROSE": [
+      "'Give them time. In many of the areas that voted to leave the EU, the proportion of immigrants has increased very rapidly – tenfold or more in the last decade. Other regions, like London, have had more time to get used to a high number of foreign-born residents and were in favour of remaining in the EU. You've travelled through the more rural areas of your own country. How do locals react to strangers? It takes them a while to grow accustomed to change. The days when elitists could order their people around are gone. We are democracies and we must accept the democratic will. None of us here wants a bad outcome in these talks, and you know I must uphold the decision of my electorate, so let us hear no more insults, please.'",
+      "It's good. Statesmanlike. You notice several of the ministers exchanging glances of approval – or maybe envy, either will do."
+    ],
+    "REPORT": [
+      "<strong>+1% Authority</strong>: that speech will play well at home.",
+      "<strong>+1% Goodwill</strong>: the EU ministers respect your candour and like the veiled hints of a soft Brexit strategy."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Continue\" ►453"
+    ]
+  },
+  "16": {
+    "ONENTER": [
+      "[EFFECT getItem:Residency Rights]",
+      "[EFFECT Goodwill-10]"
+    ],
+    "PROSE": [
+      "Despite your announcement that EU nationals will not retain their rights following Brexit, the EU decides to let UK ex-pats stay in Europe anyway.",
+      "'Are we the baddies?' the Home Secretary asks you. Her wry smile suggests it's some pop culture reference, but you have no time for such frivolities."
+    ],
+    "REPORT": [
+      "<strong>-10% Goodwill</strong>: you haven't made any friends in Europe.",
+      "Residency rights have now been dealt with."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Continue\" ►200"
+    ]
+  },
+  "17": {
+    "PROSE": [
+      "The discussion is about whether to apply for membership of EFTA within the European Economic Area alongside Norway, Iceland and Liechtenstein."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"'But would Norway block our membership?'\" ►42",
+      "[OPTION] \"'Let's consider the free movement question.'\" ►237",
+      "[OPTION] \"'What would EEA membership cost?'\" ►601",
+      "[OPTION] \"'Would Britain have any influence in EFTA?'\" ►330",
+      "[OPTION] \"'What will it mean for the UK services market?'\" ►579",
+      "[OPTION] \"'How about the Swiss model?'\" ►2",
+      "[OPTION] \"'Let's review all our other options again.'\" ►703"
+    ]
+  },
+  "18": {
+    "PROSE": [
+      "As you're coming into Penzance station, a thought occurs to you. 'What am I going to say about the bus?'",
+      "The aide chews her lip in thought. 'Risk of roadworks. Showing support for intercity rail. The need to stick to a tight schedule. And it's a four hour drive to Penzance. The train was really the only option, Prime Minister.'",
+      "'I meant the Brexit bus. The £350 million a week that isn't going on the NHS or on Cornish industry either.'",
+      "You know the press are bound to ask you about how much of the money that used to be spent on EU membership will now go on regional development. What will you tell them?"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"'The government will guarantee every penny that Cornwall used to get from EU funding.'\" ►755",
+      "[OPTION] \"'It's too early to talk about numbers, but the government remains committed to promoting Cornish industry and innovation.'\" ►840",
+      "[OPTION] \"'That claim on the Leave bus didn't have anything to do with me.'\" ►696"
+    ]
+  },
+  "19": {
+    "PROSE": [
+      "It's make or break. You can't point to many useful achievements over the last two years of Brexit talks, but you still have the instincts honed by two decades at the hustings. You pull out all the stops to make yourself look like the reliable candidate and the others like self-deluding incompetents."
+    ],
+    "GOTO": [
+      "[IF Popularity>=59] \"Onwards\" ►489",
+      "[ELSE] \"Continue\" ►377"
+    ]
+  },
+  "20": {
+    "ONENTER": [
+      "[EFFECT getKW:YELLOW]"
+    ],
+    "PROSE": [
+      "You meant it half-jokingly, but you'd underestimated the depths of his laziness. 'Actually, that's a wizard idea,' he says. 'You're on!'",
+      "When Strewel announces he's backing you, Dent sees there isn't room for both of you and withdraws from the race. Soon after Alan Stollard declares his support for Tiffany Rufus, shoring up her base on the moderate wing of the Party. That leaves the ultra-Brexit candidate – and one more round of MPs' voting before it goes to the Conservative membership."
+    ],
+    "GOTO": [
+      "[IF keyword:NYLON] \"Continue\" ►193",
+      "[ELSE] \"Continue\" ►726"
+    ]
+  },
+  "21": {
+    "PROSE": [
+      "'Everyone aboard?' says the driver. As soon as he's counted you all, he taps instructions into the bus's dashboard and then jumps off just before the doors close.",
+      "'He's not coming with us?' you say, watching as the bus lifts off and the waving figures in the parking lot dwindle into the distance.",
+      "Beside you is a man with a glazed smile like a Jehovah's Witness who's succeeded in converting a pensioner. 'He can't come. It's not for him.'",
+      "The person in front swivels in their seat. The same demented satisfaction, the same beatific tone. 'Only the truly hopeless deserve the ultimate cure.'",
+      "'We used to send a fortune to the Evil Union,' says the man behind you. He's the one with the saline drip. 'Now we're spending it on our NHS.'",
+      "'Our NHS…' intone the others.",
+      "On the dashboard a red display is counting down. You're so high above the city now that its lights have been swallowed in the murk of pollution. You push past your neighbour and stagger to the front of the bus. Under the steering column is a large metal canister with wires leading into it. The last few seconds tick away.",
+      "You turn to the other passengers, all staring past you with wondering, tear-filled eyes at the imminent rapture.",
+      "'But I'm only here because of my bear – '",
+      "The blossom of flame opens to accept you all."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Face the inevitable\" ►368"
+    ]
+  },
+  "22": {
+    "PROSE": [
+      "'Canada has the Comprehensive Economic and Trade Agreement…' begins Stollard.",
+      "'\"Comprehensive\", really? A bit like calling it the World's Greatest Trade Plan of 2017, isn't it?' snorts Strewel. 'You mean it doesn't stand for Canadian-European Trade Agreement?'",
+      "'That's a useful mnemonic,' concedes the Chancellor with studied patience. 'And then there's EUSFTA – '",
+      "'Don't tell me. It's the, um, excellently useful, stonkingly fantastic – '",
+      "'It's the EU-Singapore Free Trade Agreement,' says Stollard drily. 'Both these agreements remove or phase out tariffs between the parties. In Singapore's case there are still quotas in some products, while the CETA deal is much more comprehensive and will give Canada tariff-free access to 98% of EU goods. There are some restrictions on agricultural products, as you might expect. And Canada and Singapore must both be compliant on rules of origin, of course.'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"'Rules of origin being what?'\" ►667",
+      "[OPTION] \"'Tell me the pros and cons of this kind of deal.'\" ►303",
+      "[OPTION] \"'How long did it take to get CETA and EUSFTA agreed?'\" ►276"
+    ]
+  },
+  "23": {
+    "PROSE": [
+      "A relative boom in the economy serves to reassure the public that it was the right decision to quit the EU. Polls show a surge in support for Leave.",
+      "'It's all fuelled by credit cards, is my worry,' moans the Chancellor. 'The underlying wealth of the country is not in good shape.'",
+      "'Perception is reality,' you tell him, not for the first time. 'We're just here to hold the wheel and pretend we're steering.'"
+    ],
+    "GOTO": [
+      "[IF Goodwill>=40] \"Continue\" ►864",
+      "[ELSE] \"Continue\" ►207"
+    ]
+  },
+  "24": {
+    "ONENTER": [
+      "[EFFECT Popularity-5]",
+      "[EFFECT getItem:Second EU Referendum]"
+    ],
+    "PROSE": [
+      "A close call. So you campaigned for a soft Brexit and instead the public want a hard one. They're deluded, of course, but you won't get anywhere by worrying about the rights and wrongs of it all now.",
+      "'What now?' call the reporters waiting for you in Downing Street.",
+      "You turn to face the barrage of popping flashlights. You have never felt more certainly the wind of destiny in your sails.",
+      "'Now,' you tell them, 'I get on with the job.'"
+    ],
+    "REPORT": [
+      "<strong>-5% Popularity</strong>: your misjudgement in the campaign will take some living down."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Continue\" ►450"
+    ]
+  },
+  "25": {
+    "PROSE": [
+      "'What part of our customs union arrangement do you think will bring down the government?'",
+      "'Oh heavens. Well, I don't think it'll go that far. But a lot of MPs in both major parties would prefer a closer relationship with the EU than that.'",
+      "'That's not going to be what they get to vote on, though. It will be the customs union or the restore-to-factory-settings option, namely WTO rules. They'll take the lesser of two evils, believe me.'",
+      "You're right. The Commons votes almost unanimously for the deal you have struck with the EU, and although there is some criticism in the Lords you can safely ignore that."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Continue\" ►806"
+    ]
+  }
+}

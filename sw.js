@@ -1,4 +1,4 @@
-const CACHE_NAME = 'can-you-brexit-v1';
+const CACHE_NAME = 'schaffst-du-brexit-v1';
 const urlsToCache = [
   './',
   './index.html',
