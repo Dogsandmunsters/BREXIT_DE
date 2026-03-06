@@ -1,4 +1,4 @@
-const CACHE_NAME = 'schaffst-du-brexit-v1';
+const CACHE_NAME = 'schaffst-du-brexit-v2';
 const urlsToCache = [
   './',
   './index.html',
@@ -14,6 +14,7 @@ const urlsToCache = [
 
 // Install service worker and cache resources
 self.addEventListener('install', event => {
+  self.skipWaiting();
   event.waitUntil(
     caches.open(CACHE_NAME)
       .then(cache => cache.addAll(urlsToCache))
@@ -31,7 +32,7 @@ self.addEventListener('fetch', event => {
   );
 });
 
-// Clean up old caches
+// Clean up old caches and take control immediately
 self.addEventListener('activate', event => {
   event.waitUntil(
     caches.keys().then(cacheNames => {
@@ -42,6 +43,6 @@ self.addEventListener('activate', event => {
           }
         })
       );
-    })
+    }).then(() => self.clients.claim())
   );
 });
