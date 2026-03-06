@@ -1,0 +1,325 @@
+{
+  "751": {
+    "PROSE": [
+      "Du bist dir ziemlich sicher, dass Rufus Großbritannien in der EU halten würde, wenn sie die Gelegenheit hätte, aber das würde man bei ihren jüngsten Reden nicht vermuten. Sie redet nur davon, die Kontrolle zurückzugewinnen und den Willen des Volkes umzusetzen, und lässt sich dabei gerade genug Spielraum, um später auf eine weichere Position umschwenken zu können.",
+      "In der Zwischenzeit schlägt sie ihr Lager auf deiner Seite der Straße auf. Du machst bewusst ein Kopf-an-Kopf-Rennen zwischen euch beiden daraus, und die nächste Runde des Wettstreits wird davon abhängen, wer von euch mehr Brexit-Glaubwürdigkeit besitzt."
+    ],
+    "GOTO": [
+      "[IF keyword:GAZELLE OR keyword:SANCTION] \"Finden wir es heraus\" ►377",
+      "[ELSEIF keyword:FOG OR keyword:LEAF] \"Finden wir es heraus\" ►39",
+      "[ELSE] \"Finden wir es heraus\" ►290"
+    ]
+  },
+  "752": {
+    "PROSE": [
+      "Die Inspiration kommt nicht aus dem Bücherregal, sondern aus einem Film über Nelson Mandela. Er spricht zu seinem Volk und sagt: ‚Solange ich euer Anführer bin, werde ich euch Führung geben. Solange ich euer Anführer bin, werde ich euch immer sagen, wenn ihr falsch liegt.'",
+      "Du setzt dich auf. ‚Haben Sie das gehört, Wilkins? Das nennt man präsidial.'",
+      "‚Das Wort hat seit der Wahl von Präsident Windrip etwas an Wert verloren, Premierminister(in), aber ich verstehe, was Sie meinen. Mr Mandela war gütig, aber sehr prinzipientreu. Natürlich wird er hier von einem Schauspieler dargestellt, und ich vermute, diese Worte stammen vom Drehbuchautor.'",
+      "‚Alles, was zählt, ist, dass es das Heilmittel für das Gift in der britischen Politik ist.'",
+      "Ein paar Tage später erscheint ein Artikel von dir in der Zeitung mit der Überschrift „GEMEINSAM FÜR EIN BESSERES BRITANNIEN“. Du liest ihn deiner Pressesprecherin vor, die nur deshalb nervös herumzappelt, weil sie ihn wahrscheinlich gern vor der Veröffentlichung gesehen hätte.",
+      "‚Was sind die Werte unseres Landes?' sagst du. ‚Geduld. Fairness. Gerechtigkeit. Auf der ganzen Welt ist Großbritannien dafür bekannt. Und wir sind auch bekannt für die Mutter aller Parlamente, ein Leuchtfeuer für Demokratien und für alle, die sich weltweit nach Demokratie sehnen.",
+      "‚Demokratie baut auf einer Grundlage der Rücksichtnahme auf andere auf. Sie zerbricht, wenn sie zu einem Kampf wird, bei dem der Gewinner alles bekommt. Um zu überleben, muss Demokratie Hand in Hand mit Kompromissen gehen. Bei jeder Frage muss ein Konsens gefunden werden. Denn selbst wenn deine Seite heute gewinnt, gibt es morgen vielleicht etwas anderes, worüber abgestimmt wird. Man bekommt nicht alles. Das geht nicht. Man muss bereit sein, denen mit anderen Ansichten auf halbem Wege entgegenzukommen.",
+      "‚Beim Referendum haben 52 % von uns für den Austritt aus der EU gestimmt, und 48 % für den Verbleib. Das ist kein überwältigendes Mandat für einen harten Brexit. Es ist ein Votum, das sagt: Ja, wir treten aus – aber nur knapp. Um den wahren Willen <em>aller</em> Menschen widerzuspiegeln, müssen wir eine neue Beziehung zur Europäischen Union finden, die uns als enge Freunde und Verbündete zusammenhält. Das ist die einzig ehrliche Form des Brexit, für die wir, eure Vertreter, arbeiten sollten. Das Votum anders zu interpretieren, ist spalterisch und dient nur politischen Zielen auf Kosten der Einheit dieses Landes.",
+      "‚Um unser aller willen fordere ich euch alle auf, eurem Nachbarn im Geiste des Patriotismus die Hand zu reichen. Echtem britischen Patriotismus. Nicht Hurrapatriotismus, nicht Verachtung für die Wünsche anderer, sondern Großmut und Brüderlichkeit.'",
+      "Es ist leicht zu behaupten, es gäbe einen besseren Weg als die parteiische Wir-gegen-die-Politik von Strewel und seinesgleichen. Aber <em>bist</em> du besser? Deine eigene Bilanz ist der Maßstab, an dem die Menschen die Aufrichtigkeit deiner Worte messen werden."
+    ],
+    "GOTO": [
+      "[IF keyword:APRICITY OR keyword:SANCTION OR keyword:TIGHTROPE OR Economy>=53] \"Weitermachen\" ►9",
+      "[ELSEIF keyword:FOG OR keyword:GAZELLE] \"Weitermachen\" ►727",
+      "[ELSEIF Popularity>=66] \"Du hast das Zeug dazu\" ►347",
+      "[ELSE] \"Weitermachen\" ►528"
+    ]
+  },
+  "753": {
+    "ONENTER": [
+      "[EFFECT getItem:General Election]"
+    ],
+    "PROSE": [
+      "Trotz der nahezu einstimmigen Unterstützung deiner eigenen Partei stimmen Labour und die übrigen dagegen, und so schaffst du es nicht, die erforderliche Zweidrittelmehrheit für den Antrag zu erreichen.",
+      "‚Warum zwei Drittel?' blaffst du Wilkins an, als er dir später eine tröstende Tasse Tee bringt.",
+      "‚Ich glaube, zwei Drittel sind die übliche Schwelle, die als ausreichende Unterstützung für jede weitreichende Änderung etablierter Regeln gilt, Premierminister(in).'",
+      "‚Ein Glück, dass wir beim EU-Referendum nicht darauf bestanden haben, sonst würde ich immer noch für diesen Privatschul-Schweineschlächter arbeiten, was?'",
+      "‚Wie Sie sagen, Premierminister(in). Es gibt natürlich noch die andere Möglichkeit. Ein Misstrauensvotum gegen die Regierung. Dafür braucht man nur eine einfache Mehrheit.'",
+      "‚Damit würde ich jetzt lächerlich aussehen. Schlimmer noch, ich würde schwach wirken. Nein, Wilkins, der Herr hat mir mein Kreuz bestimmt, das ich zu tragen habe.'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Bleib standhaft\" ►666"
+    ]
+  },
+  "754": {
+    "PROSE": [
+      "‚Die hatten ein Referendum. Die SVP – das ist die Schweizerische Volkspartei – wetterte gegen Souveränitätsverlust, einströmende Ausländer, ausufernde Bürokratie. Kommt Ihnen das bekannt vor? Das Referendumsergebnis war sogar noch knapper als in unserem Fall – eine Mehrheit von 50,3 %, die gegen den Beitritt zum EWR stimmte.'",
+      "‚Was für ein Unsinn,' brummt Barkwell. ‚Unser Referendum war nicht knapp. Es war ein überwältigendes Mandat für den Brexit.'",
+      "‚Hab ich vergessen. Doppelplusgut, natürlich.'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"‚Wie sind die Schweizer mit der Frage der Freizügigkeit umgegangen?'\" ►457",
+      "[OPTION] \"‚Aber sie behalten zumindest ihre Souveränität.'\" ►509"
+    ]
+  },
+  "755": {
+    "ONENTER": [
+      "[EFFECT Economy-1]",
+      "[EFFECT Popularity+1]"
+    ],
+    "PROSE": [
+      "‚Zu lange hat Großbritannien einen saftigen Anteil an EU-Mitteln gezahlt, ohne mitsprechen zu dürfen, wo und wie das Geld ausgegeben wird. Jetzt geben wir den Steuerzahlern die Kontrolle zurück.'",
+      "Die alternative Tatsache, dass man kein Mitspracherecht gehabt habe, wird nur in wenigen Zeitungen hinterfragt, und deine Botschaft entschlossener Standhaftigkeit kommt bei den Wählern gut an. Leider löst die Andeutung, dass man Milliarden für Infrastrukturinvestitionen in Zeiten zunehmender Sparmaßnahmen aufbringen muss, an den Märkten einen Schauer der Unruhe aus."
+    ],
+    "REPORT": [
+      "<strong>-1% Wirtschaft</strong>: Der Finanzsektor ist beunruhigt, dass du zu viele Blankoschecks ausstellst.",
+      "<strong>+1% Beliebtheit</strong>: Die Wähler sehen in dir eine feste Hand am Ruder."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Die Zweifler ignorieren\" ►125"
+    ]
+  },
+  "756": {
+    "PROSE": [
+      "Barkwell hält inne, als er seine Unterlagen zusammenpackt. ‚Es wäre durchaus hilfreich zu wissen, was Sie planen, Premierminister(in). Freihandelsabkommen oder was?'",
+      "Die anderen waren schon auf dem Weg zur Tür, aber jetzt drehen sich alle um, um zu sehen, wie du antwortest."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"‚Wenn ich gewollt hätte, dass Sie das zu diesem Zeitpunkt erfahren, hätte ich es Ihnen gesagt.'\" ►716",
+      "[OPTION] \"‚Natürlich müssen wir ein Freihandelsabkommen aushandeln.'\" ►379",
+      "[OPTION] \"‚Notfalls greifen wir auf WTO-Regeln zurück und lassen die EU betteln kommen.'\" ►625",
+      "[OPTION] \"‚Das ideale Ergebnis wäre, im Binnenmarkt zu bleiben.'\" ►808"
+    ]
+  },
+  "757": {
+    "PROSE": [
+      "Deine eigene Stimme wird von der schrillen und zunehmend gehässigen Rhetorik der beiden Extreme übertönt. Es ist, als wäre das Land verrückt geworden. Es spielt fast keine Rolle mehr, wie das Ergebnis ausfällt. Wie sollen die beiden Seiten nach all dem noch miteinander leben?"
+    ],
+    "TOSS_TWO": [
+      "[BOTH HEADS] \"Weiter\" ►173",
+      "[BOTH TAILS] \"Weiter\" ►127",
+      "[HEAD AND TAIL] \"Weiter\" ►127"
+    ]
+  },
+  "758": {
+    "ROUTES": [
+      "[IF keyword:PEDAL] ►627",
+      "[ELSE] ►508"
+    ]
+  },
+  "759": {
+    "PROSE": [
+      "Du hast kaum das Telefon am Ohr, da legt Dennis Dent schon los. ‚Premierminister(in), Sie sind in einer sehr starken Position.'",
+      "‚Unangreifbar, würde ich sagen.'",
+      "‚Das ist etwas zu dick aufgetragen. Nichts ist sicher in der Liebe und im Krieg, und Politik umfasst beides. Aber ich kann Ihnen helfen, Ihren derzeitigen Vorteil in einen komfortablen Vorsprung umzuwandeln.'",
+      "‚Ist das wegen der Liebe, oder…?'",
+      "‚Sie werden doch nicht ernsthaft Alan Stollard im Finanzministerium belassen wollen.'",
+      "Ah, darum geht es also. Was wirst du sagen?"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"‚Dennis, nichts für ungut, aber ich will Sie nicht als Nachbarn haben.'\" ►748",
+      "[OPTION] \"‚Abgemacht. Unterstützen Sie mich und Sie werden Schatzkanzler.'\" ►635"
+    ]
+  },
+  "760": {
+    "PROSE": [
+      "‚Glücklicherweise ist die Personalbesetzung kein Problem. Ein großer Anteil der britischen Ärzte und Krankenschwestern kommt aus Europa, und dank unseres Abkommens mit der EU wird das so bleiben. Aber die Finanzierung ist weiterhin entscheidend. Großbritannien hat eine alternde Bevölkerung, und wir geben pro Kopf weniger für Gesundheitsversorgung aus als fast jedes andere Land in Westeuropa.'",
+      "Du zuckst zusammen. ‚Sorgen wir dafür, dass wir das nicht öffentlich sagen, ja? Der Durchschnittswähler bildet sich fest ein, dass der NHS jeder ausländischen Alternative haushoch überlegen sei.'",
+      "‚Es hilft auch nicht gerade, dass die Europäische Arzneimittel-Agentur aus dem Vereinigten Königreich wegzieht. Das gab uns ein gewisses Maß an Kontrolle über die wichtigste Regulierungsbehörde.'",
+      "‚Wir haben unsere eigenen Behörden dafür.'",
+      "‚Mehr Bürokratie bedeutet mehr Ausbildung, mehr Beamte. Und wer muss das alles bezahlen?'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"‚Wir müssen gar nichts ausgeben. Lasst den NHS einfach eines natürlichen Todes sterben, und die Privatunternehmen übernehmen.'\" ►110",
+      "[OPTION] \"‚Wir sollten besser symbolische Investitionen in neue Krankenhäuser ankündigen.'\" ►213"
+    ]
+  },
+  "761": {
+    "ROUTES": [
+      "[IF item:Exit Fee OR keyword:APRICITY] ►464",
+      "[ELSE] ►834"
+    ]
+  },
+  "762": {
+    "PROSE": [
+      "Die Fragestellerin ist eine Frau mittleren Alters mit der Hautfarbe eines Supermarkthühnchens. ‚Ich hab das Plakat gesehen,' sagt sie. ‚Diese ganzen Horden von Flüchtlingen. Deshalb hab ich dafür gestimmt, dass wir aus dem Brexit austreten.'",
+      "Lucy Tooth lacht tatsächlich laut vor Verblüffung auf. Das wird sie Stimmen kosten. Einfältige Leute reagieren empfindlich auf Spott und sind spektakulär nachtragend.",
+      "‚Dieses Plakat war gefälscht,' platzt Bob Owlbear heraus und runzelt die Stirn in Richtung Colin Fungale. ‚Ehrlich gesagt bin ich überrascht, dass die Nazis nicht wegen Urheberrechtsverletzung geklagt haben.'",
+      "Nutzlos. Die meisten Brexit-Wähler leben noch im letzten Jahrhundert; die denken, Photoshop ist der Laden, wo man Urlaubsfotos entwickeln lässt. Kein Wunder, dass Fungales Grinsen nur noch breiter wird.",
+      "‚Hatten Sie eine Frage?' fragt Martin Mugglemore die Frau im Publikum.",
+      "Sie wirkt verwirrt, sucht aber nach etwas, das sie fragen könnte. ‚Was ich wissen will, ist, ob wir die Illegalen jetzt stoppen können? Es sind ja nicht nur die aus der EU. Da sind Pakis in meine Straße gezogen –'",
+      "‚Eine Frage!' jault Mugglemore.",
+      "‚Na gut. Werden Sie aufhören, Sozialleistungen an Ausländer zu verteilen, und dafür sorgen, dass das Geld von jetzt an an britische Bürger geht? Das ist für den Konservativen, Mr Tode.'",
+      "Du kannst Todes Dilemma sehen. Er würde liebend gern ein paar populistische Punkte beim Publikum sammeln, aber sein simples Prinzipientum behält die Oberhand.",
+      "‚Ich bin mir nicht sicher, ob Sie tatsächlich von der EU sprechen … Meinen Sie Flüchtlinge aus Ländern wie Syrien und Libyen?'",
+      "Du hattest definitiv Recht, Tode in die politische Wüste zu verbannen. Peter Strewel hätte das aufgegriffen und wäre damit so weit und so schnell gerannt, wie seine fetten Beine ihn tragen konnten. Und nicht der leiseste Anflug von Gewissen hätte ihn innehalten lassen."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Mal sehen, ob er noch die Kurve kriegt\" ►41",
+      "[OPTION] \"Zu einer anderen Frage springen\" ►405"
+    ]
+  },
+  "763": {
+    "ONENTER": [
+      "[EFFECT getItem:Second EU Referendum]"
+    ],
+    "PROSE": [
+      "Ausdauer, mehr als alles andere, ist das, was man für diesen Job braucht. Und davon hast du reichlich."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Wer braucht schon Schlaf?\" ►450"
+    ]
+  },
+  "764": {
+    "PROSE": [
+      "Der Chefunterhändler der EU und sein Team melden sich. Er hat deine Vorschläge mit den anderen Mitgliedstaaten der EU besprochen und kann dir nun deren Antwort mitteilen."
+    ],
+    "GOTO": [
+      "[IF Goodwill>=50] \"Du bist ganz Ohr\" ►749",
+      "[ELSE] \"Na gut, dann mal los\" ►427"
+    ]
+  },
+  "765": {
+    "ONENTER": [
+      "[EFFECT Goodwill-5]",
+      "[EFFECT Popularity-5]",
+      "[EFFECT getItem:Security & Defence]"
+    ],
+    "PROSE": [
+      "Du hattest keine Zeit, dich darum zu kümmern, bei all den anderen Angelegenheiten, die deine persönliche Aufmerksamkeit erfordern. Du kannst nur hoffen, dass deine Minister keinen Schlamassel daraus gemacht haben.",
+      "Sie kehren mit der Nachricht zurück, dass Großbritannien eine assoziierte Rolle an der Seite der europäischen Streitkräfte behalten wird, und in Polizeiangelegenheiten weiterhin mit Europol zusammenarbeitet, sich aber von Datenaustausch- und Auslieferungsabkommen löst."
+    ],
+    "REPORT": [
+      "<strong>-5% Wohlwollen</strong>: Die EU ist verärgert über das erhöhte Bedrohungsniveau durch Großbritanniens Rückzug aus der vollen Beteiligung an Terrorismusbekämpfung und militärischen Friedenssicherungsinitiativen.",
+      "<strong>-5% Beliebtheit</strong>: Den Wählern wird klar, wie der Brexit die Sicherheit des Landes schwächt, und sie geben dir die Schuld.",
+      "Vereinbarungen zu Sicherheit & Verteidigung sind nun festgelegt."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"So wenig Zeit…\" ►332"
+    ]
+  },
+  "766": {
+    "PROSE": [
+      "Frühe Umfragen geben Leave einen knappen Vorsprung. Aber Umfragen sind heutzutage ein notorisch unzuverlässiges Barometer der öffentlichen Meinung. Ein aussagekräftigerer Faktor ist, ob junge Leute sich die Mühe machen werden, zur Wahl zu gehen. Da das letzte Referendum, aus ihrer Sicht, eine Bombe unter ihre Zukunft gelegt hat, könnten sie diesmal in größerer Zahl erscheinen.",
+      "‚Es geht um die tiefere Frage der Politikverdrossenheit,' sagt deine Pressesprecherin Terri Trough. ‚Die Leute machen sich die Mühe zu wählen, wenn sie auf der Palme sind. Und das passiert, wenn ihre Löhne gedrückt werden. Deshalb spielt die Jugendstimme keine Rolle. Die haben noch keine Häuser und Schulgebühren zu bezahlen.'",
+      "‚Ich weiß. „Es ist die Wirtschaft, Dummkopf.\"'",
+      "Sie sieht dich ernst an. ‚Ich würde Sie niemals Dummkopf nennen, Premierminister(in).'"
+    ],
+    "GOTO": [
+      "[IF Economy>=51] \"Weiter\" ►23",
+      "[ELSE] \"Weiter\" ►649"
+    ]
+  },
+  "767": {
+    "PROSE": [
+      "‚Wir würden weniger zahlen als die, das ist sicher.'",
+      "‚Hmm. Könnte für Unmut unter den anderen EWR-Mitgliedern sorgen.'",
+      "Stollard schüttelt den Kopf. ‚Eher Mitleid. Großbritannien ist gemessen am BIP pro Kopf ärmer als Norwegen, wir können also triftige Gründe für einen reduzierten Beitrag nachweisen. Außerdem würden wir immer noch einen großen Teil des Rabatts zurückbekommen, da es mehr Möglichkeiten für gewinnbringende EU-Investitionen in die britische Wissenschaft und dergleichen gibt.'",
+      "‚Unter dem Strich?'",
+      "‚Unser voller Mitgliedsbeitrag liegt bei knapp unter 100 £ pro Person und Jahr. Das berücksichtigt den Rabatt, Geld, das als Investition ins Vereinigte Königreich zurückfließt, und Auslandshilfe-Verpflichtungen, die wir derzeit über die EU zahlen. Wenn wir nach dem Brexit im Europäischen Wirtschaftsraum landen, wäre es vielleicht eher 75 £ pro Kopf.'",
+      "‚Wie wird das bei den Wählern ankommen?' schnaubt Barkwell. ‚Wir haben euch den Preis eines Essens zum Mitnehmen gespart!'",
+      "‚Tatsächlich wäre es ein Nettogewinn,' merkt Stollard an. ‚75 £ pro Jahr gegenüber etwa 750 £ pro Haushalt, die wir außerhalb des EWR verlieren würden.'",
+      "‚Selbst wenn das stimmen würde, Alan,' sagt Dent, ‚du verstehst es nicht. Das hier ist Politik, keine Tabellenkalkulation. Die Leute haben dafür gestimmt, überhaupt kein Geld mehr nach Brüssel zu schicken.'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter\" ►17"
+    ]
+  },
+  "768": {
+    "PROSE": [
+      "Wie erwartet ist die Kommission der Ansicht, dass die britische Austrittsrechnung vor allen anderen Gesprächen vereinbart werden sollte.",
+      "‚Wir haben in den nächsten zwei Jahren viel zu erledigen,' sagst du zum Chefunterhändler der EU, Armand Alprèves. ‚Können wir nicht andere Verhandlungen parallel zur Diskussion über unsere Austrittsgebühr führen?'",
+      "‚Was gibt es da zu diskutieren? Ist die Berechnung nicht klar? Das Vereinigte Königreich ist verpflichtet, die Summe von 60 Milliarden Euro zu zahlen.'",
+      "‚Das ist eine Berechnung. Viele Leute meinen, die wurde auf der Rückseite eines Bierdeckels zusammengekritzelt. Ich habe seriösere Berechnungen gesehen, die den Betrag auf die Hälfte beziffern, oder sogar weniger.'",
+      "Seine Augen kräuseln sich zu einem Lächeln. ‚Die Hälfte? Vielleicht müssen Sie die Seite umblättern, Premierminister(in). Es ist eine lange Rechnung.'",
+      "‚Es gibt gewichtige Argumente, die besagen, dass wir gar nichts schulden. Nur unseren Mitgliedsbeitrag bis zu dem Zeitpunkt, an dem wir austreten. Wenn wir damit vor Gericht gingen –'",
+      "Er blickt scharf auf. Besser, das Thema nicht weiterverfolgen. Du versuchst einen anderen Ansatz: ‚Viele Mitgliedstaaten stimmen uns zu. Jedenfalls werden wir heute hier nicht über Recht und Unrecht dieser Gebühr streiten. Warum legen wir das nicht beiseite und bearbeiten es weiter, während wir andere Gespräche fortsetzen?'",
+      "‚Dies ist eine Frage des, sagen wir, Vertrauens. Wenn Großbritannien nicht gewillt ist zu zeigen, dass es vergangene Versprechen einhält, welchen Wert hat dann eine Verhandlung? Die Einigung auf die Austrittsgebühr jetzt ist ein Beweis des guten Willens.'",
+      "Das ist der Kern der Sache. Aber wenn du nach Hause gehst und eine Einigung über 60 Milliarden Euro mit der EU verkündest, stehen innerhalb eines Monats Umzugswagen vor der Downing Street Nummer 10."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Standhaft bleiben – die Diskussion über die Gebühr muss parallel zu anderen Verhandlungen stattfinden\" ►693",
+      "[OPTION] \"Rundheraus die Zahlung verweigern\" ►421",
+      "[OPTION] \"Einer schnellen Lösung zustimmen und dann nach Schlupflöchern suchen\" ►363"
+    ]
+  },
+  "769": {
+    "ROUTES": [
+      "[IF item:Exit Fee OR keyword:APRICITY] ►613",
+      "[ELSE] ►185"
+    ]
+  },
+  "770": {
+    "PROSE": [
+      "‚Sie sind aber nicht wirklich überzeugt, oder? Nicht von einem ultrahartem Brexit, der alle alten Bindungen kappt und uns aus dem Binnenmarkt und der Zollunion und allem anderen herausholt.'",
+      "Was sagst du dazu?"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"‚Ich mag nicht Ihren Grad an Überzeugung haben, aber es ist meine Pflicht, den harten Brexit umzusetzen, und das habe ich vor.'\" ►859",
+      "[OPTION] \"‚Ein weicherer Brexit ist das, was die Mehrheit der Menschen will. Wir können die EU immer noch verlassen, ohne eine gespaltene Nation zu schaffen.'\" ►308"
+    ]
+  },
+  "771": {
+    "PROSE": [
+      "‚Bob irrt sich ohnehin,' sagt sie. ‚Es stimmt nicht, dass Einwanderung selbst die Löhne ungelernter Arbeiter senkt. Als Amerika in den 1960ern sein Programm für mexikanische Saisonarbeiter einstellte, hatte das keinerlei Auswirkungen auf die Löhne. Und das waren Tomatenpflücker und solche Jobs.'",
+      "Tode schaltet sich nun ein und sticht mit seinem kleinen Finger in die Luft, mit all der charismatischen Eindringlichkeit einer Holzpuppe. ‚Das liegt daran, dass die Beseitigung der billigen Arbeitskräfte aus dem Ausland in den 1960ern die Unternehmen nicht dazu brachte, einheimische Arbeiter einzustellen. Stattdessen trieb es sie zur Automatisierung.'",
+      "‚Und genau das werden wir hier tun,' sagt Fungale. ‚Automatisieren. Rationalisieren. Effizienter werden. Großbritannien hat eine lange Tradition technischer Innovation. Wir haben der Welt die Dampfmaschine, das Fernsehen und die Rollbombe geschenkt. Das ist genau die Art von Herausforderung, an der die britische Wirtschaft aufblüht.'",
+      "‚Wie sollen wir das schaffen?' sagt Lucy Tooth. ‚Etwa ein Viertel der Wissenschaftler und Techniker, die heute in Großbritannien arbeiten, kommen aus anderen EU-Ländern. Das sind genau die Leute, die wir für eine prosperierende Zukunft brauchen.'",
+      "Vereinzelter Applaus. Nützlich, daran erinnert zu werden, dass es immer noch eine beachtliche Minderheit gibt, die sich zu „<em>Civis Europanus sum</em>\" bekennen würde. Nicht, dass man jemals so etwas laut sagen sollte. Zu bildungsbürgerlich. Man muss mehr wie Peter Strewel sein. Der kann die <em>Orestie</em> aus dem Stegreif übersetzen, aber wenn man ihn reden hört, könnte man meinen, all seine Bildung stamme aus der <em>Titanic</em>."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Mal hören, was die anderen sagen\" ►187",
+      "[OPTION] \"Zu einer anderen Frage wechseln\" ►405",
+      "[OPTION] \"Vielleicht wird es Zeit, etwas Schlaf zu bekommen\" ►125"
+    ]
+  },
+  "772": {
+    "PROSE": [
+      "‚Handel ist aus den offensichtlichen Gründen gut.'",
+      "‚Bringt Geld ein.'",
+      "‚Richtig. Aber er hat Nebeneffekte. Die Umstellung auf neue Kanäle bedeutet geringere Produktivität. Weniger Handel senkt den Wettbewerb, und das wirkt sich auf die Unternehmenseffizienz aus.'",
+      "‚Aber wir werden mehr Wettbewerb haben.'",
+      "‚Vielleicht. Wir werden hektisch herumrennen und Deals abschließen, was nicht dasselbe sein muss. Sicher ist, dass wir weniger Zugang zu den überlegenen Zwischenprodukten aus der EU haben werden, Chemikalien für die Pharmaindustrie zum Beispiel, und infolgedessen könnte die Innovation darunter leiden.'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"‚Die Leute werden sich der Herausforderung stellen müssen.'\" ►142",
+      "[OPTION] \"‚Sie haben angefangen, also können Sie auch zu Ende bringen.'\" ►188",
+      "[OPTION] \"‚Genug Schwarzmalerei für heute.'\" ►666"
+    ]
+  },
+  "773": {
+    "PROSE": [
+      "‚Wir haben den Europäischen Haftbefehl,' sagt McKay. ‚Damit ist es wirklich einfach, Verdächtige an den Staat auszuliefern, in dem sie die Straftat begangen haben. Früher hätten die Franzosen möglicherweise einen Aufstand gemacht, wenn ein Gericht in London die Auslieferung eines Pariser Verbrechers verlangt hätte, sagen wir. Mit dem EHB ist es so unkompliziert, wie ihn nach Schottland zu schicken.'",
+      "‚Und Sie glauben nicht, dass das nach dem Brexit bestehen bleiben kann?'",
+      "‚Ich sehe nicht, wie. Es wäre für viele Länder nicht einmal verfassungskonform. Sie können ihre Staatsangehörigen an das Gericht eines anderen EU-Staats überstellen, weil das alles unter einem Dach stattfindet, sozusagen. Sobald wir vor der Tür stehen, sind wir in ihren Augen ein fremdes Land.' Ein schwaches Aufflackern der Erinnerung zeigt sich in seinen Augen, und er blickt erneut auf das verfallene viktorianische Fort. ‚Wie die Vergangenheit.'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"‚Was ist mit der Zusammenarbeit bei der Verfolgung von Kriminellen und Terroristen?'\" ►138",
+      "[OPTION] \"‚Wie sieht es mit internationaler Polizeiarbeit aus? Unsere Polizei und Europol, meine ich.'\" ►315",
+      "[OPTION] \"‚Lassen Sie mich Ihnen eine andere Frage stellen.'\" ►432"
+    ]
+  },
+  "774": {
+    "PROSE": [
+      "Du ertappst dich dabei, wie du bei einem weiteren Arbeitsfrühstück über die Gestalt eines Handelsabkommens mit der EU grübelst. Du scheinst in letzter Zeit viele dieser Frühstarttermine zu haben, und arbeitest auch bis in die frühen Morgenstunden. Wenn man nur dem Tag eine Stunde hinzufügen könnte. Der Gedanke entlockt dir ein beinahe hysterisches Auflachen, schnell unterdrückt. Eine zusätzliche Stunde? Verrückt, natürlich. Unmöglich. Aber das gilt auch für die Aushandlung eines zufriedenstellenden Brexits in weniger als zwei Jahren.",
+      "Wilkins gleitet herein und legt dir eine Speisekarte vor. ‚Was hätten Sie gern, Premierminister(in)?'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Vielleicht den schottischen Räucherlachs mit Rührei\" ►430",
+      "[OPTION] \"Oder das traditionelle englische Frühstück\" ►355",
+      "[OPTION] \"Andererseits sieht das kontinentale Frühstück viel gesünder aus\" ►785",
+      "[OPTION] \"Ahornsirup auf Pfannkuchen – lecker!\" ►282"
+    ]
+  },
+  "775": {
+    "ONENTER": [
+      "[EFFECT Authority+5]",
+      "[EFFECT Popularity+10]"
+    ],
+    "PROSE": [
+      "Wie üblich hat dein scharfsinniges politisches Urteilsvermögen dich auf die Seite der Geschichte gestellt. Der Wille des Volkes ist der Gott der Epoche, und du kannst dich nun als sein unangefochtener Prophet bezeichnen."
+    ],
+    "REPORT": [
+      "<strong>+5% Autorität</strong>: Indem du auf die Gewinnerseite gesetzt hast, hast du deine Rivalen in der Partei eingeschüchtert",
+      "<strong>+10% Beliebtheit</strong>: Dem Sieger gehört die Beute"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter so\" ►206"
+    ]
+  }
+}

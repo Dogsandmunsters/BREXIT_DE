@@ -1,0 +1,352 @@
+{
+  "276": {
+    "PROSE": [
+      "‚Die Kanadier haben 2007 mit den Verhandlungen über ihr Abkommen begonnen, und es wurde 2016 abgeschlossen', sagt Strewel, als würde er sich an die Daten der Punischen Kriege erinnern.",
+      "‚Aber –', wirft Stollard ein.",
+      "Sie wenden sich ihm zu. ‚Aber wir könnten es im Schnellverfahren durchbringen, meinen Sie?'",
+      "‚Ähm… Nicht wirklich, Premierminister(in). Ich wollte gerade sagen, dass es noch nicht in Kraft getreten ist. Das meiste davon wird erst später in diesem Jahr wirksam.'",
+      "‚Trotzdem, wir sind eine größere Volkswirtschaft und näher an Europa. Ich kann mir nicht vorstellen, dass sich ein Abkommen, das wir schließen, über zehn Jahre hinzieht.'",
+      "Er nickt. ‚Wir haben den Vorteil, dass wir bereits die gleichen Vorschriften wie der Rest der EU haben, was hilft, aber die Aushandlung dieser gewaltigen Abkommen erfordert große, kompetente und hochengagierte Verhandlungsteams.'",
+      "‚Ehrlich gesagt habe ich dieses Defätistengerede satt', protestiert Barkwell. ‚Wir werden jede Menge brillante Verhandlungsführer einstellen.'",
+      "‚Da bin ich sicher, aber das braucht Zeit. Vor allem muss es zwei Verhandlungsteams geben, und die EU wird es nicht besonders eilig haben, ihres zusammenzustellen.'",
+      "‚Auch gut so', gluckst Strewel, ‚denn die werden wahrscheinlich dieselben Leute abwerben wollen. Diese Neuseeländer verstehen verdammt viel vom Verhandeln, habe ich gehört.'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"‚Wenn das Jahre dauern soll, brauchen wir eine Art Übergangsabkommen.'\" ►790",
+      "[OPTION] \"‚Schauen wir uns die groben Züge eines Freihandelsabkommens an, das wir mit der EU schließen könnten.'\" ►137"
+    ]
+  },
+  "277": {
+    "ONENTER": [
+      "[EFFECT Economy-5]",
+      "[EFFECT Goodwill-2]",
+      "[EFFECT Popularity-5]",
+      "[EFFECT getItem:EU Trade Talks]",
+      "[EFFECT getKW:CLARION]"
+    ],
+    "PROSE": [
+      "‚Es ist nicht der schlechteste Deal, den wir hätten aushandeln können', sagt der Schatzkanzler, als Sie ihm die Eckpunkte des Abkommens erläutern. ‚Wir werden natürlich nur minimalen Einfluss auf die Vorschriften haben, an die wir uns halten müssen.'",
+      "‚Der entscheidende Unterschied, Alan, ist, dass wir uns nicht daran halten <em>müssen</em>. Das britische Recht wird die Urteile des Europäischen Gerichtshofs nachvollziehen, aber mit der Option, einen eigenen Weg zu gehen.'",
+      "‚Wenn wir jemals ausscheren, könnte das unseren verbleibenden Zugang zum Binnenmarkt abschneiden.'",
+      "‚Der Punkt ist, dass wir es den Wählern als wiedergewonnene Souveränität verkaufen können. Besser in einem EFTA-Limbo herrschen, als von Wählern aus dem Amt gejagt zu werden, die weder mit dem wirtschaftlichen Inferno eines harten Brexit noch mit dem stumpfsinnigen Kompromiss des Norwegen-Modells je zufrieden wären.'"
+    ],
+    "REPORT": [
+      "<strong>-5% Wirtschaft</strong>: Britanniens Dienstleistungsindustrien werden es schwerer haben, mit Europa Handel zu treiben.",
+      "<strong>-2% Wohlwollen</strong>: Die EU hat die Komplexität des Umgangs mit der Schweiz unter ähnlichen Bedingungen bereits satt.",
+      "<strong>-5% Beliebtheit</strong>: Die Wähler sind dumpf verärgert, dass das ganze Feuerwerk des Brexit in der nassen Lunte besonnener Diplomatie geendet hat.",
+      "Die EU-Handelsverhandlungen sind nun abgeschlossen."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter\" ►666"
+    ]
+  },
+  "278": {
+    "PROSE": [
+      "Sie hatten Terris Neffen vergessen, der hier nur geduldet wird, weil sie und Ron dachten, ein Kinder-zur-Arbeit-Tag würde Ihr öffentliches Image menschlicher machen. Er seufzt und schlurft auf den Flur hinaus, ohne den Blick von seinem Handy zu heben.",
+      "‚Tut mir leid', sagt Terri. ‚Ich hatte vergessen, dass Sie keine Kinder mögen.'",
+      "‚Naja, ein ganzes könnte ich jedenfalls nicht aufessen. Noysom-Reek hat bestimmt Dutzende, als Katholik.'",
+      "‚Noch ein Punkt zu seinen Gunsten', sagt Ron niedergeschlagen. ‚Familienwerte.'",
+      "‚Vielleicht können wir irgendeinen Skandal ausgraben', schlägt Terri vor.",
+      "Ron schüttelt den Kopf. ‚Ich glaube, wir müssen auf seine fehlende Erfahrung setzen.'",
+      "‚Alternativ könnte ich ihn mit seinen eigenen Waffen schlagen. Den Mitgliedern zeigen, dass ich ein ebenso tollwütiger Brexiteer sein kann wie die Besten von ihnen.'",
+      "Auf welche Strategie wollen Sie sich konzentrieren?"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Schmutzige Geheimnisse suchen, die Ihr Gegner lieber verborgen halten würde\" ►856",
+      "[OPTION] \"Ihre Erfolgsbilanz mit seiner Unerfahrenheit kontrastieren\" ►717",
+      "[OPTION] \"Das Ultra-Brexit-Feld besetzen, indem Sie ihn mit Anti-EU-Rhetorik übertrumpfen\" ►499"
+    ]
+  },
+  "279": {
+    "PROSE": [
+      "‚Wie Sie wissen', sagt Franjeboom, ‚gibt es bestehende Rahmenvereinbarungen, die es Ländern wie Island und Norwegen ermöglichen, an unserer Gemeinsamen Sicherheits- und Verteidigungspolitik teilzunehmen.'",
+      "Sie schütteln den Kopf, während er spricht. ‚Abkommen von der Stange? Die taugen nicht für Britannien. Wir wären an Einsätze gebunden, auf die wir weniger Einfluss hätten als EU-Mitgliedstaaten.'",
+      "‚Ich glaube, deshalb nennt man es Brexit.'",
+      "‚Britannien sitzt im UN-Sicherheitsrat. Wir verfügen über nukleare Kapazitäten –'",
+      "‚Nicht unabhängig von den USA allerdings. Anders als Frankreich.'",
+      "Sie wischen das beiseite. ‚Und wir haben immer noch die bestausgebildeten Streitkräfte in Europa. Ich denke also, Sie werden feststellen, dass die anderen EU-Staaten sehr erpicht darauf sein werden, ein Sonderabkommen zu schließen.'",
+      "‚Nun, wir werden sehen.'",
+      "Nicht zum ersten Mal fragen Sie sich, ob er Poker spielt."
+    ],
+    "GOTO": [
+      "[IF Goodwill>=66] \"Weiterspielen\" ►130",
+      "[ELSE] \"Weiterspielen\" ►184"
+    ]
+  },
+  "280": {
+    "ONENTER": [
+      "[EFFECT Goodwill-2]",
+      "[EFFECT Popularity+3]"
+    ],
+    "PROSE": [
+      "Es erweist sich als unmöglich, ein Abkommen zu erzielen, das Britannien vollen Zugang zu den EU-Kriminalitätsdatenbanken gewähren würde. Immerhin können Sie es den Wählern gegenüber als entschlossene Haltung gegen die anmaßenden Forderungen der EU27 verkaufen."
+    ],
+    "REPORT": [
+      "<strong>-2% Wohlwollen</strong>: Die EU ist sich voll bewusst, dass mit Britannien außerhalb von SIS II alle weniger sicher sind.",
+      "<strong>+3% Beliebtheit</strong>: Die Öffentlichkeit glaubt tatsächlich die geradezu groteske Vorstellung, SIS II sei ein löchriges Sieb schlecht verwalteter Daten."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter\" ►822"
+    ]
+  },
+  "281": {
+    "ONENTER": [
+      "[EFFECT Authority+1]",
+      "[EFFECT Popularity+1]"
+    ],
+    "PROSE": [
+      "‚Da wäre noch die Frage der EU-Bürger, die bereits hier leben', erinnert Sie die Innenministerin.",
+      "‚Und unserer Bürger, die drüben leben. Ich weiß, aber das ist im Wesentlichen durch unser Abkommen über die Freizügigkeit geregelt.'",
+      "Sie macht eine nachdenkliche Geste, als würde sie unsichtbare Spinnweben aus der Luft wischen. ‚Mehr oder weniger. Im Rahmen des Freizügigkeits-\u201eEmulators\u201c, den wir nach dem Brexit einrichten, sind die meisten dieser EU-Bürger berechtigt zu bleiben. Aber es gibt immer noch etwa hunderttausend von ihnen, die weder arbeiten noch studieren oder finanziell unabhängig sind. Streng genommen könnten wir sie zusammentrommeln und morgen zum Flughafen bringen.'",
+      "‚Heben Sie die für schlechte Zeiten auf', sagen Sie ihr. ‚Wenn UKIP das nächste Mal wegen Einwanderung herumschreit, kündigen wir eine Verschärfung der Regeln an und können einen Haufen Sozialschmarotzer abschieben. Die Presse wird es lieben.'",
+      "‚So stehen wir am Ende als hart da, und die EU kann nicht protestieren, weil es im Rahmen der Bedingungen liegt, denen sie zugestimmt hat. Meisterhaft, Premierminister(in).'",
+      "‚Hören Sie auf zu schleimen, Tiffany. Ich kann Speichellecker nicht ausstehen.'"
+    ],
+    "REPORT": [
+      "<strong>+1% Autorität</strong>: Sie können sich darauf verlassen, dass die Innenministerin ein anerkennendes Wort in den Reihen verbreitet.",
+      "<strong>+1% Beliebtheit</strong>: Ein paar Einwanderer zum Abschieben in der Hinterhand zu haben, ist politisches Kapital auf der hohen Kante."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter\" ►150"
+    ]
+  },
+  "282": {
+    "PROSE": [
+      "Während Sie einen ordentlichen Klecks Ahornsirup auf die Pfannkuchen geben, sinnieren Sie über Kanadas Handelsvereinbarungen. Gibt es dort einen Leitfaden für Britanniens Position nach dem Brexit?",
+      "Der Vorteil ist, dass Britannien durch den Austritt aus dem Binnenmarkt keine Verpflichtung hätte, die Freizügigkeit zu akzeptieren. Das ist das Thema, das den eingefleischten Brexiteers am meisten im Magen liegt, obwohl es in Wirklichkeit unvermeidlich ist, dass ein alterndes Land wie Britannien dringend Einwanderer braucht und diese Einwanderer der Wirtschaft Mehrwert bringen.",
+      "Davon abgesehen gibt es weitere Vorteile eines Modells ähnlich dem kanadischen. Ein maßgeschneidertes Freihandelsabkommen wäre weniger verheerend als ein Absturz auf die reinen WTO-Regeln. Aber es hat wohl keine Zukunft, tatsächlich Kanada und Mexiko im Nordamerikanischen Freihandelsabkommen beizutreten. Zum einen ist Amerika viel weiter entfernt als Europa, und die Entfernung hat einen starken Negativeffekt auf den Handel. Außerdem liegt der Schwerpunkt von NAFTA eher auf Waren als auf Dienstleistungen, was für Britannien wenig nützt."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter\" ►747"
+    ]
+  },
+  "283": {
+    "PROSE": [
+      "Es fällt Ihnen schwer, die nötige Unterstützung aufzubringen. Sogar einige Abgeordnete, die für Remain waren, sieht man mit Colin Fungale und seinen Gefolgsleuten über Gin Tonics zusammenstecken. Es muss ihnen schwerfallen, mit Leuten wie ihm zu verhandeln, aber sie wissen, wie stark seine Unterstützung an der Basis ist.",
+      "‚Er übernimmt die Macht, Wilkins. Es ist wie bei <em>Die Körperfresser kommen</em>. UKIP übernimmt die Kontrolle über die Konservative Partei.'",
+      "‚Wenn ich eine Präferenz äußern dürfte, Premierminister(in), würde ich die Schwarz-Weiß-Fassung aus den 1950ern wählen.'",
+      "‚Sie glauben, über Filme zu reden, Wilkins, aber Sie könnten genauso gut Fungales Vision von Britannien beschreiben.'"
+    ],
+    "TOSS_ONE": [
+      "[HEAD] \"Weiter\" ►377",
+      "[TAIL] \"Weiter\" ►349"
+    ]
+  },
+  "284": {
+    "PROSE": [
+      "‚Derzeit sind alle EU-Bürger praktisch Daueraufenthaltsberechtigte. Sie können so lange bleiben, wie sie wollen, und müssen dafür keine Formulare ausfüllen. Wir können Einzelpersonen ausweisen oder an der Einreise hindern, wenn wir wollen. Ich spreche von Kriminellen oder Terroristen, aber tatsächlich gilt das für so ziemlich jeden, den die Innenministerin hier nicht haben will, solange sie einen hinreichend überzeugenden Grund vorbringen kann.'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"‚Kann ein EU-Bürger einen Antrag auf britische Aufenthaltsgenehmigung stellen?'\" ►295",
+      "[OPTION] \"‚Danke, das war alles, was ich wissen musste.'\" ►666"
+    ]
+  },
+  "285": {
+    "PROSE": [
+      "Das Einzige, was dabei herauskommt, ist, dass sich Stollards Unterstützer zusammentun und Sie in der nächsten Runde eliminieren."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter\" ►377"
+    ]
+  },
+  "286": {
+    "PROSE": [
+      "Der nächste Dorn in Ihrer Seite ist die Frage des weiteren Zugangs zu den EU-Sicherheitsdatenbanken, insbesondere zum Schengener Informationssystem der zweiten Generation.",
+      "‚Das sollte doch wohl unkompliziert sein', sagen Sie Willy Franjeboom bei einem von vielen Telefonaten. ‚Polizei und Sicherheitskräfte auf beiden Seiten müssen bei Informationen über Kriminelle, Terrorverdächtige und flüchtige Personen offen und zeitnah kooperieren.'",
+      "‚Das müssen sie in der Tat', stimmt er zu, ‚aber um auf EU-Datenbanken zugreifen zu können, müssen Sie sich an unsere Datenschutzgesetze halten. Sie erinnern sich, dass der Europäische Gerichtshof das \u201eSafe Harbor\u201c-Abkommen zwischen den USA und Europa gekippt hat.'",
+      "‚Sie wollen doch nicht ernsthaft behaupten, dass Britanniens eigene Datenschutzregeln nicht mindestens so gut sind wie überall sonst in der EU.'",
+      "‚Angenommen, Sie greifen auf sensible Informationen zu und teilen sie mit Präsident Windrip. Und dann posaunt er sie vor russischen Diplomaten aus oder nutzt sie, um die Familien von Terrorverdächtigen ins Visier zu nehmen? Nein, wenn Sie SIS II behalten wollen, müssen Sie sich den Urteilen des EuGH unterwerfen.'",
+      "Oh Gott, wieder das Gespenst der Souveränität. Natürlich ist die Realität so, dass alle Staaten ständig Kompromisse bei ihrer Souveränität eingehen. Aber das Referendum hat ein neues Ausmaß reflexartiger Volksbeteiligung hervorgebracht, und die Aufmerksamkeitsspanne der Öffentlichkeit reicht nicht aus, um die Feinheiten einer komplexen Welt zu erklären."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"‚Gut, wir brauchen keinen Zugang zu EU-Sicherheitsdatenbanken, um Kriminalität und Terrorismus zu bekämpfen.'\" ►822",
+      "[OPTION] \"‚Enge Zusammenarbeit ist für die Sicherheit der Menschen unerlässlich. Finden wir einen Weg, wie Britannien innerhalb von SIS II verbleiben kann.'\" ►360"
+    ]
+  },
+  "287": {
+    "PROSE": [
+      "Niemand ist überzeugt. Sie sind diskreditiert, von beiden Flügeln der Partei angeprangert – den Gemäßigten wie den Hardlinern."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter\" ►377"
+    ]
+  },
+  "288": {
+    "ONENTER": [
+      "[EFFECT Goodwill-5]",
+      "[EFFECT getKW:APRICITY]"
+    ],
+    "PROSE": [
+      "‚Lassen Sie uns diese Gespräche nicht als Trennungsverhandlung charakterisieren, Monsieur. Wir wollen keine Scheidung, sondern einfach eine offenere Beziehung. Wie in Artikel 50 selbst festgelegt, müssen alle Verhandlungen über verbleibende finanzielle Verpflichtungen den Rahmen der künftigen Beziehung Britanniens zur Europäischen Union berücksichtigen. Da könnten viele Faktoren eine Rolle spielen – Zusammenarbeit in der Verteidigung, die endgültige Struktur der neuen Beziehung, britische Investitionen in einzelnen Staaten…'",
+      "Letzteres ist ein kaum verhüllter Wink, dass Sie einige der ärmeren Länder mit dem Versprechen von Zuwendungen an Bord holen könnten. Britannien hat darin Erfahrung, und er weiß es.",
+      "‚Sie schlagen also vor…?'",
+      "‚Dass die Austrittsgebühr parallel zu anderen Gesprächen verhandelt wird, damit wir uns auf einen Betrag einigen können, der unseren Grad des Zugangs zum Binnenmarkt nach 2019 widerspiegelt.'",
+      "Sie können fast hören, wie er die Zähne zusammenbeißt. Er wägt es einige Stunden ab, führt zweifellos stürmische Wortwechsel mit seinem Beraterteam, aber am nächsten Tag kehrt er an den Verhandlungstisch zurück und räumt ein, dass die Diskussionen über die Austrittsgebühr parallel zu anderen Gesprächen stattfinden werden."
+    ],
+    "REPORT": [
+      "<strong>-5% Wohlwollen</strong>: Viele Mitgliedstaaten sind verstimmt, dass Sie sich so früh in den Verhandlungen durchgesetzt haben."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter\" ►150"
+    ]
+  },
+  "289": {
+    "PROSE": [
+      "Moment mal. Vielleicht haben Sie noch nie ein Buch wie dieses gesehen? Die Idee ist, dass Sie Entscheidungen treffen, und diese Entscheidungen leiten Sie auf einem Pfad durch das Buch.",
+      "Was versuchen Sie zu tun? Der Titel verrät es.",
+      "Sie werden Ihren Fortschritt auf Ihrem <strong>Notizblock</strong> verfolgen. Dort sind vier Variablen aufgeführt, die Sie im Auge behalten sollten:",
+      "<strong>Autorität</strong> ist Ihre Kontrolle über Ihre eigene Parlamentsfraktion.",
+      "<strong>Wirtschaft</strong> misst die finanzielle Gesundheit des Landes.",
+      "<strong>Wohlwollen</strong> beschreibt, wie wohlgesonnen die anderen EU-Mitglieder Britannien gegenüber sind.",
+      "<strong>Beliebtheit</strong> zeigt, was die Wählerschaft von Ihrer Amtsführung hält.",
+      "All diese Werte werden in Prozent gemessen und beginnen bei 52%. Entgegen der Überzeugung von Sporttrainern und Management-Gurus können Werte nicht über 100% steigen. Ebenso wenig können sie unter 1% fallen. Wenn Sie beispielsweise einen Bonus von +15 auf Ihre Beliebtheit erhalten, obwohl der Wert bereits bei 90% liegt, steigt er einfach auf 100%.",
+      "Ihr Notizblock listet außerdem Schlüsselwörter auf, die Ihre Entscheidungen festhalten. Verhandlungen werden nach Abschluss abgehakt.",
+      "Ich bin sicher, Sie wissen das alles bereits. Sie regieren schließlich ein Land. Sie brauchen niemanden, der Sie an die Hand nimmt."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Legen wir los\" ►669"
+    ]
+  },
+  "290": {
+    "PROSE": [
+      "Die Unterstützung für Sie und Rufus ist Kopf an Kopf. Die nächste Abstimmungsrunde wird entscheidend sein. Während Sie auf die Ergebnisse warten – was denken Sie insgeheim über Ihren Innenminister?"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Ein würdiger Gegner\" ►39",
+      "[OPTION] \"Nur ein Ablenkungsmanöver vor dem Hauptereignis\" ►377"
+    ]
+  },
+  "291": {
+    "ROUTES": [
+      "[IF item:International Trade Deals] ►309",
+      "[ELSE] ►186"
+    ]
+  },
+  "292": {
+    "PROSE": [
+      "Sie und Lord Elmstead gehen die Ergebnisse durch, die Sie bei seinem Meinungsforschungsinstitut in Auftrag gegeben haben.",
+      "‚Sehen Sie sich diese Zahlen an. Präsident Spetsnaz würde für Zustimmungswerte wie meine töten. Im wahrsten Sinne des Wortes, übrigens.'",
+      "‚Sie sind der Neid aller Staatsoberhäupter der Welt', pflichtet Elmstead bei. ‚Einschließlich der Diktatoren, die ihre eigene Beliebtheit mit vorgehaltener Waffe festlegen dürfen. Und das alles ohne Twitter-Account.'",
+      "Zugegebenermaßen mussten Sie sich diese Zustimmungswerte manchmal erkaufen, auf Kosten des Richtigen, indem Sie den Boulevardblättern nach dem Mund redeten und die EU bewusst provozierten, um die Massen aufzupeitschen. Aber es hat Sie in eine unangreifbare Position gebracht. Die Partei soll nur versuchen, Sie loszuwerden – Sie sind ihre beste Chance, die nächste Wahl zu gewinnen. Und das haben Sie in den turbulentesten Zeiten geschafft, die Britannien in den letzten fünfzig Jahren erlebt hat.",
+      "Alles Mögliche könnte passieren. Die Wirtschaft könnte zusammenbrechen. Der Wind des Populismus, den Sie gesät haben, könnte zum Sturm werden, der die gesamte alte Ordnung hinwegfegt. Britannien könnte jahrzehntelang am Strudel kreisen und langsam in die Bedeutungslosigkeit abgleiten. Aber im Moment können Sie sich zumindest in der Macht der Umfragen sonnen."
+    ]
+  },
+  "293": {
+    "PROSE": [
+      "Das neue Referendum wird ein Test Ihrer eigenen Politik im Umgang mit der EU sein. Hat sich die Nation in einer Wir-gegen-die-Mentalität verschanzt, bereit, die Zugbrücke hochzuziehen? Oder fangen die Menschen an zu bereuen, dass sie Britanniens größtem Handelspartner und Verbündeten den Rücken gekehrt haben?",
+      "Wie schätzen Sie die Lage ein?"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Die Reue nach dem Kauf setzt ein\" ►388",
+      "[OPTION] \"Die Leute bleiben bei ihrer Meinung\" ►766"
+    ]
+  },
+  "294": {
+    "ONENTER": [
+      "[EFFECT Authority+5]",
+      "[EFFECT Economy-10]",
+      "[EFFECT Goodwill-5]",
+      "[EFFECT getItem:EU Trade Talks]"
+    ],
+    "PROSE": [
+      "Sie können nicht hoffen, jede Klausel eines neuen Freihandelsabkommens auf einer einzigen Konferenz auszuhandeln. Die Verhandlungen könnten Jahre dauern. Deshalb liegt Ihr Fokus auf den groben Zügen.",
+      "‚Warum so traurig, so ernst?' fragen Sie den Schatzkanzler, als Sie Gelegenheit haben, den Entwurf der Grundsatzvereinbarung mit ihm durchzugehen.",
+      "‚Ich fürchte, das bedeutet Abschied von edlen Weinen und den Zutaten eines exotischen Mahls. Bald sind wir wieder bei gekochtem Kohl und warmem Bier.'",
+      "‚Unsinn. Die EU will dieses Abkommen genauso sehr wie wir.'",
+      "Er blickt Sie schwermütig über den Rand seiner Brille an. ‚Die EU vielleicht schon, aber was ist das für ein Gebilde? Es gibt siebenundzwanzig einzelne Staaten, und jeder davon hat ein Vetorecht bei jedem Punkt. Das hier –' er wedelt mit den Papieren ‚– könnte zu unseren Lebzeiten nicht mehr gelöst werden.'"
+    ],
+    "REPORT": [
+      "<strong>+5% Autorität</strong>: Die übrige Partei ist nicht so skeptisch wie der Schatzkanzler.",
+      "<strong>-10% Wirtschaft</strong>: Es geht darum, den geringstmöglichen Schaden durch den Austritt aus dem Binnenmarkt hinzunehmen.",
+      "<strong>-5% Wohlwollen</strong>: Die meisten EU-Mitglieder sehen in diesem maßgeschneiderten Abkommen erneut eine britische Sonderbehandlungsforderung.",
+      "Die EU-Handelsverhandlungen sind nun abgeschlossen."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter\" ►666"
+    ]
+  },
+  "295": {
+    "PROSE": [
+      "‚Selbstverständlich könnten sie das. Nicht viele haben sich vorher darum bemüht, weil es nicht nötig war. Als EU-Bürger waren sie technisch gesehen keine Einwanderer, genauso wenig wie ein Kalifornier, der nach Utah zieht, ein Einwanderer ist.'",
+      "‚Tatsächlich klingt der kulturelle Graben dort weitaus tiefer als zwischen einem Polen und einem Engländer.'",
+      "‚In der Tat. Jedenfalls gibt es seit dem Referendum einen sprunghaften Anstieg der Anträge von EU-Bürgern, wie Sie sich denken können.'",
+      "Sie überlegen sich Ihre nächste Frage."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"‚Was passiert mit den EU-Bürgern in Britannien, wenn wir ohne ein Abkommen über Aufenthaltsrechte austreten?'\" ►465",
+      "[OPTION] \"‚Was sind die Kriterien für eine Aufenthaltserlaubnis?'\" ►438",
+      "[OPTION] \"‚In Ordnung, ich denke, ich habe alles gehört, was ich wissen muss.'\" ►666"
+    ]
+  },
+  "296": {
+    "PROSE": [
+      "‚Die EVA besteht aus jedem EU-Staat außer Dänemark.'",
+      "‚Warum das?'",
+      "‚Die hatten eine Art Mini-Referendum darüber', sagt McKay. ‚Mehr als eins, glaube ich. Sie sind nicht so weit gegangen wie beim Brexit, aber sie haben bei einer ganzen Reihe von Dingen nicht mitgemacht. Verteidigung, Polizei, Staatsbürgerschaftsrechte, der Euro. Was Sie wollen. Haben die vollen EU-Regeln mit 53% zu 47% abgelehnt, habe ich gehört.'",
+      "‚Und trotzdem sind sie noch in der EU. Vielleicht hätten wir dieses Referendum hier abhalten sollen.'",
+      "‚Verschüttete Milch', sagt McKay mit lobenswerter Nüchternheit. ‚Wie dem auch sei, Britannien hat den Vorschlag blockiert, ein einheitliches gesamteuropäisches Militärhauptquartier in Brüssel einzurichten. Das war 2001. Also fungiert die EVA als eine Art Aufkleber, den man über die Nationalfarben kleben kann, wenn man Truppen einsetzt. Wie die UN, nur noch weniger nützlich.'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"‚Und wer bezahlt das?'\" ►113",
+      "[OPTION] \"‚Was halten Sie von einer EU-Armee?'\" ►474",
+      "[OPTION] \"‚Lassen Sie mich Ihnen etwas anderes fragen.'\" ►432"
+    ]
+  },
+  "297": {
+    "ONENTER": [
+      "[EFFECT Authority-5]",
+      "[EFFECT Economy-5]",
+      "[EFFECT Goodwill-5]",
+      "[EFFECT Popularity-5]",
+      "[EFFECT getItem:International Trade Deals]"
+    ],
+    "PROSE": [
+      "Der Minister für internationalen Handel kehrt von einer Reise auf die Philippinen zurück und verkündet die gemeinsamen Werte der britischen Regierung und Präsident Pandilleros. Unglücklicherweise hat Pandillero öffentlich behauptet, persönlich mutmaßliche Drogendealer erschossen zu haben, und seine Menschenrechtsbilanz ist kaum liberaler als die Stalins. UKIP-Anhänger sind begeistert von der Aussicht auf Selbstjustiz in Britannien, aber alle anderen sind entsetzt.",
+      "Obendrein überspannt der Minister den Bogen, indem er ankündigt, ein Freihandelsabkommen zwischen dem Vereinigten Königreich und den Philippinen sei im Wesentlichen ausgearbeitet und müsse nur noch unterschrieben werden. Ein paar Tage später wird er in <em>News Talk</em> in die Mangel genommen und muss zugeben, dass detaillierte Verhandlungen vor dem Brexit gegen internationales Vertragsrecht verstoßen würden. Insgesamt ist es ein Debakel, eingewickelt in ein Fiasko, verpackt in einer Blamage, wie Churchill es sicher ausgedrückt hätte."
+    ],
+    "REPORT": [
+      "<strong>-5% Autorität</strong>: Es sieht so aus, als hätten Sie Ihre Minister nicht unter Kontrolle.",
+      "<strong>-5% Wirtschaft</strong>: Die Finanzmärkte verlieren das Vertrauen in Britannien.",
+      "<strong>-5% Wohlwollen</strong>: Die EU missbilligt es, dass das Vereinigte Königreich als noch aktives Mitglied Handelsabkommen anpreist, auch wenn diese ins Leere laufen.",
+      "<strong>-5% Beliebtheit</strong>: Die Wähler beginnen zu zweifeln, ob der Brexit die sozialen und wirtschaftlichen Kosten wert ist."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter\" ►385"
+    ]
+  },
+  "298": {
+    "PROSE": [
+      "Als Sie sich später die Aufzeichnung der Debatte ansehen, wird Ihnen klar, dass Ihre Antwort auf Mugglemores Argument eleganter hätte ausfallen können. Sie haben Ihrer Neigung nachgegeben, dozierend aufzutreten. So spät im Wahlkampf auf Details zu pochen, bringt nichts, und die Wähler kommen ohnehin schon zu der Einsicht, dass das erste Ergebnis unklug war. Alles, was Sie jetzt brauchen, ist, ihnen die Erlaubnis zu geben, dieses Ergebnis ein wenig zu korrigieren.",
+      "Trotzdem ist es nur eine Antwort auf eine Frage in einer viel größeren Debatte. Am Abend des Referendums lehnen Sie sich mit einem Glas Wein zurück und warten auf die Ergebnisse."
+    ],
+    "TOSS_TWO": [
+      "[BOTH HEADS] \"Weiter\" ►173",
+      "[BOTH TAILS] \"Weiter\" ►403",
+      "[HEAD AND TAIL] \"Weiter\" ►403"
+    ]
+  },
+  "299": {
+    "PROSE": [
+      "Der Schatzkanzler seufzt. ‚Es geht wieder um die Einhaltung von Vorschriften. Um die Mifid-Äquivalenz zu behalten, muss Britannien nachweisen, dass wir uns an die EU-Regulierungen halten. Aber wir hätten keinerlei Mitspracherecht bei diesen Regulierungen – überhaupt keins, da diese auf EU-Ebene festgelegt werden, nicht international.'",
+      "‚Es müsste also regelmäßige Überprüfungen geben, um sicherzustellen, dass wir im Einklang mit den EU-Gesetzen bleiben?'",
+      "‚Und die unvermeidlichen Verzögerungen bei deren Genehmigung. Aber das ist noch nicht das Schlimmste. Mifid wurde nicht als perfekter Ersatz für Finanzzugangsrechte konzipiert, wohlgemerkt. Es soll lediglich die Zusammenarbeit mit Drittstaaten erleichtern. Es deckt also das Investmentbanking ab, ignoriert aber ganze Bereiche, die für die City von entscheidender Bedeutung sind – Versicherungen, Vermögensverwaltung, Kreditvergabe und so weiter.'",
+      "‚Ich bin sicher, es ist nicht ganz so düster, wie Sie es darstellen, Alan', murmelt Dent.",
+      "‚Wie soll ich es ausdrücken? Sie kennen das, wenn Sie zu Ihrem Häuschen in der Provence fliegen und es ist Feiertag und es scheint, als hätten alle die gleiche Idee gehabt? Da gibt es eine ordentliche Schlange mit dem Schild \u201eEU-Passinhaber\u201c. Nun, wir stehen nicht mehr in dieser Schlange. Mifid bedeutet: \u201eTut mir leid, Sie müssen sich in das Gedränge der Weltreisenden stürzen und viel Glück beim Vordrängeln.\u201c Also müssen wir die Ellbogen ausfahren.'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter\" ►66"
+    ]
+  },
+  "300": {
+    "ROUTES": [
+      "[IF keyword:JEWEL AND !box:300.box1] [EFFECT tick:300.box1] ►43",
+      "[ELSEIF keyword:IRIS AND !box:300.box2] [EFFECT tick:300.box2] ►256",
+      "[ELSEIF keyword:VERTIGO AND !box:300.box3] [EFFECT tick:300.box3] ►514",
+      "[ELSE] CONTINUE"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Ein Briefing über die anstehenden Themen erhalten\" ►325",
+      "[OPTION] \"Briefings? Eine Ablenkung. Sie brauchen keine Ablenkung, Sie brauchen Taten\" ►469"
+    ]
+  }
+}

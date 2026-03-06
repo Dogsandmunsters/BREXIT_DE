@@ -1,0 +1,1262 @@
+{
+  "501": {
+    "PROSE": [
+      "'It's turning into a circus. Just when we thought it was nearly over, now Pooh Bear has joined in.'",
+      "Your press secretary is referring to the fact that Peter Strewel, following the Home Secretary's lead, has chosen this moment to throw his hat into the ring.",
+      "It is a worrying development. Although widely regarded as an unprincipled clown, Strewel's combination of over-simplification, facetiousness and posh bonhomie make him a favourite of the grassroots supporters. If you and he were to go through to the final vote by the membership, you wouldn't stand a chance."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Continue\" ►105"
+    ]
+  },
+  "502": {
+    "ONENTER": [
+      "[EFFECT Popularity-5]"
+    ],
+    "PROSE": [
+      "'Don't say: \"the pound in your pocket will not be devalued\",' is all the advice you get from the Chancellor."
+    ],
+    "REPORT": [
+      "<strong>-5% Popularity</strong>: your policies are getting the blame for the decline of choice in the shops."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Chin up\" ►200"
+    ]
+  },
+  "503": {
+    "PROSE": [
+      "'It's quicker, isn't it?' says McKay. 'By the time you've chewed your way through some of these department names, the red button's pushed and we're all on top of a mushroom cloud.'",
+      "'Run me through some of them.'",
+      "'Well, there's CSDP. That's the Common Security and Defence Policy of the EU. On the basis of that you've got SDIP, which is the Security and Defence Implementation Plan that's being developed to decide how the EDA – European Defence Agency, obviously – should operate. They'd like there to be an OHQ, Operational Headquarters that is, to coordinate EU military missions, but we've always opposed that, and Poland, Lithuania and Latvia aren't too keen on it either.'",
+      "'Why?'",
+      "'Well, just doing what NATO already does, isn't it? Assuming President Windrip doesn't put up a wall across the Atlantic too. On the policing side you've got SIS II – the Schengen Information System, second gen – that handles data about terrorist suspects, international criminals and so forth. The European Arrest Warrant – EAW to any man who types with one finger – is the protocol that allows quick extradition between member states.'",
+      "He pauses and looks off into the dazzling haze out to sea.",
+      "'What is it, McKay?'",
+      "'Just wondering if 5 Eyes counts as an acronym. No, I suppose not. Still, there's enough there to keep those Brussels bureaucrats bending over the photocopier for years to come.'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"'What's your view of the military implications of Brexit?'\" ►168",
+      "[OPTION] \"'How do you think it might impact policing and counter-terrorism?'\" ►314",
+      "[OPTION] \"'Let's get back to London. This photoshoot's a washout.'\" ►666"
+    ]
+  },
+  "504": {
+    "PROSE": [
+      "'Well, you know my dad went off to Indonesia a few months back to tell them the UK was opening for business. Fanfare, tickertape, his suitcase full of samples. Very Willy Loman. And do you know what the head of their investment board said? He was talking about the trade deal that Indonesia is thrashing out with the EU, and he said they could copy and paste it to do a similar deal with Britain.'",
+      "'Well, there you go. Perfect.'",
+      "'Not the <em>same</em> deal. See, what he then went on to say was: \"Of course, the UK's going to be in a much weaker bargaining position once it leaves the European Union, so Indonesia will expect much more favourable terms of trade with the UK compared to the EU.\"'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Continue\" ►700"
+    ]
+  },
+  "505": {
+    "PROSE": [
+      "The party must feel you're a better person to deliver a strong but not utterly crazed Brexit, as Dent is knocked out in the next round of voting."
+    ],
+    "GOTO": [
+      "[IF keyword:NYLON] \"So far so good\" ►193",
+      "[ELSE] \"So far so good\" ►726"
+    ]
+  },
+  "506": {
+    "PROSE": [
+      "A majority for Leave leads to the obvious question for the second heat: do the British people want to quit the single market in a hard Brexit, or are they in favour of something more like the so-called Norway model?",
+      "'Given that the previous referendum came out 48% for Remain and 52% for Leave, I think we could have spared ourselves all this bother,' says the Chancellor. 'It's pretty obvious that the overall public mood will be for a soft Brexit.'",
+      "'It's politics, Alan. Nothing's obvious till long after it's happened.'"
+    ],
+    "TOSS_TWO": [
+      "[BOTH HEADS] \"Continue\" ►157",
+      "[BOTH TAILS] \"Continue\" ►637",
+      "[HEAD AND TAIL] \"Continue\" ►157"
+    ]
+  },
+  "507": {
+    "PROSE": [
+      "The others sweep in. First is the Chancellor, Alan Stollard. The threat of the Treasury having to find an extra €60 billion has had him pacing his bedroom all night. You know because you heard him through the wall.",
+      "Behind him is the compact, strutting figure of Dennis Dent, the Secretary of State for Exiting the EU, beaming like a two hundred watt bulb. Dear God, how can he be so perky this early in the morning? The answer is pretty obvious, though. Ever since the referendum he feels like he's had a letter from Hogwarts.",
+      "A gaggle of assistants sweep in behind the two ministers like a bridal train styled by Moss Bros. You could swear one of them is actually speaking into his watch – until he catches your hooded stare and taps it off. If only these junior civil servants would spend a little more on clothing and less on their ubiquitous gadgetry.",
+      "'Sixty billion, they're asking. That's – ' The Chancellor glances at an iPad hastily held out in front of him by a lackey. 'That's a quarter as much as trade with the EU is worth to us in a year. Half as much again as our defence budget.'",
+      "'Outrageous,' splutters Dent. 'Sheer extortion. It's the sort of punishment beating the Foreign Secretary was talking about. Where do they think we'll find it, down the back of the sofa?'",
+      "'It's a tidy sum,' concedes the Chancellor. 'Especially with spending already cut to the bone.'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"'I already know the problems. Give me some solutions.'\" ►750",
+      "[OPTION] \"'Let's go over the options.'\" ►151"
+    ]
+  },
+  "508": {
+    "ONENTER": [
+      "[EFFECT getKW:NYLON]"
+    ],
+    "PROSE": [
+      "Your backbenchers make it clear in no uncertain terms that they are not going to let you blackball Fungale.",
+      "'We need him,' says Sir Harvey Doggerbank, chairman of the 1922 Committee. 'All of this is happening because of him. He's the architect of Brexit, and his flavour of politics is what a lot of people want.'",
+      "'Oh, I know what you're driving at. Honest bloke, likes a pint, always guffawing away like the kind of unrepentant rapscallion who knows he'll get a pass from an indulgent granny. Not a remote, middle-aged, over-educated career dinosaur like me, eh? I suppose you'd like to hand him the keys to Number 10 while you're at it?'",
+      "You mean it as a bitter joke, but what's most disturbing is the look of wild surmise that flashes across Doggerbank's face."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"You've given him an idea\" ►375"
+    ]
+  },
+  "509": {
+    "PROSE": [
+      "'We can sell it that way, certainly,' says Dent. 'Broadly speaking, the Swiss have opted into the single market through a framework of their own – well, a framework that's been mutually agreed with EU, but still they can break it at any time.'",
+      "'Which means that for once the boot isn't on the EU foot,' adds Barkwell. 'They have to deal with the Swiss as a sovereign nation. How they must hate that.'",
+      "'Might be a bit of a snag, actually,' says Strewel. 'After all, if the Swiss deal is such a headache for all concerned, we might find it's put the EU right off doing any new bespoke deals.'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Continue\" ►378"
+    ]
+  },
+  "510": {
+    "ONENTER": [
+      "[EFFECT Authority-5]",
+      "[EFFECT Economy-3]",
+      "[EFFECT Goodwill+5]",
+      "[EFFECT Popularity-10]",
+      "[EFFECT getItem:EU Trade Talks]",
+      "[EFFECT getKW:CLARION]"
+    ],
+    "PROSE": [
+      "'So it's a case of the only way is Norway,' says the Chancellor when you discuss the outline of the deal in Cabinet.",
+      "'It's a damnable compromise,' fumes Barkwell. 'Our courts will be obliged to track standards laid down by European courts, we'll have hardly any influence over regulations, and – worst of all – the fangs of the EU will still be sucking money out of us year on year.'",
+      "'Parasites,' chimes in a little voice from the far end of the room, reminding you that Thomas Tode is here.",
+      "'But compromise is the very soul of politics,' you point out.",
+      "At that Peter Strewel produces a meaty laugh. 'Yesterday's politics, that! We're on the other side of history now. People have lost patience with negotiation and compromise. They're demanding simple answers.'",
+      "'Politics is complex,' says the Chancellor. 'There are no easy answers.'",
+      "'Really?' chortles Strewel. 'Religion has been riding the high hog on exactly that promise for four thousand years.'",
+      "You look at the febrile light in the eyes of Barkwell and Dent and the other hardline Brexiters and you know he is right. This isn't politics any more; it's blind faith."
+    ],
+    "REPORT": [
+      "<strong>-5% Authority</strong>: many of the hardcore Brexiters in the party are furious that you're keeping such close links with the EU.",
+      "<strong>-3% Economy</strong>: even with EEA-level access to the single market, there will be some degree of disruption to trade in services on which the UK depends.",
+      "<strong>+5% Goodwill</strong>: the EU27 may be hoping that in time Britain will return to the fold.",
+      "<strong>-10% Popularity</strong>: after the high drama<em> </em>of negotiation, the voters resent such an unexciting conclusion.",
+      "EU Trade Talks are now complete."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Steady the Buffs\" ►666"
+    ]
+  },
+  "511": {
+    "PROSE": [
+      "'We could announce special visas for doctors and nurses. Tie it to an amped-up points scale to measure the level of training. That way we sell it as inviting the brightest and best physicians to come to Britain.'",
+      "'It's still risky, assuming what you're most concerned about is getting immigration down. Some demented old biddy is going to pop up on a phone-in grumbling that her GP has a Jamaican accent or took a few days off over Ramadan.'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"'All right. Let's do nothing. It's not like the staffing levels will collapse overnight.'\" ►854",
+      "[OPTION] \"'We'll issue special medical visas. A few hardcore xenophobes might grumble about it, but getting waiting lists down wins more votes.'\" ►824"
+    ]
+  },
+  "512": {
+    "ONENTER": [
+      "[EFFECT getKW:FOG]"
+    ],
+    "PROSE": [
+      "As your strategy so far has pointed towards a hard Brexit, you can hardly switch around now. Nor is there any chance to avoid campaigning without opening yourself up to charges of hypocrisy."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Plug on regardless\" ►302"
+    ]
+  },
+  "513": {
+    "PROSE": [
+      "Tiffany Rufus is knocked out in the final Parliamentary round of voting. Now it's just you and Peter Strewel."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Continue\" ►67"
+    ]
+  },
+  "514": {
+    "ROUTES": [
+      "[IF !item:EU Trade Talks] ►364",
+      "[ELSE] ►666"
+    ]
+  },
+  "515": {
+    "PROSE": [
+      "While the majority of Tory MPs are behind you, there remain pockets of dissent. The naysayers, the cavillers, the mutineers who refuse to sacrifice their self-indulgent scruples to the common good. You can picture them huddled around in their clubs or back-slapping in their locker rooms, scheming and plotting and sharpening the knives. And when your back is turned…",
+      "But now that you've steered Brexit in for a landing, you can focus your attention on taking care of those traitors. The tumbrils will be coming for them soon enough."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Continue\" ►386"
+    ]
+  },
+  "516": {
+    "ONENTER": [
+      "[EFFECT Authority-5]",
+      "[EFFECT Goodwill-5]",
+      "[EFFECT Popularity-5]",
+      "[EFFECT getItem:International Trade Deals]"
+    ],
+    "PROSE": [
+      "The media aren't buying the spin this time. They mock your steady-as-she-goes strategy with caricatures of you as captain of a foundering ship, a toddler trying to build a sandcastle as the tide comes in, and – worst of all – a scruffy weirdo making crappy models out of matchsticks."
+    ],
+    "REPORT": [
+      "<strong>-5% Authority</strong>: even backbenchers are smirking at you from behind their newspapers.",
+      "<strong>-5%</strong> <strong>Goodwill</strong>: the EU disapprove of the UK talking up trade deals while still a member, even when those deals are going nowhere.",
+      "<strong>-5% Popularity</strong>: voters are starting to see you as out of your depth.",
+      "For better or worse, international trade deals are now complete."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"You'll show them\" ►666"
+    ]
+  },
+  "517": {
+    "ONENTER": [
+      "[EFFECT Popularity-2]"
+    ],
+    "PROSE": [
+      "When you get the chance to look at the staffing figures for NHS trusts throughout the UK, you're even more convinced that you made the right decision. The regions with the highest concentration of EU doctors and nurses are London, the South-East, and urban areas up through the country.",
+      "'It's almost exactly a map of Remain voting,' you say to your chief of staff. 'I don't give two hoots if they suffer from a drop-off of NHS staff. They didn't think Brexit was a good idea in the first place.'",
+      "'Traitors,' says Ron, morosely sucking on his unlit pipe. 'Now they'll get their just deserts.'"
+    ],
+    "REPORT": [
+      "<strong>-2% Popularity</strong>: a few of the more disloyal media say you're allowing the NHS to die, but not enough to worry you."
+    ],
+    "GOTO": [
+      "[IF keyword:DODO] \"Carry on\" ►431",
+      "[ELSE] [EFFECT getItem:the NHS] \"Carry on\" ►450"
+    ]
+  },
+  "518": {
+    "PROSE": [
+      "You put a Skype call through to the President of the European Commission.",
+      "'Are you going to tell me it was all an April fish?' he says.",
+      "'What?'",
+      "'You know. \"Surprise! We never meant to leave. When I declared Article 50 I had my fingers crossed.\" That sort of thing.'",
+      "'No. Look, Jean-Jacques, what I'm hoping is the EU could grant Britain equivalence status under – what's it called? MILF?'",
+      "He looks puzzled for a moment. 'Oh, you mean the directive on Markets in Financial Instruments. Hardly something we can decide overnight.'",
+      "'But you could say that Britain is being fast-tracked for equivalence. If we can announce that now, it might stop some of the overseas investment banks from pulling up sticks.'"
+    ],
+    "GOTO": [
+      "[IF Goodwill>=25%] \"Thank goodness you still have some goodwill\" ►583",
+      "[ELSE] \"At a time like this you could do with more friends\" ►246"
+    ]
+  },
+  "519": {
+    "PROSE": [
+      "Your staff at Number 10 give three rousing cheers as the votes are announced. Your own inner rush of triumph shows only as a slight upward curl of the lip.",
+      "Shortly after, standing in front of the cameras in Downing Street, you're asked how victory feels."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"'Everyone watching knows that already, because this is the people's victory.'\" ►148",
+      "[OPTION] \"'It's not about victory, it's about the party making a clear and decisive choice of who should lead us into Brexit.'\" ►451",
+      "[OPTION] \"'The important thing is we've put an end to uncertainty.'\" ►47"
+    ]
+  },
+  "520": {
+    "PROSE": [
+      "'No doubt that's what Margaret Thatcher would prefer, if she's looking down on us now. The single market is her legacy, after all.'",
+      "'I don't suppose she anticipated it turning into a federal state, though. In her day it was just supposed to be what it said on the tin. A market. But now we've got people flooding over our borders. Foreign legislation dictating to British courts.'",
+      "'The freedom of movement issue seems like a red line, I admit. I'm not quite sure how it got so blown out of proportion, mind you, but that's a discussion for another time. The fact is that all commerce involves an inevitable give-and-take over sovereignty. Unless we pull the shutters down like the Tokugawas in the 17th century, somebody has to decide on the size of washers, the purity of steel to be used in girders, that sort of thing. And those specifications need to be standard across a market.'",
+      "'But it has to be up to British courts whether to accept them.'",
+      "'That's a cake or death sort of choice if you ask me. Like saying that a shopkeeper has the right to chain up all his stock so you can't buy it.'",
+      "'And he should have that right.'",
+      "'The irony is that more and more these days the trading standards are being set at a level above the EU regulatory bodies, by the International Standards Organization and, for vehicle regs, by the UN Economic Commission for Europe. We could take a tip from Norway there. They go straight to the ISO and influence regulatory law at the global level, much of which is then adopted by the EU.'",
+      "'How much?'",
+      "'Take out the ISO regs and less than 10% of the legislation Norway has to accept as part of EFTA originates in the EU itself.'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"'What do you think our highest priority should be in negotiation?'\" ►98",
+      "[OPTION] \"'What are the biggest risks of dropping out to WTO rules?'\" ►588",
+      "[OPTION] \"'Sorry, Alan, I've got another meeting.'\" ►666"
+    ]
+  },
+  "521": {
+    "ONENTER": [
+      "[EFFECT Economy+5]",
+      "[EFFECT getItem:Residency Rights]"
+    ],
+    "PROSE": [
+      "Despite some rumblings from the Spanish, who have the most UK residents, the EU have agreed to a quid pro quo deal. They will affirm the right of all UK citizens currently living in the EU to remain as long as you do the same for EU citizens residing in Britain.",
+      "You've got some good news to announce to the press for once."
+    ],
+    "REPORT": [
+      "<strong>+5% Economy</strong>: the UK economy needs those EU nationals, and it helps not to be handed back a million pensioners from Spain.",
+      "Residency rights have been agreed."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Enjoy it while it lasts\" ►666"
+    ]
+  },
+  "522": {
+    "PROSE": [
+      "It's come down to the wire. As you wait to hear the results of the next round of voting, how do you feel?"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Quietly confident\" ►597",
+      "[OPTION] \"A bag of nerves – but no one can tell\" ►377"
+    ]
+  },
+  "523": {
+    "PROSE": [
+      "You're well known for ruthlessly gaming the system – exactly the quality that many MPs look for in a leader. Traditionally the Tory party has been suspicious of ideologues, and Fungale is an out-and-out evangelist. To beat him, you have to make him look dangerously unstable. Which shouldn't be too difficult."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Continue\" ►708"
+    ]
+  },
+  "524": {
+    "PROSE": [
+      "A couple of issues have been sitting in your in-tray for a while. Now that you have a little time, decide which you want to deal with:"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"A visa deal with Turkey\" ►629",
+      "[OPTION] \"Trouble brewing with Spain over Gibraltar\" ►598"
+    ]
+  },
+  "525": {
+    "ROUTES": [
+      "[IF Popularity>=67] ►222",
+      "[ELSE] ►253"
+    ]
+  },
+  "526": {
+    "ONENTER": [
+      "[EFFECT Economy+3]"
+    ],
+    "PROSE": [
+      "Britain's influence in Brussels, once second only to Germany's, is now greatly diminished, but you still have some sway. Working through the countries most friendly to the UK, you're able to get some amendments to the draft agreement."
+    ],
+    "REPORT": [
+      "<strong>+3% Economy</strong>: every small concession helps."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"What's next?\" ►865"
+    ]
+  },
+  "527": {
+    "PROSE": [
+      "Whether you have made the right decisions, only time will tell. In any case, there's no way to turn the clock back now on trade talks. And you have other matters urgently demanding your attention."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Continue\" ►666"
+    ]
+  },
+  "528": {
+    "PROSE": [
+      "Party members' whims can change faster than the weather. To find out how they feel as they cast their votes…"
+    ],
+    "TOSS_ONE": [
+      "[HEAD] \"Continue\" ►782",
+      "[TAIL] \"Continue\" ►519"
+    ]
+  },
+  "529": {
+    "PROSE": [
+      "As the EU is not itself a sovereign state, it cannot bring a case against the UK in the international courts. The individual twenty-seven member countries can, however, and many of them will personally feel the pinch now that Britain is refusing to pay the full sum agreed under the treaty.",
+      "And come to that, what is the full sum? As usual for anything involving EU finance, it's a bureaucratic spaghetti of treaties and addenda that not even Stephen Hawking could untangle. Which is not to say the court won't have a stab at it.",
+      "How are you feeling about the International Court's ruling?"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Time will tell\" ►365",
+      "[OPTION] \"Lap of the gods\" ►104",
+      "[OPTION] \"Que sera, sera\" ►146"
+    ]
+  },
+  "530": {
+    "PROSE": [
+      "Owlbear eagerly jumps on that one. 'On average EU immigrants contribute far more in taxes than they take out. For every £1 an EU immigrant working here costs the state, he or she puts back £1.34.'",
+      "Brilliant. He's already getting bogged down in statistics. Labour frontbenchers can't grasp how this stuff just glides off the mind of the listener. You can see Fungale next to him grinning away like his face is about to fall in two. He knows. Could be dangerous, that one, for all that he seems like a throwback to 1970s sitcoms, ill-fitting pinstripe suit and all.",
+      "Owlbear drones on. 'EU migrants arriving in Britain over the last five years contributed £3 billion more in taxes than they received from public services. The treasury estimates they're helping to grow the economy by over half a percent every year.'",
+      "'I see Colin Fungale might want to come in there,' says Martin Mugglemore."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"See what he has to say\" ►456",
+      "[OPTION] \"Fast-forward to Lucy Tooth for the Lib Dem view\" ►771",
+      "[OPTION] \"Find another question\" ►405",
+      "[OPTION] \"Give up and get a good night's sleep\" ►125"
+    ]
+  },
+  "531": {
+    "PROSE": [
+      "You join in a heated television debate in which you argue the case for remaining in the EU.",
+      "The ubiquitous Martin Mugglemore is chairing the debate. 'People are saying they like the Norway model. Stay in the single market but with the possibility of opting out of the EU's \"ever-closer\" policy. And it costs us less per head than remaining a full member. What's so bad about that?'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"'There's all this talk of a Norway model, but where would we fit in? As part of the European Free Trade Association? We don't know if they'd have us. It would be a minnow swallowing a whale. And it's not that much cheaper, either. Norwegians pay about three-quarters per head of the full EU membership fees Britain pays.'\" ►391",
+      "[OPTION] \"'Quite simply, Martin, Norway has very little leverage with the EU. If we are going to be subject to EU decisions – as we would in the European Economic Area – it's better if we keep a seat at the table.'\" ►539"
+    ]
+  },
+  "532": {
+    "PROSE": [
+      "'Look at the trade deals I've been lining up for after Brexit. Is that the hallmark of somebody who can't make up their mind? I have my hand firmly on the tiller, I can assure you.'",
+      "You leave the studio with a slight swagger to your step, feeling more confident than you have at any time in the last two years.",
+      "Whether that confidence is justified remains to be seen."
+    ],
+    "GOTO": [
+      "[IF keyword:NYLON] \"Forward\" ►193",
+      "[ELSE] \"Forward\" ►726"
+    ]
+  },
+  "533": {
+    "PROSE": [
+      "You call in every favour, draw on every case where you've shown pragmatic leadership. The only thing that could count against you is if you're on record as having made a strong stand against Brexit. In the eyes of the members, that's the one unforgivable sin. That and not showing enough emotion in public."
+    ],
+    "GOTO": [
+      "[IF keyword:CLARION OR keyword:GAZELLE OR keyword:SANCTION] \"Carry on\" ►50",
+      "[ELSE] \"Carry on\" ►519"
+    ]
+  },
+  "534": {
+    "PROSE": [
+      "Strewel backs out of the race with a surprisingly moving speech. When he admits that he has reluctantly decided he is not the man to unify party and country, you hear echoes of Edward VIII's abdication crossed with the death of Little Nell. You even shed a tear – of laughter, admittedly.",
+      "Now it's a vote of the party membership to decide between you and Tiffany Rufus. In a prepared announcement outside the door of Number 10, you say, 'I will ensure that Parliament delivers on the views of the British people and respects the democratic decision that they've taken.'",
+      "'What does that mean, Prime Minister?' calls out a journalist. 'Hard or soft Brexit?'",
+      "You sense a moment of destiny. What you say now has the potential to decide everything. Remember that while your words will be heard by everyone in Britain, the only voters who count now are the Tory party members."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"'Full tilt for a strong Brexit, that's the overwhelming mandate of the people.'\" ►519",
+      "[OPTION] \"'The vast majority of British voters would now prefer a close relationship with the EU, rather like Norway has.'\" ►782",
+      "[OPTION] \"'Frankly, there has to be an end to divisive politics or we risk tearing the country down the middle.'\" ►672"
+    ]
+  },
+  "535": {
+    "PROSE": [
+      "'As far as the NHS is concerned, funding isn't even the primary issue anyway. Staffing is the big problem.' You see him disappear from the screen as he reaches across his desk, reappearing a moment later with a report that he leafs through. 'One in nine of our doctors is from an EU country. And one in twenty of our nurses.'",
+      "'One in twenty? As few as that, eh.'",
+      "'It's more pressing than it sounds. Nurses are getting older – '",
+      "'Funny. Doctors always seem to get younger.'",
+      "'I mean it's an ageing workforce. One third of nurses are due to retire in the next ten years. And when they retire they're going to need nurses and doctors to look after them. Where do we recruit all the medical staff we need?'"
+    ],
+    "GOTO": [
+      "[IF keyword:HEMLOCK] \"Easy-peasy\" ►323",
+      "[ELSE] \"Easy-peasy\" ►511"
+    ]
+  },
+  "536": {
+    "ONENTER": [
+      "[EFFECT Authority+3]",
+      "[EFFECT Popularity+5]",
+      "[EFFECT getItem:Negotiation Strategy]"
+    ],
+    "PROSE": [
+      "Your tone doesn't go down well.",
+      "'Do we really have to bring this tub-thumping rhetoric into the negotiating room?' asks Franjeboom, wincing in disappointment. 'I had hoped that here, without the cameras to play to, we could talk as adults.'"
+    ],
+    "REPORT": [
+      "<strong>+3% Authority</strong>: laying down the law helps quell any thoughts of rebellion from your unruly backbenchers",
+      "<strong>+5% Popularity</strong>: whatever the EU27 think, your strong stance goes down well with voters at home",
+      "You have your negotiation strategy."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"It's all going swimmingly\" ►150"
+    ]
+  },
+  "537": {
+    "PROSE": [
+      "The Chancellor consults his iPad. 'Here's a statement that was made during the referendum campaign, and I quote: \"It is absolutely crazy that the EU is telling us how powerful our vacuum cleaners have got to be, what shape our bananas have got to be, and all that kind of thing.\"'",
+      "There's a moment of silence. All eyes turn to Strewel, who looks shifty for a moment, then gives a big, belly-shaking peal of laughter. 'Might be one of mine. Still, what of it?'",
+      "'It's not true. The EU directive didn't specify how powerful vacuum cleaners had to be, it was a ban on inefficient designs. Because of that directive, vacuum cleaners and other appliances like freezers use about a third less energy than they did five years ago.'",
+      "'You've got to admit the bananas rule was… bananas.'",
+      "'A good story spoiled by the facts. The EU rule simply places bananas into different classes according to size and shape. No bananas were banned in the making of this directive. And, crucially, neither that or the vacuum cleaner rule were just conjured out of the blue by bored bureaucrats. They were implemented to bring EU specifications into line with international standards set at the World Trade Organization.'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"'Still, it all smacks of the nanny state at work.'\" ►596",
+      "[OPTION] \"'So you're saying we could we exert influence at the international level?'\" ►684",
+      "[OPTION] \"'Rewind a few steps. I don't want to lose the big picture.'\" ►17"
+    ]
+  },
+  "538": {
+    "ONENTER": [
+      "[EFFECT getKW:SANCTION]"
+    ],
+    "PROSE": [
+      "You're throwing your weight behind the campaign for a soft Brexit."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"What could go wrong?\" ►302"
+    ]
+  },
+  "539": {
+    "PROSE": [
+      "You feel that your arguments have helped swing the result, but nothing is certain till the votes are counted. You settle down in front of the television with a glass of milk and a plate of sandwiches and wait to see which way it will go."
+    ],
+    "TOSS_TWO": [
+      "[BOTH HEADS] \"Continue\" ►403",
+      "[BOTH TAILS] \"Continue\" ►313",
+      "[HEAD AND TAIL] \"Continue\" ►313"
+    ]
+  },
+  "540": {
+    "ONENTER": [
+      "[EFFECT Authority+6]",
+      "[EFFECT Goodwill-20]",
+      "[EFFECT Popularity+7]",
+      "[EFFECT getKW:BLEAK]",
+      "[EFFECT getKW:ZEBRA]"
+    ],
+    "PROSE": [
+      "The International Trade Minister is beside himself with joy. 'This is the opportunity I was waiting for. Wait till the EU see the juicy new deals I'm going to be doing under World Trade Organization rules. There'll be more countries jumping off the sinking ship, you mark my words.'"
+    ],
+    "REPORT": [
+      "<strong>+6% Authority</strong>: MPs are scared and look to you to fix the mess.",
+      "<strong>-20% Goodwill</strong>: you've left the EU in no doubt of the scant regard you have for them.",
+      "<strong>+7% Popularity</strong>: rightly or wrongly, the voters see this as a strong move."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Keep going\" ►150"
+    ]
+  },
+  "541": {
+    "PROSE": [
+      "Jan sees you don't understand. 'You have to be working here for five years to get permanent residence, but because my wife is at home looking after kids – not working in the eyes of the law – she has to have CSI for her years to count. Comprehensive Sickness Insurance. Yet nobody told us this. Nobody tells anyone this.  It is not even mentioned on government website. You didn't know about it?'",
+      "'What? Oh yes, of course. Sickness insurance, yes,' you say, lying with the practised ease of a hustings-hardened politician. 'But don't worry, it's in both sides' interests to guarantee the rights of our EU citizens here and the UK citizens in Europe. Everything will be fine.'",
+      "Heading back to Downing Street, you wonder if you ought to get a legal opinion on the question of residency rights."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"It can't hurt to do some research\" ►686",
+      "[OPTION] \"Forget the facts, just act – that's your motto\" ►666"
+    ]
+  },
+  "542": {
+    "ONENTER": [
+      "[EFFECT Authority-2]"
+    ],
+    "PROSE": [
+      "You announce the snap election and that Barry Scraggle is in agreement. Your own party can hardly oppose it, but they aren't happy that the Labour leader got to hear about it first."
+    ],
+    "REPORT": [
+      "<strong>-2% Authority</strong>: some of your rivals in the party are stirring up discontent."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Persevere\" ►428"
+    ]
+  },
+  "543": {
+    "PROSE": [
+      "You apply the whip. Other than a couple of old Tory grandees, who give speeches invoking 'principle' and other archaisms before lumbering through the Lobby like grizzled elephants defying the herd, your MPs do as they're told. So too, for reasons of their own, do Labour. The vote is carried.",
+      "Outside you face the press with a triumphant cry of, 'To the ballot boxes!'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Continue\" ►428"
+    ]
+  },
+  "544": {
+    "ROUTES": [
+      "[IF keyword:LEAF AND Goodwill<=30] ►787",
+      "[ELSE] ►664"
+    ]
+  },
+  "545": {
+    "ROUTES": [
+      "[IF keyword:DODO OR keyword:JEWEL] ►532",
+      "[ELSEIF keyword:IRIS] ►32",
+      "[ELSE] ►729"
+    ]
+  },
+  "546": {
+    "PROSE": [
+      "There's no mistaking the fruity mock-bonhomie on the other end of the line. 'Hello, Peter.'",
+      "'Look here,' says Strewel. 'Tide in the affairs of men and all that.'",
+      "'Have you called a plumber?'",
+      "'Ho ho. Plum job, more like. Yours for the plucking. I'm talking about Number 11.'",
+      "'I'm comfortable where I am, thanks. Why would I want to move next door?'",
+      "'Better than moving back to your constituency, isn't it?'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"'You're asking me to withdraw from the race. Are you mad?'\" ►642",
+      "[OPTION] \"'It's a deal. Let's talk turkey.'\" ►77",
+      "[OPTION] \"'Why don't you take Number 11? It's less work than being PM.'\" ►20"
+    ]
+  },
+  "547": {
+    "PROSE": [
+      "'It was a hoot talking to Peter about his columns from Brussels,' recalls Strewel's old newspaper editor, who is Skyping you from the poolside of his villa in Spain. 'He'd grin like a naughty kid and he used to almost sort of hug himself. Gleeful as a monkey on a banana mountain, he was. I remember him saying how it used to seem – '",
+      "'The Prime Minister is going to need a quote,' interjects Ron Beardsley, leaning across in front of you.",
+      "'All right. He said, \"Filing this gallimaufry of EU nonsense every week is like tossing bones over a fence and listening to the dogs bark. The whole Tory party is absolutely hanging on my every word. It's really the most marvellous great gulp of power.\"'",
+      "'That sounds like him.'",
+      "What do you want to do with what he's told you?"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Release the quote to a friendly journalist in the hope that it will undermine Strewel's image\" ►563",
+      "[OPTION] \"It's not worth it\" ►528"
+    ]
+  },
+  "548": {
+    "PROSE": [
+      "You have the distinct impression the EU negotiators are relieved that you still want Britain to be part of the single market.",
+      "'It's best for all concerned,' President Terlaman assures you. 'What kind of single market membership are you looking for?'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"The so-called Norway model: a very close relationship within the European Economic Area, giving comprehensive access to trade in goods and services\" ►84",
+      "[OPTION] \"The Swiss model: an arrangement outside the EEA with only partial access to trade in goods and services, but with more opt-outs and no contributions to the EU budget\" ►654"
+    ]
+  },
+  "549": {
+    "PROSE": [
+      "A junior minister breaks ranks, giving a speech in which she warns of the dangers of a hard Brexit.",
+      "'You have to make an example of her,' says your chief of staff, Ron Beardsley.",
+      "'You mean..?'",
+      "'Sack her.'",
+      "He has a point. If you don't, people will start to suspect you're a secret Remainer. But having recently seen a documentary about the Killing Fields of Cambodia, the whole idea of doctrinal purity and political histrionics rather sticks in your craw."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Overcome your misgivings. She's got to go\" ►166",
+      "[OPTION] \"Speak to her privately in the hope she'll moderate her remarks in future\" ►408"
+    ]
+  },
+  "550": {
+    "PROSE": [
+      "'True, Britain's case is different because we're already part of the EU. So possibly the Commission would have to decide whether to hand jurisdiction to the national governments.'",
+      "'Possibly?'",
+      "Stollard shrugs. 'It could go to the courts to decide. Or the Commission might bow to political pressure. We're talking about twenty-seven different national interests, and they aren't all going to be feeling in the mood to throw Britain a bone.'",
+      "'If the Commission have any backbone they can claim jurisdiction on the basis of the centre-of-gravity doctrine,' puts in Dent. He turns to you: 'That's a legal principle that says when an agreement covers multiple objectives, the law that takes precedence should be in line with the agreement's main purpose. In trade agreements, the EU has exclusive competence, so it wouldn't need to defer to the national governments.'",
+      "'Unless it chooses to,' says Stollard.",
+      "'Unless it does,' Dent reluctantly agrees.",
+      "'So really there's no telling which way it will go,' says Strewel. 'Typical bloody EU, like organizing an escape tunnel in a chicken run. We'll just have to suck it and see.'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"'What can we learn from similar agreements the EU has done in the past?'\" ►22",
+      "[OPTION] \"'What advantages have we got in these negotiations?'\" ►495",
+      "[OPTION] \"'In a worst case there's always the World Trade Organization, right?'\" ►826"
+    ]
+  },
+  "551": {
+    "ONENTER": [
+      "[EFFECT Authority+1]"
+    ],
+    "PROSE": [
+      "The shooting range is located in an underground room below the Palace of Westminster. These days it's all kept on the QT. The story put out to the press is that it closed a few years ago. Rather like the underground polo arena, it painted too elitist a picture of the nation's leaders. And indeed it reeked of testosterone-fuelled elitism in the days when all the posh Bollinger Club boys used to hang out there with their hunting rifles. But you prefer a handgun. Oh yes, there's a new sheriff in town.",
+      "Your protection officers have cleared the range. It wouldn't do to have other MPs taking potshots within yards of the Prime Minister. Some of them are Monday Club members, for heaven's sake. You order your own customized targets hung up – pictures of political rivals whose careers you've left bleeding in the gutter on your way to the top – and spend a happy few hours peppering them with bullets."
+    ],
+    "REPORT": [
+      "<strong>+1% Authority</strong>: you've established who's the boss."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Now to do some bossing\" ►666"
+    ]
+  },
+  "552": {
+    "ROUTES": [
+      "[IF keyword:OPAL AND Authority<=60] ►209",
+      "[ELSE] ►412"
+    ]
+  },
+  "553": {
+    "PROSE": [
+      "'I know, I get it from my dad over breakfast. \"We're not giving up the benefits of membership, we're just opening up to the rest of the world as well.\" But the EU is the most like us culturally.'",
+      "'I don't know. What about India?'",
+      "'Oh, you think they look back fondly on the Raj? Just 'cause you order a takeaway curry once a fortnight doesn't give you any insight into the Indian psyche. They don't want us to push them to liberalize their financial services, in fact they're not inclined to listen to us much after British banks pulled down the shutters on their branches in India after the financial crisis.'",
+      "'Were you even born then?'",
+      "'Internet, duh. Truth is, our closeness to India is like the \"special relationship\" with America – it's all from one end. Those guys don't feel any great attachment to us. Like, did you know Germany is India's sixth biggest trading partner in the world? We're at number eighteen. We do as much trade with India as Iran does. We only receive two or three percent of India's exports.'",
+      "'Room for improvement, then.'",
+      "Nobody can curl their lip like a teenage girl. 'You politicians really have your brains wired up differently, don't you? Look at the figures sometime. We have a £2 billion trade deficit with India. Other EU states are way ahead in the queue to do deals there.'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Continue\" ►700"
+    ]
+  },
+  "554": {
+    "ONENTER": [
+      "[EFFECT Economy-5]",
+      "[EFFECT getKW:KOALA]"
+    ],
+    "PROSE": [
+      "You make a brief announcement: 'With regard to the status of citizens of the European Union currently resident in Britain, I can confirm that following Brexit they will be regarded as foreign nationals and subject to the same immigration requirements as nationals of any other country.'",
+      "The next day the <em>Daily Outrage</em> has turned this into: \"SEND THEM PACKING!\" Oh well."
+    ],
+    "REPORT": [
+      "<strong>-5% Economy</strong>: you're losing the taxes those three million EU nationals were paying."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Onwards\" ►150"
+    ]
+  },
+  "555": {
+    "ONENTER": [
+      "[EFFECT Economy+1]",
+      "[EFFECT getKW:JEWEL]"
+    ],
+    "PROSE": [
+      "Ironic that one of the main claims of the Leave campaign was that Turkey was about to join the European Union, opening Britain up to a threatened influx of 76 million people. And instead those Turkish workers will be a lifeline for Brexit Britain."
+    ],
+    "REPORT": [
+      "<strong>+1% Economy</strong>: a tiny boost, but you're going to need every bit of good news you can get."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Keep up the good work\" ►175"
+    ]
+  },
+  "556": {
+    "ROUTES": [
+      "[IF box:556.box1] ►5",
+      "[ELSE] [EFFECT tick:556.box1] ►639"
+    ]
+  },
+  "557": {
+    "PROSE": [
+      "'Depends on the Brexit deal, doesn't it? If we dive into World Trade Organization rules, the minute we try negotiating any deal we're going to have somebody somewhere insisting we should drop protection on oranges.'",
+      "'I don't see why you think that's a problem.'",
+      "'OK, say we had no tariff on oranges. And this is just one example, mind you, there are loads of other goods just like oranges. So we're buying in all these South African ones. What if we go to sell some of those cheap oranges to the EU? Spain's going to kick up a fuss. Not only that, but a UK with no import duties on African oranges is going to impact the Spanish economy. We take 10% of Spain's oranges at the moment. About three hundred thousand tonnes a year – the weight of two New York skyscrapers. If Spain looks set to lose that revenue, you think they won't find some way to put thumbscrews on us in the trade talks?'",
+      "Two skyscrapers indeed. Real know-it-alls, these modern school kids."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Continue\" ►700"
+    ]
+  },
+  "558": {
+    "PROSE": [
+      "The EU Commission's chief negotiator, Armand Alprèves, is pleased by your suggestion that some rules and guidelines should be established at this early stage.",
+      "'Ever since the days of Hammurabi, it has always been better to be governed by principles than by whims,' he agrees.",
+      "Willy Franjeboom, the EU Parliament's negotiator, is not so quick to acquiesce. 'It depends, of course, on what those principles are.'",
+      "What will you suggest?"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"'Let's try to find solutions that benefit all sides. It won't always be possible but it can be our first goal in all talks.'\" ►87",
+      "[OPTION] \"'Britain hopes for a win-win, but if you try to punish us we'll break off talks. No deal is better than a bad deal.'\" ►536",
+      "[OPTION] \"'Britain's armed forces are vital to the security of Europe, and in return we want a good trade deal. Let's get that out of the way upfront and we can stay friends.'\" ►435"
+    ]
+  },
+  "559": {
+    "PROSE": [
+      "'They hate it, naturally. It's a messy jerry-built fudge to a system that they think works fine as is. And the Swiss deal isn't as simple as the Bilateral Agreements make it sound.'",
+      "'It doesn't sound remotely simple!' laughs Strewel.",
+      "'Exactly,' says the Chancellor. 'There are actually over a hundred individual agreements covering all sorts of different bespoke versions of standard single market rules. The EU won't be in a hurry to do another deal like that.'",
+      "You massage your temples, sure that you have a migraine coming on. It feels like you've listened to all this many times before."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Continue\" ►378"
+    ]
+  },
+  "560": {
+    "ONENTER": [
+      "[EFFECT Authority-4]",
+      "[EFFECT Economy-7]",
+      "[EFFECT Popularity-5]",
+      "[EFFECT getItem:Exit Fee]"
+    ],
+    "PROSE": [
+      "'I thought I had your personal assurance that the financial settlement would be handled long before this,' says the President of the European Commission on your weekly call.",
+      "'To be fair, Jean-Jacques, I've had a couple of hundred other things on my mind.'",
+      "'Britain's promises used to count for something.'",
+      "'Don't try that line. We're still an international power with – '",
+      "'A nuclear button? Here's another one. The settlement will be €40 billion.'",
+      "'With no discussion? Just, \"here's your bill, don't forget to tip\"?'",
+      "'We had two full years for discussion. And please don't think this comes from me. We have twenty-seven heads of state who are all at the end of their tether. If you don't agree to pay, there are some who are determined to veto every possible agreement Britain proposes from now on. You'll be stonewalled at every turn.'",
+      "You give him a piece of your mind and then hang up, but you know you have no choice. Time is running out and the cliff edge draws ever nearer."
+    ],
+    "REPORT": [
+      "<strong>-4% Authority</strong>: there's no way to spin this that makes it look as if you had a choice.",
+      "<strong>-7% Economy</strong>: the payments must be made somehow.",
+      "<strong>-5% Popularity</strong>: the media are saying that there could have been a better deal if you hadn't left it so late.",
+      "The exit fee has now been settled."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Keep your nerve\" ►385"
+    ]
+  },
+  "561": {
+    "PROSE": [
+      "The ruthlessness with which you dealt with a junior minister who proposed going soft on Brexit is already a legend in the party. Even though Dent has been railing against the EU for most of his political career, you're seen as the one who can deliver the outcome the diehard Brexiters want.",
+      "With Dent knocked out, it's now between you, Rufus and Stollard. Two of you will go forward to the membership vote, but first there's one more round in the Parliamentary contest."
+    ],
+    "GOTO": [
+      "[IF keyword:YELLOW] \"Spin the wheel\" ►791",
+      "[ELSE] \"Keep your nerve\" ►501"
+    ]
+  },
+  "562": {
+    "PROSE": [
+      "'A weak pound would discourage British holidaymakers from going aboard, and it'll encourage foreign tourists as they'll have more to spend.'",
+      "'I can't imagine the average New Yorker wants to spend two weeks in a Cornish B&B, but I suppose to somebody from up north it'll seem like a tropical paradise.'",
+      "You gaze out of the window. A few fat raindrops spit out of a gunmetal sky. A mournful huddle of seafront houses appear in a watery haze.",
+      "'We're here,' says the aide, gathering your things."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Continue\" ►203"
+    ]
+  },
+  "563": {
+    "PROSE": [
+      "'Well, that backfired spectacularly,' says Terri Trough despondently as she flips through a cacophony of tweets. '\"Good old Pete…\" \"Toss us another bone, you beauty…\" \"He's the kind of man we need…\" If anything they like him even more now.'",
+      "'Nobody cares about facts,' says Ron Beardsley. 'Politics is a branch of mass entertainment. And Strewel is stealing our ratings.'",
+      "It's going to be hard to claw back a lead – if indeed you ever had one."
+    ],
+    "GOTO": [
+      "[IF Popularity>=66] \"You can do it\" ►528",
+      "[ELSE] \"Grit your teeth\" ►727"
+    ]
+  },
+  "564": {
+    "PROSE": [
+      "What you thought was a biography of Elvis turns out to be the first volume of an ongoing fantasy series. It describes a world of cutthroat double-dealing where the only certainty is brutal betrayal.",
+      "After a few chapters you let the book drop with a thud on the floor beside you. On second thoughts, you could trip over it in the night. You kick it under the bed. Your only takeaway is that you should prepare for treachery, both from your own party and from the EU. Also, it seems that money is main force to wield against skulduggery. Well, you knew that. You have to get business on your side. Financial interests will be the lever with which you can shift the immovable objects around the Council table.",
+      "As you drop off to sleep, your thoughts are of dragons. If only you could hatch a few of those you could sweep the armies of Europos into the ocean. Dragons shaped like fighter planes. Dragons shaped like German cars. Dragons with the heads of Thatcher and DeGaulle.",
+      "You do not enjoy a restful night."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Continue\" ►482"
+    ]
+  },
+  "565": {
+    "PROSE": [
+      "Tiffany Rufus and Peter Strewel both concentrate their fire on you. 'They must have made a deal!' you rage at your advisors.",
+      "Ron Beardsley nods. 'The trouble is, between them they sew up most of the Parliamentary party. Barring a miracle, this is the end of the line.'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Continue\" ►377"
+    ]
+  },
+  "566": {
+    "PROSE": [
+      "'We're just a small overcrowded island,' is the questioner's point, 'so I don't see why these people have to come over here. They must think our roads are paved with gold or something. That's for Bob Owlbear.'",
+      "'We're lucky they do want to come here,' Owlbear says. 'They work hard. They're a vital part of our economy. And culturally they're in tune with our British values. If you take away the EU citizens working here, you're just going to have to replace them with foreign workers from elsewhere, some of whom may not find it so easy to fit in.'",
+      "Well now. The ungainly lump can occasionally show off a bit of deft footwork. He's almost managed to sound both pro- and anti-immigration. It's a balancing act Labour will have to perfect if they don't want their white working-class vote slipping off to join the 'Kippers."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"How does the Lib Dem representative respond to that?\" ►595",
+      "[OPTION] \"What about the UKIP view?\" ►650",
+      "[OPTION] \"See what your own man says – if you can call Tode your man\" ►487",
+      "[OPTION] \"Skip to another question\" ►405"
+    ]
+  },
+  "567": {
+    "PROSE": [
+      "'I think we're going to get on very well, Prime Minister,' he says, offering his hand. 'I won't keep you from your meeting. Just wanted to say I'm looking forward to working with you.'",
+      "As he leaves, you catch Wilkins' eye and nod for him to show the Chancellor in."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Continue\" ►507"
+    ]
+  },
+  "568": {
+    "ONENTER": [
+      "[EFFECT Authority+5]",
+      "[EFFECT getItem:General Election]"
+    ],
+    "PROSE": [
+      "You are returned to power with an increased majority, but not the landslide you'd hoped for.",
+      "'A low turnout owing to bad weather? Election fatigue? Tactical voting on the part of the resistance – I mean the opposition?'",
+      "You chew over the possible causes late into the night, but there is no definite explanation. It is a victory, and you know you should be celebrating, but without the crushing success you'd expected there is a taste of ashes too."
+    ],
+    "REPORT": [
+      "<strong>+5% Authority</strong>: your enemies can hardly claim now that you have no mandate to rule."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Still, you have a country to run\" ►666"
+    ]
+  },
+  "569": {
+    "PROSE": [
+      "The new referendum gives you an opportunity to pull the country back from the brink. If you can make the case for a soft Brexit, you may not only succeed in delivering Britain from the calamitous fate of being cast adrift outside the single market, thus protecting her vital industries, but you might also be able to heal the rancorous divisions within society. Perhaps there is a form of compromise Brexit that will satisfy the majority on both sides.",
+      "Or you could push it even further, advocating that Article 50 should be rescinded and Britain should stay in the EU."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Campaign for a soft Brexit\" ►538",
+      "[OPTION] \"Make the case for Remain\" ►235",
+      "[OPTION] \"Safer to avoid campaigning altogether\" ►618"
+    ]
+  },
+  "570": {
+    "PROSE": [
+      "You throw yourself into a heated debate in which you argue the case for a hard Brexit. Although, as you repeatedly have to remind the other participants, the preferred term is 'strong Brexit'.",
+      "The ubiquitous Martin Mugglemore is chairing the debate. 'So, Prime Minister,' he asks you, 'how do you justify the course your government has chosen to steer since the first referendum?'",
+      "'We have been carrying out the will of the people, Martin. You're not against democracy, are you?'",
+      "'I'm all for it. But a referendum is not the same as a first-past-the-post election, is it? I'd say that a 52 to 48 vote is a snapshot of a country with very mixed feelings. It certainly didn't suggest that the majority wanted a more distant relationship with Europe than even Turkey or Switzerland have. So why did you take it to mean hard Brexit? I'm sorry, <em>strong</em> Brexit.'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"'In a divorce you have to make a decision. There's no \"I'm leaving but I'll still pop back for Sunday dinner\". It's the rough with the smooth. The public voted for Brexit, and so I had to decide the form of Brexit that would be best for Britain.'\" ►731",
+      "[OPTION] \"'Remember that the referendum was only advisory. I took the result into account but I know I'm on the right course, and I'm going to stick to that course.'\" ►410"
+    ]
+  },
+  "571": {
+    "PROSE": [
+      "'Because the referendum result was pretty close. If I put 52 loose teeth in this dish and 48 in that one, you wouldn't be able to tell them apart. But the vote has been interpreted as an overwhelming mandate for a very specific and extreme form of Brexit.'",
+      "'The people have spoken. It's all about immigration.'",
+      "'Really? Because if it was just that, you could have got immigration down years ago. Half our immigrants come from outside Europe. But more to the point, that wasn't the question we were asked. The Leave politicians kept telling us we were in thrall to EU laws, that it wasn't democratic, that it cost too much. So we said, okay, on balance, the country leans toward leaving, just by a smidgen.'",
+      "'I hardly think a 52% majority is a smidgen. That's over a million people.'",
+      "'I could yank the tooth or leave it. What if I told you I was leaning 52% toward extraction?'",
+      "'But will it rot if you leave it in? You're going to fill it? Or crown it?'",
+      "'I didn't tell you enough to let you make an informed decision, did I? But that's as much as we were told about Brexit. Stay or go? It'll be fine, they said. Now we can see that they never had any idea about what would happen next.'",
+      "'So you're not going to pull the tooth?'",
+      "'What I'm saying is, whatever flavour of Brexit people were voting for, it's now set in stone. Circumstances can change – a narcissistic bully becoming President of the United States, for instance – and normal policy could adapt. But a referendum result… Few politicians have the guts to challenge that. It's like holy writ. So the only way to fix it is a second referendum.'",
+      "'If it needs fixing.'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Continue\" ►668"
+    ]
+  },
+  "572": {
+    "PROSE": [
+      "Your answer is well received, and you press your advantage with talk of the unelected bureaucrats of the EU, the threat of Turkish immigrants, and all the old bugbears that whipped up voters for the first referendum.",
+      "'But have I done enough?' you ask yourself as you settle down on the night of the vote to watch the results come in.",
+      "'More than enough, Prime Minister.'",
+      "'Don't creep about, Wilkins! You nearly gave me a heart attack. Go and get me a G&T.'"
+    ],
+    "TOSS_TWO": [
+      "[BOTH HEADS] \"Continue\" ►403",
+      "[BOTH TAILS] \"Continue\" ►173",
+      "[HEAD AND TAIL] \"Continue\" ►173"
+    ]
+  },
+  "573": {
+    "PROSE": [
+      "'It's like how the Germans have had to build up the former GDR. Funding improves infrastructure, so that means increased prosperity, ergo more wealth created by trade. It helps businesses to become more competitive. It encourages further investment, and that in turn stimulates employment.'",
+      "She had been looking out of the window, conjuring vistas of shining new enterprise across the shabby Cornish landscape. Turning, she sees your glare and falls silent.",
+      "'Don't stop now, that was positively Keir Hardie. Are you thinking of applying for a job with the other lot?'",
+      "'No, Prime Minister.'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"'Forget places like Poland or East Germany. How do the funds specifically get spent in Cornwall?'\" ►86",
+      "[OPTION] \"'Britain could hardly have been getting much money compared to the really poor regions of the EU.'\" ►228",
+      "[OPTION] \"'There's got to be some flab in all this spending. Give me something outrageous I can have a go at.'\" ►236"
+    ]
+  },
+  "574": {
+    "PROSE": [
+      "You can't possibly watch the whole programme. You'd go hoarse from shouting at the screen. Terri, your press secretary, has helpfully provided you with a list of the questions and where they come in the playback. So you can fast-forward through the important bits without sending your blood pressure into orbit."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"'Do immigrants steal jobs?'\" ►830",
+      "[OPTION] \"'Does immigration lower wages?'\" ►530",
+      "[OPTION] \"'What are the actual EU rules on immigration?'\" ►605",
+      "[OPTION] \"'Why do they have to come here?'\" ►566",
+      "[OPTION] \"'Isn't it time we had a points system?'\" ►208",
+      "[OPTION] \"'Why is immigration out of control?'\" ►762",
+      "[OPTION] \"Or switch off and get some sleep\" ►125"
+    ]
+  },
+  "575": {
+    "ROUTES": [
+      "[IF item:Exit Fee] ►400",
+      "[ELSE] ►529"
+    ]
+  },
+  "576": {
+    "PROSE": [
+      "'Everything's dealt with on a case by case basis,' says Strewel. 'So if you think of the EU as having printed out a road map before setting out, what the Swiss do is pile in the car and then say, oh, better turn left here, then cut across here, and if we take the second left I think I know a short cut. Gets to the same place in the end, just by a more roundabout route.'",
+      "'Both sides end up wasting a lot of time hammering out the details,' adds the Chancellor. 'And nobody wants to go back to the table every time one small detail changes. So there's some attempt now to simplify the process with what's called dynamic clauses.'",
+      "'The problem as I see it,' snaps Barkwell, 'is that it gives free rein to the EU. They just lay down the law and the poor old Swiss have to go along with it.'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"'If Britain wanted to strike a similar deal, how long would it take?'\" ►780",
+      "[OPTION] \"'What are dynamic clauses?'\" ►120",
+      "[OPTION] \"'Britain's a lot bigger than Switzerland, so we won't get pushed around..'\" ►776"
+    ]
+  },
+  "577": {
+    "PROSE": [
+      "Rufus is knocked out in the next round. That leaves you and Alan Stollard, the Chancellor. If he becomes Prime Minister, Brexit will be watered down or even called off. What you're counting on is that the so-called ultras will unite to stop that, even if they're not entirely sure which way your own sympathies lie.",
+      "The winner will be picked by the Party membership. And so a hundred and fifty thousand people get to decide the future of Great Britain."
+    ],
+    "GOTO": [
+      "[IF Popularity<=39] \"Collywobbles\" ►782",
+      "[ELSE] \"You're quietly confident\" ►519"
+    ]
+  },
+  "578": {
+    "PROSE": [
+      "The second round of voting reaches more or less a dead heat between those who want to pitch in to the EU's goal of ever-closer union and those who think that Britain should remain on sufferance but ought to be granted some concessions by the EU27.",
+      "Armand Alprèves, the EU's chief Brexit negotiator, can't help himself. 'Like many a dog that chases its own tail,' he tells the press, 'after much noise and scuffle Britain has decided to continue as usual.'",
+      "'If I ever propose another referendum,' you tell Wilkins as he serves your tea, 'I want you to pour that over my head.'",
+      "'With milk, Prime Minister, or lemon?'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Continue\" ►714"
+    ]
+  },
+  "579": {
+    "PROSE": [
+      "'Admittedly that's not so well developed,' says Dent.",
+      "'Not within EFTA itself,' says Stollard. 'The focus there has been on goods. Obviously services are more important to us, being four fifths of our economy, but we'd have to push through a new agreement from scratch.'",
+      "'Hang on,' says Barkwell, riffling through a thick wad of documents. 'Didn't I see something about Norway having passporting rights?'",
+      "'By dint of belonging to the European Economic Area,' says the Chancellor, nodding. 'That's not in the raw EFTA arrangement, it's something that's been bolted on. If we're considering the Norway model then yes, we could retain financial service passports, but even so it's not as good as what we enjoy under full EU membership.'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"'In what way isn't it as good?'\" ►72",
+      "[OPTION] \"'Surely the EU will bend over backwards to retain British financial services?'\" ►327",
+      "[OPTION] \"'Remind me about passporting.'\" ►318",
+      "[OPTION] \"'Aren't financial services really just a London issue?'\" ►807",
+      "[OPTION] \"'That's finance. Let's not forget about other service industries.'\" ►418"
+    ]
+  },
+  "580": {
+    "PROSE": [
+      "While you have been attending to the areas of negotiation you consider most important, you've had to delegate other topics to your ministers.  Now it's time to see how they've done."
+    ],
+    "GOTO": [
+      "[IF !item:Negotiation Strategy] \"What kind of hash have they made of the negotiation strategy?\"►26",
+      "[ELSEIF !item:Immigration] \"Maybe you ought to have personally overseen immigration policy\"►227",
+      "[ELSEIF !item:Exit Fee AND !keyword:APRICITY AND !keyword:BLEAK] \"Surely any fool could deal with the exit fee discussions?\" ►797",
+      "[ELSE] \"It's all in hand\" ►524"
+    ]
+  },
+  "581": {
+    "PROSE": [
+      "The media construct a stark us-and-them narrative which is only reinforced by the rather superior attitude struck by the EU negotiators.",
+      "'Apparently the President of the European Commission is on record as saying he likes doing deals in dark back rooms,' says your chief of staff.",
+      "You remember that very meeting. 'He said something like, \"If we talk about currency openly it has a catastrophic effect on the markets, so you could say I'm in favour of secret talks in dark rooms.\" A sort of joke.'",
+      "'Fortunately for the Leave camp, humour is very often lost in translation. The <em>Heil</em> is painting him as a supercilious Anglophobe bully.'"
+    ],
+    "GOTO": [
+      "[IF keyword:FOG] \"Carry on\" ►570",
+      "[ELSEIF keyword:GAZELLE] \"Carry on\" ►60",
+      "[ELSEIF keyword:SANCTION] \"Carry on\" ►452",
+      "[ELSE] \"Carry on\" ►83"
+    ]
+  },
+  "582": {
+    "PROSE": [
+      "If anything, releasing the story to the media backfires on you. All it really shows is that Noysom-Reek can be slapdash in his judgement. Although it's likely that Noysom-Reek personally is just as appalled as you are at the far-right organization's views, they actually chime with a small but significant percentage of the Party members. Thinking he's racist makes them keener to cast their votes for him."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Continue\" ►782"
+    ]
+  },
+  "583": {
+    "ONENTER": [
+      "[EFFECT Economy+1]",
+      "[EFFECT Popularity+2]"
+    ],
+    "PROSE": [
+      "'You still have a few friends in the EU,' says Terlamen. 'I'll see what I can do.'",
+      "Over the next few weeks, Treasury officials work with the Commission to draft a statement. The thrust of it is to create a ratification process for equivalence status under the MFI directive. In effect, financial institutions currently based in Britain will go to the head of the queue."
+    ],
+    "REPORT": [
+      "<strong>+1% Economy</strong>: a tiny uptick, but in these troubled times you'll take what you can get.",
+      "<strong>+2% Popularity</strong>: the voters don't understand what you've achieved, but they dimly recognize it as a good thing."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Keep it up\" ►400"
+    ]
+  },
+  "584": {
+    "ONENTER": [
+      "[EFFECT Authority+2]",
+      "[EFFECT Economy+5]",
+      "[EFFECT getItem:Residency Rights]"
+    ],
+    "PROSE": [
+      "'We won't be held over a barrel.'",
+      "'Excuse me?' says Alprèves. 'A barrel?'",
+      "'As diplomatically as possible, I'd like you tell the Spanish to go and play with their castanets. I'm not giving in to blackmail – not where blameless pensioners are concerned. No way, José.'",
+      "He can see you have a strong case, or at least so it will seem to the media. A day or so later he comes back with new terms. It turns out the Spanish have backed down and agreed to the deal."
+    ],
+    "REPORT": [
+      "<strong>+2% Authority</strong>: you've shown you can drive a hard bargain.",
+      "<strong>+5% Economy</strong>: the UK economy needs those EU nationals, and it helps not to be handed back a million pensioners from Spain."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"What's next?\" ►666"
+    ]
+  },
+  "585": {
+    "PROSE": [
+      "Curse the luck – it was a safe Conservative seat, where the deceased had been the MP for over twenty-five years. Will his constituents show the same loyalty to a new candidate parachuted in by Central Office? Or rather 'Campaign HQ' as you must, absurdly, refer to it these days."
+    ],
+    "GOTO": [
+      "[IF Popularity>=53] \"Mustn't grumble\" ►196",
+      "[ELSE] \"So it goes\" ►304"
+    ]
+  },
+  "586": {
+    "ONENTER": [
+      "[EFFECT Authority-1]",
+      "[EFFECT Popularity-15]",
+      "[EFFECT getItem:the NHS]"
+    ],
+    "PROSE": [
+      "Calling off the US trade deal gives you an almost physical pain.",
+      "'I'm not sure how we're going to spin this,' says your press secretary.",
+      "Good grief, why should you do her job for her? 'Brief some journalists off the record. Imply that the deal might still go ahead once a few unspecified wrinkles have been ironed out. We couldn't have signed it anyway until 2019.'",
+      "But even with the media mostly on-side, you still take a devastating hit from having to backtrack."
+    ],
+    "REPORT": [
+      "<strong>-1% Authority</strong>: your own MPs can see you've been forced into this decision, making you look weak.",
+      "<strong>-15% Popularity</strong>: voters aren't good with facts, but they can smell indecision and prevarication."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Tough it out\" ►450"
+    ]
+  },
+  "587": {
+    "PROSE": [
+      "You join in a heated television debate in which you argue the case for a hard Brexit – although, as you repeatedly have to remind the other participants, the preferred term is 'strong' Brexit.",
+      "The ubiquitous Martin Mugglemore is chairing the debate. 'So, Prime Minister,' he asks you, 'how do you justify the course your government has chosen to steer since the first referendum?'",
+      "'We have been carrying out the will of the people, Martin. You're not against democracy, are you?'",
+      "'I'm all for it. But a referendum is not the same as a first-past-the-post election, is it? The first referendum result was a snapshot of opinion in 2016. Why can't we change our minds?'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"'When you pick a course, Martin, you stick to it. That's the British way.'\" ►372",
+      "[OPTION] \"'People are nervous, of course. They see the collapse in the pound and all the scare stories. But we never said this wouldn't be a rocky road. As a country we can see this through if we keep our nerve.'\" ►393"
+    ]
+  },
+  "588": {
+    "PROSE": [
+      "'The most immediate effect of coming out of the European Economic Area would be our external tariffs at the World Trade Organization. To start off we'd keep the same tariffs as the EU, of course.'",
+      "'But we can drop them any time we like?'",
+      "'As long as we drop them for everybody. That's the \"most favoured nation\" rule – which really ought to be called the \"no favoured nation\" rule, but never mind. Where I was going with that was what about areas we'd like to protect but that aren't currently covered by the EU rules? Those are cases where we'd like to raise tariffs. On certain vegetables, say.'",
+      "'We might need to do that to placate the farmers when they learn they aren't going to be getting EU subsidies any more.'",
+      "'Ah, but see, we can't. Raising tariffs is not nearly so simple as lowering them. If you raise tariffs on, I don't know, artichokes, then under WTO rules you have to lower them for something else.'",
+      "'Fine, we'll lower them for oranges.'",
+      "'A good solution, with only one drawback. Any of the hundred and sixty WTO members might raise an objection. Now repeat that for every single product we might want to protect. It'll keep Barkwell's department working weekends into the middle of the century.'",
+      "'Perhaps he should have been careful what he wished for. Well, thanks, Alan. If I haven't got my head around this yet then I'm never going to.'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Continue\" ►666"
+    ]
+  },
+  "589": {
+    "ONENTER": [
+      "[EFFECT Authority+2]",
+      "[EFFECT Economy+5]",
+      "[EFFECT Goodwill+5]",
+      "[EFFECT getItem:Residency Rights]",
+      "[EFFECT getKW:TIGHTROPE]"
+    ],
+    "PROSE": [
+      "You make your announcement the next day: 'EU nationals currently living in Britain will be permitted to stay.'",
+      "The press go wild. No change there, then. The <em>Hypsterion</em> editorial calls it 'doing the right thing' while also putting pressure on the EU to reciprocate.",
+      "The <em>Daily Heil</em> headline? They're not happy, naturally. 'SOLD FOR A SONG!' blares the headline. The <em>Klaxon</em>? 'IT'S BRUSSELS HOLD 'EM AND THE PRIME MINISTER FOLDS!'",
+      "And so on. Encouragingly, the <em>Tomahawk</em>  thinks it's risky but might work. 'THE HIGH ROAD' they call it.",
+      "Your bold move leaves the EU little room to manoeuvre. They shortly reciprocate by announcing that UK nationals living in Europe will be allowed to remain after Brexit."
+    ],
+    "REPORT": [
+      "<strong>+2% Authority</strong>: you're showing who calls the shots in these talks.",
+      "<strong>+5% Economy</strong>: those three million EU nationals are a considerable net benefit to UK finances.",
+      "<strong>+5% Goodwill</strong>: the announcement sets a collegiate tone for future talks.",
+      "You have settled the residency rights question."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Carry on\" ►666"
+    ]
+  },
+  "590": {
+    "PROSE": [
+      "'We already enjoy international trade by way of the EU,' points out Stollard.",
+      "'We all know you're a Remainer at heart, Alan,' grumbles Barkwell. 'Give it a rest, eh?'",
+      "'I'm a realist, and we're here to thrash out the hard facts. So you can leave your soapbox at the door, Leslie. The point is that the WTO rules require us, in the absence of a free trade agreement, to apply the same tariffs worldwide. But our largest market by far is the EU itself. It has a similar economy to the UK and is hungry for services, in which we excel. Even more importantly, it's right on our doorstep, and trade has been shown to drop off inversely with distance.'",
+      "'Like Newton's laws,' says Strewel. 'By the way, I'll have that apple if nobody else wants it.'",
+      "'But as I always say, what we lose in trade with Europe we'll make up with the rest of the world,' Dent puts in.",
+      "'Not on default WTO rules. Europe is right there, and it's half our import and export market. Unless you can pick up the British Isles and plonk them down in the South China Sea – oh, and incidentally convert our economy to heavy industry while you're at it – then the WTO is not going to be our glorious new dawn.'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"'Will somebody please give me the executive summary version of what the WTO actually allows.'\" ►678",
+      "[OPTION] \"'Let's step back and look at the bigger picture.'\" ►454"
+    ]
+  },
+  "591": {
+    "PROSE": [
+      "Despite your resolution to get an early night, you soon get caught up in the book and you end up reading it from cover to cover.",
+      "The central premise is not to negotiate from a fixed position, but to agree principles that both sides refer back to. A bit like how your cleaner's son and his friends must have established voting rules for which videogame to play, rather than each of them shouting for his own favourite.",
+      "You let the book fall to the duvet as you consider how to apply it to the upcoming Brexit talks. The authors make frequent use of divorce as an example of their method, which is strangely appropriate to your own situation.",
+      "An example might be the so-called Brexit bill. Rather than setting a figure, which is something your teams might haggle over for months only to end in a rancorous split, you could agree the underlying principles. So that part of the bill that relates to the EU's seven-year budget might, for instance, include payments made back into Britain during a transitional period. If talks reach an impasse, both sides have the pre-agreed rules to fall back on.",
+      "The authors also emphasize that you should always be mindful of your best alternative to a negotiated agreement. Is no deal better than a bad deal? That's something you need to have worked out before you get up and walk away from the table.",
+      "Tired as you are, you drift off to sleep with a feeling of renewed confidence for the task that lies ahead. Perhaps there's a win-win in all this somewhere."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Continue\" ►482"
+    ]
+  },
+  "592": {
+    "PROSE": [
+      "Dimple is knocked out in the first round of voting. At her concession speech she has her usual expression, that of an elderly relative woken in the middle of an afternoon nap. 'I will offer my services whenever and wherever the country needs them,' she is saying.",
+      "You laugh out loud, snapping off the television with a hatchet-like gesture of the remote. The ridiculous woman. You wouldn't trust her to arrange a bowl of flowers, much less run the country.",
+      "It's good to have the distraction out of the way. Amelia Dimple was the taste of meat you needed to get your blood up for the fight. And now you need a plan to deal with the serious opposition.",
+      "And that's when the phone rings."
+    ],
+    "GOTO": [
+      "[IF Authority>=56 AND Goodwill<=40] \"What now?\" ►759",
+      "[ELSE] \"What now?\" ►546"
+    ]
+  },
+  "593": {
+    "ONENTER": [
+      "[EFFECT Authority-2]",
+      "[EFFECT getItem:General Election]"
+    ],
+    "PROSE": [
+      "You win, but without increasing your slender majority in the House of Commons.",
+      "'Will they paint it as a defeat?' wonders the Chancellor.",
+      "'Hardly, Alan. Before today I could only claim to have taken the reins of power from my predecessor. Now I have the personal support of tens of millions of voters.'",
+      "He nods sombrely, turning to gaze out of the window at the assembled press standing in the rain. You always knew he was weak. Perhaps now you should consider getting rid of him. If only you could absorb all Cabinet posts into your own office.",
+      "Well, perhaps in another five years. The Queen will have stepped down by then, and it would be so much easier to run the country with an executive presidency."
+    ],
+    "REPORT": [
+      "<strong>-2% Authority</strong>: you gambled and came very close to losing."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Bloodied but unbowed\" ►666"
+    ]
+  },
+  "594": {
+    "PROSE": [
+      "The moment of truth. What will the next round of voting bring? Sitting up late into the night on the eve of the vote, you ponder what you'll call this chapter in your memoirs."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"'The Moving Finger Writes.'\" ►349",
+      "[OPTION] \"'Buffets and Rewards.'\" ►814",
+      "[OPTION] \"'A Tide in the Affairs of Men.'\" ►377"
+    ]
+  },
+  "595": {
+    "PROSE": [
+      "'I agree with Bob,' says Lucy Tooth. 'Immigrants add value. The simple fact is that free movement isn't a dumb loophole in EU regulations. It's not some kind of penalty they're trying to foist on everybody. It's not a bug, it's a feature. We need them because we have an ageing population. Britain has a higher proportion of dependent old people than even France.'",
+      "Mugglemore tries to steer her back to the point. 'So we need these people as nurses?'",
+      "'It goes much further than that,' says Owlbear, his mental gears starting to whir up to speed at last. 'An ageing population is driving up the cost of health care, it's putting a strain on pensions. And when elderly people are no longer able to retire to Spain because the falling pound makes it too expensive, we're going to need those younger immigrants here to support the economy.'",
+      "Tooth is glaring at him. So she doesn't like being interrupted. A bit of temper behind the middle-class curtains, there.",
+      "'Of course,' she adds, 'with the NHS in terminal decline and foreign doctors finding it harder to come here, our ageing population won't be a problem for long. The harsh fact is that because of Brexit people will die off sooner.'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"What does Fungale have to say?\" ►650",
+      "[OPTION] \"What about Tode? Will he toe the party line?\" ►487",
+      "[OPTION] \"Skip to another question\" ►405"
+    ]
+  },
+  "596": {
+    "PROSE": [
+      "'Societies have rules to protect their members,' says Stollard with a shrug. 'You can get out of that by living on a raft in international waters. Otherwise I'm afraid we'll just have to put up with health care, sanitation, education, public safety, and all the other things foisted on us by the state.'",
+      "Strewel rummages in his briefcase. 'I've left my copy of <em>Das Kapital</em> at home, I'm afraid, or I could tell you which chapter that's from.'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Continue\" ►17"
+    ]
+  },
+  "597": {
+    "PROSE": [
+      "The MPs aren't fools. They've got enough experience of Peter Strewel's antics over the years to know that he can't be trusted to keep his word on anything. Any man who deliberately musses his own hair so as to come across as a loveable scamp has a swag bag full of secrets and falsehoods. He's knocked out in the next round, leaving you facing Rufus and Stollard in the final parliamentary vote."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Continue\" ►791"
+    ]
+  },
+  "598": {
+    "PROSE": [
+      "Never mind the rain in Spain, the thunder and lighting all seem to be concentrated on Gibraltar these days. Britain's ownership of the Rock has been a sore point for years and now the combative Spanish prime minister has just lobbed the ball into your court by proposing a co-sovereignty deal.",
+      "'He doesn't seriously expect us to take him up on it,' is the opinion of your press secretary Terri Trough. 'He's just playing to his own voters.'",
+      "'But what will ours think? And then there's Gibraltar's own population. They voted almost unanimously to stay in the EU.'",
+      "'They're worried about what loss of freedom of movement would do to the local economy,' says Terri. 'Ten thousand Spanish workers commute to Gibraltar every day. Turn that tap off and they'll have to survive on selling tat to tourists.'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Ignore the Spanish prime minister's comments\" ►175",
+      "[OPTION] \"Respond with a declaration that as a British dominion Gibraltar will be pulling out of the EU come what may\" ►266"
+    ]
+  },
+  "599": {
+    "PROSE": [
+      "The plot concerns a bunch of soulful tusked monsters who are driven from their homeland and end up teaming up with the knights who used to persecute them to fight an evil dictator in a black cloak. It's probably a metaphor but you absolutely refuse to let your brain get in the way of dumb pleasure. You just sit back on the pillows and let the digital explosions and spells flood past. It's like a firework display, only without the rigorous intellectual content or coherent narrative.",
+      "A bit like Tolkien, mutters your analytical mind, refusing to sit quietly. The Fellowship of the Ring… now there was a union of disparate interests coming together for the common good. So the Fellowship are the EU and orcs are immigrants..? Seems a bit iffy, that. Almost racist. Anyway, the hobbits have got to be Britain. So does that mean Aragorn and his lot are the French? Who's America? Dwarves. Wait, that leaves out the Germans. They can't be Mordor, that must be Syria or somewhere. And immigrants – are they the ents..?",
+      "A snore comes from the bed as the movie plays on and you drift deeper into dreams of Brexit."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Continue\" ►125"
+    ]
+  },
+  "600": {
+    "PROSE": [
+      "'Nothing wrong with the old yes-no,' is Strewel's opinion. 'Clear to everybody and his uncle, isn't it? Here's the carrot, here's the stick. Nice and simple.'",
+      "'Simple, anyway,' says Stollard wryly.",
+      "'What were the reasons for a binary choice last time?' you ask Tode. 'You must have discussed it with my predecessor.'",
+      "'To be quite honest, Prime Minister, we've already spent longer discussing a second referendum than we did the first one.'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"'Okay. If it was good enough then, it's good enough now.'\" ►274",
+      "[OPTION] \"'Offering a range of options on one ballot might be the perfect compromise.'\" ►698",
+      "[OPTION] \"'I'm still leaning towards the runoff idea. That sounds modern.'\" ►340",
+      "[OPTION] \"'Actually, let's not bother. We can't fit in another referendum along with everything else.'\" ►79"
+    ]
+  }
+}

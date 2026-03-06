@@ -1,0 +1,303 @@
+{
+  "526": {
+    "ONENTER": [
+      "[EFFECT Economy+3]"
+    ],
+    "PROSE": [
+      "Britanniens Einfluss in Brüssel, einst nur von Deutschland übertroffen, ist nun stark geschwunden, aber Sie haben noch etwas Gewicht. Über die dem Vereinigten Königreich am freundlichsten gesinnten Länder gelingt es Ihnen, einige Änderungen am Vertragsentwurf durchzusetzen."
+    ],
+    "REPORT": [
+      "<strong>+3% Wirtschaft</strong>: Jedes kleine Zugeständnis hilft."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Was kommt als Nächstes?\" ►865"
+    ]
+  },
+  "527": {
+    "PROSE": [
+      "Ob Sie die richtigen Entscheidungen getroffen haben, wird nur die Zeit zeigen. Jedenfalls lässt sich die Uhr bei den Handelsverhandlungen nicht mehr zurückdrehen. Und Sie haben andere Angelegenheiten, die dringend Ihre Aufmerksamkeit erfordern."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter\" ►666"
+    ]
+  },
+  "528": {
+    "PROSE": [
+      "Die Launen der Parteimitglieder können sich schneller ändern als das Wetter. Um herauszufinden, wie sie sich bei der Stimmabgabe fühlen…"
+    ],
+    "TOSS_ONE": [
+      "[HEAD] \"Weiter\" ►782",
+      "[TAIL] \"Weiter\" ►519"
+    ]
+  },
+  "529": {
+    "PROSE": [
+      "Da die EU selbst kein souveräner Staat ist, kann sie keine Klage gegen das Vereinigte Königreich vor den internationalen Gerichten erheben. Die einzelnen siebenundzwanzig Mitgliedsstaaten können dies jedoch sehr wohl, und viele von ihnen werden die Auswirkungen persönlich zu spüren bekommen, da Britannien sich nun weigert, die im Vertrag vereinbarte volle Summe zu zahlen.",
+      "Und wo wir gerade dabei sind – was ist die volle Summe eigentlich? Wie üblich bei allem, was EU-Finanzen betrifft, handelt es sich um ein bürokratisches Wirrwarr aus Verträgen und Nachträgen, das nicht einmal Stephen Hawking entwirren könnte. Was nicht heißen soll, dass das Gericht es nicht trotzdem versuchen wird.",
+      "Wie fühlen Sie sich angesichts des bevorstehenden Urteils des Internationalen Gerichtshofs?"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Die Zeit wird es zeigen\" ►365",
+      "[OPTION] \"Es liegt in Gottes Hand\" ►104",
+      "[OPTION] \"Que sera, sera\" ►146"
+    ]
+  },
+  "530": {
+    "PROSE": [
+      "Owlbear stürzt sich eifrig darauf. 'Im Durchschnitt zahlen EU-Einwanderer weit mehr Steuern, als sie an Leistungen in Anspruch nehmen. Für jedes Pfund, das ein hier arbeitender EU-Einwanderer den Staat kostet, zahlt er oder sie 1,34 Pfund zurück.'",
+      "Brillant. Er versinkt schon in Statistiken. Die Labour-Frontbank begreift einfach nicht, wie solches Zeug am Verstand der Zuhörer einfach abperlt. Man kann sehen, wie Fungale neben ihm grinst, als würde ihm gleich das Gesicht auseinanderfallen. Er weiß Bescheid. Der könnte gefährlich werden, trotz allem, auch wenn er wie ein Relikt aus einer 70er-Jahre-Sitcom wirkt, schlecht sitzender Nadelstreifenanzug inklusive.",
+      "Owlbear doziert weiter. 'EU-Migranten, die in den letzten fünf Jahren nach Britannien kamen, haben 3 Milliarden Pfund mehr an Steuern gezahlt, als sie an öffentlichen Leistungen erhalten haben. Das Finanzministerium schätzt, dass sie das Wirtschaftswachstum um über ein halbes Prozent pro Jahr ankurbeln.'",
+      "'Ich sehe, Colin Fungale möchte sich vielleicht dazu äußern,' sagt Martin Mugglemore."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Mal hören, was er zu sagen hat\" ►456",
+      "[OPTION] \"Vorspulen zu Lucy Tooth für die Sicht der Lib Dems\" ►771",
+      "[OPTION] \"Eine andere Frage suchen\" ►405",
+      "[OPTION] \"Aufgeben und eine gute Nacht schlafen\" ►125"
+    ]
+  },
+  "531": {
+    "PROSE": [
+      "Sie nehmen an einer hitzigen Fernsehdebatte teil, in der Sie für den Verbleib in der EU argumentieren.",
+      "Der allgegenwärtige Martin Mugglemore leitet die Debatte. 'Die Leute sagen, sie finden das Norwegen-Modell gut. Im Binnenmarkt bleiben, aber mit der Möglichkeit, sich von der „immer engeren Union“ der EU abzukoppeln. Und es kostet uns pro Kopf weniger als eine Vollmitgliedschaft. Was ist daran so schlecht?'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"'Es wird viel vom Norwegen-Modell geredet, aber wo würden wir da hineinpassen? Als Teil der Europäischen Freihandelsassoziation? Wir wissen nicht, ob die uns haben wollen. Das wäre, als würde ein Stint einen Wal verschlucken. Und viel billiger ist es auch nicht. Norweger zahlen pro Kopf etwa drei Viertel der vollen EU-Mitgliedsbeiträge, die Britannien zahlt.'\" ►391",
+      "[OPTION] \"'Ganz einfach, Martin: Norwegen hat sehr wenig Einfluss auf die EU. Wenn wir EU-Entscheidungen unterworfen sein werden – wie es im Europäischen Wirtschaftsraum der Fall wäre – ist es besser, wenn wir einen Platz am Verhandlungstisch behalten.'\" ►539"
+    ]
+  },
+  "532": {
+    "PROSE": [
+      "'Schauen Sie sich die Handelsabkommen an, die ich für die Zeit nach dem Brexit angebahnt habe. Ist das das Kennzeichen von jemandem, der sich nicht entscheiden kann? Ich habe die Hand fest am Ruder, das kann ich Ihnen versichern.'",
+      "Sie verlassen das Studio mit einem leichten Stolz im Schritt, selbstbewusster als zu jedem anderen Zeitpunkt in den letzten zwei Jahren.",
+      "Ob dieses Selbstvertrauen gerechtfertigt ist, bleibt abzuwarten."
+    ],
+    "GOTO": [
+      "[IF keyword:NYLON] \"Weiter\" ►193",
+      "[ELSE] \"Weiter\" ►726"
+    ]
+  },
+  "533": {
+    "PROSE": [
+      "Sie rufen jeden Gefallen ein, berufen sich auf jeden Fall, in dem Sie pragmatische Führungsstärke bewiesen haben. Das Einzige, was gegen Sie sprechen könnte, wäre eine dokumentierte klare Positionierung gegen den Brexit. In den Augen der Mitglieder ist das die einzige unverzeihliche Sünde. Das, und in der Öffentlichkeit nicht genug Emotionen zu zeigen."
+    ],
+    "GOTO": [
+      "[IF keyword:CLARION OR keyword:GAZELLE OR keyword:SANCTION] \"Weiter\" ►50",
+      "[ELSE] \"Weiter\" ►519"
+    ]
+  },
+  "534": {
+    "PROSE": [
+      "Strewel zieht sich aus dem Rennen zurück – mit einer überraschend bewegenden Rede. Als er zugibt, widerwillig zu dem Schluss gekommen zu sein, dass er nicht der Richtige sei, um Partei und Land zu einen, hört man Anklänge an die Abdankung Eduards VIII., gekreuzt mit dem Tod der kleinen Nell. Sie vergießen sogar eine Träne – zugegebenermaßen vor Lachen.",
+      "Nun entscheidet eine Abstimmung der Parteimitglieder zwischen Ihnen und Tiffany Rufus. In einer vorbereiteten Erklärung vor der Tür von Downing Street Nummer 10 sagen Sie: 'Ich werde sicherstellen, dass das Parlament den Willen des britischen Volkes umsetzt und die demokratische Entscheidung respektiert, die es getroffen hat.'",
+      "'Was bedeutet das, Premierminister(in)?' ruft ein Journalist. 'Harter oder weicher Brexit?'",
+      "Sie spüren einen Moment des Schicksals. Was Sie jetzt sagen, hat das Potenzial, alles zu entscheiden. Denken Sie daran: Obwohl Ihre Worte von jedem in Britannien gehört werden, sind die einzigen Wähler, die jetzt zählen, die Mitglieder der Tory-Partei."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"'Volle Kraft voraus für einen starken Brexit – das ist das überwältigende Mandat des Volkes.'\" ►519",
+      "[OPTION] \"'Die große Mehrheit der britischen Wähler würde inzwischen eine enge Beziehung zur EU vorziehen, ähnlich wie sie Norwegen hat.'\" ►782",
+      "[OPTION] \"'Ehrlich gesagt muss die spaltende Politik ein Ende haben, oder wir riskieren, das Land in zwei Hälften zu reißen.'\" ►672"
+    ]
+  },
+  "535": {
+    "PROSE": [
+      "'Was das Gesundheitswesen betrifft, ist die Finanzierung nicht einmal das Hauptproblem. Das große Problem ist die Personalbesetzung.' Sie sehen, wie er vom Bildschirm verschwindet, als er über seinen Schreibtisch greift, und einen Moment später mit einem Bericht wieder auftaucht, den er durchblättert. 'Jeder neunte unserer Ärzte kommt aus einem EU-Land. Und jede zwanzigste unserer Krankenschwestern.'",
+      "'Jede zwanzigste? So wenige also.'",
+      "'Es ist drängender, als es klingt. Krankenschwestern werden älter –'",
+      "'Seltsam. Ärzte scheinen immer jünger zu werden.'",
+      "'Ich meine, die Belegschaft altert. Ein Drittel der Krankenschwestern wird in den nächsten zehn Jahren in Rente gehen. Und wenn sie in Rente gehen, werden sie selbst Ärzte und Krankenschwestern brauchen, die sich um sie kümmern. Wo rekrutieren wir all das medizinische Personal, das wir brauchen?'"
+    ],
+    "GOTO": [
+      "[IF keyword:HEMLOCK] \"Kinderleicht\" ►323",
+      "[ELSE] \"Kinderleicht\" ►511"
+    ]
+  },
+  "536": {
+    "ONENTER": [
+      "[EFFECT Authority+3]",
+      "[EFFECT Popularity+5]",
+      "[EFFECT getItem:Negotiation Strategy]"
+    ],
+    "PROSE": [
+      "Ihr Ton kommt nicht gut an.",
+      "'Müssen wir wirklich diese marktschreierische Rhetorik in den Verhandlungsraum bringen?' fragt Franjeboom mit enttäuschtem Gesichtsausdruck. 'Ich hatte gehofft, dass wir hier, ohne Kameras, vor denen man sich aufspielen kann, wie Erwachsene reden könnten.'"
+    ],
+    "REPORT": [
+      "<strong>+3% Autorität</strong>: Auf den Tisch zu hauen hilft, jegliche Rebellionsgedanken Ihrer aufsässigen Hinterbänkler im Keim zu ersticken.",
+      "<strong>+5% Beliebtheit</strong>: Was auch immer die EU27 denken, Ihre harte Haltung kommt bei den Wählern zu Hause gut an.",
+      "Sie haben Ihre Verhandlungsstrategie."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Es läuft wie am Schnürchen\" ►150"
+    ]
+  },
+  "537": {
+    "PROSE": [
+      "Der Schatzkanzler konsultiert sein iPad. 'Hier ist eine Aussage, die während der Referendumskampagne gemacht wurde, und ich zitiere: „Es ist absolut verrückt, dass die EU uns vorschreibt, wie stark unsere Staubsauger sein müssen, welche Form unsere Bananen haben müssen, und so weiter und so fort.\\“'",
+      "Es herrscht einen Moment Stille. Alle Augen richten sich auf Strewel, der einen Moment verschlagen dreinblickt und dann ein lautes, bauchschüttelndes Lachen von sich gibt. 'Könnte von mir sein. Aber was soll's?'",
+      "'Es stimmt nicht. Die EU-Richtlinie hat nicht vorgeschrieben, wie stark Staubsauger sein müssen, sondern hat ineffiziente Bauweisen verboten. Dank dieser Richtlinie verbrauchen Staubsauger und andere Geräte wie Gefriertruhen etwa ein Drittel weniger Energie als noch vor fünf Jahren.'",
+      "'Aber Sie müssen zugeben, die Bananen-Vorschrift war… banane.'",
+      "'Eine gute Geschichte, die an den Fakten scheitert. Die EU-Vorschrift sortiert Bananen lediglich nach Größe und Form in verschiedene Klassen ein. Bei der Erstellung dieser Richtlinie wurden keine Bananen verboten. Und, entscheidend: Weder diese noch die Staubsauger-Vorschrift wurden von gelangweilten Bürokraten aus dem Nichts gezaubert. Sie wurden umgesetzt, um EU-Spezifikationen an internationale Standards der Welthandelsorganisation anzupassen.'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"'Trotzdem riecht das alles nach Bevormundungsstaat.'\" ►596",
+      "[OPTION] \"'Sie sagen also, wir könnten auf internationaler Ebene Einfluss ausüben?'\" ►684",
+      "[OPTION] \"'Gehen wir ein paar Schritte zurück. Ich möchte das große Ganze nicht aus den Augen verlieren.'\" ►17"
+    ]
+  },
+  "538": {
+    "ONENTER": [
+      "[EFFECT getKW:SANCTION]"
+    ],
+    "PROSE": [
+      "Sie werfen Ihr ganzes Gewicht hinter die Kampagne für einen weichen Brexit."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Was könnte schiefgehen?\" ►302"
+    ]
+  },
+  "539": {
+    "PROSE": [
+      "Sie haben das Gefühl, dass Ihre Argumente das Ergebnis beeinflusst haben, aber nichts ist sicher, bis die Stimmen ausgezählt sind. Sie machen es sich vor dem Fernseher mit einem Glas Milch und einem Teller Sandwiches gemütlich und warten ab, in welche Richtung es geht."
+    ],
+    "TOSS_TWO": [
+      "[BOTH HEADS] \"Weiter\" ►403",
+      "[BOTH TAILS] \"Weiter\" ►313",
+      "[HEAD AND TAIL] \"Weiter\" ►313"
+    ]
+  },
+  "540": {
+    "ONENTER": [
+      "[EFFECT Authority+6]",
+      "[EFFECT Goodwill-20]",
+      "[EFFECT Popularity+7]",
+      "[EFFECT getKW:BLEAK]",
+      "[EFFECT getKW:ZEBRA]"
+    ],
+    "PROSE": [
+      "Der Außenhandelsminister ist außer sich vor Freude. 'Das ist die Gelegenheit, auf die ich gewartet habe. Warten Sie ab, bis die EU die saftigen neuen Abkommen sieht, die ich nach den Regeln der Welthandelsorganisation abschließen werde. Es werden noch mehr Länder vom sinkenden Schiff springen, merken Sie sich meine Worte.'"
+    ],
+    "REPORT": [
+      "<strong>+6% Autorität</strong>: Die Abgeordneten haben Angst und schauen auf Sie, um das Chaos zu beheben.",
+      "<strong>-20% Wohlwollen</strong>: Sie haben der EU keinen Zweifel daran gelassen, wie gering Sie sie schätzen.",
+      "<strong>+7% Beliebtheit</strong>: Ob zu Recht oder Unrecht – die Wähler sehen dies als starken Schachzug."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weitermachen\" ►150"
+    ]
+  },
+  "541": {
+    "PROSE": [
+      "Jan merkt, dass Sie es nicht verstehen. 'Man muss fünf Jahre hier arbeiten, um eine dauerhafte Aufenthaltsgenehmigung zu bekommen, aber weil meine Frau zu Hause ist und sich um die Kinder kümmert – also in den Augen des Gesetzes nicht arbeitet – muss sie eine CSI haben, damit ihre Jahre zählen. Comprehensive Sickness Insurance. Eine umfassende Krankenversicherung. Aber niemand hat uns das gesagt. Niemandem wird das gesagt. Es steht nicht einmal auf der Regierungswebseite. Sie wussten davon nichts?'",
+      "'Was? Oh ja, natürlich. Krankenversicherung, ja,' sagen Sie und lügen mit der geübten Leichtigkeit eines wahlkampfgestählten Politikers. 'Aber keine Sorge, es liegt im Interesse beider Seiten, die Rechte unserer EU-Bürger hier und der britischen Bürger in Europa zu garantieren. Alles wird gut.'",
+      "Auf dem Rückweg in die Downing Street fragen Sie sich, ob Sie sich vielleicht eine juristische Stellungnahme zur Frage der Aufenthaltsrechte einholen sollten."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Ein bisschen Recherche kann nicht schaden\" ►686",
+      "[OPTION] \"Vergiss die Fakten, handle einfach – das ist Ihr Motto\" ►666"
+    ]
+  },
+  "542": {
+    "ONENTER": [
+      "[EFFECT Authority-2]"
+    ],
+    "PROSE": [
+      "Sie verkünden die vorgezogene Neuwahl und dass Barry Scraggle einverstanden ist. Ihre eigene Partei kann sich kaum dagegen stellen, aber sie ist nicht erfreut darüber, dass der Labour-Vorsitzende zuerst davon erfahren hat."
+    ],
+    "REPORT": [
+      "<strong>-2% Autorität</strong>: Einige Ihrer Rivalen in der Partei schüren Unzufriedenheit."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Durchhalten\" ►428"
+    ]
+  },
+  "543": {
+    "PROSE": [
+      "Sie setzen den Fraktionszwang ein. Abgesehen von ein paar alten Tory-Granden, die Reden halten, in denen sie 'Prinzipien' und andere Archaismen beschwören, bevor sie wie ergraute Elefanten, die sich der Herde widersetzen, durch die Lobby stapfen, tun Ihre Abgeordneten, was man ihnen sagt. Ebenso, aus eigenen Gründen, Labour. Die Abstimmung wird gewonnen.",
+      "Draußen treten Sie mit einem triumphalen Ruf von 'An die Wahlurnen!' vor die Presse."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter\" ►428"
+    ]
+  },
+  "544": {
+    "ROUTES": [
+      "[IF keyword:LEAF AND Goodwill<=30] ►787",
+      "[ELSE] ►664"
+    ]
+  },
+  "545": {
+    "ROUTES": [
+      "[IF keyword:DODO OR keyword:JEWEL] ►532",
+      "[ELSEIF keyword:IRIS] ►32",
+      "[ELSE] ►729"
+    ]
+  },
+  "546": {
+    "PROSE": [
+      "Die fruchtig-joviale Stimme am anderen Ende der Leitung ist unverkennbar. 'Hallo, Peter.'",
+      "'Hören Sie,' sagt Strewel. 'Es gibt Gezeiten in den Geschicken der Menschen und so weiter.'",
+      "'Haben Sie einen Klempner gerufen?'",
+      "'Ho ho. Eher ein Sahnestückchen. Liegt für Sie zum Greifen bereit. Ich spreche von Nummer 11.'",
+      "'Ich bin ganz zufrieden, wo ich bin, danke. Warum sollte ich nebenan einziehen wollen?'",
+      "'Besser als in Ihren Wahlkreis zurückzuziehen, oder?'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"'Sie wollen, dass ich aus dem Rennen aussteige. Sind Sie verrückt?'\" ►642",
+      "[OPTION] \"'Abgemacht. Reden wir Klartext.'\" ►77",
+      "[OPTION] \"'Warum nehmen Sie nicht Nummer 11? Ist weniger Arbeit als Premierminister(in) zu sein.'\" ►20"
+    ]
+  },
+  "547": {
+    "PROSE": [
+      "'Es war ein Riesenspaß, mit Peter über seine Kolumnen aus Brüssel zu reden,' erinnert sich Strewels alter Zeitungsredakteur, der Sie per Skype vom Pool seiner Villa in Spanien aus kontaktiert. 'Er grinste wie ein ungezogenes Kind und umarmte sich dabei fast selbst. Selig wie ein Affe auf einem Bananenberg, so war er. Ich erinnere mich, wie er sagte, dass es ihm vorkam –'",
+      "'Der/die Premierminister(in) braucht ein Zitat,' wirft Ron Beardsley ein und beugt sich vor Ihnen nach vorne.",
+      "'Na gut. Er sagte: „Diesen ganzen EU-Unsinn jede Woche zu veröffentlichen, ist, als würde man Knochen über einen Zaun werfen und den Hunden beim Bellen zuhören. Die gesamte Tory-Partei hängt buchstäblich an meinem jedes Wort. Es ist wirklich der herrlichste große Schluck Macht.\\“'",
+      "'Das klingt nach ihm.'",
+      "Was wollen Sie mit dem anfangen, was er Ihnen erzählt hat?"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Das Zitat an einen wohlgesinnten Journalisten weitergeben, in der Hoffnung, Strewels Image zu beschädigen\" ►563",
+      "[OPTION] \"Das ist es nicht wert\" ►528"
+    ]
+  },
+  "548": {
+    "PROSE": [
+      "Sie haben den deutlichen Eindruck, dass die EU-Verhandlungsführer erleichtert sind, dass Britannien weiterhin Teil des Binnenmarkts sein will.",
+      "'Es ist das Beste für alle Beteiligten,' versichert Ihnen Präsident Terlaman. 'Was für eine Art von Binnenmarkt-Mitgliedschaft streben Sie an?'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Das sogenannte Norwegen-Modell: eine sehr enge Beziehung innerhalb des Europäischen Wirtschaftsraums, die umfassenden Zugang zum Handel mit Waren und Dienstleistungen bietet\" ►84",
+      "[OPTION] \"Das Schweizer Modell: eine Vereinbarung außerhalb des EWR mit nur teilweisem Zugang zum Waren- und Dienstleistungshandel, aber mit mehr Ausnahmeregelungen und ohne Beiträge zum EU-Haushalt\" ►654"
+    ]
+  },
+  "549": {
+    "PROSE": [
+      "Eine Staatssekretärin schert aus der Parteilinie aus und hält eine Rede, in der sie vor den Gefahren eines harten Brexit warnt.",
+      "'Sie müssen ein Exempel an ihr statuieren,' sagt Ihr Stabschef Ron Beardsley.",
+      "'Sie meinen..?'",
+      "'Feuern Sie sie.'",
+      "Er hat nicht Unrecht. Wenn Sie es nicht tun, werden die Leute anfangen zu vermuten, dass Sie insgeheim ein Remainer sind. Aber nachdem Sie kürzlich eine Dokumentation über die Killing Fields in Kambodscha gesehen haben, ist Ihnen die ganze Idee von Doktrinen-Reinheit und politischer Hysterie ziemlich zuwider."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Überwinden Sie Ihre Bedenken. Sie muss gehen\" ►166",
+      "[OPTION] \"Sprechen Sie unter vier Augen mit ihr, in der Hoffnung, dass sie ihre Äußerungen künftig mäßigt\" ►408"
+    ]
+  },
+  "550": {
+    "PROSE": [
+      "'Stimmt, Britanniens Fall ist anders, weil wir bereits Teil der EU sind. Möglicherweise müsste die Kommission also entscheiden, ob sie die Zuständigkeit an die nationalen Regierungen abgibt.'",
+      "'Möglicherweise?'",
+      "Stollard zuckt die Achseln. 'Es könnte vor die Gerichte kommen. Oder die Kommission könnte dem politischen Druck nachgeben. Wir reden von siebenundzwanzig verschiedenen nationalen Interessen, und die werden nicht alle in der Stimmung sein, Britannien entgegenzukommen.'",
+      "'Wenn die Kommission Rückgrat hat, kann sie auf Basis der Schwerpunkt-Doktrin die Zuständigkeit beanspruchen,' wirft Dent ein. Er wendet sich an Sie: 'Das ist ein Rechtsprinzip, das besagt, dass bei einem Abkommen mit mehreren Zielen das Recht Vorrang haben sollte, das dem Hauptzweck des Abkommens entspricht. Bei Handelsabkommen hat die EU ausschließliche Zuständigkeit, sie müsste also nicht auf die nationalen Regierungen verweisen.'",
+      "'Es sei denn, sie entscheidet sich dafür,' sagt Stollard.",
+      "'Es sei denn,' stimmt Dent widerwillig zu.",
+      "'Also kann man eigentlich nicht sagen, in welche Richtung es geht,' sagt Strewel. 'Typische verdammte EU, wie einen Fluchttunnel in einem Hühnerstall zu organisieren. Wir werden einfach abwarten müssen.'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"'Was können wir aus ähnlichen Abkommen lernen, die die EU in der Vergangenheit geschlossen hat?'\" ►22",
+      "[OPTION] \"'Welche Vorteile haben wir in diesen Verhandlungen?'\" ►495",
+      "[OPTION] \"'Im schlimmsten Fall gibt es immer noch die Welthandelsorganisation, oder?'\" ►826"
+    ]
+  }
+}

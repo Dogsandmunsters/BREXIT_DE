@@ -1,0 +1,333 @@
+{
+  "676": {
+    "PROSE": [
+      "Die letzte Runde des Referendums endet mit der unmissverständlichen Entscheidung des britischen Volkes, dass es bereit ist, in der EU zu bleiben, aber weitere Zugeständnisse fordert.",
+      "‚Ihr Vorgänger hat das schon versucht', bemerkt der Schatzkanzler. ‚Und wo ist der jetzt?'",
+      "‚Sonnt sich bestimmt auf der Jacht irgendeines Ölmagnaten. Wir können doch ein paar Zugeständnisse auftreiben, oder? Einwanderung zum Beispiel. Die können wir mit bestehenden EU-Gesetzen verschärfen und das den Wählern als Sieg verkaufen.'",
+      "‚Wenn wir tatsächlich bleiben, werden die EU27 gut gelaunt sein. Da gibt es vermutlich ein paar kleinere Zugeständnisse, die wir herausschlagen könnten.'",
+      "‚Den Rabatt?'",
+      "‚Geld.' Er zieht die Luft durch die Zähne. ‚Eher nicht.'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter\" ►714"
+    ]
+  },
+  "677": {
+    "PROSE": [
+      "Ein Abgeordneter geht gerade durch die Lobby, als er sich an die Brust greift, aufstöhnt und zu Boden sackt. Sie vermuten eine List, um dem unaufhaltsamen Horrorwalzer namens Brexit zu entkommen. Aber nein, es stellt sich als <em>bona fide</em> Herzinfarkt heraus, und zwar als tödlicher. Eine sofortige Nachwahl wird ausgelöst.",
+      "Was denken Sie?"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Das ist ein Rückschlag, aber Sie werden es zu Ihrem Vorteil nutzen\" ►585",
+      "[OPTION] \"Ein Silberstreif am Horizont mit einer möglichen Wolke daran\" ►329"
+    ]
+  },
+  "678": {
+    "PROSE": [
+      "‚Das fällt wohl mir als Minister für internationalen Handel zu', sagt Barkwell. Er schiebt ein paar Papiere hin und her wie ein nervöser Vater bei einer Hochzeitsrede. ‚Ähm… Sitz in Genf, nicht in Brüssel. Fast jedes Land der Welt ist Mitglied. Sogar Turkmenistan.' Er starrt auf das Blatt Papier. ‚Nein, die sind kein Mitglied. Einer der unglücklichen Wenigen.'",
+      "Dent greift herüber und drückt seine Hand auf Barkwells Notizen, als würde er den Deckel über etwas Peinlichem schließen. ‚Die Welthandelsorganisation legt Standardzölle zwischen Staaten fest, die nicht durch ein Freihandelsabkommen oder eine Zollunion abgedeckt sind', erklärt er. ‚In dem Moment, in dem wir die EU verlassen, fallen wir auf die WTO-Regeln zurück. Sind wir eigenständiges Mitglied? Ja, sind wir. Der Generaldirektor der WTO ist aktenkundig: „Das Vereinigte Königreich ist heute Mitglied der WTO, es wird morgen Mitglied sein. Es wird keine Unterbrechung geben. Der Handel wird nicht aufhören.\" Das ist ein Schlag ins Gesicht der Schwarzseher, hm?'",
+      "Aus irgendeinem Grund bleibt sein Blick am Schatzkanzler hängen, der dies als Stichwort nimmt, den Faden aufzugreifen. ‚Beim Verlassen der EU ist das wahrscheinlichste Szenario, dass wir kopieren und einfügen: die gleichen Zölle auf andere Länder anwenden, die wir zuvor als EU-Mitglied erhoben haben. Unsere Zölle gegenüber der EU selbst wären WTO-Standard.'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"‚Können wir diese Zölle nicht ändern?'\" ►52",
+      "[OPTION] \"‚Welche anderen WTO-Regeln müssen wir beachten?'\" ►454"
+    ]
+  },
+  "679": {
+    "PROSE": [
+      "Peter Strewel kommt mit einem Angebot zu Ihnen. ‚Das ist hier wie die Hungerspiele, was?'",
+      "‚Sie sehen nicht aus, als hätten Sie Hunger gelitten, Peter.'",
+      "‚Ich hole mir erst Appetit, wenn Sie es genau wissen wollen. Ich werde die Sache anpacken und durchziehen. Sie wissen, dass Sie mich nicht schlagen können. Also wie wäre es, wenn wir uns zusammentun? Sie unterstützen meine Kampagne und ich gebe Ihnen das Finanzministerium. Ich bin in Nummer 10, Sie sind in Nummer 11. Wie in einer BBC-Sitcom.'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Den Deal annehmen\" ►77",
+      "[OPTION] \"Ihm absagen\" ►617"
+    ]
+  },
+  "680": {
+    "ONENTER": [
+      "[EFFECT getKW:NYLON]"
+    ],
+    "PROSE": [
+      "Fungale verschwendet keine Zeit und verkündet seine Absicht, als Parlamentskandidat anzutreten, sofern die Konservativen ihn aufnehmen. Er hat sich eine heruntergekommene ostanglische Küstenstadt ausgesucht, in der der derzeitige Amtsinhaber ein aussichtsloser Vertreter des Remain-Flügels der Partei ist.",
+      "Der örtliche Wahlkreis hofiert ihn bereits, also scheint die Sache gelaufen zu sein. Es ist wohl ganz gut, dass Sie nicht versucht haben, seine Mitgliedschaft zu blockieren. Heutzutage muss man seine Schlachten sorgfältig wählen."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter\" ►375"
+    ]
+  },
+  "681": {
+    "PROSE": [
+      "‚Soweit ich es verstehe', sagt Dent, ‚bedeutet das keine Zölle im Handel mit der EU. Aber wir müssten uns an die EU-Zollregelungen für Waren von außerhalb der Europäischen Zollunion halten. Und wir hätten den Vorteil des EU-Verhandlungsteams bei neuen Abkommen – aber wie wir besprochen haben, ist das vielleicht gar kein Vorteil. Schließlich haben wir den Brexit mit dem Füllhorn wirtschaftlicher Möglichkeiten verkauft, sobald Britannien allein vorangeht. Ich für meinen Teil möchte nicht erleben, dass wir unter dem Tisch kauern und die Brocken aufsammeln müssen, die die EU uns zuwirft.'",
+      "‚Oh, Moment mal', sagt Strewel. Er bückt sich und rettet einen gebratenen Champignon, der von seinem Teller gefallen war. ‚Bin mir nicht sicher, ob ich den noch essen sollte. Ach was, Fünf-Sekunden-Regel, nicht wahr?'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"‚Peters Frühstück mal beiseite – was sind die Nachteile einer Zollunion?'\" ►799",
+      "[OPTION] \"‚Was ist mit anderen möglichen Handelsmodellen?'\" ►703"
+    ]
+  },
+  "682": {
+    "ONENTER": [
+      "[EFFECT Popularity-2]",
+      "[EFFECT getItem:the NHS]"
+    ],
+    "PROSE": [
+      "Sie distanzieren sich von allen Entscheidungen mit der Begründung, mit dem Brexit zu beschäftigt zu sein. Lassen Sie Ihren Gesundheitsminister und den Schatzkanzler die Prügel einstecken. Jede schlechte Nachricht bezüglich des NHS ist viel zu giftig, als dass Sie sich davon besudeln lassen könnten.",
+      "Das Ergebnis ist, dass der NHS seine übliche Tropfinfusion unzureichender Finanzierung erhält. Barry Scraggle steht im Unterhaus auf, um das zu kritisieren, verzettelt sich aber in einer Debatte über kostenlose Gehhilfen für Rentner. Sie danken Gott für einen solchen Oppositionsführer."
+    ],
+    "REPORT": [
+      "<strong>-2% Beliebtheit</strong>: Die Wähler bekommen mit, dass der NHS in Schwierigkeiten steckt, und sind nicht erfreut."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Man kann es nicht allen recht machen\" ►385"
+    ]
+  },
+  "683": {
+    "PROSE": [
+      "Da die Umfragen einen Trend Richtung Remain andeuten, kommt es auf die abschließenden Fernsehdebatten an. Nicht zum ersten Mal könnte alles von Wetter und Laune entschieden werden."
+    ],
+    "GOTO": [
+      "[IF keyword:FOG] \"Weiter\" ►837",
+      "[ELSEIF keyword:GAZELLE] \"Weiter\" ►788",
+      "[ELSEIF keyword:SANCTION] \"Weiter\" ►445",
+      "[ELSE] \"Weiter\" ►624"
+    ]
+  },
+  "684": {
+    "PROSE": [
+      "‚Das ist Norwegens übliche Taktik', sagt Stollard. ‚Obwohl sie kein direktes Mitspracherecht bei EU-Regulierungen haben, müssen die meisten dieser Regulierungen internationalen Standards entsprechen – natürlich, weil die EU weltweit handelt. Norwegen kann also bei der WTO, den Vereinten Nationen und so weiter lobbyieren, und dort beschlossene Richtlinien werden von der EU übernommen. Es ist die globale Bühne, die zählt. Wir könnten im Europäischen Wirtschaftsraum bleiben, unsere Finanztransfers reduzieren, unsere bestehenden Vereinbarungen für Dienstleistungen und zollfreie Waren beibehalten und trotzdem ein Wort bei EU-Richtlinien mitreden. Wir müssen nur clever vorgehen.'",
+      "‚Freizügigkeit wird immer der Knüppel zwischen den Beinen sein', sagt Strewel. ‚Der Spanier im Getriebe, sozusagen. Ho ho.'",
+      "‚Einverstanden', sagt Dent. ‚Die Öffentlichkeit hat mit überwältigender Mehrheit dafür gestimmt, die Freizügigkeit zu beenden und den sprudelnden Einwanderungshahn zuzudrehen.'",
+      "‚Überwältigend', stimmt Barkwell zu. ‚Ein unwiderstehliches Mandat. Wir können nur tun, was das Volk verlangt – und das bedeutet Nein zum EWR.'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter\" ►17"
+    ]
+  },
+  "685": {
+    "PROSE": [
+      "Das Ministerium für internationalen Handel. Ugh. Es ist nicht der Name selbst, der Sie stört. Wenigstens ist er prägnanter als sein Vorgänger, das Ministerium für Wirtschaft, Innovation und Qualifikation, das Sie immer an ein erfundenes Ministerium aus <em>The Thick of It</em> erinnerte. Aber das Gebäude sieht aus wie die Eingangshalle einer Docklands-Bahnstation. Umso mehr zu dieser Abendstunde, mit Neonröhren, die ein gnadenloses Zombielicht über Reihen leerer Schreibtische werfen.",
+      "Sie blicken auf Ihre Uhr. Erst halb zehn. Etwas früh, um schon Feierabend zu machen. Stellen Sie sich vor, Churchill hätte den War Room so geführt: ‚Geht besser alle nach Hause, sonst wird euer Abendessen kalt. Jerry kann bis morgen warten.'",
+      "Sie werfen einen Blick ins Büro des Ministers. Keine Spur von ihm, aber immerhin sind sein Mantel und seine Aktentasche hier. Es sei denn, er hat den Trick der Investmentbanker übernommen, einen Ersatzmantel dazulassen, um die Leute zu täuschen. Trotzdem, Sie müssen nicht mit ihm reden. Sie brauchen nur ein Exemplar des Berichts über internationalen Handel, der hier irgendwo herumliegen müsste.",
+      "Fünf Minuten später sind Sie von Papierstapeln umgeben, aber keine Spur vom Bericht. Sie sind kurz davor, Ihre Personenschützer anzurufen, damit die danach suchen. Die sollen mal ihre hunderttausend Pfund im Jahr verdienen.",
+      "‚Kann ich Ihnen helfen, Premierminister(in)?'",
+      "Sie drehen sich um. Das Mädchen sieht aus wie zwölf Jahre alt. Aber das tun heutzutage auch die meisten Ärzte und Polizisten.",
+      "‚Sind Sie Beamtin?'",
+      "Sie schüttelt den Kopf. Zwölfjährige hätten doch keine grüne Strähne im Haar, oder? Und kaut sie Kaugummi?",
+      "‚Eine Sonderberaterin?'",
+      "‚Nein, ich mache hier manchmal meine Hausaufgaben, während ich auf meinen Dad warte. Er ist zum Abendessen in seinem Club.'",
+      "Der Groschen fällt. ‚Sie sind Mr Barkwells Tochter.'",
+      "Sie schaut an Ihnen vorbei auf die verstreuten Akten. ‚Suchen Sie etwas?'",
+      "‚Den Bericht, an dem Ihr Vater gearbeitet hat, eigentlich. Aber lassen Sie nur.'",
+      "‚Ja, den habe ich gelesen. Was wollen Sie wissen?'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter\" ►700"
+    ]
+  },
+  "686": {
+    "PROSE": [
+      "Zurück in Nummer 10 verlieren Sie keine Zeit. ‚Wilkins, besorgen Sie mir einen Experten für britische Aufenthaltsrechte.'",
+      "‚Jetzt sofort, Premierminister(in)? Es ist Wochenende.'",
+      "‚Der staatliche Rechtsdienst beschäftigt über zweitausend Anwälte. Sie können doch sicher einen am Samstag auftreiben.'",
+      "Ein paar Minuten später telefonieren Sie mit einem Kronanwalt, der Ihnen die Kurzfassung der Aufenthaltsrechte von EU-Bürgern geben kann.",
+      "‚Im Wesentlichen', sagt er, ‚kann jeder einer von drei Arten britischer Einwohner sein. Einwohner, Daueraufenthaltsberechtigter oder Staatsbürger. Wenn Sie mindestens fünf Jahre hier ansässig waren, können Sie einen Antrag auf Daueraufenthalt stellen. Und wenn Sie Daueraufenthaltsberechtigter sind, können Sie nach einem weiteren Jahr die Staatsbürgerschaft beantragen. Es dauert also mindestens sechs Jahre, bis ein Einwanderer britischer Staatsbürger wird.'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"‚Und wie funktioniert das für EU-Bürger?'\" ►284",
+      "[OPTION] \"‚Kann ein EU-Bürger einen Antrag auf britischen Aufenthalt stellen?'\" ►295"
+    ]
+  },
+  "687": {
+    "PROSE": [
+      "‚Wie jeder Markt klassifiziert die EU Waren nach Dingen wie Größe und Form, ob sie beim Transport zerquetscht wurden, und so weiter. Das will man wissen, bevor man für etwas Geld hinlegt. Es gab nie eine Vorschrift, die gerade Bananen oder verschiedene Kondomgrößen verboten hat. Und was die Krabbencocktail-Chips angeht –'",
+      "Sie bemerken die leeren Blicke. Als Sie innehalten, heben mehrere Reporter die Hand. Niemand wird berichten, was Sie gesagt haben. In dieser Welt der Post-Fakten ist eine Meldung berichtenswert, wenn sie die Leute unterhält, mit Bonuspunkten, wenn sie kurz genug zum Twittern ist. Wenn Sie einen freischaffenden Populisten wie Peter Strewel schlagen wollen, werden Sie das nicht schaffen, indem Sie seinen wilden Behauptungen mit vernünftigen Argumenten begegnen."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter\" ►34"
+    ]
+  },
+  "688": {
+    "PROSE": [
+      "Das ist es. Der große Wurf. Die gesamte künftige Handelsbeziehung zwischen Britannien und unserem nächsten, größten und natürlichsten Markt hängt von der nächsten Verhandlungsrunde ab. Das ist viel zu wichtig, um es diesen Stümpern und Dampfplauderern im Kabinett zu überlassen. Das übernehmen Sie persönlich.",
+      "Flankiert von einer kleinen Armee gut vorbereiteter Verhandler sitzen Sie Alprèves und seinem Team gegenüber, über ein Niemandsland aus Glasfläche hinweg. Wie üblich wirken sie geschmeidig selbstbewusst, aber Ihre Brexit-Minister haben Ihnen versichert, dass die EU diesen Deal mehr braucht als Britannien. Was war es noch, das Peter Strewel sagte, als Sie ins Flugzeug stiegen? ‚Wir haben alle Karten in der Hand, PM. Passen Sie nur auf, dass Sie auch von unten geben.'",
+      "In den nächsten Tagen ist Ihr Ziel, die Bedingungen auszuhandeln, unter denen die EU und das Vereinigte Königreich nach März 2019 handeln werden. Sie haben drei bestehende Modelle für Handelsbeziehungen, zwischen denen Sie als Vorlage wählen können.",
+      "Das Norwegen-Modell, von den Brexit-Befürwortern während des Referendums viel angepriesen, aber seither von den Hardlinern verworfen, hält Britannien im Europäischen Wirtschaftsraum. Als etwas, das einer assoziierten Mitgliedschaft nahekommt, erfordert es gewisse Beiträge zu Forschungs- und Entwicklungsprojekten, bietet aber maximalen Nutzen.",
+      "Das Schweizer Modell, außerhalb des EWR, aber immer noch im Binnenmarkt, gewährt etwas mehr Freiheit, zumindest in der Form, nominell aus der Freizügigkeit und EU-Regulierung aussteigen zu können. In der Praxis würde ein Ausstieg natürlich den Verlust des Marktzugangs bedeuten, aber immerhin besteht die Wahl.",
+      "Die Türkei steht außerhalb des Binnenmarkts, hat aber eine Zollunion mit der EU. Das bedeutet keine Zölle auf Waren, die zwischen beiden gehandelt werden, und verschafft der Türkei den Vorteil aller von der EU ausgehandelten Handelsabkommen – die natürlich weit mehr Durchsetzungskraft hat als jedes einzelne Land.",
+      "Der Nachteil der türkischen Vereinbarung ist, dass sie nur Waren abdeckt, während der überwiegende Teil des britischen Handels Dienstleistungen betrifft. Einige haben vorgeschlagen, die Uhr zurückzudrehen und Britanniens Werften und Gießereien wieder in Betrieb zu nehmen wie in den großen Tagen von Isambard Kingdom Brunel. Aber Sie glauben nicht, dass Ofenrohrhüte und Kinderprostitution auf Begeisterung stoßen würden, also wäre es in der Abwägung vorzuziehen, ein völlig neues Freihandelsabkommen mit der EU auszuarbeiten. Der Haken an der Sache ist, dass Sie genau das und noch viel mehr als Vollmitglied hatten. Was würde ein maßgeschneidertes Abkommen bieten?"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Etwas wie das Norwegen-Modell anstreben\" ►111",
+      "[OPTION] \"Die Schweiz und die Europäische Freihandelsassoziation als Maßstab nehmen\" ►167",
+      "[OPTION] \"Eine Zollunion nach dem Vorbild des türkischen Abkommens mit der EU vorschlagen\" ►674",
+      "[OPTION] \"Leitlinien für ein völlig neues Freihandelsabkommen aufstellen\" ►294"
+    ]
+  },
+  "689": {
+    "PROSE": [
+      "Eine gute Antwort. Sie verkaufen den Leuten die Idee eines Kurses, der ihnen die besten Eigenschaften der EU erhält, ohne ihren Stolz zu verletzen. Sie können fast spüren, wie das Debattenpublikum sich in das von Ihnen beschriebene Modell hineinentspannt.",
+      "Trotzdem ist das eine Debatte in einem Mahlstrom aus Lügen, wilden Behauptungen, gereizten Entgegnungen und blanker Hysterie. Vernunft ist eine winzige Stimme am Grund von Pandoras Büchse.",
+      "Am Abend des Referendums schalten Sie den Fernseher ein und laufen im Zimmer auf und ab, während die Ergebnisse eintrudeln."
+    ],
+    "TOSS_TWO": [
+      "[BOTH HEADS] \"Weiter\" ►403",
+      "[BOTH TAILS] \"Weiter\" ►313",
+      "[HEAD AND TAIL] \"Weiter\" ►403"
+    ]
+  },
+  "690": {
+    "PROSE": [
+      "‚Ja. Die betreffen Nicht-Handels-Themen. Tourismus, Zusammenarbeit bei Sicherheit, Umwelt, politisches Asyl, kulturelle Angelegenheiten und dergleichen. Alles Abkommen, die die Schweiz auf dem denkbar ineffizientesten Weg näher an eine assoziierte Mitgliedschaft in der Europäischen Union heranrücken.'",
+      "‚Und die Verhandlungen haben ewig gedauert', fügt Strewel hinzu. ‚Ich habe gehört, dass allein die Bilateralen Abkommen II über zwei Jahre Verhandlung gekostet haben, und das sind nur die eigentlichen Verhandlungen. Jeder Teil des Deals durchlief dann eine gegenseitige Genehmigungsphase, im Schnitt drei Jahre pro Stück. Kopfschmerztabletten für alle. Fast schneller, das per Jodeln zu erledigen.'",
+      "‚Warum waren Dienstleistungen nicht dabei?'",
+      "‚Ursprünglich war das der Hauptzweck der Bilateralen Abkommen II. Am Ende hatten sie die Pommes und den Salat, aber kein Steak.'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"‚Wie kam das?'\" ►457",
+      "[OPTION] \"‚Gibt es noch andere Punkte, die ich wissen sollte?'\" ►378"
+    ]
+  },
+  "691": {
+    "PROSE": [
+      "‚Es sind ungefähr 40% dessen, was Britannien als Vollmitglied pro Kopf zahlt', sagt Stollard.",
+      "‚Was bekommen sie dafür?'",
+      "‚Ah, das ist interessant. Es kann natürlich nicht als Mitgliedsbeitrag verkauft werden. Die SVP – das ist quasi die Schweizer UKIP, nur nicht so chaotisch – würde auf so etwas sofort anspringen. Also fließt es in die Regionalentwicklung und die Finanzierung von Forschungsprogrammen.'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"‚Und dafür bekommen sie Zugang zum Binnenmarkt bei Dienstleistungen und Waren?'\" ►673",
+      "[OPTION] \"‚Und was ist mit der Freizügigkeit?'\" ►457"
+    ]
+  },
+  "692": {
+    "ONENTER": [
+      "[EFFECT Popularity-5]",
+      "[EFFECT getItem:Second EU Referendum]"
+    ],
+    "PROSE": [
+      "Na und, wenn Sie für einen weichen Brexit geworben haben und die Öffentlichkeit stattdessen in der EU bleiben will? Sie können es als clevere Strategie verkaufen, die eingefleischten Leave-Wähler umzustimmen. ‚Ich wollte uns im Binnenmarkt und so soll es auch bleiben', werden Sie ihnen sagen. Kein Grund zum Rücktritt.",
+      "‚Was jetzt?' rufen die Reporter, die in der Downing Street auf Sie warten.",
+      "Sie drehen sich der Salve blitzender Kamerablitze entgegen. Nie zuvor haben Sie den Rückenwind des Schicksals so deutlich in Ihren Segeln gespürt.",
+      "‚Jetzt', sagen Sie ihnen, ‚mache ich mich an die Arbeit.'"
+    ],
+    "REPORT": [
+      "<strong>-5% Beliebtheit</strong>: Ihre Fehleinschätzung im Wahlkampf müssen Sie erst einmal ausbügeln."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Sie werden es ihnen zeigen\" ►450"
+    ]
+  },
+  "693": {
+    "PROSE": [
+      "Auf Zeit zu spielen mag der beste Kurs sein, aber Alprèves gefällt das nicht. Aus seiner Sicht würde jede Unsicherheit darüber, ob Britannien seinen Beitrag in der laufenden Förderperiode leistet, ein klaffendes Loch im EU-Haushalt bedeuten.",
+      "‚Ich habe das Gefühl, dass der Begriff „Austrittsgebühr\" die britische Stimmung in dieser Angelegenheit trübt', sagt er leicht pikiert. ‚Das ist keine Rechnung, die Ihnen der Rest der Europäischen Union vor die Nase knallt. Es ist auch nicht, wie einige Ihrer Zeitungen es darstellen wollen, ein Fehdehandschuh, der einem Duellanten ins Gesicht geklatscht wird. Es ist Britanniens Anteil an den berechtigten Ausgaben, die als Vollmitglied angefallen sind.'",
+      "‚Niemand bestreitet das. Das Vereinigte Königreich nimmt seine Verpflichtungen sehr ernst.'",
+      "‚Das war einmal so, doch wenn wir uns beispielsweise Ihre internationale Bonitätsbewertung ansehen –'",
+      "‚Immer noch auf dem Niveau des EU-Durchschnitts, wenn ich Sie darauf hinweisen darf.'",
+      "‚Aber durch Ihr Referendum schwer beschädigt, und mit negativem Ausblick, seit Sie beschlossen haben, sich von den anderen siebenundzwanzig Staaten abzuschneiden.'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Abschneiden? Das ist eine provozierende Wortwahl! Zeigen Sie ihm, dass Sie sich das nicht bieten lassen\" ►421",
+      "[OPTION] \"Immer mit der Ruhe. Die Gewässer vor uns werden noch viel unruhiger\" ►288"
+    ]
+  },
+  "694": {
+    "PROSE": [
+      "Die Inspiration kommt Ihnen ein paar Tage später, als Sie Ihren Fahrer anhalten lassen, um ein Thai-Essen mitzunehmen. Nudeln aus der Pappschachtel mampfend rufen Sie auf dem Rücksitz den Schatzkanzler an.",
+      "‚Ich habe zwei Wörter, Alan. Thai-Hühnchen.'",
+      "‚Oh, bringen Sie mir doch bitte Tod Mun Pla mit. Ich saß an diesen Tabellenkalkulationen und habe das Abendessen verpasst.'",
+      "‚Zu spät, ich habe schon bestellt. Schieben Sie sich eine Pizza in die Mikrowelle, wenn Sie Hunger haben. Mein Punkt ist: Wir kaufen eine Menge Hühnchen aus Thailand, oder?'",
+      "‚Mehr als 100.000 Tonnen pro Jahr. Britannien macht etwa die Hälfte des Hühnchens aus, das Thailand in die EU exportiert. Aber warum…?' Es kommt ein Geräusch wie Rauschen in der Leitung. Obwohl Rauschen normalerweise nicht flucht.",
+      "‚Ja, Alan, Sie haben es verstanden. Ich möchte unsere Hühnchen-Quote erhöhen, einen Vorzugszoll aushandeln, die Lebensmittelsicherheitsstandards lockern – was auch immer nötig ist, um ein breites „Sawasdee\" aus Thailand zu bekommen.'",
+      "‚Der Nachteil ist, dass die britische Geflügelindustrie danach aussehen wird, als hätte der Fuchs sich im Hühnerstall ausgetobt.'",
+      "Da hat er einen Punkt."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Trotzdem durchziehen\" ►491",
+      "[OPTION] \"Vergessen Sie den einen großen Deal und konzentrieren Sie sich auf eine Reihe kleinerer Abkommen\" ►242"
+    ]
+  },
+  "695": {
+    "ONENTER": [
+      "[EFFECT getItem:General Election]"
+    ],
+    "PROSE": [
+      "Gerade der Erfolg Ihrer Führung wendet sich gegen Sie. Labour, in Angst vor der sicheren Vernichtung bei einer Parlamentswahl, stimmt gegen den Antrag. Er kommt nicht durch.",
+      "Für ein paar Stunden erwägen Sie die Möglichkeit, einen Ihrer zahmen Hinterbänkler einen Misstrauensantrag stellen zu lassen. Wenn der mit einfacher Mehrheit durchginge, hätten Sie den Vorwand, den Sie brauchen, um Neuwahlen auszurufen.",
+      "‚Aber das würde mich schwach aussehen lassen!' rufen Sie aus. Sie blicken sich um, aber die Chapel of St Mary ist leer, Ihre Sicherheitsbeamten stehen vor der Tür. Nur der Herr ist hier, um Zeuge Ihrer ohnmächtigen Wut zu sein."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Vertrauen Sie auf Gott\" ►666"
+    ]
+  },
+  "696": {
+    "ONENTER": [
+      "[EFFECT Authority-1]",
+      "[EFFECT Popularity+1]"
+    ],
+    "PROSE": [
+      "‚Das müssten Sie Mr Tode und Mr Strewel fragen', sagen Sie, als die Frage aufkommt. ‚Ich weiß nicht, wer von beiden den Pinsel geschwungen hat, aber er kann jederzeit vorbeikommen und meinen Gartenschuppen streichen.'",
+      "Es erntet ein Lachen, aber da Peter Strewel in Ihrem Kabinett sitzt, kommt es bei den Hinterbänklern nicht so gut an."
+    ],
+    "REPORT": [
+      "<strong>-1% Autorität</strong>: Aus einigen Parteifraktionen ist Unmut zu vernehmen.",
+      "<strong>+1% Beliebtheit</strong>: Die Wähler sehen in Ihnen eine feste Hand am Steuer."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter\" ►125"
+    ]
+  },
+  "697": {
+    "ONENTER": [
+      "[EFFECT Authority+15]",
+      "[EFFECT Economy+5]",
+      "[EFFECT getItem:General Election]"
+    ],
+    "PROSE": [
+      "Ein glorreicher Tag. Sie werden mit einem Erdrutschsieg wiedergewählt.",
+      "‚Ein großer Sieg für die Partei', sagt der Schatzkanzler, als Sie sich auf den Weg zum Buckingham Palace machen.",
+      "‚Für die Partei? Nein, Alan. Der Sieg gehört mir.'"
+    ],
+    "REPORT": [
+      "<strong>+15% Autorität</strong>: Nichts kann Sie jetzt noch aufhalten.",
+      "<strong>+5% Wirtschaft</strong>: Das Sahnehäubchen; die Märkte sind beruhigt durch das Versprechen einer starken und stabilen Regierung."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Sie sind unaufhaltbar\" ►666"
+    ]
+  },
+  "698": {
+    "PROSE": [
+      "‚Eine Speisekarte, sozusagen', sagt Strewel. ‚Brexit à la carte.'",
+      "‚Das ist ein Rezept für ein Desaster, wenn Sie mich fragen', sagt der Schatzkanzler. ‚Nehmen wir mal an, 30% sind für ein norwegisches Modell, 30% wollen in der EU bleiben und 40% wollen komplett raus, kein Binnenmarkt, keine Zollunion und so weiter?'",
+      "‚Dann gewinnt Leave', sagt Barkwell. ‚So funktioniert Demokratie in meinem Buch. Die Mehrheitsmeinung setzt sich durch.'",
+      "‚Das ist nur ein Beispiel, Leslie. Das sind nicht die tatsächlichen Zahlen. Aber Sie sehen, dass 60% der Wähler keinen harten Brexit wollten, ihn aber trotzdem bekommen würden. Das könnte am Ende nur noch mehr bittere Spaltung in einem Land verursachen, das ohnehin schon am Boden liegt.'",
+      "‚Oh ja, oh ja. Das ist genau die Art von Defätismus, die die Wurzel all unserer Probleme ist. Das Land ist nicht gespalten. Der Wille des Volkes ist ein harter Brexit unter starker und stabiler konservativer Führung.'",
+      "Es herrscht einen Moment Stille, während alle Barkwells Tirade verdauen. Er greift hinüber und wischt diskret einen Speichelfleck von der polierten Tischoberfläche. Alle Augen richten sich auf Sie."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"‚Mir gefällt diese À-la-carte-Idee. Machen wir es so.'\" ►648",
+      "[OPTION] \"‚Ich weiß nicht, was gegen die bewährte Ja/Nein-Option spricht.'\" ►600",
+      "[OPTION] \"‚Was ist mit der Stichwahl-Idee? Wenn die Franzosen das hinkriegen, können wir das doch wohl auch.'\" ►340",
+      "[OPTION] \"‚Ich bekomme langsam Zweifel an der ganzen Idee. Wir hatten in letzter Zeit sowieso zu viele Referenden.'\" ►79"
+    ]
+  },
+  "699": {
+    "OPTIONS": [
+      "[OPTION] \"Über Ihre früheren Gespräche zum Handel innerhalb des Binnenmarkts nachdenken\" ►774",
+      "[OPTION] \"Sich über Britanniens Optionen außerhalb des Binnenmarkts briefen lassen\" ►322"
+    ]
+  },
+  "700": {
+    "PROSE": [
+      "Miss Barkwell scheint den Handelsbericht gründlich durchdrungen zu haben und besitzt genug Selbstbewusstsein, um eine Oscar-Verleihung zu moderieren. ‚Ich muss zurück zu meiner VWL-Vorbereitung', sagt sie, ‚aber ich kann Ihnen eine kurze SWOT-Analyse geben.'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"‚OK, was sind Britanniens Stärken?'\" ►483",
+      "[OPTION] \"‚Was ist mit unseren Schwächen?'\" ►326",
+      "[OPTION] \"‚Erzählen Sie mir von den Chancen.'\" ►392",
+      "[OPTION] \"‚Wir sollten die Risiken durchgehen.'\" ►11",
+      "[OPTION] \"‚Lassen Sie nur, machen Sie Ihre Hausaufgaben.'\" ►666"
+    ]
+  }
+}

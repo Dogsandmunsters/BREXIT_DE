@@ -1,0 +1,319 @@
+{
+  "151": {
+    "PROSE": [
+      "„Stimmen Sie der Austrittsgebühr schnell zu und wir haben uns Zeit und etwas Wohlwollen erkauft“, sagt Stollard.",
+      "Dent schnaubt wütend. „Sich auf den Rücken rollen und den Bauch kraulen lassen, ja? Wie glauben Sie, wird das ankommen?“",
+      "Der Schatzkanzler lässt sich nicht so leicht ködern. „Ich zähle lediglich die Optionen auf. Kategorisch ablehnen zu zahlen, und es geht vor Gericht. Wir könnten den Prozess sogar gewinnen – aber nur wie Pyrrhus.“",
+      "Dent erkennt den Seitenhieb auf seine fehlende akademische Bildung und verzieht das Gesicht zu seinem typischen Pommes-Frites-Grinsen. „Ich mag nicht viel über das alte Rom wissen, aber ich kenne mich mit Texas Hold’em aus, und ich sage, wenn wir deren Bluff callen, werden sie einknicken.“",
+      "Stollard lässt das ein paar Sekunden in der Luft hängen, wendet sich dann an Sie und fährt fort, als hätte Dent gar nichts gesagt. „Oder es gibt den Mittelweg. Entweder verhandeln wir die Austrittsgebühr weiterhin parallel zu den anderen Gesprächen, oder wir einigen uns schnell auf die grundlegenden Prinzipien, nach denen der Betrag berechnet wird, und kommen später darauf zurück.“",
+      "„Das in die Länge zu ziehen ist ein Problem angesichts unseres Mangels an Unterhändlern“, erinnern Sie ihn.",
+      "„Stimmt. Allerdings verschafft es uns auch Zeit, ein paar Talente anzuwerben, die wir, weiß Gott, dringend brauchen.“",
+      "„Das wäre alles für heute, meine Herren.“"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter\" ►125"
+    ]
+  },
+  "152": {
+    "PROSE": [
+      "„Was macht <em>der</em> in den Nachrichten? Kann jemand den Ton lauter drehen.“",
+      "Es entsteht ein Gewusel, als Ihre Mitarbeiter sich gegenseitig über die Füße fallen, um die Fernbedienung zu finden. Plötzlich dröhnt es los.",
+      "„Leiser drehen. Ich bin nicht taub.“",
+      "„ – der richtige Zeitpunkt für mich, der Konservativen Partei wieder beizutreten, ja“, sagt Colin Fungale gerade. „UKIP hat seinen Zweck erfüllt. Jetzt freue ich mich darauf, meinen Teil beizutragen als Teil der – “",
+      "Sie schnappen sich die Fernbedienung und hämmern auf die Stummschalttaste. Wenn Sie Fungale doch nur mit einem Knopfdruck aus der Existenz tilgen könnten.",
+      "„Diesen widerwärtigen Schandfleck in die Tory-Partei lassen?“ toben Sie. „Nur über meine Leiche.“",
+      "„Nun ja …“ wagt ein Mitarbeiter einzuwerfen. „Er ist bei einer gewissen Wählerschicht sehr beliebt.“"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Egal, Sie müssen um jeden Preis verhindern, dass er der Partei wieder beitritt\" ►90",
+      "[OPTION] \"Vielleicht ist das gar keine schlechte Idee, wenn er ein paar Millionen Wähler mitbringt\" ►680"
+    ]
+  },
+  "153": {
+    "ONENTER": [
+      "[EFFECT Authority+1]",
+      "[EFFECT getKW:PEDAL]"
+    ],
+    "PROSE": [
+      "„Katastrophe? Was für eine Katastrophe?“",
+      "„Wir müssen eine kühne und positive Front präsentieren. Denken Sie daran, dass es nicht nur darum geht, mit der EU zu verhandeln. Wir haben eine gespaltene Nation. Fast die Hälfte wollte in der EU bleiben. Wie viele von den anderen erwarteten einen weichen Brexit, in der Art des Abkommens, das Norwegen hat?“",
+      "„Was? Niemand. Kaum welche …“",
+      "Sie schütteln den Kopf. „Im Moment wollen vielleicht zwei Drittel der Wähler entweder in der EU bleiben oder erwarten eine enge Beziehung, die einer assoziierten Mitgliedschaft gleichkommt. Und wir können nicht ignorieren, dass viele Stimmen für den Brexit ein Denkzettel für unseren früheren Parteivorsitzenden und seine Sparpolitik waren.“",
+      "„Sie denken doch nicht etwa daran, die Sparpolitik umzukehren?“",
+      "„Wir müssen weiterhin dringend sparen. Jetzt mehr denn je, damit wir etwas Spielraum haben, wenn wir beginnen, neue Handelsabkommen rund um den Globus zu schließen. Aber ich muss Ihnen sagen, Sir Harvey, ich habe genug von den internen Streitereien. Diese Partei muss zusammenkommen und der Nation ein leuchtendes Beispiel geben, während wir Britanniens neue Rolle in der Welt gestalten.“",
+      "„Verstehe“, sagt er langsam und wägt ab, was Sie gesagt haben. „Nun, da kommt Ihr Assistent, also wird er mich wohl gleich hinausscheuchen. Vielen Dank für Ihre Zeit, Premierminister(in).“"
+    ],
+    "REPORT": [
+      "<strong>+1% Autorität</strong>: Er ist beeindruckt von Ihrer entschlossenen Haltung."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter\" ►507"
+    ]
+  },
+  "154": {
+    "PROSE": [
+      "„Und zwar ziemlich deutlich. Siebenundfünfzig Prozent bei einer überdurchschnittlich hohen Wahlbeteiligung. Aber es scheint, dass viele von ihnen nicht wussten, dass der Brexit den Verlust von EU-Fördergeldern bedeuten würde.“",
+      "„Wirklich, das kam als Überraschung, ja?“",
+      "„Sie müssen bedenken, Premierminister(in), dass die Leave-Kampagne einen Geldsegen versprochen hat, sobald wir die EU verlassen hätten.“"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"„Das kann ich nicht ansprechen. Denken Sie sich etwas Positives aus, das ich sagen kann.“\" ►258",
+      "[OPTION] \"„Geben Sie mir mehr Eindrücke von vor Ort. Wer in Cornwall beschwert sich am lautesten?“\" ►847",
+      "[OPTION] \"„Was versucht die EU mit diesen Förderprogrammen zu erreichen? Abgesehen davon, die Reichen auszunehmen.“\" ►573"
+    ]
+  },
+  "155": {
+    "PROSE": [
+      "Bevor Sie Gelegenheit zu einem ausführlichen Briefing über Verteidigung bekommen, werden Sie zu einem weiteren Regionalausflug geschleppt. Diesmal geht es mit dem Auto mitten in die Sümpfe von Kent, um neben einer alten Küstenfestung fotografiert zu werden – vermutlich um den Eindruck zu erwecken, Britannien stehe in würdevoller Abgeschiedenheit gegen den Neid weniger glücklicher Länder. Es scheint, als müssten Sie jeden Tag irgendwo hin und verängstigten Menschen versichern, dass der Brexit ihr Leben nicht verändern wird. Obwohl genau das passieren wird.",
+      "„Slough Fort“, sagen Sie und betrachten die Ruine mit Abscheu. „Ich hatte etwas Besseres erwartet. Es liegt nicht einmal in Slough, es sei denn, man dachte an Bunyans Sumpf der Verzweiflung.“",
+      "Sie lassen Ihren Blick über eine trostlose Weite aus Sand und windgepeitschtem Gras schweifen, wo Himmel, Land und Meer in einem migräneauslösenden Schimmer farblosen Lichts verschwimmen. Die Wolken drohen mit Regen, weshalb Ihre Berater sich zweifellos gerade mit den Kameraleuten zusammenrotten. Den ganzen Weg hierher und nicht einmal ein Fototermin zustande bringen. Das Einzige, was Ihr Herz ein wenig erwärmt, ist der Gedanke, dass Sie ein paar Leute feuern können, wenn Sie in die Downing Street 10 zurückkehren.",
+      "Ihr Personenschützer steht etwas abseits. Wie heißt der noch gleich? Die sind alle gleich. Stämmige, wettergegerbte Männer, gekleidet mit der professionellen Sorgfalt von Bestattern. Nein, besser Immobilienmaklern – weniger unheilvolle Konnotation.",
+      "Sie nicken ihm zu. „Wir geben dem Ganzen noch zehn Minuten, mal sehen ob der Regen ausbleibt.“",
+      "Er mustert den Himmel mit der Unerschütterlichkeit einer Osterinsel-Statue. „Ich glaube, es wird aufklaren. Es tut mir leid, dass Ihnen das Fort nicht zusagt, Premierminister(in).“",
+      "Sie werfen noch einen Blick darauf. Schwer zu sehen, welchen Nutzen es in Kriegszeiten hätte. Es könnte genauso gut die Ausgrabung einer viktorianischen Bedürfnisanstalt sein. „Warum steht es hier? Wissen Sie das, McKay?“",
+      "Ein Schuss ins Blaue. Das Aufblitzen von Wiedererkennen in diesen Tausend-Meter-Augen verrät, dass Sie richtig getippt haben.",
+      "„Wurde gebaut, um die Franzosen aufzuhalten, Premierminister(in). Damals in den 1800ern, als die aufmüpfig wurden, und jemand auffiel, dass es nicht viel gab, um sie davon abzuhalten, die Themse hinaufzusegeln und London anzugreifen.“",
+      "Das bringt Sie auf eine Idee. Sie sind hier, um über die Sicherheit des Vereinigten Königreichs nach dem Brexit zu sprechen, und gerade arbeitet Ihr Verteidigungsberater mit den Fotografen die Lichtverhältnisse aus. Als Mann mit echter Militärerfahrung kann McKay Ihnen vielleicht ein paar Hinweise geben."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter\" ►432"
+    ]
+  },
+  "156": {
+    "ONENTER": [
+      "[EFFECT Goodwill-5]",
+      "[EFFECT Popularity+5]",
+      "[EFFECT getItem:Immigration]"
+    ],
+    "PROSE": [
+      "Sie wissen genau, dass Sie die Tür für ungelernte Arbeitskräfte nicht sofort zuschlagen können, denn Ihr eigener Brexit-Minister hat dies bereits auf einem Gipfel in Lettland gesagt. Obwohl es hauptsächlich die geringqualifizierten Einwanderer in verarmten Gegenden waren, die dem britischen Wahlvolk die Nackenhaare aufstellten, wird es Zeit brauchen, britische Arbeiter umzuschulen, um die schmutzigen Jobs in Landwirtschaft, Pflege und öffentlichem Dienst zu übernehmen, die derzeit nur EU-Bürger aus Osteuropa bereit sind zu tun.",
+      "Insgeheim bezweifeln Sie, dass einheimische Briten diese Jobs jemals machen wollen. Jeder bleichgesichtige, Dosenbier trinkende, Kampfhund besitzende Leave-Wähler ist in seinen eigenen Augen ein Herrscher über die Erde. In zehn Jahren werden afrikanische und indische Einwanderer diese Jobs anstelle von Letten machen, und ansonsten wird sich nichts geändert haben.",
+      "Dennoch sind es die qualifizierten Arbeitskräfte, die wirklich für die Wirtschaft zählen. Sowohl Britannien als auch die EU haben ein vitales Interesse daran, die Hürden für die Mobilität in den Dienstleistungssektoren niedrig zu halten – insbesondere bei Finanzdienstleistungen. Obwohl sie also nicht begeistert sind, dass Sie ein Visasystem einführen, werden sie es hinnehmen."
+    ],
+    "REPORT": [
+      "<strong>-5% Wohlwollen</strong>: Die EU ist nicht gerade begeistert, aber es könnte deutlich schlimmer sein.",
+      "<strong>+5% Beliebtheit</strong>: Das Visasystem klingt für die Wähler nach einem glaubwürdigen Versuch, die Einwanderung zu steuern."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter\" ►150"
+    ]
+  },
+  "157": {
+    "PROSE": [
+      "Das Ergebnis der zweiten und letzten Abstimmungsrunde ist eine Mehrheit zugunsten eines weichen Brexit.",
+      "„Das sagt uns nicht besonders viel“, merkt Ihr Stabschef an. „Meinen sie innerhalb des Europäischen Wirtschaftsraums, wie Norwegen, oder außerhalb, aber trotzdem im Binnenmarkt, wie die Schweiz?“",
+      "„Haben Sie nicht selbst gesagt, Ron, dass die Schönheit des ersten Referendumsergebnisses darin lag, dass es völlig offen für Interpretationen war? Wir müssen uns bei solchen Dingen Spielraum lassen.“",
+      "Er hört nicht zu. Die Panik unvorhersehbarer Ereignisse hat ihn in einen mentalen Sturzflug versetzt. „Oder meinen sie wie die Türkei? In der Zollunion, aber außerhalb des Marktes? Zählt das noch als weicher Brexit?“",
+      "„Vielleicht meinen sie, dass sie Zugang zum Binnenmarkt wollen, ohne drin zu sein.“",
+      "Er starrt Sie an. „Aber was bedeutet das? Zugang zu einem Markt, aber nicht <em>in</em> einem Markt?“",
+      "„Ron, Ron. Es ist egal. Es ist doch nur beratend, vergessen Sie das nicht. Ihre Aufgabe ist es, herauszufinden, was die Öffentlichkeit will, und es ihr dann zu erklären.“"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter\" ►446"
+    ]
+  },
+  "158": {
+    "PROSE": [
+      "Chloe Stoats eigene Opposition gegen einen harten Brexit verleiht den Geschichten, die Sie in den Medien über sie als unzufriedene Remain-Anhängerin streuen, die Unruhe stiften will, Glaubwürdigkeit."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter\" ►577"
+    ]
+  },
+  "159": {
+    "PROSE": [
+      "Barkwell wird plötzlich hellwach, als hätte jemand einen Schilling in seinen Automaten geworfen. „Es gibt Mifid“, sagt er fröhlich. „Genauso gut wie das alte Passporting-System, nur ohne den ganzen EU-Ballast.“",
+      "Sie blicken zum Schatzkanzler, um die andere Seite der Geschichte zu hören. „Da ist etwas dran“, sagt er. „Mifid – das steht für die Richtlinie über Märkte für Finanzinstrumente – erlaubt Drittparteien die gleichen Rechte, wie sie Unternehmen mit EU- und EWR-Finanzpässen genießen. Und die neuen Mifid-Vorschriften sollen vor dem Brexit in Kraft treten, sodass britische Firmen zu diesem Zeitpunkt als gleichwertig mit ihren EU-Pendants gelten sollten.“"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"„Ich spüre ein Aber.“\" ►299",
+      "[OPTION] \"„Wir laufen Gefahr, von Akronymen erschlagen zu werden. Fassen wir die Auswirkungen auf Dienstleistungen zusammen, wenn wir dem Norwegen-Modell folgen würden.“\" ►66"
+    ]
+  },
+  "160": {
+    "ONENTER": [
+      "[EFFECT getKW:REGENT]"
+    ],
+    "PROSE": [
+      "Sie verpflichten sich, die Sicherheitsgespräche persönlich zu leiten, sobald sich ein Fenster in Ihrem Terminkalender auftut."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter\" ►666"
+    ]
+  },
+  "161": {
+    "PROSE": [
+      "„Wie ich schon sagte, das ist völlig inakzeptabel“, beharrt Barkwell.",
+      "„Ich habe mich tatsächlich damit befasst“, sagt Strewel und überrascht sich damit ebenso sehr wie alle anderen. Er legt ein Dänisches Plunderstück beiseite, schiebt seine dicken, klebrigen Finger in eine Aktentasche und zieht eine alte Zeitung heraus, in der einige Spalten rot eingekreist sind. „Hier haben wir es. EWR-Staaten können EU-Gesetzgebung zurücksenden und Änderungen verlangen, wenn sie mit nationalen Gesetzen in Konflikt stehen würde. Natürlich kann die EU ablehnen. ‚Keine geraden Bananen für Sie, <em>mein Herr</em>!‘ Das betreffende Land kann dann die Übernahme des Gesetzes verweigern. Technisch gesehen sind ihre Gerichte also souverän. Aber dann wären sie nicht in Übereinstimmung mit den EU-Gesetzen, was den Handel mit Bananen oder womit auch immer das Gesetz zu tun hatte, zum Erliegen bringen würde.“",
+      "Der Schatzkanzler beugt sich zu Ihnen und flüstert Ihnen ins Ohr. „Nicht eine von Peters eigenen Zeitungskolumnen, offensichtlich.“",
+      "„Woran erkennen Sie das?“",
+      "„Es stehen tatsächliche Fakten drin.“"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter\" ►17"
+    ]
+  },
+  "162": {
+    "ROUTES": [
+      "[IF box:162.box1] ►828",
+      "[ELSE] [EFFECT tick:162.box1] ►409"
+    ]
+  },
+  "163": {
+    "ONENTER": [
+      "[EFFECT Authority+8]",
+      "[EFFECT Economy+1]"
+    ],
+    "PROSE": [
+      "Das war hoffentlich die letzte Ablenkung. Seit dem Referendum von 2016 taumelt die britische Gesellschaft von einer Beinahe-Krise zur nächsten. Das ist kaum überraschend. Zwei Jahre, um vier Jahrzehnte Bündnis und Zusammenarbeit aufzudröseln? Versprechen, die nie eingehalten werden können, weil sie auf Lügen gebaut waren? Eine Bevölkerung, die die Sparpolitik satt hat und kurz vor einem finanziellen Einschlag steht, der dem Crash von 2008 gleichkommt? Es ist ein <em>Darkness At Noon</em>-Szenario, das zwangsläufig zu Panik, Unsicherheit und sinnlosen internen Grabenkämpfen führen musste.",
+      "Sie teilen sich einen Brandy mit dem Schatzkanzler, jetzt da die Führungsanfechtung hinter Ihnen liegt. „Mir fällt auf“, sagt er, „dass das Referendumsergebnis war, als hätte man einen Fuchs in den Hühnerstall geworfen. Und er beginnt sich durch die Hühner zu metzeln, aber wir müssen weiter sagen: Das ist in Ordnung, alles bestens, überall Chancen, kümmert euch nicht um das Blut.“",
+      "„Da fehlt Ihnen etwas, Alan.“",
+      "„Was denn?“",
+      "„Wir sind der Fuchs.“"
+    ],
+    "REPORT": [
+      "<strong>+8% Autorität</strong>: Sie haben sich durchgesetzt, und jetzt ist Ihre Position als Parteivorsitzende(r) unanfechtbar.",
+      "<strong>+1% Wirtschaft</strong>: Die Märkte sind schwach ermutigt, dass die Phase der Unsicherheit vorbei ist."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter\" ►603"
+    ]
+  },
+  "164": {
+    "PROSE": [
+      "„Es ist doch der Esel, der den anderen Langohr schimpft, nicht wahr, Bill? Colin Fungale hat die Konservative Partei verlassen, weil ihm nicht gefiel, wofür wir stehen. Er hat seine gesamte Karriere damit verbracht, einem Parlament anzugehören, in dem er kaum je auftauchte, außer um seine Schecks abzuholen und sich wie ein Kind aufzuführen, das ignoriert wird. Er hat immer wieder gesagt, er würde aufhören, sich dann doch entschlossen zurückzukommen, und als seine eigene Partei seinen Ambitionen nicht mehr dienlich schien, ist er zu uns übergelaufen. Ganz offen gesagt hätte er genauso gut Labour oder den LibDems beitreten können, wenn er gedacht hätte, die sähen nach Gewinnern aus. Er ist die Ratte, die auf das Boot springt, das <em>nicht</em> sinkt.“",
+      "Harte Worte, selbst wenn man sie einem Halunken wie Fungale serviert, aber wenn es die Abstimmung zu Ihren Gunsten wendet, wen kümmert’s?"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter\" ►28"
+    ]
+  },
+  "165": {
+    "ONENTER": [
+      "[EFFECT getItem:Second EU Referendum]"
+    ],
+    "PROSE": [
+      "„Für ein zweites Referendum ist es in diesem späten Stadium zu spät“, sagen Sie Ihren Ministern. „Dieses Schiff ist abgefahren.“",
+      "„Wahrscheinlich auch besser so“, sagt Peter Strewel. „Wäre schon etwas peinlich, wenn es jetzt andersrum ausginge, nicht wahr?“"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Was für ein Schlamassel kommt als Nächstes?\" ►385"
+    ]
+  },
+  "166": {
+    "ONENTER": [
+      "[EFFECT Authority+1]",
+      "[EFFECT getKW:LEAF]"
+    ],
+    "PROSE": [
+      "„Das habe ich erwartet“, sagt sie und überreicht Ihnen ihr Rücktrittsschreiben in dem Moment, als sie in Ihr Büro geführt wird.",
+      "„Warum dann? Sie haben eine so vielversprechende Karriere torpediert.“",
+      "Sie schaut Sie an, als hätten Sie in einer Fremdsprache mit ihr gesprochen. „Es geht ums Prinzip“, sagt sie schließlich. „Das Referendum hat nicht gesagt, dass wir die britische Wirtschaft sabotieren müssen, indem wir den Binnenmarkt verlassen.“",
+      "„Das ist der Preis dafür, an der Macht zu bleiben.“ Sie wenden sich wieder Ihrem Computerbildschirm zu und überlassen es ihr, selbst den Weg hinaus zu finden."
+    ],
+    "REPORT": [
+      "<strong>+1% Autorität</strong>: Sie haben schnell und skrupellos gehandelt und damit die Hardcore-Brexiter in der Partei beeindruckt."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter\" ►275"
+    ]
+  },
+  "167": {
+    "ROUTES": [
+      "[IF keyword:HEMLOCK] ►851",
+      "[ELSEIF keyword:ZEBRA] ►399",
+      "[ELSE] ►769"
+    ]
+  },
+  "168": {
+    "PROSE": [
+      "„Witzig, irgendwie“, sagt McKay mit einem Lächeln, das wie ein Streichholz flackert. „Die EU-Leute reden ständig davon, dass sie eine richtige Armee wollen, und wie es all diese Konflikte gibt, bei denen sie meinen, sich weltweit einmischen zu müssen. Aber wir sind es, die die echte Erfahrung haben, oder? Die wollen uns das Ei des Kolumbus erklären, so sehe ich das.“",
+      "Eine erfrischende Perspektive. Sie überlegen, wozu Sie ihn um Rat fragen sollen."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"„Erzählen Sie mir von gemeinsamen EU-Streitkräften.“\" ►217",
+      "[OPTION] \"„Was ist Ihre Meinung zur Europäischen Verteidigungsagentur?“\" ►296",
+      "[OPTION] \"„Wie sieht es mit der militärischen Lage nach dem Brexit aus?“\" ►97",
+      "[OPTION] \"„Was sehen Sie als Auswirkungen auf Polizeiarbeit und Terrorismusbekämpfung?“\" ►314",
+      "[OPTION] \"„Können Sie erklären, warum die EU so viele Sicherheits- und Verteidigungsakronyme hat?“\" ►503",
+      "[OPTION] \"„Das wäre alles. Danke, McKay.“\" ►666"
+    ]
+  },
+  "169": {
+    "PROSE": [
+      "Dent und Rufus ziehen sich aus dem Wettbewerb zurück und berufen sich auf die Notwendigkeit der Parteieinheit.",
+      "„Hah! Die Notwendigkeit, ihre Kabinettsposten zu behalten, eher!“ sagen Sie zu Ron Beardsley.",
+      "„Planen Sie, sie zu entlassen?“",
+      "„Keineswegs. Sie haben <em>Der Pate</em> gesehen. Ich behalte diese beiden genau im Auge.“"
+    ],
+    "GOTO": [
+      "[IF keyword:YELLOW] \"Weiter\" ►670",
+      "[ELSE] \"Weiter\" ►163"
+    ]
+  },
+  "170": {
+    "PROSE": [
+      "Sie erinnern sich an ein Zwiegespräch mit dem Allmächtigen, in dem Sie göttliche Führung in dieser Frage suchten."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter\" ►177"
+    ]
+  },
+  "171": {
+    "PROSE": [
+      "„Wie fanden Sie es?“ fragen Sie Ihre Pressesprecherin, sobald Sie das Mikro abgeklippt haben.",
+      "Sie zieht die Luft durch die Zähne. Das ist eines ihrer Anzeichen. „Ich bin mir nicht sicher, ob die Stimmung für uns ist. Das Publikum schien etwas skeptisch.“",
+      "„Das ist nur ein Haufen Verlierer, die heute Abend nichts Besseres zu tun hatten, als das Angebot von Gratis-BBC-Eintrittskarten anzunehmen. Die sind egal.“",
+      "Aber Sie spüren trotzdem, wie sich ein Schatten des Unbehagens über Sie legt."
+    ],
+    "GOTO": [
+      "[IF Popularity>=64] \"Das Volk steht hinter Ihnen\" ►99",
+      "[ELSE] \"Die Umfragen sind entmutigend\" ►134"
+    ]
+  },
+  "172": {
+    "PROSE": [
+      "Sie haben alles getan, was Sie konnten. Jetzt hängt alles davon ab, wie die Abgeordneten abstimmen."
+    ],
+    "TOSS_TWO": [
+      "[BOTH HEADS] \"Weiter\" ►513",
+      "[BOTH TAILS] \"Weiter\" ►534",
+      "[HEAD AND TAIL] \"Weiter\" ►377"
+    ]
+  },
+  "173": {
+    "PROSE": [
+      "Das Ergebnis des zweiten Referendums lautet –",
+      "„Unentschieden? Was?“",
+      "„Eine Drei-Wege-Spaltung, Premierminister(in)“, sagt Terri Trough, Ihre Pressesprecherin. „Ein Drittel der Wähler unterstützt einen harten Brexit, ein Drittel ist für den Verbleib in der EU, und ein Drittel meint, wir sollten das Norwegen-Modell übernehmen.“",
+      "„Wie soll ich diese Leute regieren, Terri? Die brauchen eine Ohrfeige.“"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter\" ►206"
+    ]
+  },
+  "174": {
+    "PROSE": [
+      "„Ich nehme an, es wäre eine regelrechte Heimkehr für Britannien, der Europäischen Freihandelsassoziation wieder beizutreten“, bemerkt Dent, „wenn man bedenkt, dass wir maßgeblich an ihrer Gründung beteiligt waren. Natürlich war das so, weil wir damals weise entschieden, in den 1950ern der EWG nicht beizutreten. Und nun hat sich die EWG in das überkochte Spaghetti-Gewirr der Bürokratie verwandelt, das sich EU nennt.“",
+      "„Und je stärker wir mit Europa verbunden bleiben, desto geringer der Einschlag auf die Wirtschaft“, merkt Stollard an.",
+      "„Das ist noch nicht entschieden!“ ereifert sich Barkwell. „Einmal von den Fesseln der EU befreit, könnten wir durchaus viel besser dastehen.“",
+      "„Es gibt die EU und es gibt Europa“, erinnert Stollard ihn. „Die EFTA würde uns lebenswichtigen Zugang zu Letzterem verschaffen. Und den werden wir brauchen, es sei denn, Sie glauben, dass der Handel mit mongolischem Jurtenteppich und nepalesischer Buttermilch die 11 Milliarden Pfund an Waren und die 88 Milliarden Pfund an Dienstleistungen ersetzen kann, die wir jedes Jahr über den Kanal verkaufen.“",
+      "„Näher an Europa, das ist gut“, sagt Strewel. „Aber nicht immer enger, wohlgemerkt. Und in einer Beziehung, die unseren Bedürfnissen entspricht, sage ich mal. Mehr French Maids, weniger saure Krauts, eh?“",
+      "Stollard wirft Ihnen einen Blick zu, der zu fragen scheint, ob Sie eine Waffe haben. Barkwell kocht noch immer wegen des leisesten Hinweises auf Zugeständnisse gegenüber der EU. Dent sieht vage beunruhigt aus. Und Strewel greift mit Begeisterung nach einem Teller Kekse, den Wilkins gerade hereingebracht hat. Was werden Sie sagen?"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"„Die beste Option für uns könnte das Norwegen-Modell sein.“\" ►492",
+      "[OPTION] \"„Ich tendiere zu der Art halbunabhängigem Abkommen, das die Schweiz genießt.“\" ►2",
+      "[OPTION] \"„Nach reiflicher Überlegung geht eine EFTA-Mitgliedschaft zu weit. Wir prüfen stattdessen die Zollunion-Option.“\" ►367",
+      "[OPTION] \"„Es ist klar, dass wir doch ein maßgeschneidertes Abkommen brauchen werden.“\" ►836"
+    ]
+  },
+  "175": {
+    "PROSE": [
+      "Sie haben die ersten sechs Monate der Brexit-Verhandlungen überstanden, aber es liegt noch ein langer Weg vor Ihnen."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter\" [EFFECT tick:666.next] ►666"
+    ]
+  }
+}

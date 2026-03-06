@@ -1,0 +1,313 @@
+{
+  "226": {
+    "PROSE": [
+      "‚Die sollten doch froh sein, dass wir im Binnenmarkt bleiben.'",
+      "‚Vielleicht wäre ihnen eine noch engere Beziehung lieber.'",
+      "‚Artikel 50 zurücknehmen, meinen Sie? Das Pferd ist längst aus dem Stall. Wenn sie gegen die künftigen Beziehungen stimmen sollten, also gegen das Handelsabkommen, werden wir trotzdem die EU verlassen. Sie können also Gift darauf nehmen, dass sie sich glücklich schätzen werden.'",
+      "Und so kommt es dann auch. Das Unterhaus stimmt nahezu einstimmig für den Deal, den Sie mit der EU ausgehandelt haben, und obwohl es im Oberhaus einige Kritik gibt, können Sie diese getrost ignorieren."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter\" ►806"
+    ]
+  },
+  "227": {
+    "ONENTER": [
+      "[EFFECT Economy-5]",
+      "[EFFECT Goodwill-15]",
+      "[EFFECT Popularity+10]",
+      "[EFFECT getItem:Immigration]",
+      "[EFFECT getKW:HEMLOCK]"
+    ],
+    "PROSE": [
+      "Abgelenkt durch andere Themen blieb Ihnen nichts anderes übrig, als die Hauptverhandlungen zur Einwanderung Ihren Stellvertretern zu überlassen. Das Erste, was Sie vom Ergebnis hören, ist ein zweiseitiger Artikel von Peter Strewel im <em>Tomahawk</em>. Sie lesen ihn mit wachsendem Entsetzen und bemerken kaum, wie die Marmelade von Ihrem Morgentoast rutscht. Zehn Minuten später haben Sie Strewel am Telefon.",
+      "‚Was soll das? Versuchen Sie, meine Autorität zu untergraben?'",
+      "Sie können seinen schweißigen Mief der Verschlagenheit förmlich durch die Leitung riechen. Wie üblich – in einem Verhaltensmuster, das wohl bis in seine Eliteschultage zurückreicht – flüchtet er sich in Großtuerei, wenn man ihn ertappt.",
+      "‚Wille des Volkes', sagt er. ‚Wir sind nur bescheidene Diener. Keine Ausländer mehr, die sich in unseren Imbissbuden vordrängeln. Das ist die Botschaft, laut und deutlich. An uns, sie umzusetzen. Ich tue meinen Teil, sehen Sie.'",
+      "‚Peter, Sie haben der EU mitgeteilt, dass wir keiner Form der Freizügigkeit zustimmen werden. Kommt Ihnen das nicht etwas voreilig vor?'",
+      "‚An den Stränden und Flughäfen aufhalten, so in der Art. Feuern Sie mich, wenn Sie wollen, aber es ist eine weit, weit bessere Tat –'",
+      "Sie legen auf."
+    ],
+    "REPORT": [
+      "<strong>-5% Wirtschaft</strong>: Die Märkte sehen unruhige Gewässer voraus.",
+      "<strong>-15% Wohlwollen</strong>: Ihre Unterhändler machen sich in der EU keine Freunde.",
+      "<strong>+10% Beliebtheit</strong>: Wähler begrüßen die Aussicht auf reduzierte Einwanderung, ungeachtet der Kosten für das Land."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter\" ►580"
+    ]
+  },
+  "228": {
+    "PROSE": [
+      "‚Außerhalb von London und Südostengland sieht ein beträchtlicher Teil des Vereinigten Königreichs nach nordeuropäischen Maßstäben ziemlich verarmt aus. So wurden Wales in der letzten Förderrunde 2 Milliarden Pfund zugesprochen und der Südwesten erhielt 1,3 Milliarden Pfund. Die gesamte EU-Förderung für Großbritannien betrug 9,3 Milliarden Pfund.'",
+      "‚Über sieben Jahre. Das sind also, sagen wir, 25 Millionen Pfund pro Woche. Ich kann das immer noch so verkaufen, als würde uns die EU nur das Kleingeld aus unseren eigenen Beiträgen zurückwerfen.'",
+      "‚Das wirft allerdings die Frage auf, wie gut wir den Wohlstand in Großbritannien umverteilen werden, wenn die EU-Förderinstitutionen nicht mehr da sind, um die Aufsicht zu führen.'",
+      "‚Glücklicherweise ist Rhetorik kostenlos, also kann ich das Versprechen von Regenerationsprogrammen ein wenig aufbauschen. Und die Schlagzeile lautet: Ab jetzt behalten wir das Geld, das vorher für polnische Autobahnen verprasst wurde – Sachen, die für unsere Anhänger an Raub am helllichten Tag grenzen.'",
+      "‚Ich bin mir nicht sicher, ob Sie das zu sehr strapazieren können', sagt die Beraterin. ‚Großbritannien ist der drittgrößte Empfänger von Forschungs- und Entwicklungsgeldern in der gesamten EU.'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"‚Wofür wird das ganze Geld in Cornwall eigentlich ausgegeben?'\" ►86",
+      "[OPTION] \"‚Ich kann schlecht die Forschungsförderung madig machen, während ich ein schickes Innovationszentrum eröffne. Nennen Sie mir ein paar wirklich dumme Verwendungen von EU-Geldern.'\" ►236"
+    ]
+  },
+  "229": {
+    "PROSE": [
+      "‚Das ist die alte Sozialhilfe-Lüge', poltert Bob Owlbear. ‚Ist die nicht längst in sich zusammengefallen? Ich dachte, Sie hätten die dort geparkt, wo Sie den Leave-Bus gelassen haben. Auf einem Schrottplatz mit all den anderen gebrochenen Versprechen, oder nicht?'",
+      "‚Ich freue mich, dass Sie über ein so, so, ernstes Thema scherzen können, Bob', sagt Tode und blinzelt heftig.",
+      "Es nützt nichts. Owlbear ist wie ein Supertanker. Er braucht lange, um in Fahrt zu kommen, aber sobald er in Bewegung ist, walzt er einen kleinen Wurm wie Tode platt.",
+      "‚Warum es eine Lüge ist, ist Folgendes: EU-Migranten haben kein Recht auf Sozialleistungen, wenn sie nicht erwerbstätig sind. Der Europäische Gerichtshof war da sehr deutlich. Kein Mitgliedstaat muss einem EU-Bürger Sozialleistungen zahlen, wenn dieser keine Beschäftigungshistorie in dem Land hat. Der EU-Pass war nie ein Freifahrtschein für Sozialtourismus, was auch immer die Leave-Kampagne Gegenteiliges behauptet haben mag.'",
+      "‚Was ist mit den Kanaken?', brüllt die Frau aus dem Publikum.",
+      "Owlbear sieht sie direkt an. ‚Das hat nichts mit der Europäischen Union zu tun.'",
+      "‚Trotzdem sollte es irgendwelche Regeln geben', entgegnet sie. ‚Im Moment lassen die einfach jeden rein.'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Abwarten, wie er darauf antwortet\" ►605",
+      "[OPTION] \"Vorspulen zu einer anderen Frage\" ►405",
+      "[OPTION] \"Fernseher ausschalten und etwas Schlaf nachholen\" ►125"
+    ]
+  },
+  "230": {
+    "PROSE": [
+      "Es wird Zeit, dass Sie sich eine kleine Auszeit gönnen. Nach all Ihrer harten Arbeit haben Sie es verdient. Also, für welchen Urlaub haben Sie sich entschieden? Frankreich für edle Weine und sonnengeküsste Hügel? Oder wird es ein bescheidener Aufenthalt in Kent und Sussex?"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Eine Weinverkostungs-Tour durch Frankreich\" ►735",
+      "[OPTION] \"Weinverkostung in Südengland\" ►140"
+    ]
+  },
+  "231": {
+    "PROSE": [
+      "‚Freier Handel mit Waren', sagt Barkwell.",
+      "‚Nicht-landwirtschaftlichen Waren', ergänzt der Schatzkanzler.",
+      "‚Und?'",
+      "Barkwell zuckt die Achseln. ‚Das ist eigentlich alles.'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"‚Was ist mit Dienstleistungen?'\" ►673",
+      "[OPTION] \"‚Die haben nicht einmal freien Handel mit landwirtschaftlichen Gütern?'\" ►707",
+      "[OPTION] \"‚Wie kommt die Schweiz mit den EU-Regeln zur Freizügigkeit zurecht?'\" ►457"
+    ]
+  },
+  "232": {
+    "PROSE": [
+      "Es ist ein schmähliches Ende für den kurzen, strahlenden Ruhm Ihrer Karriere. In einem kritischen Moment der Geschichte Ihres Landes ergriffen Sie das Ruder, nur um an den Klippen des Undanks und des Neids zu zerschellen. Das Steuer geht an einen anderen über, und Sie müssen sich von Downing Street 10 verabschieden, mit nur der Aussicht auf lukrative Buchverträge und hochbezahlte Dinnerreden als Trost."
+    ]
+  },
+  "233": {
+    "PROSE": [
+      "‚Es gibt viele Unbekannte. Finden Sie mir einen Wetterfrosch, der Ihnen sagt, an welchen Tagen es auch nur einen Monat im Voraus regnen wird.'",
+      "Er war schon immer vorsichtig. ‚Dann raten Sie einfach drauflos. Allgemeines Klima, wenn schon nicht Einzelheiten.'",
+      "‚EU-Mitglieder treiben viel mehr Handel untereinander als mit Norwegen und Island. Die Entfernung spielt dabei eine Rolle. Typischerweise halbiert sich der Handel bei doppelter Entfernung, wobei das natürlich mehr für Waren als für Dienstleistungen gilt.'",
+      "‚All diese Vorbehalte. Ich nehme das Gespräch nicht auf, Alan.'",
+      "‚Also gut. Wenn wir diese Zahlen auf Großbritannien übertragen, unter Berücksichtigung der Entfernung und so weiter, werden wir selbst bei einem Beitritt zu Norwegen in der EFTA etwa ein Viertel unseres Handels mit der EU verlieren.'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"‚Aber wir werden mehr Handel mit dem Rest der Welt treiben.'\" ►117",
+      "[OPTION] \"‚In Ordnung. Noch etwas?'\" ►772"
+    ]
+  },
+  "234": {
+    "PROSE": [
+      "‚Da wäre der Deal mit Südkorea', schlägt Ihr Stabschef vor.",
+      "‚Aber, Ron, finden Sie das nicht etwas dürftig? Ich will nicht vor die Wählerschaft treten mit einem Teller voller Krümel und behaupten, es sei ein ganzer Kuchen. Wie viel Handel treiben wir überhaupt mit Südkorea?'",
+      "‚Knifflig, so aus dem Stegreif', sagt er und nuckelt an seiner unangezündeten Pfeife. ‚Ich weiß, dass sich unsere Exporte dorthin in den sechs Jahren seit Unterzeichnung des EU-Korea-Freihandelsabkommens verdreifacht haben. Wenn ich eine Zahl nennen müsste, wahrscheinlich etwa ein Dreißigstel unseres Handels mit der EU.'",
+      "‚Uff. Also brauchen wir neunundzwanzig weitere solcher Deals.'",
+      "Er schüttelt den Kopf. ‚Wir haben bereits ein Abkommen mit Korea, vergessen Sie nicht. Wenn wir dieses Abkommen ratifizieren können, treten wir trotzdem nur auf der Stelle.'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Den Korea-Deal trotzdem vorantreiben\" ►124",
+      "[OPTION] \"Versuchen, der EU bei einem bereits laufenden Abkommen zuvorzukommen, zum Beispiel mit den USA\" ►254"
+    ]
+  },
+  "235": {
+    "ONENTER": [
+      "[EFFECT getKW:GAZELLE]"
+    ],
+    "PROSE": [
+      "Es ist das Wagnis Ihrer Karriere, aber Sie haben beschlossen, alles auf eine Kampagne zur Rückgängigmachung des Brexit zu setzen."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter\" ►302"
+    ]
+  },
+  "236": {
+    "PROSE": [
+      "‚Da gab es eine vier Meter hohe Edelstahl-Drachenstatue, die in Ebbw Vale als Teil eines Stadterneuerungsprojekts in Auftrag gegeben wurde', sagt sie. ‚Die Einheimischen waren darüber empört.'",
+      "‚Ha ha, ein Eigentor der EU-Kommission.'",
+      "‚Nicht wirklich, Premierminister(in). Der EFRE – das ist der Europäische Fonds für regionale Entwicklung – investiert über die nationale Regierung und die kommunalen Behörden. Der Stadtrat von Ebbw Vale wird also argumentiert haben müssen, dass die Statue den Bürgerstolz, den Tourismus oder Ähnliches fördern würde. Der EFRE schreibt solche einzelnen Projekte nicht vor.'",
+      "‚Zum Glück passt das alles nicht in eine Schlagzeile, während \"EU VERPULVERT GELD FÜR STATUE, DIE KEINER WOLLTE\" genau das ist, was der Spin-Doktor verordnet hat.'",
+      "‚In dem Fall könnten Sie den Golfplatz in Marokko erwähnen.'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"‚Was für ein Golfplatz?'\" ►252",
+      "[OPTION] \"‚Ein andermal. Wir sind da.'\" ►203"
+    ]
+  },
+  "237": {
+    "PROSE": [
+      "‚Das ist ein verzwicktes Problem', gibt Strewel zu.",
+      "‚Wirklich?', fragt der Schatzkanzler. ‚Wer sagt denn, dass die Briten gegen Freizügigkeit gestimmt haben, als sie ihr Kreuzchen gesetzt haben? Die Leave-Kampagne hat ständig das Norwegen-Modell als das wünschenswerteste Ergebnis angepriesen.'",
+      "‚Wir haben auch 350 Millionen Pfund auf die Seite eines Busses geschrieben', gluckst Strewel. ‚Jedenfalls war das ganze Norwegen-Gerede vor Fungales Nazi-Plakaten. Horden von ungewaschenen Flüchtlingen und Terroristen, die übers grüne und liebliche Land trekken. Das ist jetzt die Stoßrichtung der Argumentation. Wir müssen zeigen, dass wir in der Lage sind, die Bettler draußen zu halten.'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter\" ►17"
+    ]
+  },
+  "238": {
+    "PROSE": [
+      "Sie mobilisieren die gesamte Schlagkraft Ihres politischen Apparats, um Colin Fungale zu untergraben. Nicht umsonst die langweiligen Sherrypartys in der Studentenbar, die Picknicks auf dem Stechkahn mit einem lauwarmen Krug Pimms. Während Fungale als ahnungsloser Schulabbrecher Pfennigaktien aus seinem Bauchladen verscherbelte, legten Sie das Fundament, das nun Ihre Macht stützen wird.",
+      "Ihre Spießgesellen machen auf seine Nazi-Plakate aufmerksam, seine Neigung, auf Dinnerveranstaltungen herumzutingeln, statt den Job zu erledigen, für den er bezahlt wird, seine Verbrüderung mit dubiosen Autokraten, seine Aufmerksamkeitsspanne einer Stechmücke, ja sogar seine barbarisch geschneiderten Anzüge.",
+      "‚Es ist ein brutales Geschäft, Ron. Die Politik.'",
+      "Er nickt. ‚Das ist es, Premierminister(in).'",
+      "Sie lehnen sich an Ihrem Schreibtisch zurück und seufzen. ‚Ich hatte vergessen, wie sehr ich es liebe.'",
+      "Bei all Ihrer Vorbereitung gibt es immer ein Element des Glücks."
+    ],
+    "TOSS_TWO": [
+      "[BOTH HEADS] \"Weiter\" ►349",
+      "[BOTH TAILS] \"Weiter\" ►377",
+      "[HEAD AND TAIL] \"Weiter\" ►349"
+    ]
+  },
+  "239": {
+    "ONENTER": [
+      "[EFFECT Economy-2]",
+      "[EFFECT Popularity+2]"
+    ],
+    "PROSE": [
+      "Wochenlang können Ihre Minister das Investitionsprogramm für neue Krankenhäuser, Personalschulungen und medizinische Forschung anpreisen. Es rettet vielleicht keine Menschenleben und macht auch nicht sonderlich viele Betten frei, aber es klingt beeindruckend. Und die Opposition ist darauf reduziert, die Zähne zusammenzubeißen und Dinge zu sagen wie: ‚Die Strategie der Regierung ist soweit in Ordnung, aber sie geht nicht weit genug.' Sie könnten sogar Recht haben, aber niemand hört zu."
+    ],
+    "REPORT": [
+      "<strong>-2% Wirtschaft</strong>: Sie müssen Geld ausgeben, das das Finanzministerium nicht hat.",
+      "<strong>+2% Beliebtheit</strong>: Wähler begrüßen jedes Versprechen von mehr Mitteln für den NHS."
+    ],
+    "GOTO": [
+      "[IF keyword:DODO] \"Weiter\" ►431",
+      "[ELSE] [EFFECT getItem:the NHS] \"Weiter\" ►450"
+    ]
+  },
+  "240": {
+    "PROSE": [
+      "Sie breiten hilflos die Hände aus. ‚Tut mir leid, Chloe. Ich würde das liebend gerne ein andermal im Detail mit Ihnen durchgehen, aber gerade habe ich eine wichtige Besprechung.",
+      "Sie presst die Lippen zusammen und marschiert hinaus. Erleichtert aufatmend nicken Sie Wilkins zu, dass Sie bereit für Ihre Besprechung sind."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter\" ►507"
+    ]
+  },
+  "241": {
+    "ROUTES": [
+      "[IF keyword:CLARION OR keyword:GAZELLE OR keyword:SANCTION OR keyword:TIGHTROPE] ►134",
+      "[ELSE] ►99"
+    ]
+  },
+  "242": {
+    "PROSE": [
+      "Es ist weniger aufregend, aber wenigstens müssen Sie nicht die heimische Hühnerindustrie dezimieren, nur um einen großen Deal abzuschließen.",
+      "‚Das Wesentliche ist, die Medien auf unsere Seite zu bringen', sagt Ihre Pressesprecherin. ‚Wir wollen nicht, dass die über das Ausmaß dieser Abkommen jammern. \"Brosamen vom EU-Tisch\" und solcher Unsinn. Wir müssen sie dazu bringen, es als einen schrittweisen Prozess zum Aufbau der neuen Rolle Großbritanniens im internationalen Handel zu sehen.'",
+      "‚Das ist gut, Terri. Zeigen, dass wir Schritt für Schritt vorankommen. Wie diese Rentner, die Modelle des Topkapi-Palastes aus Streichhölzern bauen.'",
+      "Sie schürzt die Lippen. In solchen Momenten wirkt es immer, als würde sie bis zehn zählen. ‚Vielleicht finden wir eine Metapher mit etwas mehr Zugkraft', sagt sie schließlich."
+    ],
+    "GOTO": [
+      "[IF Popularity>=60 AND Authority>=60] \"Weiter\" ►262",
+      "[ELSE] \"Weiter\" ►516"
+    ]
+  },
+  "243": {
+    "PROSE": [
+      "‚Ein weiser Mann hat einmal gesagt, ein Vertrag sei eine Vereinbarung zwischen Freunden, um sicherzustellen, dass sie Freunde bleiben. Es ist durchaus möglich, einen guten Deal zu machen, ohne dass die Gegenseite verliert. Wenn das nicht so wäre, gäbe es keine Gesellschaft, keine Zivilisation und kein Geschäftsleben.' Sie blicken in die Runde der Journalisten und kommen in Fahrt. ‚Der Kern der Verhandlung, und der Grund, warum diese Gespräche so komplex sind, liegt darin, dass wir alle bestrebt sind, Lösungen zu finden, die im Interesse aller liegen, anstatt nur zu greifen, was wir kriegen können, und dann wie Bankräuber davonzurennen.'",
+      "‚Gute Rede?', sagt Ron Beardsley hinterher. ‚Kommt auf den Kontext an. Wenn gehalten im US-Präsidentschaftswahlkampf 2008 oder sogar bei der britischen Wahl 1997, dann ja. Aber wir befinden uns auf der anderen Seite des Brexit-Spiegels. Man kann der Wählerschaft nichts mehr mit schlüssigen Argumenten erklären. Das lässt sie nur denken, man wolle sie über den Tisch ziehen.'",
+      "Auf Ron kann man sich immer verlassen, wenn es um unerschütterliche Ehrlichkeit geht."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter\" ►34"
+    ]
+  },
+  "244": {
+    "PROSE": [
+      "‚Sie haben gewonnen, Premierminister(in)!'",
+      "Sie blicken nicht einmal von Ihrer Arbeit auf, als Terri Trough ins Zimmer gehüpft kommt. ‚Natürlich habe ich gewonnen. Haben Sie sich ernsthaft vorgestellt, die Kegelclubs und Landfrauenvereine Großbritanniens würden sich hinter einen charisma-befreiten Remainer scharen?'"
+    ],
+    "GOTO": [
+      "[IF keyword:YELLOW] \"Doch nun kommt die Quittung\" ►670",
+      "[ELSE] \"Weiter\" ►163"
+    ]
+  },
+  "245": {
+    "PROSE": [
+      "Bei einem so glanzlosen Wahlkampf ist es vielleicht nicht überraschend, dass das Ergebnis auf Messers Schneide steht. Die Wahlbeteiligung ist niedrig, vielleicht ein Zeichen dafür, dass die Öffentlichkeit der Volksabstimmungen überdrüssig wird. Schade, denn sie sind ein so viel besseres Instrument, um die eigene Politik durchzusetzen, als die altmodische parlamentarische Demokratie."
+    ],
+    "TOSS_ONE": [
+      "[HEAD] \"Weiter\" ►221",
+      "[TAIL] \"Weiter\" ►429"
+    ]
+  },
+  "246": {
+    "PROSE": [
+      "‚Es tut mir leid', sagt Terlamen, ‚aber es gibt keine Möglichkeit, so etwas nur zum Nutzen Großbritanniens durchzupeitschen. Jedes Unternehmen muss sich einzeln bewerben. Wir können der britischen Regierung nicht einfach einen Stapel Blankopässe zum Ausfüllen geben.'",
+      "‚Aus<em>füllen</em>', fauchen Sie und beenden das Gespräch.",
+      "Das war natürlich nur eine Ausrede. Frankreich, Deutschland, Belgien und Irland profitieren alle davon, wenn britische Finanzinstitute zu ihnen abwandern. Der nachtragender Gossenjunge, der er ist – Terlamen hat sich entschieden, die Interessen der EU-Länder über die Großbritanniens zu stellen."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter\" ►857"
+    ]
+  },
+  "247": {
+    "PROSE": [
+      "Strewel runzelt unsicher die Stirn. Barkwell stützt das Kinn in die Hand und verzieht das Gesicht.",
+      "‚Das ist riskant, Premierminister(in)', sagt Dent. ‚Sehr riskant. Es wäre schon schwer genug, es der Presse zu verkaufen, geschweige denn die Parteibasis dazu zu bringen, es zu schlucken. Denken Sie an den Festtag, den Fungale und die Kippers damit hätten. Er wird behaupten, es sei abgekartetes Spiel, und dass wir Zeit schinden, um uns insgesamt aus dem Brexit herauszuwinden.'",
+      "‚Die <em>Daily Heil</em> wäre sofort auf seiner Seite', sagt Strewel. ‚Die Presse wird über Sie herfallen und sagen, Sie versuchten, den Willen des Volkes zu unterlaufen und den ganzen Rest. Und ich muss es wissen – es ist genau das, was ich für die schreiben würde, wenn ich nicht Außenminister wäre.'",
+      "Dent fährt fort: ‚Und wollen Sie riskieren, die Partei zu spalten, vielleicht sogar Neuwahlen zu erzwingen? Zugegeben, die Opposition ist ein Chaos, aber andererseits ist unsere Mehrheit auch nicht besonders robust.'",
+      "‚Und was, wenn die zur Vernunft kommen und Barry Straggle absägen', wirft Barkwell ein. ‚Vielleicht sogar eine Koalition mit den Liberaldemokraten bilden? Die könnten abräumen, wenn die Leute sehen, dass wir ihr heiliges Recht auf den Brexit verraten.'",
+      "Sie blicken zu Stollard, aber er macht sich Notizen und vermeidet es geflissentlich, Ihren Blick aufzufangen. Was werden Sie sagen?"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"‚Wir kümmern uns später darum, wie wir es verkaufen, aber wir sollten wirklich auf einen Binnenmarktzugang nach dem Vorbild von Norwegen oder der Schweiz abzielen.'\" ►174",
+      "[OPTION] \"‚Sie haben Recht. Vielleicht können wir die meisten Bedingungen, die wir brauchen, über eine Zollunion bekommen.'\" ►367",
+      "[OPTION] \"‚Dann arbeiten wir eben an einer völlig neuen, maßgeschneiderten Handelsvereinbarung.'\" ►836"
+    ]
+  },
+  "248": {
+    "PROSE": [
+      "‚Das wird uns herzlich wenig nützen', schnaubt sie. ‚Sie wissen, dass der Großteil unseres BIP aus dem Dienstleistungssektor kommt. Und selbst die Waren, die wir exportieren – das sind keine Schrauben und Nieten. Es sind meist komplexe Bauteile, die technisches Fachwissen erfordern und die möglicherweise zwischen mehreren Ländern hin- und herpendeln, während die Produkte zusammengebaut werden.'",
+      "‚Offensichtlich müssen wir unsere eigenen Leute ausbilden. Und gleichzeitig werden wir neue Lieferketten und Produktionslinien innerhalb Großbritanniens aufbauen. Es ist der gute alte Kriegsgeist, Chloe, nur diesmal ohne den Blitz.'",
+      "Sie lässt ein bitteres Lachen hören. ‚Oh, Verwüstung wird es reichlich geben, da bin ich mir sicher.'",
+      "Genug. Es ist Zeit für die wichtige Besprechung des Morgens."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter\" ►240"
+    ]
+  },
+  "249": {
+    "PROSE": [
+      "‚Laut Burke ist es Ihre Pflicht gegenüber den Wählern, ihnen Ihr reifes Urteil und Ihr aufgeklärtes Gewissen zur Verfügung zu stellen. Ein Auftrag der Vorsehung, sagte er, den Politiker nicht missbrauchen sollten.'",
+      "‚Aber der Wille des britischen Volkes ist der Brexit.'",
+      "‚Der Wille des britischen Volkes gilt auch Toffees, Eiscreme und klebrigen Brötchen. Das heißt noch lange nicht, dass es gut für sie ist. Ist es nicht Ihr Job als Politiker, sich die Zeit zu nehmen, sich in unserem Auftrag umfassend über komplexe Themen zu informieren? Denn ein Land zu regieren ist schließlich ein schwieriger Job, und ich kann nicht über alle geopolitischen Entwicklungen auf dem Laufenden sein und gleichzeitig mit der kieferorthopädischen Forschung Schritt halten.'",
+      "‚Für jemanden, der behauptet, keine Zeit für Politik zu haben, scheinen Sie sehr ausgeprägte Meinungen dazu zu haben.'",
+      "‚Ich weiß, was man mir während des Referendums erzählt hat. Dass, wenn ich für den Austritt aus der EU stimme, wir wahrscheinlich im Binnenmarkt bleiben, wie Norwegen. Dass der Austritt aus der EU Großbritannien zusätzlich 350 Millionen Pfund pro Woche für den NHS einbringen würde –'",
+      "‚Ich habe dieses Versprechen nie gemacht.'",
+      "‚Es wurde trotzdem gemacht. Diese Versprechen wurden benutzt, um meine Stimme zu sichern.'",
+      "‚Moment mal.' Sie fixieren ihn mit einem scharfen Seitenblick. ‚Wie haben Sie eigentlich abgestimmt?'",
+      "‚Das ist nicht wichtig.'",
+      "Ha, das hat gesessen."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter\" ►668"
+    ]
+  },
+  "250": {
+    "ROUTES": [
+      "[IF box:250.box1] ►549",
+      "[ELSE] CONTINUE"
+    ],
+    "PROSE": [
+      "(Falls Sie übrigens eine Pause vom Regieren brauchen, wäre dies ein guter Zeitpunkt, um eine Unterbrechung einzulegen und später wiederzukommen. Aber wenn Sie noch voller Tatendrang sind, lassen Sie sich nicht aufhalten.)",
+      "Ein Land zu regieren – das ist eine Menge Arbeit. Sie sind nur eine Person und haben nur zwei Jahre, also entscheiden Sie, welchen Aspekt des Brexit Sie persönlich betreuen wollen. Sie werden nur für einen davon Zeit haben; Ihre Minister kümmern sich um den Rest."
+    ],
+    "OPTIONS": [
+      "[IF keyword:APRICITY AND !box:250.box2] [OPTION] \"Die Austrittsgebühr verhandeln\" [EFFECT tick:250.box1] [EFFECT tick:250.box2] ►720",
+      "[IF !item:EU Trade Talks AND !box:250.box3] [OPTION] \"Die EU-Handelsverhandlungen führen\" [EFFECT tick:250.box1] [EFFECT tick:250.box3] ►688",
+      "[IF !item:Residency Rights AND !box:250.box4] [OPTION] \"Aufenthaltsrechte von britischen und EU-Bürgern regeln\" [EFFECT tick:250.box1] [EFFECT tick:250.box4] ►638",
+      "[IF !item:General Election AND !box:250.box5] [OPTION] \"Versuchen, Neuwahlen auszurufen\" [EFFECT tick:250.box1] [EFFECT tick:250.box5] ►416",
+      "[IF !item:Security & Defence AND !box:250.box6] [OPTION] \"Die Frage der britisch-europäischen Zusammenarbeit in Sicherheit und Verteidigung klären\" [EFFECT tick:250.box1] [EFFECT tick:250.box6] ►420"
+    ]
+  }
+}

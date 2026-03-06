@@ -1,0 +1,310 @@
+{
+  "651": {
+    "ROUTES": [
+      "[IF item:EU Trade Talks] ►527",
+      "[ELSE] ►411"
+    ]
+  },
+  "652": {
+    "PROSE": [
+      "Ihre Soft-Brexit-Referenzen sind ziemlich solide. Sie haben sich schließlich dafür entschieden, Großbritannien im Binnenmarkt zu halten, aber es dauert nicht lange, bis Tiffany Rufus sich das als ihren Verdienst anrechnet. Sie behauptet, Sie seien sich nicht sicher gewesen und hätten die Entscheidung erst nach einem langen Gespräch mit ihr getroffen.",
+      "‚Lächerlich. Ich würde mir von ihr nicht einmal beim Gebrauchtwagenkauf raten lassen. Das längste Gespräch, das ich je mit ihr geführt habe, war, als ich ihr den Posten gegeben habe.'",
+      "‚Da bin ich mir sicher, Premierminister(in)', sagt Wilkins und bringt Ihnen einen Teller Kekse zum Vormittagstee. ‚Aber ich nehme an, es kommt darauf an, was die verehrten Abgeordneten glauben.'",
+      "Er hat recht. Es kommt darauf an, wer von Ihnen beiden die größere Glaubwürdigkeit besitzt."
+    ],
+    "GOTO": [
+      "[IF Popularity>=50] \"Weiter\" ►489",
+      "[ELSE] \"Weiter\" ►377"
+    ]
+  },
+  "653": {
+    "PROSE": [
+      "Sie werden die Geschichte nicht los, und der Versuch, sie als Beweis Ihrer Rationalität und Ihres Pragmatismus darzustellen, nützt nichts. Die Leute empfinden einen Politiker, der seine Meinung ändert, nicht als vernünftig, sondern als windig. Die letzte Runde der Parlamentsabstimmung wirft Sie aus dem Rennen.",
+      "Das bedeutet also, dass die Mitglieder nun zwischen Rufus und Stollard wählen müssen. Es ist außergewöhnlich. Obwohl Rufus in letzter Zeit ihr Bestes gegeben hat, beim Thema Brexit kämpferisch zu klingen, sind im Grunde beide überzeugte Remainer. Und nun wird einer von ihnen die Partei anführen.",
+      "‚Politik ist ein komisches altes Spiel', sinniert Ihr Stabschef.",
+      "‚Es ist kein Spiel, Ron. Ein Spiel ist etwas, das man kontrollieren kann. Politik ist einfach nur eine Lotterie.'",
+      "<p class=\"centered\">ENDE</p>"
+    ]
+  },
+  "654": {
+    "ONENTER": [
+      "[EFFECT Economy-5]",
+      "[EFFECT Goodwill-2]",
+      "[EFFECT Popularity-5]",
+      "[EFFECT getItem:EU Trade Talks]",
+      "[EFFECT getKW:CLARION]"
+    ],
+    "PROSE": [
+      "‚Es ist nicht der schlechteste Deal, den wir hätten aushandeln können', sagt der Schatzkanzler, als Sie ihm die Eckpunkte des Abkommens mitteilen. ‚Wir werden natürlich minimalen Einfluss auf die Vorschriften haben, an die wir uns halten müssen.'",
+      "‚Der entscheidende Unterschied, Alan, ist, dass wir uns nicht daran halten <em>müssen</em>. Das britische Recht wird den Entscheidungen des Europäischen Gerichtshofs folgen, aber mit der Möglichkeit, einen eigenen Weg zu gehen.'",
+      "‚Wenn wir uns jemals dagegen entscheiden, könnte das unseren verbliebenen Zugang zum Binnenmarkt abschneiden.'",
+      "‚Der Punkt ist, dass wir es den Wählern als wiedergewonnene Souveränität verkaufen können. Besser in einem EFTA-Limbo regieren, als von Wählern aus dem Amt gejagt zu werden, die weder mit dem wirtschaftlichen Inferno eines harten Brexits noch mit dem stumpfsinnigen Kompromiss des Norwegen-Modells jemals zufrieden wären.'"
+    ],
+    "REPORT": [
+      "<strong>-5% Wirtschaft</strong>: Großbritanniens Dienstleistungsbranchen werden es schwerer haben, mit Europa Handel zu treiben.",
+      "<strong>-2% Wohlwollen</strong>: Die EU hat die Komplexität des Umgangs mit der Schweiz unter ähnlichen Bedingungen bereits satt.",
+      "<strong>-5% Beliebtheit</strong>: Die Wähler sind dumpf verärgert, dass das ganze Feuerwerk des Brexits im feuchten Knallfrosch bedächtiger Diplomatie geendet hat.",
+      "Die EU-Handelsgespräche sind nun abgeschlossen."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Kein Zurück mehr\" ►666"
+    ]
+  },
+  "655": {
+    "PROSE": [
+      "Der eigentliche Zweck aller EU-Vorschriften besteht darin, den Binnenmarkt zu einem fairen Spielfeld zu machen. Und dafür braucht es Regelungen und Standards, denn sonst könnte ein Land beispielsweise seine Toilettensitz-Industrie subventionieren oder Gesetze zur Arbeitswoche erlassen, die es seinen Unternehmen ermöglichen, weniger Arbeitnehmer länger arbeiten zu lassen als die Konkurrenz, und so alle anderen bei Toilettensitzen unterbieten. Und so weiter.",
+      "Das heißt nicht, dass es keine Lohnunterschiede innerhalb der EU gibt, aber das Ziel ist es, sich im Laufe der Zeit einer engeren wirtschaftlichen Konvergenz anzunähern. Wenn man eine Harmonisierung von Standards und Vorschriften hat – worin besteht der Sinn, dieselben veterinärmedizinischen Qualifikationen EU-weit anzuerkennen, wenn nicht alle Tierärzte frei reisen können, um ihren Beruf auszuüben? Man braucht dieselben Regeln für Standards, Sicherheit, Verpackung und so weiter. Und diese Regeln müssen alles abdecken, vom Text auf Produktverpackungen bis zur Leistung von Staubsaugern. Dieselben Regeln und Vorschriften befolgen zu müssen bedeutet, einen Haufen gesetzgeberischer Befugnisse nach Brüssel abzugeben. Und deshalb gibt es die Regel über die krumme Banane, zusammen mit Sachen wie der Arbeitszeitrichtlinie. Und Gesundheit und Sicherheit am Arbeitsplatz. Und die Regelungen zu Mobilfunk-Roaming-Gebühren. Und... na ja, es gibt einfach haufenweise davon.",
+      "Wohlgemerkt, es ist nicht so, als hätten wir nicht unsere eigenen Vorschriften für Obst und Gemüse (und natürlich alles andere) gehabt, bevor wir der EU beigetreten sind. Hatten wir – sie waren nur viel einfacher. Obwohl, fairerweise muss man sagen, diese Regeln mussten nur für ein Land gelten, das Vereinigte Königreich, nicht für achtundzwanzig verschiedene Länder, die alle eifrig miteinander Handel treiben. Jeder kann souverän sein, wenn er einfach das Gartentor verriegelt und von dem lebt, was er auf dem Schrebergarten anbaut.",
+      "Was möchten Sie sich als Nächstes ansehen, falls Sie es nicht schon getan haben?"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Mehr über Regulierungsbehörden\" ►123",
+      "[OPTION] \"EFTA\" ►346",
+      "[OPTION] \"Freizügigkeit\" ►414",
+      "[OPTION] \"Das reicht an Recherche fürs Erste\" ►441"
+    ]
+  },
+  "656": {
+    "PROSE": [
+      "Die EU wird<strong> </strong>einem Abkommen über gegenseitige Rechte zustimmen, aber die Spanier bestehen darauf, dass alle britischen Staatsbürger in Spanien eine Krankenversicherung abschließen, um das alte System zu ersetzen, bei dem der NHS ihre Gesundheitskosten übernommen hat. Obendrein muss die Versicherung bei von der spanischen Regierung zugelassenen Anbietern abgeschlossen werden, und die Tarife sind ziemlich teuer.",
+      "Das Abkommen anzunehmen wäre ein Schlag für die britischen Rentner, die sich auf einen gemütlichen Ruhestand in Spanien gefreut haben. Manche von ihnen sind natürlich Bankräuber, aber der Rest wird sich diese Versicherungstarife kaum leisten können. Alternativ könnten Sie rundheraus ablehnen und versuchen zu bluffen."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Zustimmen\" ►740",
+      "[OPTION] \"Ablehnen\" ►584"
+    ]
+  },
+  "657": {
+    "PROSE": [
+      "Alan Stollard ist auf dem weichen Flügel der Partei isoliert, während Tiffany Rufus einen härteren Kurs einschlägt. Remainer-Abgeordnete laufen ihm scharenweise davon und setzen zweifellos darauf, dass Rufus eine gemäßigtere Version des Brexits liefern wird, sollte sie gewinnen.",
+      "Stollard scheidet nach der nächsten Runde aus und überlässt es Ihnen, Rufus und Strewel, in die letzte Parlamentsabstimmung einzuziehen."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Darauf konzentrieren, als Nächstes Rufus auszuschalten\" ►679",
+      "[OPTION] \"Strewel ist die größere Bedrohung\" ►802"
+    ]
+  },
+  "658": {
+    "ROUTES": [
+      "[IF box:658.box1] ►480",
+      "[ELSE] [EFFECT tick:658.box1] ►551"
+    ]
+  },
+  "659": {
+    "PROSE": [
+      "Das Damoklesschwert hängt über Ihnen in Form der finanziellen Abrechnung Großbritanniens mit der EU. Es ist Ihnen gelungen, die Sache eine Weile unter den Teppich zu kehren, aber die Zeit kommt, in der Sie sich damit befassen müssen.",
+      "Das Problem ist, dass die Öffentlichkeit nicht versteht, dass dies eine Verpflichtung ist, die Großbritannien als Mitgliedsstaat eingegangen ist. Sie nehmen die Abrechnung als Strafe wahr. Wenn Sie zahlen, werden die Zeitungen kreischen, Sie hätten der Erpressung nachgegeben. Aber wenn Sie nicht zahlen, wird das nicht nur Großbritanniens Ansehen in der Welt beschädigen, sondern auch ein Hindernis für alle zukünftigen Beziehungen mit unserem größten Handelspartner sein.",
+      "‚Was wurde eigentlich aus Damokles?' fragen Sie Peter Strewel, als Sie ihn das nächste Mal sehen. Der strohblonde Hanswurst mag die Moral von Frank Sinatras Kater haben, aber er kennt seine Klassiker.",
+      "‚Hat den Sitz der Macht aufgegeben, oder? Wurde ihm zu heiß.'",
+      "Eine heilsame Lektion."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter\" ►666"
+    ]
+  },
+  "660": {
+    "PROSE": [
+      "Sie holen sich Rat zum Thema Volksabstimmungen von einem Experten ein, aber nicht von der Art Experte, die Sie vielleicht erwartet hätten."
+    ],
+    "GOTO": [
+      "[IF box:660.box1] \"Weiter\" ►644",
+      "[ELSE] [EFFECT tick:660.box1] \"Weiter\" ►54"
+    ]
+  },
+  "661": {
+    "PROSE": [
+      "Ihre frühere Bereitschaft, eine Einigung über die Rechte der EU-Bürger in Großbritannien zu erzielen, kommt Ihnen nun zugute. Jene Länder, deren Staatsangehörige hier leben, werden dazu beitragen, die Kommission in Richtung einer einvernehmlichen Einigung zu beeinflussen."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter\" ►82"
+    ]
+  },
+  "662": {
+    "ONENTER": [
+      "[EFFECT Economy-10]",
+      "[EFFECT Goodwill-5]",
+      "[EFFECT getItem:EU Trade Talks]"
+    ],
+    "PROSE": [
+      "Sie hätten sich gerne persönlicher in die Verhandlungen über Großbritanniens künftige Handelsbeziehungen mit der EU eingebracht, aber zu viele andere Angelegenheiten forderten Ihre Aufmerksamkeit.",
+      "‚Wir arbeiten gerade die Details eines Freihandelsabkommens aus', sagt der Staatssekretär für den EU-Austritt, als er das Kabinett über die neueste Verhandlungsrunde informiert.",
+      "‚Mit Verlaub, Dennis, das tun Sie seit einem Jahr. Wie lange wird es noch dauern?'",
+      "‚Ich bin sicher, wir können den Großteil innerhalb der – äh, Übergangsperiode klären.'",
+      "Der Schatzkanzler lässt ein ungewohnt schrilles Lachen hören. ‚Das wird meiner Einschätzung nach nicht in weniger als einem Jahrzehnt unterzeichnet. Schauen Sie sich Kanada an.'",
+      "‚Niemand hatte ein Interesse daran, das Kanada-Abkommen durchzudrücken', protestiert Dent. ‚In unserem Fall gibt es mehrere Staaten, die eine Einigung genauso sehr wollen wie wir. Irland, Belgien, die Niederlande…'",
+      "‚Weil deren Volkswirtschaften unter dem Brexit fast genauso stark leiden werden wie unsere', stimmt der Schatzkanzler zu. ‚Aber das sind vier oder fünf Länder von siebenundzwanzig. Frankreich und Deutschland, und sogar Polen, werden bei Weitem nicht so stark getroffen. Die werden andere Prioritäten haben.'",
+      "Dent faltet nachdenklich die Hände, und einen Moment lang denken Sie, er werde einen Geniestreich enthüllen. Aber dann sagt er: ‚Die EU braucht dieses Abkommen mehr als wir', und Sie erkennen, dass das Einzige, worauf man noch zurückgreifen kann, Dogmatismus ist."
+    ],
+    "REPORT": [
+      "<strong>-10% Wirtschaft</strong>: Ein maßgeschneidertes FTA wird Jahre dauern, und selbst dann geht es nur um Schadensbegrenzung.",
+      "<strong>-5% Wohlwolle</strong><strong>n</strong>: Zwei Jahre, in denen sie Ihren Ministern am Verhandlungstisch gegenübersaßen, haben die Meinung vieler EU-Beamter über Großbritannien verdorben.",
+      "Die EU-Handelsgespräche sind nun beendet."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Was liegt als Nächstes im Posteingang?\" ►385"
+    ]
+  },
+  "663": {
+    "ONENTER": [
+      "[EFFECT Authority-1]",
+      "[EFFECT Popularity-1]"
+    ],
+    "PROSE": [
+      "Die Wiederherstellung der Grenze in jedweder Form hat ihren politischen Preis, und natürlich bekommen Sie Geschrei von den Bürgerrechts-Schneeflocken ab, aber insgesamt scheint es die am wenigsten schädliche Lösung zu sein."
+    ],
+    "REPORT": [
+      "<strong>-1% Autorität</strong>: Sie bekommen einen Teil der Schuld dafür ab, die Lage in Nordirland angespannter gemacht zu haben.",
+      "<strong>-1% Beliebtheit</strong>: Die linke Presse versucht darzustellen, dies sei der erste Schritt zum Aufbau eines Polizeistaates."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Hätte schlimmer kommen können\" ►49"
+    ]
+  },
+  "664": {
+    "PROSE": [
+      "Der Führungswettbewerb steht auf Messers Schneide. Was sagen Sie? Fühlen Sie sich als Glückspilz?"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Man macht sein eigenes Glück\" ►189",
+      "[OPTION] \"Es ist alles nur ein Würfelwurf\" ►377"
+    ]
+  },
+  "665": {
+    "PROSE": [
+      "Sie sind mit gutem Beispiel vorangegangen und haben die Politik weg von der polarisierten Nullsummen-Politik der Populisten hin zu einer freundlicheren und inklusiveren Art von Demokratie gelenkt. Oder zumindest scheint es so – sowohl in den Augen Ihrer Unterstützer als auch Ihrer Kritiker. Und wenn es eine Kraft in der Politik gibt, die all die Schmähungen der letzten Jahre übertreffen kann, dann ist es das Versprechen einer helleren und vereinteren Zukunft."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter\" ►486"
+    ]
+  },
+  "666": {
+    "PROSE": [
+      "Falls Sie eine Pause vom Regieren brauchen – nun, es ist ein stressiger Job, und niemand könnte es Ihnen verübeln. Dies ist ein guter Zeitpunkt für eine Verschnaufpause. Andererseits tickt die Uhr, und der Brexit kommt auf Sie zu wie ein Schwerlaster."
+    ],
+    "GOTO": [
+      "[IF box:666.box1 AND box:666.box2 AND box:666.box3] \"Volle Kraft voraus\" ►400",
+      "[ELSEIF box:666.box1 AND box:666.box2] \"Pause? Was ist das?\" ►300",
+      "[ELSEIF box:666.box1] \"Wer A sagt, muss auch B sagen…\" ►200",
+      "[ELSE] \"Weitermachen\" ►100"
+    ]
+  },
+  "667": {
+    "PROSE": [
+      "‚Sie bestätigen, dass ein Produkt tatsächlich aus der Freihandelszone stammt. Wenn ja, kommt es zollfrei herein, aber das gilt nicht für Waren, die das Land nur auf dem Weg in die EU durchquert haben.'",
+      "‚Klingt einfach genug.'",
+      "‚Es ist ein kleines bisschen zusätzliche Bürokratie, aber ich glaube nicht, dass uns das allzu große Sorgen bereiten muss.'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"‚Was können wir also von einem Freihandelsabkommen erwarten? Die Vor- und Nachteile.'\" ►303",
+      "[OPTION] \"‚Dauern solche Abkommen lange?'\" ►276",
+      "[OPTION] \"‚Vielleicht wäre es einfacher, einfach zu den Regeln der Welthandelsorganisation zurückzukehren.'\" ►826"
+    ]
+  },
+  "668": {
+    "PROSE": [
+      "Sich die Meinungen anderer Leute anzuhören, versetzt Sie oft in üble Laune. Aber immerhin hat es Sie von den Zahnschmerzen abgelenkt."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"‚Was ist denn so schlimm an Volksabstimmungen?'\" ►68",
+      "[OPTION] \"‚Das erste Referendum ergab eine überwältigende Mehrheit für einen harten Brexit. Warum ein weiteres abhalten?'\" ►249",
+      "[OPTION] \"‚Wenn Sie so starke Einwände gegen Volksabstimmungen haben, warum machen Sie dann eine Ausnahme für ein weiteres EU-Referendum?'\" ►571",
+      "[OPTION] \"‚Ich habe keine Zeit dafür. Ich habe ein Land zu regieren.'\" ►425"
+    ]
+  },
+  "669": {
+    "PROSE": [
+      "Sie greifen nach dem Tee. ‚Bringen Sie mich auf den neuesten Stand, Wilkins. Irgendwelche frühen Termine?'",
+      "‚Drei, Premierminister(in). Mrs Stoat, Mr Beardsley und Sir Harvey. Wen soll ich für das Frühstückstreffen einplanen?'",
+      "Chloe Stoat ist Staatssekretärin für Wirtschaft, Energie und Industriestrategie. Sie ist ein nervöser, reizbarer Typ mit der Angewohnheit, sich gegenüber der Presse zu verplappern, wenn sie das Gefühl hat, nicht eingeweiht zu werden. Nichtsdestotrotz würde Ihnen ein Gespräch mit ihr helfen, sich ein Bild von den wirtschaftlichen Auswirkungen des Brexits zu machen.",
+      "Als Stabschef von Downing Street ist Ron Beardsley Ihr politischer Berater. Wenn es eine philosophische Agenda gibt, die Ihrer politischen Strategie zugrunde liegt, kommt sie von ihm, und er hat ein Briefing über die Austrittsrechnung vorbereitet, die die EU von Großbritannien verlangt. Ron ist allerdings etwas intensiv und am frühen Morgen schwer zu ertragen. Genau wie seine Pfeife.",
+      "Sir Harvey Doggerbank ist der Vorsitzende des 1922-Komitees. Ein eingefleischter Rechter, dessen aufgerissene Augen Sie immer an Yeats' ‚Zweites Kommen' denken lassen. Aber Ihre Autorität aufrechtzuerhalten bedeutet, ihn in der Nähe zu behalten.",
+      "Sie erinnern sich, dass der Schatzkanzler um 8:30 Uhr zu einem Gespräch über die EU-Austrittsgebühr kommt, also wird nur Zeit sein, einen von ihnen jetzt zu sehen, und die anderen müssen warten."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"‚Ich sollte wohl besser die Ministerin empfangen.'\" ►800",
+      "[OPTION] \"‚Ich habe einiges mit Mr Beardsley zu besprechen.'\" ►263",
+      "[OPTION] \"‚Bringen wir Sir Harvey zuerst hinter uns.'\" ►737"
+    ]
+  },
+  "670": {
+    "ONENTER": [
+      "[EFFECT Authority+5]",
+      "[EFFECT Economy-3]"
+    ],
+    "PROSE": [
+      "So gerne Sie auch möchten, es gibt kein Entkommen aus dem Deal. Wer weiß, ob Sie Peter Strewels Unterstützung überhaupt gebraucht haben, um so weit zu kommen, aber er hat zu viele Freunde im Unterhaus und ist bei den Wählern zu beliebt, als dass Sie ihn hintergehen könnten. Sie werden ihn ins Finanzministerium berufen müssen.",
+      "‚Wenigstens ist er von der internationalen Bühne verschwunden', sagt Ron Beardsley. ‚Er mag die heimische Wirtschaft vermasseln, aber wir werden nicht länger rund um den Globus zum Gespött.'"
+    ],
+    "REPORT": [
+      "<strong>+5% Autorität</strong>: Mit Strewels Fraktion auf Ihrer Seite ist Ihre Position als Parteivorsitzende(r) stärker denn je.",
+      "<strong>-3% Wirtschaft</strong>: Die Märkte schrecken vor der Nachricht zurück wie eine Nacktschnecke vor Salz."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter geht's\" ►603"
+    ]
+  },
+  "671": {
+    "ROUTES": [
+      "[IF Authority>=61 AND Goodwill<=30] ►40",
+      "[ELSE] ►792"
+    ]
+  },
+  "672": {
+    "PROSE": [
+      "‚Das ist ein mutiger Schritt', sagt Ihr Stabschef, sobald Sie wieder hereinkommen.",
+      "‚Sagen Sie, was Sie meinen, Ron. Sie halten es für einen Fehler.'",
+      "‚Nicht, wenn Sie die Leute dazu bringen können zu glauben, dass Sie meinen, was Sie sagen.'"
+    ],
+    "GOTO": [
+      "[IF keyword:APRICITY OR keyword:TIGHTROPE] \"Weiter\" ►498",
+      "[ELSEIF Popularity>=56] \"Weiter\" ►519",
+      "[ELSE] \"Weiter\" ►180"
+    ]
+  },
+  "673": {
+    "PROSE": [
+      "‚Die Schweiz hat begrenzten Zugang zum EU-Dienstleistungsmarkt, und das auch nur in einigen Sektoren', erklärt Stollard. ‚Theoretisch hat sie sich in Richtung einer stärkeren Integration bewegt, eher in Anlehnung an die EFTA-Staaten innerhalb des Europäischen Wirtschaftsraums, aber in der Praxis scheitert dieses Schiff immer wieder an den Klippen der Freizügigkeit.'",
+      "‚Ich sag mal, dieses nautische Kauderwelsch könnte ich in einer Rede verwenden', sagt Strewel. ‚Ich versuche natürlich, eine lustigere Pointe draus zu machen, vielleicht eines dieser Schlauchboote vollgestopft mit libyschen Vergewaltigern, aber es ist ein schönes anschauliches Bild.'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter\" ►378"
+    ]
+  },
+  "674": {
+    "ONENTER": [
+      "[EFFECT Economy-7]",
+      "[EFFECT Popularity-5]",
+      "[EFFECT getItem:EU Trade Talks]",
+      "[EFFECT getKW:QUORUM]"
+    ],
+    "PROSE": [
+      "‚Das macht mein gesamtes Ministerium überflüssig!' schreit Leslie Barkwell, als er die Nachricht hört. ‚Wozu Minister für internationalen Handel sein, wenn ich keine Handelsabkommen schließen darf?'",
+      "‚Beruhigen Sie sich, Leslie, Sie sehen aus wie ein defekter Schnellkochtopf.'",
+      "‚Mir gefällt es auch nicht', sagt Alan Stollard.",
+      "Das ist überraschend. Die beiden landen normalerweise nicht auf derselben Seite eines Themas. ‚Und was ist Ihr Einwand?'",
+      "‚Eine Zollunion trifft keine Vorkehrungen für den Handel mit Dienstleistungen. Unsere Exporte in die EU allein im Dienstleistungsbereich belaufen sich auf 4290 Millionen Pfund pro Woche. Das sind ein Dutzend Ihrer roten Busse, übrigens, Peter.'",
+      "Strewel lacht herzlich. ‚Es ist das Kopfrechnen, das dir den Posten im Finanzministerium eingebracht hat, Alan. Ich persönlich vertraue mehr auf Abrakadabra als auf den Abakus.'",
+      "Stollard breitet die Arme aus. ‚Bitte schwingen Sie ruhig den Zauberstab und verwandeln Sie die britische Wirtschaft. Wir würden alle gerne auf den Ball gehen.'",
+      "‚Ich bin sicher, es wird schon werden', sagt Strewel. ‚Viele von diesen Dienstleistungsheinis könnten richtige Jobs machen, wenn sie sich Mühe geben würden. Wie viele Baristas braucht ein Land eigentlich?'",
+      "Und so, viel zu spät, erkennen Sie, dass Ihr eigener Außenminister absolut keine Ahnung hat, wie groß und böse der Geist ist, den er aus der Flasche gelassen hat."
+    ],
+    "REPORT": [
+      "<strong>-7% Wirtschaft</strong>: Ihre eigenen Experten berechnen den Schaden durch den Austritt aus dem Binnenmarkt auf mindestens zwei Prozent des BIP.",
+      "<strong>-5% Beliebtheit</strong>: Den Menschen wurden fabelhafte neue Handelsabkommen rund um die Welt versprochen, von denen nun keines möglich ist.",
+      "Die EU-Handelsgespräche sind nun abgeschlossen."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Wünsch dir was\" ►666"
+    ]
+  },
+  "675": {
+    "PROSE": [
+      "Er lacht Ihnen nur ins Gesicht. ‚Die britische Wirtschaft macht etwa zehn Prozent des EU-Gesamtvolumens und knapp über zwei Prozent des globalen BIP aus. Glauben Sie nicht, dass die großen Schwergewichte wie die USA, China und die EU sich eher auf den Handel untereinander konzentrieren werden, Premierminister(in)? Oder ist das eine Ealing-Komödie, in der der tapfere Kleine am Ende triumphiert?'",
+      "Sie sind gezwungen, auf Plattitüden über Großbritanniens anhaltende Größe und die angeblichen Vorteile des Alleingangs zurückzugreifen. Appleby unterbricht Sie ständig und unterminiert Sie noch weiter. Als Sie das Studio verlassen, kann Ihr Pressesprecher Ihnen nicht einmal in die Augen sehen.",
+      "Die Abstimmung rückt unaufhaltsam näher wie einer jener Götzenwagen bei einer indischen Prozession."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter\" ►377"
+    ]
+  }
+}

@@ -1,0 +1,307 @@
+{
+  "351": {
+    "PROSE": [
+      "Und schließlich: Was hält das britische Volk von Ihnen persönlich? Vom Himmel gesandter Erlöser? Oder Prophet, der im eigenen Land nichts gilt?"
+    ],
+    "GOTO": [
+      "[IF Popularity<=39] \"Die Undankbaren\" ►823",
+      "[ELSEIF Popularity>=61] \"Man jubelt Ihnen auf der Straße zu\" ►292",
+      "[ELSE] \"Finden wir es heraus\" ►462"
+    ]
+  },
+  "352": {
+    "PROSE": [
+      "‚Die Leute sagen uns, wir sollen die Einwanderung senken, Chloe.'",
+      "‚Stand das auf dem Abstimmungszettel beim Referendum? Das habe ich nicht gesehen.'",
+      "‚Es ist eines der Hauptthemen. Schauen Sie sich die Reaktionen auf Colin Fungales Flüchtlingsplakate an.'",
+      "‚Er ist eine selbstgefällige Nazi-Nacktschnecke im Businessanzug. Die meisten Regionen, die für den Brexit gestimmt haben, haben ohnehin keine hohe Einwanderungsrate.'",
+      "‚Aber Sie müssen zugeben, dass die Wähler verärgert sind, weil wir offenbar keine Kontrolle darüber haben, wer aus der EU hierherkommt.'",
+      "‚Aber wir haben doch Kontrolle, oder? Einwanderer können nach drei Monaten des Landes verwiesen werden, wenn sie keinen Job finden, zum Beispiel. Wenn diese Regeln also nicht durchgesetzt werden, sollten wir nicht auf die Europäische Union zeigen, sondern dem Innenministerium die Schuld geben.'",
+      "Sie wirft Ihnen einen durchdringenden Blick zu, voller zornigem Zucken und stechendem Blick. Sie sehen Wilkins in der Tür herumlungern."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Sagen Sie ihr, dass Sie ein Meeting haben\" ►240",
+      "[OPTION] \"Weisen Sie darauf hin, dass eine Art Zollunion nicht ausgeschlossen wurde\" ►248",
+      "[OPTION] \"Erklären Sie die Vorteile, wenn Großbritannien unabhängige Handelsabkommen schließen kann\" ►786",
+      "[OPTION] \"Sagen Sie ihr, dass Sie insgeheim hoffen, den Brexit rückgängig zu machen und in der EU zu bleiben\" ►37"
+    ]
+  },
+  "353": {
+    "PROSE": [
+      "Das Wichtigste ist, Colin Fungale aus dem Rennen zu werfen. Gegen Tiffany Rufus können Sie gewinnen, sobald die Abstimmung an die Parteimitglieder geht, aber genau dort würde Fungales Pommes-Frites-Faschismus gut ankommen."
+    ],
+    "GOTO": [
+      "[IF keyword:UNCTION AND Authority>=61] \"Sie sind auf der Überholspur\" ►523",
+      "[ELSE] \"Weiter\" ►93"
+    ]
+  },
+  "354": {
+    "PROSE": [
+      "Man gibt Ihnen zu verstehen, dass wenn Großbritannien ein Verteidigungs- und Terrorismusbekämpfungsabkommen mit der EU abschließt, dies den Weg für ein Handelsabkommen ebnen würde, das weiterhin Zugang zum Binnenmarkt gewährt."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Dem zustimmen\" ►160",
+      "[OPTION] \"Eine Zollunion nach dem Vorbild der Türkei-EU-Vereinbarung anstreben\" ►674",
+      "[OPTION] \"Ein maßgeschneidertes Freihandelsabkommen ist am besten\" ►294"
+    ]
+  },
+  "355": {
+    "PROSE": [
+      "Sie stützen nachdenklich das Kinn auf die Hand. Würstchen aus Lincolnshire, steht auf der Speisekarte. Eine der am stärksten für Leave stimmenden Grafschaften des Landes. Und der Speck aus Cumbria… Cumbria war sogar noch europhoischer als Lincolnshire. Ist das eine Art frühstücksthematisches Omen?",
+      "Heute ist der Tag, an dem Sie eine Telefonkonferenz mit Jean-Jacques Terlamen haben, dem Präsidenten der EU-Kommission. Sie haben versprochen, die Position des Vereinigten Königreichs zur Möglichkeit eines norwegischen Brexit-Modells darzulegen, das man uns vorgeschlagen hat.",
+      "Der Beitritt zum Europäischen Wirtschaftsraum würde in Cumbria oder Lincolnshire mit ziemlicher Sicherheit nicht gut ankommen. Andererseits brauchen wir dringend Zugang zu den EU-Märkten in irgendeiner Form, und die Schotten wären an Bord, ebenso wie die City. Aber diese Lincolnshire-Würstchen... Wie kann man einen Brexit verkaufen, bei dem sich wenig ändert, außer dass wir noch weniger Mitsprache haben als zuvor? Vielleicht ist es an der Zeit, den Speck nach Cumbria zu bringen, auch wenn die Wirtschaft darunter leidet."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Fortfahren\" ►747"
+    ]
+  },
+  "356": {
+    "PROSE": [
+      "‚Ich wollte auf den Fehler hinweisen, den Wählern zwei Ergebnisse zur Auswahl zu geben, bevor man einen Weg findet, sie umzusetzen. Sie können sagen: Ja, wir wollen X – aber was, wenn X nicht geliefert werden kann? Wurde nicht in Indiana darüber abgestimmt, Pi zu einer rationalen Zahl zu erklären?'",
+      "‚<em>Beinahe</em> abgestimmt. Es wurde nicht verabschiedet.'",
+      "‚Aber wenn es durchgekommen wäre, hätte man ein demokratisches Mandat gehabt, dessen einziges Ergebnis wäre, dass Gebäude einstürzen und Satelliten vom Himmel fallen. König Knut hat vor tausend Jahren auf die Grenzen politischer Macht hingewiesen. Geben Sie ihnen ein Referendum über die Änderung der Gezeitenzeiten. Das ist der einzige Weg, wie sie die Botschaft begreifen.'",
+      "‚Sie scheinen ziemlich abfällig gegenüber der Demokratie. Um nicht zu sagen: unpatriotisch.' Er bekommt die volle Wucht Ihres Premierminister-Blicks ab. ‚Sind Sie etwa ein Feind des Volkes?'",
+      "‚Was das betrifft –'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"‚Das war rhetorisch gemeint.'\" ►668",
+      "[OPTION] \"‚Schön, rechtfertigen Sie sich, wenn Sie können.'\" ►195"
+    ]
+  },
+  "357": {
+    "ONENTER": [
+      "[EFFECT Economy-5]",
+      "[EFFECT getItem:Residency Rights]",
+      "[EFFECT getKW:KOALA]"
+    ],
+    "PROSE": [
+      "EU-Auswanderern aus dem Vereinigten Königreich zu erlauben, nach dem Brexit in Europa zu bleiben, ist für die EU praktisch eine kostenlose Geste, da weitaus weniger britische Staatsbürger im Ausland leben als EU-Bürger in Großbritannien. Der Rest der Welt wird sich allerdings nicht mit den Details aufhalten, sodass der einzige Effekt ist, dass Sie wie der Bösewicht dastehen."
+    ],
+    "REPORT": [
+      "<strong>-5% Wirtschaft</strong>: Sie werden die Steuereinnahmen von drei Millionen EU-Bürgern verlieren."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter\" ►385"
+    ]
+  },
+  "358": {
+    "PROSE": [
+      "‚Nein – obwohl all die Dinge, über die Sie sich gerade mokiert haben, Zeichen einer vielfältigen Kultur sind, auf die wir stolz sein sollten. Aber ich spreche von einer rein praktischen Ebene. Bürger, die aus anderen EU-Ländern hierherkommen, bereichern unsere Wirtschaft, weil persönlicher Kontakt den Handel fördert. Verziehen Sie nicht den Mund, Colin, das lässt Sie aussehen wie einen dyspeptischen Stofftiger. Sie wollen Beweise? Schauen Sie auf Deutschland. Die Regionen in Ost- und Westdeutschland, die vor der Wiedervereinigung die engsten Verbindungen hatten, haben am schnellsten von den Wachstumschancen nach dem Mauerfall profitiert. Man hört sie nicht über verlorene Arbeitsplätze klagen, oder? Und warum? Weil sie an \u201EGemeinsam stärker\u201C glauben. Die Wiedervereinigung hat alle in Deutschland bessergestellt.'",
+      "‚Wir sind vom Thema abgekommen, nicht wahr', sagt Tode. ‚Hier geht es nicht darum, enge Verbindungen mit Handelspartnern zu knüpfen. Das werden wir auch nach dem Brexit noch tun.'",
+      "‚Aber ich sage doch, wenn Menschen tatsächlich hier leben und arbeiten –'",
+      "Hoffnungslos. Sie versucht, einer Nation misstrauischer Krämer einen utopischen Traum zu verkaufen. Sie können sich kaum das Lachen verkneifen. Ihr Job ist so einfach."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Mugglemore gibt das Wort an den Fragesteller zurück\" ►135",
+      "[OPTION] \"Eine andere Frage suchen\" ►405",
+      "[OPTION] \"Aufgeben und eine gute Nachtruhe genießen\" ►125"
+    ]
+  },
+  "359": {
+    "PROSE": [
+      "Sie besprechen die Angelegenheit mit dem EU-Chefunterhändler Armand Alprèves. Er nimmt alles recht gelassen auf. Es ist schließlich übliches EU-Geschäft, das Geben und Nehmen eines Deals auszuhandeln.",
+      "‚Ich muss mich mit allen siebenundzwanzig Mitgliedstaaten beraten', erinnert er Sie. ‚Aber alle wollen eine Win-win-Lösung.'",
+      "Sie würden das gerne glauben, aber bei Spanien sind Sie sich nicht sicher. Die haben die meisten britischen Auswanderer und sie haben eigene politische Ziele, die die Sache trüben könnten."
+    ],
+    "GOTO": [
+      "[IF Goodwill>=50] \"Weiter\" ►521",
+      "[ELSE] \"Weiter\" ►656"
+    ]
+  },
+  "360": {
+    "PROSE": [
+      "Franjeboom ist nicht überzeugt, dass eine Einigung darüber möglich sein wird, aber er stimmt zu, die Europäische Kommission zu konsultieren."
+    ],
+    "GOTO": [
+      "[IF Goodwill>=66] \"Weiter\" ►214",
+      "[ELSE] \"Weiter\" ►280"
+    ]
+  },
+  "361": {
+    "PROSE": [
+      "Das Wachstum ist geringer als erhofft, und die Inflation steigt langsam, aber bisher sind die extremeren Vorhersagen des Remain-Lagers nicht eingetreten. Natürlich liegt das hauptsächlich daran, dass Großbritannien die EU noch nicht verlassen hat.",
+      "Ihr Stabschef hat die neuesten Kennzahlen. ‚Die Umfragen deuten darauf hin, dass sich die meisten Menschen inzwischen mit dem Brexit abgefunden haben, aber einen Verbleib im Binnenmarkt befürworten würden.'",
+      "‚Oder Zugang zum Binnenmarkt zu haben.'",
+      "‚Ist das etwas anderes?'",
+      "‚Es <em>klingt</em> anders, Ron. Das ist alles, was zählt.'",
+      "Schauen Sie auf den Goodwill-Wert in Ihrem Notizblock. Er gibt an, wie freundlich die EU27 sich gerade gegenüber Großbritannien verhalten."
+    ],
+    "GOTO": [
+      "[IF Goodwill>=47] \"Weiter\" ►683",
+      "[ELSE] \"Weiter\" ►463"
+    ]
+  },
+  "362": {
+    "PROSE": [
+      "Wo informierten sich mehrere Millionen britischer Wähler über die EU? Bei Google, natürlich. Zugegebenermaßen tippten sie ihre Suchbegriffe erst am Tag <em>nach</em> dem Referendum ein, was ein wenig nach dem Verschließen der Stalltür erinnert, wenn das Pferd bereits durchgebrannt ist, aber die Idee an sich ist gut.",
+      "Deshalb sitzen Sie eines späten Abends vor Ihrem Laptop. Sie müssen sich über den Binnenmarkt informieren. Es sind kaum noch zwei Jahre bis zum Brexit, und bei einigen Grundlagen fühlen Sie sich immer noch unsicher. Natürlich könnten Sie Ihren Stabschef oder einen dieser rosig geschrubbten Hochschulabsolventen fragen, die Ihren Sonderberatern assistieren, aber dann müssten Sie deren schlecht verhohlene verächtliche Blicke ertragen. Warum sich das antun, wenn das Internet alles weiß?",
+      "Ihr Browser zeigt die letzte Seite an, die Sie sich angesehen haben – Weinverkostungswochen. Sie haben einen Urlaub vor sich, aber wohin? Ein Weinverkostungswochenende oder eine Tour wäre genau das Richtige. Ein guter, erdiger Roter und ein Stück Käse werden Ihre Kampfeslust wiederherstellen. Aber wohin? Bordeaux oder Burgund? Oder das Loire-Tal? Oder wie wäre es mit spanischen Weinen? Es geht nichts über einen guten Rioja. Oder vielleicht italienisch, oder...",
+      "Aber halt. Es könnte nicht gut ankommen, wenn Sie mitten in den Brexit-Verhandlungen durch Europa gondeln und ausländischen Wein trinken. Was würden der <em>Klaxon</em> oder die <em>Daily Outrage</em> davon halten? Einige Schlagzeilen drängen sich auf:",
+      "<p class=\"centered\">‚URLAUB DES PM HINTERLÄSST BITTEREN NACHGESCHMACK'</p>",
+      "<p class=\"centered\">‚FLEISSIGE ENGLISCHE WINZER VOM PM VERSCHMÄHT'</p>",
+      "<p class=\"centered\">‚WAS IST FALSCH AN GUTEM ALTEN BRITISCHEN WEIN?'</p>",
+      "Was <em>ist</em> eigentlich falsch an britischem Wein? Es gibt einige Weingüter in den Home Counties, die gute Kritiken bekommen haben. Nur... wir Briten sind gut bei Schaumwein und vielleicht ein oder zwei Weißweinen, aber ehrlich gesagt taugen die heimischen Roten nicht viel. Und eine Weinverkostungstour durch die Weinberge von Haywards Heath und Maidstone hat nicht ganz denselben Reiz wie die sonnenverwöhnten Hänge des Loire-Tals.",
+      "Etwas zum Nachdenken. Fürs Erste beginnen Sie mit der Recherche über den Binnenmarkt."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter\" ►116"
+    ]
+  },
+  "363": {
+    "PROSE": [
+      "Alprèves senkt den Kopf über den dicken Notizblock vor sich. Er tut so, als mache er Notizen, aber Sie vermuten, er verbirgt ein triumphierendes Grinsen. Es ist noch nicht ganz aus seinem Gesicht verschwunden, als er aufblickt. ‚Das ist gut. Die Aufgabe vor uns ist herkulisch. Indem wir das jetzt vereinbaren, verringern wir die Arbeitsbelastung um gerade so viel.' Er nimmt ein Stück Zucker aus der Schale in der Mitte des Tisches. ‚Es ist nicht viel, aber so hat Konfuzius gesagt, kann man Berge versetzen.'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Jetzt über die Summe feilschen\" ►631",
+      "[OPTION] \"Die Eckpunkte des Deals vereinbaren, aber die endgültige Abrechnung hinauszögern\" ►704"
+    ]
+  },
+  "364": {
+    "PROSE": [
+      "Man hatte Ihnen geraten, dass wenn Sie EU-Bürgern, die bereits im Vereinigten Königreich leben, ein Aufenthaltsrecht gewähren, es eine Chance gäbe, Zugang zum Binnenmarkt zu sichern."
+    ],
+    "GOTO": [
+      "[IF keyword:TIGHTROPE AND Goodwill>=24] \"Einen Versuch wert\" ►344",
+      "[ELSE] \"Weiter\" ►666"
+    ]
+  },
+  "365": {
+    "ONENTER": [
+      "[EFFECT Authority+6]",
+      "[EFFECT Economy-3]",
+      "[EFFECT Goodwill-2]",
+      "[EFFECT getItem:Exit Fee]"
+    ],
+    "PROSE": [
+      "Ein Wunder. Das Gericht entscheidet, dass die endgültige Abrechnung 20 Milliarden Euro nicht überschreiten soll."
+    ],
+    "REPORT": [
+      "<strong>+6% Autorität</strong>: Plötzlich sieht es so aus, als hätten Sie von Anfang an einen Plan gehabt.",
+      "<strong>-3% Wirtschaft</strong>: ein kleiner finanzieller Schmerz, aber für Sie ein Preis, den es sich zu zahlen lohnt.",
+      "<strong>-2% Goodwill</strong>: mehr saure Trauben von den EU27 waren unvermeidlich."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter so\" ►400"
+    ]
+  },
+  "366": {
+    "PROSE": [
+      "Colin Fungale gewinnt die Mitgliederabstimmung mit einem Erdrutschsieg. So unglaublich es scheint, angesichts seiner sehr unbritischen Vorliebe für apokalyptische Verlautbarungen und Drohungen mit zivilem Ungehorsam: Er soll der siebenundsiebzigste Premierminister des Vereinigten Königreichs werden.",
+      "‚Gott steh uns allen bei', sagt Ron Beardsley.",
+      "‚Jetzt wäre ein guter Zeitpunkt zu erwähnen, dass ich eine irische Oma habe', sagt Terri Trough."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter\" ►782"
+    ]
+  },
+  "367": {
+    "PROSE": [
+      "‚Wie die Türken, was?' sagt Strewel. ‚Wenig Chancen, dass die jemals der EU beitreten. Wahrscheinlicher, dass sie der Russischen Föderation beitreten, hoho. Übrigens, ich hoffe, niemand ist wegen dieser Leave-Plakate nachtragend. Sechsundsiebzig Millionen Türken auf dem Weg zu uns und so weiter. War nur ein Jux, wissen Sie. Im Krieg und in der Liebe ist alles erlaubt und so.'",
+      "‚Das größere Risiko scheint jetzt zu sein, dass Präsident Kulübe Plakate aufhängt, die vor einem Ansturm von Briten auf die Türkei warnen', sagt Stollard.",
+      "Barkwell stößt ein Schnauben aus wie ein überkochender Wasserkessel. ‚Wir brauchen nicht die Zustimmung der Türken, um in einer europäischen Zollunion zu sein. Sie erlaubt einfach den zollfreien Warenverkehr. Schön unkompliziert.'",
+      "‚Und alle Handelsabkommen mit Drittstaaten würden von der EU in unserem Namen ausgehandelt.'",
+      "‚Genau.' Barkwell sieht verwirrt aus. ‚Und? Das ist doch eine gute Sache, oder? Die haben ein erstklassiges Verhandlungsteam.'",
+      "Sie seufzen. ‚Wie heißt Ihr Ministerium noch mal, Leslie?'",
+      "‚Wie? Internationaler Handel… Oh. Oh, verstehe. Richtig. Wir können unsere eigenen Deals machen, vergessen Sie diese Brüsseler Blender.'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"‚Möchte jemand die Vorteile einer Zollunion mit der EU zusammenfassen?'\" ►681",
+      "[OPTION] \"‚Was sind die Nachteile?'\" ►799",
+      "[OPTION] \"‚Kommen wir zu anderen Optionen.'\" ►703"
+    ]
+  },
+  "368": {
+    "PROSE": [
+      "Sie fahren mit einem Schluchzer im Bett hoch. Einen Moment lang hängt der scharfe Geruch von Desinfektionsmittel und süßlicher Verwesung in der Luft, bis Sie merken, dass alles nur Einbildung ist. Von draußen dringt das Prasseln von Regen. Die Scheinwerfer eines Autos huschen über die Vorhänge. Kein Grund zur Beunruhigung. Die Fenster von Nummer 10 würden einer Bombe standhalten.",
+      "Sie kuscheln eines Ihrer Kissen wie einen Teddybären. Sie legen es beiseite, drehen sich um und versuchen wieder einzuschlafen. Erst als Sie langsam wegdämmern, erinnern Sie sich, was mit Abednego passiert ist. Sie haben ihn mit einem Küchenmesser Ihrer Mutter operiert, und sein Kopf ging ab."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter\" ►425"
+    ]
+  },
+  "369": {
+    "ONENTER": [
+      "[EFFECT Goodwill-5]",
+      "[EFFECT Popularity+5]",
+      "[EFFECT getItem:Immigration]"
+    ],
+    "PROSE": [
+      "Die EU ist nicht gerade erfreut über Ihre Entscheidung. Für sie ist es keine Migration, wenn EU-Bürger in den Ländern der jeweils anderen leben und arbeiten – es ist einer der großen sozialen und wirtschaftlichen Segnungen des europäischen Projekts. Mehr Bürokratie schadet der Wirtschaft beider Seiten und gibt Arbeitnehmern das Gefühl, unerwünscht zu sein, was sie davon abhält, umzuziehen."
+    ],
+    "REPORT": [
+      "<strong>-5% Goodwill</strong>: Die EU ist nicht gerade begeistert, aber es könnte deutlich schlimmer sein.",
+      "<strong>+5% Popularität</strong>: Die Wähler sind größtenteils zufrieden mit der Botschaft, dass die Einwanderung angegangen wird.",
+      "Die Einwanderung wurde behandelt."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Vorwärts\" ►150"
+    ]
+  },
+  "370": {
+    "PROSE": [
+      "Ihre Berater verbringen einen Nachmittag damit, Sie über die bevorstehende Referendumskampagne zu unterrichten, aber da ist etwas, das sie nicht aussprechen. Sie lassen sie eine Weile darum herumschleichen und genießen ihr Unbehagen, aber schließlich ist es Zeit, den Stier bei den Hörnern zu packen. Oder den Elefanten am Rüssel.",
+      "‚Wir fragen uns, Premierminister(in)', sagt Ihr Stabschef, ‚ob Sie selbst an der Kampagne teilnehmen werden.'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"‚Natürlich nicht. Ich beabsichtige, mich völlig herauszuhalten.'\" ►618",
+      "[OPTION] \"‚Natürlich, ich werde den Kampf für Remain anführen.'\" ►235",
+      "[OPTION] \"‚Ich beabsichtige, für einen harten Brexit Wahlkampf zu machen.'\" ►145",
+      "[OPTION] \"‚Ein weicher Brexit ist das Beste für das Land, und das werde ich den Wählern sagen.'\" ►538"
+    ]
+  },
+  "371": {
+    "PROSE": [
+      "Sie können zumindest mit Strewels Hardliner-Brexit-Positionen mithalten, wenn auch nicht mit seinen extravaganten Höhenflügen ciceronianischer Rhetorik."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter\" ►528"
+    ]
+  },
+  "372": {
+    "PROSE": [
+      "‚Was ist das moderne Äquivalent des Treppenwitzes, Wilkins?' fragen Sie bei der Rückkehr in die Nummer 10.",
+      "Er hängt Ihren Mantel auf. ‚Ich nehme an, Sie beziehen sich auf Ihre Antwort auf Mr. Muglemores Frage, Premierminister(in)?'",
+      "‚Zehn Minuten nachdem ich das Studio verlassen hatte, hatte ich die perfekte Antwort.'",
+      "‚Ein Strohhalm im Orkan', ist Wilkins' tröstlicher Gedanke. ‚Ich lasse Ihnen ein Bad ein.'",
+      "Am Abend des Referendums schalten Sie den Fernseher ein und laufen im Zimmer auf und ab, während die Ergebnisse eintrudeln."
+    ],
+    "TOSS_TWO": [
+      "[BOTH HEADS] \"Weiter\" ►313",
+      "[BOTH TAILS] \"Weiter\" ►403",
+      "[HEAD AND TAIL] \"Weiter\" ►403"
+    ]
+  },
+  "373": {
+    "ONENTER": [
+      "[EFFECT getItem:the NHS]"
+    ],
+    "PROSE": [
+      "Das Handelsabkommen wird abgeschlossen und Sie bekommen Ihr Fototermin mit Präsident Windrip auf dem Rasen des Weißen Hauses. Schade um den NHS. Schon kreisen die Konzerne wie Geier darüber. Aber es ist nur ein Opfer auf dem langen Weg zum Aufbau eines neuen Großbritanniens für das Brexit-Zeitalter. Und Sie werden längst in Sussex imkern, bevor die Auswirkungen dieser Entscheidung voll zum Tragen kommen."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter\" ►450"
+    ]
+  },
+  "374": {
+    "PROSE": [
+      "Ein Assistent steht wartend in der Tür. Die anderen sind eingetroffen. Ihr Meeting soll beginnen, aber Sie können sich ein paar Minuten Zeit nehmen, um Ron Beardsley zu bitten, weitere offene Punkte zu klären:"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"‚Die Haushaltsüberschreitung – was hat es damit auf sich?'\" ►6",
+      "[OPTION] \"‚Erzählen Sie mir von der Finanzierung laufender Projekte.'\" ►316",
+      "[OPTION] \"‚Renten klingen nach einem Problem, das so schnell nicht verschwinden wird.'\" ►795",
+      "[OPTION] \"‚Gehen wir die Risiken durch.'\" ►610",
+      "[OPTION] \"‚Es muss doch einige Faktoren zu unseren Gunsten geben.'\" ►132",
+      "[OPTION] \"‚Was wissen wir über den Chefunterhändler?'\" ►119",
+      "[OPTION] \"‚In Ordnung, ich denke, wir haben genug besprochen. Kommen wir zur Sache.'\" ►507"
+    ]
+  },
+  "375": {
+    "PROSE": [
+      "Nur noch sechs Monate verbleiben vom zweijährigen Countdown zum Brexit, der begann, als Sie Artikel 50 ausgelöst haben."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter\" [EFFECT tick:666.next] ►666"
+    ]
+  }
+}

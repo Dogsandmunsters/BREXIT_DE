@@ -1,0 +1,191 @@
+{
+  "851": {
+    "PROSE": [
+      "Ihre Beamten weisen Sie darauf hin, dass es unmöglich ist, ein Abkommen mit der EU zu erreichen, das Ihnen Zugang zum Binnenmarkt gewährt, nachdem Sie die Freizügigkeit ausgeschlossen haben.",
+      "'Ich muss nicht <em>im</em> Binnenmarkt sein!' schreien Sie sie an. 'Ich will nur, dass wir Zugang dazu haben.'",
+      "'Premierminister(in),' sagt Ihr Parlamentarischer Privatsekretär, 'das ist dasselbe.'",
+      "Nach ein oder zwei Stunden wird offensichtlich, dass Herumschreien das Problem nicht lösen wird."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Eine Zollunion wie die Türkei wählen\" ►674",
+      "[OPTION] \"Versuchen, ein völlig neues Freihandelsabkommen auszuhandeln\" ►294"
+    ]
+  },
+  "852": {
+    "PROSE": [
+      "Ihre jüngsten Äußerungen haben Sie genau zwischen dem extremen Jahr-Null-Absolutismus von Colin Fungale und dem verkappten europäischen Föderalismus von Tiffany Rufus positioniert. Die nächste Runde des Wettbewerbs wird sicherlich zwischen Ihnen und Dennis Dent ausgetragen.",
+      "'Dies ist die Abstimmung um die politische Mitte,' sagt Ron Beardsley und spiegelt damit Ihre Gedanken wider.",
+      "'Seltsam zu denken, dass ein knallharter Brexit knapp diesseits des Handels-Suizids als \"politische Mitte\" gelten könnte,' sagen Sie.",
+      "'Es ist die neue Mitte. Alles, was wir tun, hat sie schrittweise nach rechts verschoben.'",
+      "Ist es überhaupt noch rechts oder links? Diese Modelle scheinen einer beschaulichen Vergangenheit von schlabbernden Fußballhosen und Polizeiautos anzugehören, die wie Wecker klangen. Die eigentliche politische Debatte gleicht heutzutage eher dem Gleichnis von den langen Löffeln – ob es besser ist, das Essen miteinander zu teilen, oder zu verhungern, während man eifersüchtig den eigenen Teller bewacht.",
+      "Nervös erwarten Sie die Ergebnisse der nächsten Abstimmung."
+    ],
+    "GOTO": [
+      "[IF Authority>=46 AND Popularity>=41] \"Wünschen Sie sich was\" ►62",
+      "[ELSE] \"Nicht an den Nägeln kauen\" ►377"
+    ]
+  },
+  "853": {
+    "PROSE": [
+      "Eine Bombe zerschmettert Ihre Träume von einem mühelosen Sieg. Chloe Stoat, die Ministerin für Wirtschaft, Energie und Industriestrategie, enthüllt in einem Interview, dass Sie ihr verraten haben, insgeheim gegen den Brexit zu sein. Ehe Sie sich versehen, halten Ihnen Reporter ihre Mikrofone unter die Nase und beschuldigen Sie der Heuchelei, Unaufrichtigkeit und Doppelzüngigkeit.",
+      "Unter dem gnadenlosen, auszehrenden Scheinwerferlicht der Kameras wartet die Nation auf Ihre Antwort."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"'Das ist Politik. Man sagt, was man sagen muss, um diese Schar Gänse in die richtige Richtung zu treiben.'\" ►96",
+      "[OPTION] \"'Ich bin gegen einen stümperhaften Brexit. Daraus mache ich kein Geheimnis.'\" ►449",
+      "[OPTION] \"'Vielleicht ist es an der Zeit, Frau Stoat vom Wirtschafts- ins Kulturressort zu versetzen. Sie hat zweifellos eine blühende Fantasie.'\" ►719"
+    ]
+  },
+  "854": {
+    "ONENTER": [
+      "[EFFECT Authority+1]"
+    ],
+    "PROSE": [
+      "Als Sie einige Tage später von einer Horde Reporter in der Downing Street gegrillt werden, schenken Sie ihnen demonstrativ Ihren Palpatine-Blick. 'Dies ist eine Zeit für harte Entscheidungen. Werden die Wartelisten länger? Wird die Qualität Ihrer medizinischen Versorgung sinken? Natürlich nicht. Manche werden versuchen, dem Brexit die Schuld an Veränderungen im NHS zu geben, aber die Wahrheit ist, dass Ausländer britischem Pflegepersonal die Arbeitsplätze weggenommen haben.'",
+      "'Dem Pflegepersonal? Wirklich?' ruft einer aus der BBC-Meute.",
+      "'Und Ärzten. Und Krankenhausportiers. Jetzt drehen wir diese EU-Flut zurück. Es wird eine völlig neue Ära der Gesundheitsversorgung.'",
+      "'Privatisiert und unbezahlbar,' ruft ein anderer Reporter, aber da haben Sie schon in die Kameras gewinkt und sind zurück in Nummer 10 verschwunden."
+    ],
+    "REPORT": [
+      "<strong>+1% Autorität</strong>: Ihre Gegner sind schockiert von Ihrer Skrupellosigkeit, aber auch ein wenig eingeschüchtert."
+    ],
+    "GOTO": [
+      "[IF keyword:DODO] \"Weiter\" ►431",
+      "[ELSE] [EFFECT getItem:the NHS] \"Weiter\" ►450"
+    ]
+  },
+  "855": {
+    "PROSE": [
+      "Ihre Beamten präsentieren Ihnen betrübt Ihre Optionen. 'Es ist ziemlich begrenzt, fürchte ich, Premierminister(in),' sagt der leitende Beamte des Finanzministeriums. 'Ohne Verhandlungsmasse gibt es keine Möglichkeit, umfassenden Zugang zum Binnenmarkt zu sichern.'",
+      "'Das Beste, worauf wir hoffen können, ist eine Zollunion,' wirft ein anderer ein.",
+      "Sie lehnen sich mit einem Seufzer in Ihrem Stuhl zurück. 'Mr Barkwell wäre nicht erfreut. Er redet ständig von all den Handelsabkommen, die er weltweit abschließen wird, aber wenn wir in einer Zollunion sind, erben wir einfach dieselben Zölle wie die EU, richtig?'",
+      "'Das stimmt, Premierminister(in),' sagt ein weiterer Beamter; Sie können sich ihre Namen nie merken. 'Allerdings spricht einiges dafür, dass die von der EU ausgehandelten Handelszölle erheblich günstiger sein werden als die, die Großbritannien allein erwarten könnte.'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Das gibt den Ausschlag. Sie brauchen ein Zollunionsabkommen\" ►674",
+      "[OPTION] \"Vergessen Sie bestehende Vorlagen, verhandeln Sie ein völlig neues Freihandelsabkommen mit der EU\" ►294"
+    ]
+  },
+  "856": {
+    "PROSE": [
+      "Die einzige schmutzige Wäsche, die Ihr Team ausgraben kann, um Gervais Noysom-Reek zu diskreditieren, ist, dass er einmal vor einer rechtsextremen Organisation gesprochen hat, die Apartheid in Großbritannien befürwortet.",
+      "'Ihr Newsletter besagt, dass verschiedene Rassen nicht dazu bestimmt sind, zusammenzuleben,' sagt Terri Trough und hält sich dabei tatsächlich die Nase zu, während sie die Website betrachtet.",
+      "'Wenn das stimmen würde, wären doch wohl ihre eigenen Neandertaler-Vorfahren ausgerottet worden. Und Noysom-Reek glaubt diesen Unsinn?'",
+      "'Um fair zu sein, es war vor einigen Jahren und er hat sich seitdem davon distanziert. Behauptet, er dachte, sie wollten nur strengere Einwanderungskontrollen.'",
+      "Ein einziger Vortrag. Das ist nicht viel."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"An die Presse damit\" ►582",
+      "[OPTION] \"Vergessen Sie die Schlammschlacht\" ►801"
+    ]
+  },
+  "857": {
+    "ONENTER": [
+      "[EFFECT Economy-2]"
+    ],
+    "PROSE": [
+      "Das Einzige, was zu Großbritanniens Gunsten spricht, ist, dass die EU davor zurückschrecken wird, zu viele Firmen in kurzer Zeit aus der City abwandern zu lassen. Manche dieser Investmentbanken beziffern ihre Vermögenswerte in Billionen Dollar – und im Falle eines erneuten Crashs müssten die Steuerzahler die Verluste decken.",
+      "Trotzdem ist der Bericht des Finanzministeriums eine düstere Lektüre. Im besten Fall wird die City im Jahr nach dem Brexit 100.000 Arbeitsplätze und 10 Milliarden Pfund an Einnahmen verlieren.",
+      "Sie werfen den Bericht Ihrem Pressesprecher zu. 'Besorgen Sie alle Exemplare davon und schreddern Sie sie.'"
+    ],
+    "REPORT": [
+      "<strong>-2% Wirtschaft</strong>: Die Abwanderung von Finanzdienstleistungen aus der City wird den Lebensstandard aller beeinträchtigen."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Nun denn\" ►400"
+    ]
+  },
+  "858": {
+    "PROSE": [
+      "'Am einfachsten wäre es, einfach zu sagen, dass jeder, der vor März 2017 hier gelebt hat, eine Aufenthaltsgenehmigung beantragen kann.'",
+      "'Was ist mit der CSI?'",
+      "'An Ihrer Stelle würde ich das Gesetz ändern. Streichen Sie die Passage, wonach einem die fünf Jahre aberkannt werden, wenn man keine Krankenversicherung hat. Eigentlich würde ich einfach sagen, dass jeder EU-Bürger, der hier lebt, eine Aufenthaltsgenehmigung beantragen kann, solange er eine Krankenversicherung hat, entweder privat oder über den Arbeitgeber. Sie könnten sogar auf die Fünf-Jahres-Anforderung verzichten. Das wäre eine unmissverständliche Garantie ihrer Rechte. Sie müssten wahrscheinlich auch auf die Fünfunddreißigtausend-Pfund-Gehaltsanforderung verzichten – wissen Sie, für diese bulgarischen Maispflücker und litauischen Baristas und so weiter.'",
+      "'Keine Barrister, natürlich.'",
+      "'Oh nein. Fünfunddreißigtausend gebe ich allein für Schulgebühren aus. Jedenfalls glaube ich nicht, dass Sie die Details der praktischen Umsetzung jetzt schon priorisieren müssen. Angenommen, es gibt eine Übergangsphase, während die Handelsabkommen finalisiert werden, würden wir einige Jahre lang weitgehend normal weitermachen. Sie müssten sich nicht sofort um die Aufenthaltsgesetze kümmern. Sie könnten einfach versprechen, dass die Rechte der EU-Bürger garantiert werden, und die rechtlichen Details später klären.'",
+      "'OK, das reicht für heute.'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter\" ►666"
+    ]
+  },
+  "859": {
+    "PROSE": [
+      "Todes wässrige Augen bohren sich in Sie. Er erkennt, dass Sie möglicherweise nicht genug Inbrunst besitzen, um ein wahrer Brexiteer zu sein, aber Sie könnten ihn noch davon überzeugen, dass Sie berechnend genug sind, um die Art von Brexit zu überwachen, die er sich wünscht."
+    ],
+    "GOTO": [
+      "[IF keyword:UNCTION] \"Weiter\" ►633",
+      "[ELSE] \"Weiter\" ►308"
+    ]
+  },
+  "860": {
+    "PROSE": [
+      "Sie erinnern sich an Ihr surreales Gespräch in einem verlassenen Whitehall-Büro mit der Teenager-Tochter des Ministers, Sprezzatura."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"In Erinnerungen schwelgen\" ►700"
+    ]
+  },
+  "861": {
+    "PROSE": [
+      "Er starrt Sie durch die dicken Brillengläser an, die seinem Gesicht einen Ausdruck permanenter Überraschung verleihen. Nicht zum ersten Mal kommt er Ihnen wie ein sonderbares kleines Erdmännchen vor, das Menschen ständig nach Anzeichen ideologischer Unreinheit absucht.",
+      "Und wenn das so ist – wie fällt sein Urteil über Sie aus?"
+    ],
+    "GOTO": [
+      "[IF keyword:BLEAK OR keyword:HEMLOCK OR keyword:KOALA OR keyword:LEAF] \"Weiter\" ►436",
+      "[ELSEIF keyword:GAZELLE OR keyword:OPAL] \"Weiter\" ►770",
+      "[ELSE] \"Weiter\" ►75"
+    ]
+  },
+  "862": {
+    "PROSE": [
+      "Ihre Orientierung in dieser Angelegenheit stammt aus einer unsagbar sachkundigen Quelle."
+    ],
+    "GOTO": [
+      "[IF box:862.box1] \"Amen dazu\" ►170",
+      "[ELSE] [EFFECT tick:862.box1] \"Halleluja\" ►33"
+    ]
+  },
+  "863": {
+    "PROSE": [
+      "Von den EU-Verhandlungsführern kommt die Nachricht zurück, dass es nicht einfach werden wird. Obwohl es im Interesse aller liegt, die enge Zusammenarbeit zwischen britischen und EU-Polizeikräften aufrechtzuerhalten, würde dies nach dem Brexit bedeuten, dass EU-Staaten grundsätzlich verpflichtet wären, ihre eigenen Staatsangehörigen an ein fremdes Land auszuliefern.",
+      "'Einige EU-Staaten müssten ihre Verfassungen ändern, um dies zu ermöglichen,' bemerkt der EU-Chefverhandler Willy Franjeboom in einem nächtlichen Skype-Gespräch.",
+      "'Na und?'",
+      "'Na ja, man könnte sich fragen, warum Sie, wenn Sie die Scheidung wollen, trotzdem noch auf der Couch schlafen möchten. Ich werde tun, was ich kann.'"
+    ],
+    "GOTO": [
+      "[IF Goodwill>=61] \"Weiter\" ►448",
+      "[ELSE] \"Weiter\" ►476"
+    ]
+  },
+  "864": {
+    "PROSE": [
+      "Die letzten Umfragen sehen die Befürworter des Austritts knapp vorn. Es wird ein enges Rennen. So viel hängt davon ab, ob die jüngeren Wähler sich zum Wählen aufraffen. Da ihre Zukunft auf dem Spiel steht, könnte man meinen, sie würden über Glasscherben kriechen, um ihre Stimme abzugeben. Aber es ist Politik, die schon immer eine dunkle und unergründliche Kunst war."
+    ],
+    "TOSS_TWO": [
+      "[BOTH HEADS] \"Weiter\" ►221",
+      "[BOTH TAILS] \"Weiter\" ►429",
+      "[HEAD AND TAIL] \"Weiter\" ►429"
+    ]
+  },
+  "865": {
+    "PROSE": [
+      "Die zweijährige Lunte, die mit der Erklärung von Artikel 50 angezündet wurde, ist fast abgebrannt. In weniger als einer Woche wird der Brexit Realität sein. Sie blicken aus dem hinteren Fenster von Nummer 10 in die ockergraue Dämmerung. Nur wenige Tage nach dem Brexit werden die Uhren umgestellt.",
+      "'Und nun springen wir vorwärts in eine neue Ära…' proben Sie. Braucht noch Arbeit. Besser den Redenschreibern geben.",
+      "Hätte Labour die letzte Wahl gewonnen, stünde ihr lächerlicher Monolith aus in Stein gemeißelten Versprechen nun im Hintergarten wie etwas aus <em>Ist ja irre – Odyssee im Weltraum</em>. Wobei es ironischerweise eine metaphorische Steintafel gibt, deren Geboten sich jetzt jeder Politiker beugen muss. 'Du sollst nicht leugnen, dass Brexit Brexit bedeutet,' und so weiter.",
+      "Ein Hauch von Tabak weht durch das offene Fenster herauf. Sie recken den Hals und sehen das rote Glimmen von Ron Beardsleys Pfeife, während er auf der dunklen Terrasse auf und ab geht. In einem Proust'schen Erinnerungsschub werden Sie in das Arbeitszimmer Ihres Vaters an einem Weihnachtstag zurückversetzt. Sie müssen sieben oder acht gewesen sein. Ihr Vater schrieb an seiner Predigt und mochte keine Störungen, aber dies war wichtig.",
+      "'Ich möchte eine Beschwerde über dieses Geschenk einreichen, Papa,' sagten Sie ihm.",
+      "Er legte seine Feder beiseite und betrachtete den Gegenstand, den Sie in der Hand hielten. 'Es scheint das Einhorn zu sein, das du dir gewünscht hast.'",
+      "'Ich habe mir ein Einhorn gewünscht. Das hier ist ein Stofftier.'",
+      "'Nun ja, es gibt schließlich keine echten Einhörner.'",
+      "'Mir wurde ein Einhorn versprochen.'",
+      "'Man kann nicht haben, was nicht existiert.'",
+      "War es in diesem Moment, als Sie sich für eine Karriere in der Politik entschieden? Sie spürten eine Welt voller Menschen, die Dinge wollten, die nicht existierten und nicht geliefert werden konnten. Menschen, die die spießige Logik Ihres Vaters mit der schieren Kraft des Glaubens zurückweisen würden. Mit Verleugnung, wenn nötig.",
+      "Das sind die Menschen, die Sie hierher gebracht haben. Und Sie gedenken, ihnen weiterhin Versprechungen zu machen, solange sie Sie weiter wählen. Jedes neue Versprechen kommt so schnell, dass es das Scheitern des letzten überdeckt. Eine neue Ära des Wünschens, in der Fakten und Meinungen und Wahnvorstellungen in einem Regenbogen unendlicher Möglichkeiten verschmelzen.",
+      "<p class=\"centered\">ENDE</p>",
+      "Oder – Moment, <em>ist</em> das das Ende? Vielleicht möchten Sie herausfinden, in welchem Zustand sich das Land nach zwei Jahren mit Ihnen als Premierminister(in) befindet?"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Ihre Punktzahl erfahren\" ►736"
+    ]
+  }
+}

@@ -1,0 +1,317 @@
+{
+  "176": {
+    "PROSE": [
+      "Wie man es vom amtierenden US-Präsidenten erwarten würde, dreht sich seine Philosophie ganz um das Nullsummenspiel. Für ihn besteht Geschäft darin, dem anderen alles wegzuschnappen und dafür zu sorgen, dass er nie in der Lage ist, es sich zurückzuholen.",
+      "Wenn Geschäft wirklich so funktionieren würde, dann würden die Menschen natürlich in Bretterbuden hausen und Maden und Obst essen. Trotzdem lässt sich nicht leugnen, dass Windrip es ziemlich weit gebracht hat, wenn man bedenkt, dass er Mitte der Siebziger mit nur etwa hundert Millionen angefangen hat. Nicht ganz so weit, wie er es mit einer Investition in einen Indexfonds geschafft hätte, vielleicht, aber da jeder Dollar, den er verdient hat, einem Rivalen abgenommen wurde, könnte er wohl behaupten, eine ganze Reihe von Konkurrenten aus dem Geschäft gedrängt zu haben.",
+      "Das Buch endet mit der Erinnerung an den Leser, dass Hype Fakten schlägt. Ein ironisch selbstreflexiver Kommentar des Ghostwriters? Während Sie das Buch beiseitelegen und sich zum Schlafen niederlassen, ist es dieser Gedanke, der Ihnen im Kopf bleibt. Was am meisten zählt, ist nicht, den besten Deal auszuhandeln, sondern als beste Führungspersönlichkeit wahrgenommen zu werden. Zumindest ist das ein einfaches Ziel, eines, das weit weniger einschüchternd ist, als die unzähligen Zügel von Handel, Verteidigung, Finanzen, Einwanderung und Diplomatie in der Hand zu halten. Parolen – damit müssen Sie sich in den kommenden Monaten wappnen.",
+      "Sie dösen ein mit dem geistigen Bild von Windrip, der seinen stummligen Finger auf Sie richtet und sagt: ‚Sie sind eingestellt.'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter\" ►482"
+    ]
+  },
+  "177": {
+    "PROSE": [
+      "Eine Parlamentswahl auszurufen ist ein großes Wagnis. Es gibt so viele Fallstricke und Stolperfallen, dass Sie sich fühlen wie Christian im Tal des Todesschattens. Aber Sie wissen, dass Sie auf Gottes weisen Rat vertrauen können. Er mag Ihren Vorgänger in Sachen irakischer Massenvernichtungswaffen in die Irre geführt haben, aber Sie wissen, dass Er das bei Ihnen nicht versuchen würde."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"‚Aber wie würde ich eine vorgezogene Neuwahl ausrufen?'\" ►35",
+      "[OPTION] \"‚Was ist mit Schottland? Dort werden wir keine Stimmen gewinnen.'\" ►3",
+      "[OPTION] \"‚Wenigstens kann ich Labour vergessen.'\" ►626",
+      "[OPTION] \"‚Die Liberaldemokraten könnten eine Kraft sein, mit der man rechnen muss. Sie führen einen harten Wahlkampf für den Verbleib.'\" ►784"
+    ]
+  },
+  "178": {
+    "ONENTER": [
+      "[EFFECT Authority+5]",
+      "[EFFECT Goodwill+10]",
+      "[EFFECT Popularity+5]",
+      "[EFFECT getItem:Residency Rights]"
+    ],
+    "PROSE": [
+      "Ihr mutiger Schritt hat die moralische Überlegenheit gesichert und lässt der EU kaum eine andere Wahl. Sie revanchiert sich mit der Ankündigung, dass britische Staatsangehörige, die in Europa leben, auch nach dem Brexit bleiben dürfen."
+    ],
+    "REPORT": [
+      "<strong>+5% Autorität</strong>: Man sieht Sie als diejenige, die die Agenda bestimmt.",
+      "<strong>+10% Wohlwollen</strong>: Die EU ist ermutigt, dass Sie einen offenen und fairen Ansatz bei den Verhandlungen verfolgen werden.",
+      "<strong>+5% Beliebtheit</strong>: Niemand kann Sie jetzt noch als die Fiesling-Partei bezeichnen."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter\" ►200"
+    ]
+  },
+  "179": {
+    "PROSE": [
+      "‚Es gibt immer noch erhebliche Beschränkungen beim Handel mit Energie und Kapital, zum Beispiel. Rom wurde nicht an einem Tag erbaut, und die EU wurde nicht in ein oder zwei Jahrzehnten aufgebaut. Die Sache ist die: Über Handelszölle lässt sich leicht eine Einigung erzielen, wenn man Produktzertifizierung und Quoten außen vor lässt. Man sagt einfach, es gibt keinen Zoll auf Dingsbums, und fertig. Deshalb geht der Trend weltweit zu immer niedrigeren Zöllen. Aber die EU ist als viel mehr als nur ein Warenmarkt konzipiert.'",
+      "‚Ja. Eher wie einer dieser riesigen indischen Götzenwagen auf Rollen, die Anbeter plattwalzen, die nicht schnell genug aus dem Weg gehen', sagt Strewel.",
+      "‚Es ist das langsame Voranrollen in Richtung \u201eimmer engerer Union\u201c', räumt Stollard ein. ‚Die EU ist ein unfertiges Werk, und man kann wohl sagen, dass das Dickicht an Regulierungen rund um jeden Dienstleistungsmarkt bedeutet, dass sie sich der Vollendung nur im Sinne von Zenons Paradoxon nähern kann. Aber in jedem Fall werden wir bis 2019 draußen sein, wenn die Bausteine der Kapitalmarktunion in Gesetzesform gegossen werden. Wohin auch immer die EU danach steuert – wir werden nicht mehr an Bord sein.'",
+      "‚Und auf Nimmerwiedersehen', fügt Barkwell hinzu."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"‚Werden wir Finanzdienstleistungen in ein neues Freihandelsabkommen einbeziehen können?'\" ►220",
+      "[OPTION] \"‚Wenn wir auf die Regeln der Welthandelsorganisation zurückgreifen müssen, was wird das bedeuten?'\" ►826",
+      "[OPTION] \"‚Lassen Sie uns hier zum Abschluss kommen, meine Herren.'\" ►81"
+    ]
+  },
+  "180": {
+    "PROSE": [
+      "Letztendlich kommt es, wie Napoleon wusste, auf das Glück an."
+    ],
+    "TOSS_ONE": [
+      "[HEAD] \"Weiter\" ►519",
+      "[TAIL] \"Weiter\" ►782"
+    ]
+  },
+  "181": {
+    "ONENTER": [
+      "[EFFECT getItem:General Election]"
+    ],
+    "PROSE": [
+      "Zu Ihrer Wut stimmt keiner Ihrer Berater der Idee einer vorgezogenen Neuwahl zu. ‚Das geht einfach nicht', sagt einer. ‚Es wäre zu sehr eine Ablenkung. Wir würden unverantwortlich wirken, und die Wähler würden uns dafür abstrafen.'",
+      "Das Kabinett sieht das genauso. Sogar die Innenministerin hat die Frechheit, Ihnen zu widersprechen. ‚Gerade jetzt, wo die EU-Verhandlungen auf den Höhepunkt zusteuern und die Zweijahresfrist von Artikel 50 fast abgelaufen ist …' Sie breitet die Hände aus.",
+      "Die anderen nicken. Mit individuellem Verrat können Sie umgehen, aber nicht, wenn sie sich alle mit Dolchen unter ihren Togen aufstellen. Die lächelnden Schurken. Innerlich kochend wenden Sie sich dem nächsten Tagesordnungspunkt zu."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Was steht an?\" ►385"
+    ]
+  },
+  "182": {
+    "ONENTER": [
+      "[EFFECT Economy+5]",
+      "[EFFECT Goodwill+2]",
+      "[EFFECT getKW:TIGHTROPE]",
+      "[EFFECT getItem:Residency Rights]"
+    ],
+    "PROSE": [
+      "Sie können es sich nicht leisten, diese EU-Bürger zu verlieren. Sie sind ein unverzichtbarer Teil der britischen Wirtschaft. Wenn Sie sie vor die Tür setzen würden, müsste der NHS sie rasch durch Einwanderer aus noch weiter entfernten Ländern ersetzen, was bald den Zorn der Durchschnittsengländer erregen würde. Wenn die schon keine rumänische Krankenschwester wollen, dann noch weniger eine mit brauner oder gelber Haut.",
+      "‚Großbritannien begrüßt Ihre Geste', sagen Sie zu Franjeboom, ‚und wir zeigen gerne dieselbe Großzügigkeit. EU-Bürger, die bereits hier leben, dürfen selbstverständlich bleiben.'"
+    ],
+    "REPORT": [
+      "<strong>+5% Wirtschaft</strong>: Diese drei Millionen EU-Bürger sind ein beträchtlicher Nettogewinn für die britischen Staatsfinanzen.",
+      "<strong>+2% Wohlwollen</strong>: Was es in diesem späten Stadium auch noch wert sein mag."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter\" ►385"
+    ]
+  },
+  "183": {
+    "ONENTER": [
+      "[EFFECT Economy+5]",
+      "[EFFECT Goodwill+5]",
+      "[EFFECT getItem:Immigration]",
+      "[EFFECT getKW:MAPLE]"
+    ],
+    "PROSE": [
+      "Es ist kein schlechter Kompromiss, und das wissen sie. Sie können nach Hause gehen und die Einführung eines Visa-Systems verkünden, was die Kippers und den rechten Flügel Ihrer eigenen Partei erfreuen wird. Gleichzeitig werden die Visa-Richtlinien die besten Elemente der Freizügigkeit im Wesentlichen nachbilden – die Fähigkeit des Arbeitsmarktes, schnell zu reagieren, die notwendige Flexibilität bei Dienstleistungsjobs – während gleichzeitig die Wege beseitigt werden, auf denen manche Wähler, zu Recht oder Unrecht, einen Missbrauch wahrnehmen."
+    ],
+    "REPORT": [
+      "<strong>+5% Wirtschaft</strong>: Die Finanzmärkte atmen erleichtert auf.",
+      "<strong>+5% Wohlwollen</strong>: Die EU sieht, dass Sie sich nach Kräften um Gemeinsamkeiten bemühen."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Was kommt als Nächstes?\" ►150"
+    ]
+  },
+  "184": {
+    "PROSE": [
+      "Nach wochenlangen Beratungen haben die anderen EU-Staaten einen Vorschlag ausgearbeitet, den Willy Franjeboom Ihnen präsentiert.",
+      "‚Das ist enttäuschend', sagen Sie, nachdem Sie ihn angehört haben. ‚Es scheint sich nicht wesentlich von dem partizipativen Rahmen zu unterscheiden, den Norwegen für die Zusammenarbeit mit der EU nutzt.'",
+      "‚Das ist doch logisch, oder? Warum nicht eine bestehende Vorlage verwenden?'",
+      "‚Weil Großbritannien die schlagkräftigsten Streitkräfte Europas hat, während Norwegens Armee aus fünf Hundeschlitten und einem großen Böller besteht.'",
+      "‚Sie lehnen das Angebot also ab, Frau Premierministerin?'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"‚Ich werde mich vorerst damit abfinden, aber indem Sie Großbritannien von der strategischen Planungsphase ausschließen, opfern Sie unsere Erfahrung und unser Engagement.'\" ►701",
+      "[OPTION] \"‚Natürlich lehne ich ab. Wir können nicht an gemeinsamen Militäreinsätzen teilnehmen, ohne gleichberechtigten Einfluss zu haben.'\" ►301"
+    ]
+  },
+  "185": {
+    "ROUTES": [
+      "[IF keyword:TIGHTROPE OR keyword:WELTER] ►471",
+      "[ELSE] ►724"
+    ]
+  },
+  "186": {
+    "PROSE": [
+      "Ihre Informationen über den internationalen Handel stammen aus einer sehr unorthodoxen Quelle."
+    ],
+    "GOTO": [
+      "[IF box:186.box1] \"Weiter\" ►860",
+      "[ELSE] [EFFECT tick:186.box1] \"Weiter\" ►685"
+    ]
+  },
+  "187": {
+    "PROSE": [
+      "‚Nun, ich widerspreche einer Dame nur ungern', sagt Fungale, ‚aber Sie reden wirklich absoluten Stuss. Ich bin sicher, es ist alles sehr schön, in Hampstead oder Richmond zu leben oder wo auch immer. Man geht kurz zum Feinkostladen, und zweifellos freuen Sie sich, dass Sie echte polnische Wurst für Ihre Dinnerpartys bekommen. Aber in den Regionen des Landes, die den stärksten Anstieg der Einwanderung erlebt haben – ich spreche von Orten wie Boston und Redditch – sind die Löhne in den letzten fünfzehn Jahren um ein Zehntel gefallen.'",
+      "Sein Tonfall gegenüber einer Gegnerin ist eine Mischung aus Sirup und Zyankali, perfekt abgestimmt, sodass ein aufmerksamer Zuschauer seine hämische Verachtung erkennt, während er gleichzeitig einen Charme à la Brighton-Strandpromenade für die älteren Damen ausstrahlt, die möglicherweise zusehen. ‚Er ist so höflich', werden sie sagen und dabei die sinusförmige Falte an seiner Lippe und das brutale Glitzern in seinen Augen völlig übersehen. Der ganze Charme eines Ronnie Kray, der jemandem eine Zigarette anbietet. Ein Glück, dass Sie ihn nicht als Hinterbänkler im Nacken haben.",
+      "Owlbear platzt wieder herein. ‚Unter der letzten Labour-Regierung –'",
+      "‚Kann sich hier überhaupt noch jemand so weit zurückerinnern?', stichelt Tode.",
+      "Das Publikum brüllt vor Lachen und übertönt Owlbears Hinweis auf den Fonds, den Labour eingerichtet hatte, um die finanziellen Vorteile der Einwanderung auf die Regionen zu verteilen, die es am meisten brauchten. Sie nehmen sich im Stillen vor, Todes Zeit im politischen Fegefeuer um ein paar Tage zu verkürzen."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Es wird Zeit, dass Sie etwas schlafen\" ►125",
+      "[OPTION] \"Noch etwas weiterschauen\" ►405"
+    ]
+  },
+  "188": {
+    "PROSE": [
+      "‚Die EU war ziemlich effektiv darin, die Handelskosten zu senken. Dinge wie Versand, Grenzkontrollen, Papierkram.'",
+      "‚Keine große Überraschung. Dafür wurde die EU geschaffen.'",
+      "‚Ja, und im letzten Jahrzehnt hat sie diese Handelskosten 40 % schneller gesenkt als andere OECD-Länder. Mein Punkt ist, dass wir erwarten können, dass dieser Trend anhält. Selbst wenn er sich halbiert, werden andere OECD-Länder – und dazu gehört jetzt auch Großbritannien, wohlgemerkt – bis 2030 im Durchschnitt 25 % höhere Handelskosten haben als innerhalb der EU. Rechnet man das alles zusammen, ergibt sich unterm Strich ein Einkommensverlust pro Haushalt von zwischen 1.000 und 6.000 Pfund im Jahr. Und das selbst, wenn wir im Europäischen Wirtschaftsraum bleiben.'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"‚Was, wenn wir im Binnenmarkt bleiben?'\" ►520",
+      "[OPTION] \"‚Was sollte also unsere höchste Priorität bei den Verhandlungen sein?'\" ►98",
+      "[OPTION] \"‚Gibt es noch andere Risiken eines Alleingangs?'\" ►588",
+      "[OPTION] \"‚Lassen Sie uns das später fortsetzen.'\" ►666"
+    ]
+  },
+  "189": {
+    "PROSE": [
+      "Noysom-Reek ist der Nächste, der fliegt. Trotz seiner starken Unterstützung unter den Parteimitgliedern haben die Abgeordneten offenbar erkannt, dass es so wäre, als würde man Attila dem Hunnen seinen schwachsinnigen Bruder die Zügel der Macht übergeben. So bleiben also Sie und Alan Stollard für die Abstimmung unter den Parteimitgliedern übrig.",
+      "Wie unbeliebt müssten Sie sein, um gegen jemanden zu verlieren, der so gut wie zugibt, dass der Brexit eine Katastrophe wird?"
+    ],
+    "GOTO": [
+      "[IF Popularity<=35] \"Das werden wir sehen\" ►782",
+      "[ELSE] \"Weiter\" ►244"
+    ]
+  },
+  "190": {
+    "PROSE": [
+      "Also gut. Der Binnenmarkt. Manche sagen, er sei nur eine Freihandelszone, da er Zölle, Abgaben, Quoten und Steuern abschafft. Aber er ist mehr als das, weil er auch Freizügigkeit umfasst. Von allem – Menschen, Dienstleistungen, Waren und Kapital. Außerdem gibt es Regeln und Vorschriften, um gleiche Wettbewerbsbedingungen für alle Mitglieder des Marktes zu schaffen. Das gibt es in einer Freihandelszone nicht. Und schließlich könnten in einer Freihandelszone bestimmte Sektoren durch gegenseitige Vereinbarung ausgenommen werden, wie Autos oder Wein oder Fischerei, aber in einem Binnenmarkt muss alles in den Topf, keine Ausnahmen.",
+      "Es gibt eine Handvoll Binnenmärkte auf der Welt – die Eurasische Wirtschaftsunion, einen in den Golfstaaten und einen in der Karibik – aber die EU ist die einzige Einheit, die sich der tatsächlichen Vollendung des Binnenmarktkonzepts verschrieben hat. Das bedeutet volle wirtschaftliche Integration und die Beseitigung aller Handelsbarrieren – ein bisschen wie die Vereinigten Staaten, wo die einzelnen Bundesstaaten bei Produkten und Preisen variieren, der Markt aber intern vollständig integriert ist in Bezug auf den freien Verkehr von Personen, Waren, Kapital und Dienstleistungen. Die EU ist politisch wirklich nicht dasselbe wie die Vereinigten Staaten, im Sinne des föderalen Europas, vor dem die Brexit-Schwarzmaler warnen, aber es ist nicht schwer, es so darzustellen.",
+      "Im Allgemeinen sind Binnenmärkte für ihre Mitglieder gegenseitig sehr vorteilhaft, auch wenn manche Sektoren innerhalb eines bestimmten Landes beim Beitritt zunächst leiden können – die britische Fischereiindustrie zum Beispiel in den Anfangstagen. Was auch immer passiert, es wird wehtun, wenn Großbritannien nicht weiterhin irgendeinen Zugang zum europäischen Binnenmarkt hat.",
+      "Es ist auch wichtig zu bedenken, dass die EU und der Binnenmarkt nicht dasselbe sind. Die EU betreibt den Binnenmarkt, aber man kann im Binnenmarkt sein, ohne in der EU zu sein. Allerdings kann man nicht in der EU sein, ohne Teil des Binnenmarktes zu sein, genauso wie man nicht den Euro haben muss, um in der EU oder im Binnenmarkt zu sein. Bedenken Sie aber: Wenn Sie nicht in der EU, aber im Binnenmarkt sind, haben Sie kein Mitspracherecht bei der Gestaltung dieses Marktes. Das ist das Problem, mit dem die EFTA-Leute zu kämpfen haben."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"EFTA? Was ist das?\" ►346",
+      "[OPTION] \"Mehr über Freizügigkeit erfahren\" ►414",
+      "[OPTION] \"In EU-Vorschriften und Standards eintauchen. (Oh, welche Freude!)\" ►655",
+      "[OPTION] \"Genug davon, es ist Zeit fürs Bett\" ►441"
+    ]
+  },
+  "191": {
+    "PROSE": [
+      "‚Die Hauptfrage wird sein, was damit passiert. Die EU investiert über ihre Struktur- und Kohäsionsfonds in die Entwicklung. Cornwall hat über die drei Förderperioden von 2000 bis 2020 EU-Mittel in Höhe von 2,5 Milliarden Pfund erhalten. Das sind etwa 250 Pfund pro Jahr für jeden Einwohner Cornwalls. Alle machen sich Sorgen, dass die Mittel nach dem Brexit versiegen.'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"‚Aber hat Cornwall nicht für Leave gestimmt?'\" ►154",
+      "[OPTION] \"‚Struktur- und Kohäsionsfonds – was ist der Unterschied?'\" ►643"
+    ]
+  },
+  "192": {
+    "PROSE": [
+      "‚Ein zweites Referendum? Ist das klug?'",
+      "Sie blicken auf, ohne bemerkt zu haben, dass Sie laut gesprochen haben. Sie hatten tatsächlich vergessen, dass noch jemand im Raum ist. Es ist eine Kabinettssitzung. Alle starren Sie am Tisch entlang an wie frisch geschlüpfte Entenküken, die auf etwas warten, dem sie folgen können.",
+      "‚Warum sollte es nicht klug sein, Alan?'",
+      "‚Es könnte gegen uns ausgehen.'",
+      "‚Was meinen Sie mit gegen uns? Leave oder Remain?'",
+      "‚Beides. Es ist unkontrollierbar. Egal wie das Ergebnis ausfällt, es ist, als würde man ein neues Blatt Karten ziehen.'",
+      "‚Russisches Roulette', stimmt Dennis Dent zu und nickt heftig wie einer dieser Wackeldackel, die man früher auf Armaturenbrettern gesehen hat.",
+      "Peter Strewel horcht auf. ‚Mm, klingt lecker. Samtige dunkle Schokolade mit Wodka. Ach nein, ich denke an Roulade.'",
+      "‚Ein neues Referendum wäre ein unbekanntes Unbekanntes', schaltet sich die Innenministerin ein. ‚Warum alles durcheinanderwirbeln? Wir könnten Barry Scraggle die Schlüssel zu Downing Street 10 überreichen.'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Die panischen Narren\" ►845",
+      "[OPTION] \"Nein, sie haben recht\" ►106"
+    ]
+  },
+  "193": {
+    "PROSE": [
+      "Der Wettbewerb hat sich auf Sie, Tiffany Rufus und Colin Fungale reduziert. Während Rufus die Gemäßigten umwirbt und die Notwendigkeit von Kompromissen und einer herzlichen Beziehung zur EU betont, wird Fungale immer evangelistischer in Bezug auf die Unzuverlässigkeit der EU und die Notwendigkeit dessen, was er einen Wahren Brexit nennt."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Versuchen, ihn im ultrahart-Brexit-Eifer zu übertrumpfen\" ►552",
+      "[OPTION] \"Einen Mittelkurs zwischen ihm und Rufus halten\" ►353"
+    ]
+  },
+  "194": {
+    "PROSE": [
+      "Jetzt, da Alan Stollard im Rennen ist, hat Tiffany Rufus keine Chance mehr. Die parlamentarische Fraktion, die den Brexit gerne verwässert oder gar rückgängig gemacht sähe, ist nicht groß genug, um zwei Kandidaten zu unterstützen, und Stollard hat die stärkere Rückendeckung. Erwartungsgemäß ist Rufus die Nächste, die ausscheidet.",
+      "‚Das ist irrelevant', urteilt Terri Trough. ‚Kein Kandidat, der vom Makel des Remainismus behaftet ist, könnte jemals gewinnen, wenn die Abstimmung an die Mitglieder geht. Wenn Sie also Gervais Noysom-Reek ausschalten können, haben Sie es in der Tasche.'",
+      "‚Gegen diesen Trottel kann ich doch nicht verlieren. Er ist eine Karikatur von muffigem rechtem Standesdünkel. Geben Sie ihm eine Schnupftabakdose und Spitzenmanschetten, und er wäre ein wirkungsloser Bösewicht direkt aus <em>Blackadder</em>.'",
+      "Mit einem flauen Gefühl wird Ihnen klar, dass diese Beschreibung auch auf einen beträchtlichen Teil der Parteimitglieder passen würde."
+    ],
+    "GOTO": [
+      "[IF keyword:OPAL AND Authority<52] \"Weiter geht's\" ►70",
+      "[ELSE] \"Weiter geht's\" ►544"
+    ]
+  },
+  "195": {
+    "PROSE": [
+      "‚Kalifornien hält eine Menge Volksabstimmungen ab. Sie sind ein Mittel für Politiker, sich vor der Schuld zu drücken, wenn die Dinge schiefgehen. Und weil Wähler keine Alternativen abwägen oder sich Gedanken über die Umsetzung eines bestimmten Wunsches machen müssen, führen sie oft zu Widersprüchen.'",
+      "‚Zum Beispiel?'",
+      "‚Wollten die Kalifornier mehr Ausgaben für öffentliche Dienstleistungen? Ja, wollten sie. Wollten sie höhere Steuern? Oh nein. Wasch mir den Pelz, aber mach mich nicht nass? Gerne.' Er macht eine Pause. ‚Entschuldigung, ich weiß, dass Peter Strewel auf dieses Thema abfährt.'",
+      "‚Ihr Argument ist genau der Grund, warum wir es bei dem einen Referendum belassen sollten.'",
+      "‚Aber woher wissen wir dann, was die Leute wollten? Es ist, als würde man sie abstimmen lassen, ob ein Bus nach Bristol fahren soll oder anderswohin. Anderswohin, sagen sie Ihnen. Aber wohin? Wir wissen nicht, wofür sie gestimmt haben.'",
+      "‚Sie haben für den Brexit gestimmt. Brexit heißt Brexit. Starke und stabile Regierung, die sich an die Arbeit des Brexit macht … Was machen Sie da?'",
+      "‚Ich überprüfe nur, wie viel Betäubungsmittel ich Ihnen gegeben habe, Frau Premierministerin.'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter\" ►668"
+    ]
+  },
+  "196": {
+    "ONENTER": [
+      "[EFFECT Authority+1]"
+    ],
+    "PROSE": [
+      "Die Nachwahl endet mit einer noch größeren Mehrheit für den neuen Kandidaten. Ihr Pressesprecher posaunt es schnell als Bestätigung Ihrer Politik heraus. Es ist zumindest ein besseres Ergebnis, als Sie befürchtet hatten."
+    ],
+    "REPORT": [
+      "<strong>+1% Autorität</strong>: Sie nutzen das Ergebnis gerne als Stimmungsbarometer der Öffentlichkeit."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter geht's\" ►350"
+    ]
+  },
+  "197": {
+    "PROSE": [
+      "Großbritannien wird neue Handelsabkommen brauchen. Selbst wenn der Austritt aus der EU unseren Handel mit Europa nur um 10 % reduziert, ist das immer noch ein Schlag von 200 Millionen Pfund pro Woche für die Wirtschaft. Es ist nicht möglich, vor dem Brexit tatsächlich neue Handelsabkommen abzuschließen oder auch nur substanziell zu verhandeln, aber zumindest können Sie sie in die Wege leiten und sich in der Anerkennung sonnen.",
+      "Eine Möglichkeit ist, sich Abkommen anzusehen, die die EU bereits mit Drittstaaten wie Japan verhandelt. Die langsam mahlenden Mühlen der EU-Bürokratie bedeuten, dass solche Abkommen Jahre oder sogar Jahrzehnte dauern können. Potenziell könnten Sie sich auf ein solches Abkommen stürzen. Und Sie könnten es auch schneller abschließen. Was Großbritannien an Verhandlungsstärke verliert, wenn es alleine vorgeht, wird dadurch ausgeglichen, dass nicht siebenundzwanzig zerstrittene Staaten dazu gebracht werden müssen, nach derselben Partitur zu singen. Der einzige Haken ist, dass die EU das wahrscheinlich als unfaires Trittbrettfahren auf ihrer Vorarbeit ansehen würde. Es könnte die Austrittsverhandlungen erheblich komplizierter machen.",
+      "Eine andere Möglichkeit ist, Abkommen ins Visier zu nehmen, die die EU bereits mit Drittstaaten wie Mexiko und Südkorea hat. Als Mitgliedsstaat ist Großbritannien derzeit Partei dieser Abkommen, also brauchen Sie theoretisch nur einen Stempel, um sie fortzuführen. Und die EU kann gewiss nichts dagegen haben, da alle darauf hoffen, dass Großbritannien diese bestehenden Abkommen ratifiziert als Zeichen dafür, dass nach dem Brexit alles wie gewohnt weitergeht.",
+      "Aber es gibt eine dritte Möglichkeit. Ganz neue Handelsabkommen würden Ihnen etwas geben, das Sie zu Hause herausposaunen könnten, ohne die EU allzu sehr zu verärgern. Irgendwo wie die Philippinen. Die EU hat dort Gespräche über ein Freihandelsabkommen begonnen, aber die Unterzeichnung ist noch Jahre entfernt. Da könnten Sie sich reindrängeln und zeigen, wie das Vereinigte Königreich das flinke, eierstehlende Säugetier zum schwerfälligen Dinosaurier der EU ist."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Versuchen, der EU ein großes neues Handelsabkommen vor der Nase wegzuschnappen – zum Beispiel mit den USA\" ►254",
+      "[OPTION] \"Sich darauf konzentrieren, bestehende Abkommen zwischen der EU und Drittstaaten weiterzuführen\" ►234",
+      "[OPTION] \"Gespräche über völlig neue Handelsabkommen mit Ländern beginnen, mit denen die EU derzeit keines hat\" ►337"
+    ]
+  },
+  "198": {
+    "PROSE": [
+      "‚Haben Sie schon mal von Mercosur gehört?'",
+      "‚Heißt so nicht der Diplodocus heutzutage? Es ist eine Weile her seit meinem Bio-Unterricht.'",
+      "Sie wirft Ihnen den klassischen Oh-mein-Gott-Blick mit runden Augen und offenem Mund zu. ‚Meine Oma ist nicht so gaga, und die hat Alzheimer. Mercosur ist ein südamerikanischer Handelsblock. Die verhandeln schon ein Handelsabkommen mit der EU, seit bevor ich geboren wurde.'",
+      "‚Wir werden es besser machen.'",
+      "‚Das müssen wir auch, denn egal wie unser finaler Deal mit der EU aussieht, wir werden wahrscheinlich mit einem leeren Blatt Papier dastehen, was den Rest der Welt betrifft. Und nebenbei: Zum Mercosur-Block gehört auch Argentinien, also machen Sie sich bereit, die Falkland-Frage wieder aufzuwerfen, wenn Sie dort einen Deal wollen.'"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Weiter\" ►700"
+    ]
+  },
+  "199": {
+    "PROSE": [
+      "Artikel 50 des Vertrags von Lissabon besagt:",
+      "Erstens, dass jeder Mitgliedstaat beschließen kann, ‚im Einklang mit seinen verfassungsrechtlichen Vorschriften' aus der Europäischen Union auszutreten.",
+      "Zweitens, dass ein Mitgliedstaat, der den Austritt beschließt, zunächst den Europäischen Rat von seiner Absicht unterrichtet. Die Europäische Union verhandelt dann ein Austrittsabkommen mit diesem Staat, unter Berücksichtigung des Rahmens für seine künftigen Beziehungen zur Union. Dieses Abkommen bedarf der Zustimmung des Europäischen Parlaments und wird dann dem Europäischen Rat zur Abstimmung vorgelegt, also den Staats- und Regierungschefs aller EU-Länder.",
+      "Drittens, der Staat hört zwei Jahre nach der Erklärung seiner Austrittsabsicht auf, Mitglied der EU zu sein, es sei denn, es wurde zuvor eine Übergangsvereinbarung getroffen. Da Sie gestern Artikel 50 erklärt haben, haben Sie nun zwei Jahre Zeit, dieses Abkommen abzuschließen. Zwei Jahre. Ist das üppiger Luxus, oder wird es ein Höllentrip mit weißen Knöcheln? Das werden Sie bald herausfinden.",
+      "Der Jurist, der Artikel 50 entworfen hat, sagt, er habe nie erwartet, dass ihn tatsächlich ein Land anrufen würde, es sei denn, dessen Regierung wäre durch einen Putsch oder Ähnliches gestürzt worden. Natürlich sagen viele Brexit-Kritiker, dass es genau das ist – eine populistische Übernahme durch den rechten Flügel Ihrer Partei. Aber bisher haben noch Sie das Sagen.",
+      "Alles verstanden? Es wird nur noch brenzliger, also wenn Sie Valium dabeihaben, sollten Sie vielleicht jetzt ein paar einwerfen."
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Sobald Sie sich für den Kampf gewappnet haben\" ►289"
+    ]
+  },
+  "200": {
+    "ROUTES": [
+      "[IF !box:200.box1] [EFFECT tick:200.box1] ►101",
+      "[ELSEIF !box:200.box2] [EFFECT tick:200.box2] ►14",
+      "[ELSE] CONTINUE"
+    ],
+    "OPTIONS": [
+      "[OPTION] \"Ein Briefing über die anstehenden Themen erhalten\" ►225",
+      "[OPTION] \"Wer hat Zeit für Briefings?\" ►250"
+    ]
+  }
+}
