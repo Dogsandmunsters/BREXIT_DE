@@ -1891,7 +1891,7 @@
                 ],
                 "GOTO": [
                         "[IF keyword:DODO] \"Weiter\" ►431",
-                        "[ELSE] [EFFECT getItem:the NHS] \"Weiter\" ►450"
+                        "[ELSE] [EFFECT getItem:The NHS] \"Weiter\" ►450"
                 ]
         },
         "111": {
@@ -3215,7 +3215,7 @@
                 ],
                 "GOTO": [
                         "[IF keyword:DODO] \"Weiter\" ►431",
-                        "[ELSE] [EFFECT getItem:the NHS] \"Weiter\" ►450"
+                        "[ELSE] [EFFECT getItem:The NHS] \"Weiter\" ►450"
                 ]
         },
         "214": {
@@ -3577,7 +3577,7 @@
                 ],
                 "GOTO": [
                         "[IF keyword:DODO] \"Weiter\" ►431",
-                        "[ELSE] [EFFECT getItem:the NHS] \"Weiter\" ►450"
+                        "[ELSE] [EFFECT getItem:The NHS] \"Weiter\" ►450"
                 ]
         },
         "240": {
@@ -3946,7 +3946,7 @@
                         "Die nächste Abstimmungsrunde steht bevor, und Sie fragen sich langsam, ob Ihre Strategie, Fungales Brexit-Eifer zu übertrumpfen, überhaupt aufgehen kann. Jetzt kommt der Moment der Wahrheit."
                 ],
                 "GOTO": [
-                        "[IF Authority>=66 AND Popularity >=66] \"Sie schaffen das\" ►488",
+                        "[IF Authority>=66 AND Popularity>=66] \"Sie schaffen das\" ►488",
                         "[ELSE] \"Oh-oh\" ►377"
                 ]
         },
@@ -5355,7 +5355,7 @@
         },
         "373": {
                 "ONENTER": [
-                        "[EFFECT getItem:the NHS]"
+                        "[EFFECT getItem:The NHS]"
                 ],
                 "PROSE": [
                         "Das Handelsabkommen wird abgeschlossen und Sie bekommen Ihr Fototermin mit Präsident Windrip auf dem Rasen des Weißen Hauses. Schade um den NHS. Schon kreisen die Konzerne wie Geier darüber. Aber es ist nur ein Opfer auf dem langen Weg zum Aufbau eines neuen Großbritanniens für das Brexit-Zeitalter. Und Sie werden längst in Sussex imkern, bevor die Auswirkungen dieser Entscheidung voll zum Tragen kommen."
@@ -5496,7 +5496,7 @@
                         "Oh, hätte der Tag doch mehr Stunden, damit Sie persönlich alle Aspekte der Brexit-Verhandlungen überwachen könnten. Leider mussten Sie eine Reihe von Themen an Ihre Minister delegieren – insbesondere an den Staatssekretär für den EU-Austritt. Nun gilt es zu sehen, wie viel Schaden er und seine Kumpane angerichtet haben…"
                 ],
                 "GOTO": [
-                        "[IF !item:the NHS] \"Wer war für den NHS verantwortlich?\" ►682",
+                        "[IF !item:The NHS] \"Wer war für den NHS verantwortlich?\" ►682",
                         "[ELSEIF !item:Second EU Referendum] \"Da wäre die Frage eines weiteren Referendums\" ►165",
                         "[ELSEIF !item:Exit Fee] \"Wie wurde die Austrittsgebühr gehandhabt?\" ►560",
                         "[ELSEIF !item:Residency Rights] \"Die Frage der Aufenthaltsrechte...\" ►812",
@@ -6325,7 +6325,7 @@
                         "Die Zeit läuft ab, und Sie können nicht überall gleichzeitig sein. Aber sagt man nicht, ein guter Anführer lernt zu delegieren? Mit nur noch wenigen Monaten bis zum Brexit können Sie sich nur um ein einziges großes Thema persönlich kümmern."
                 ],
                 "OPTIONS": [
-                        "[IF !item:the NHS AND !box:450.box2] [OPTION] \"Den NHS in Angriff nehmen\" [EFFECT tick:450.box1] [EFFECT tick:450.box2] ►803",
+                        "[IF !item:The NHS AND !box:450.box2] [OPTION] \"Den NHS in Angriff nehmen\" [EFFECT tick:450.box1] [EFFECT tick:450.box2] ►803",
                         "[IF !item:Second EU Referendum AND !box:450.box3] [OPTION] \"Entscheiden, ob ein zweites Brexit-Referendum abgehalten werden soll\" [EFFECT tick:450.box1] [EFFECT tick:450.box3] ►192",
                         "[IF !item:Residency Rights AND !box:450.box4] [OPTION] \"Die Frage der Aufenthaltsrechte von britischen und EU-Bürgern angehen\" [EFFECT tick:450.box1] [EFFECT tick:450.box4] ►638",
                         "[IF !item:Security & Defence AND !box:450.box5] [OPTION] \"Die Frage der Zusammenarbeit zwischen UK und EU bei Sicherheit und Verteidigung klären\" [EFFECT tick:450.box1] [EFFECT tick:450.box5] ►420",
@@ -6784,7 +6784,7 @@
                         "‚Unantastbar, Ron. Nichts kann mich jetzt noch aufhalten.'"
                 ],
                 "GOTO": [
-                        "[IF keyword:OPAL and !keyword:LEAF] \"Wir werden sehen\" ►853",
+                        "[IF keyword:OPAL AND !keyword:LEAF] \"Wir werden sehen\" ►853",
                         "[ELSE] \"Wir werden sehen\" ►169"
                 ]
         },
@@ -7149,7 +7149,7 @@
                 ],
                 "GOTO": [
                         "[IF keyword:DODO] \"Weitermachen\" ►431",
-                        "[ELSE] [EFFECT getItem:the NHS] \"Weitermachen\" ►450"
+                        "[ELSE] [EFFECT getItem:The NHS] \"Weitermachen\" ►450"
                 ]
         },
         "518": {
@@ -7163,7 +7163,7 @@
                         "'Aber Sie könnten ankündigen, dass Großbritannien auf der Überholspur zur Äquivalenz ist. Wenn wir das jetzt verkünden können, hält es vielleicht einige der ausländischen Investmentbanken davon ab, ihre Zelte abzubrechen.'"
                 ],
                 "GOTO": [
-                        "[IF Goodwill>=25%] \"Gott sei Dank haben Sie noch etwas Wohlwollen\" ►583",
+                        "[IF Goodwill>=25] \"Gott sei Dank haben Sie noch etwas Wohlwollen\" ►583",
                         "[ELSE] \"In Zeiten wie diesen bräuchten Sie mehr Freunde\" ►246"
                 ]
         },
@@ -7988,7 +7988,7 @@
                 "ONENTER": [
                         "[EFFECT Authority-1]",
                         "[EFFECT Popularity-15]",
-                        "[EFFECT getItem:the NHS]"
+                        "[EFFECT getItem:The NHS]"
                 ],
                 "PROSE": [
                         "Das US-Handelsabkommen abzublasen verursacht Ihnen beinahe körperliche Schmerzen.",
@@ -9214,7 +9214,7 @@
         "682": {
                 "ONENTER": [
                         "[EFFECT Popularity-2]",
-                        "[EFFECT getItem:the NHS]"
+                        "[EFFECT getItem:The NHS]"
                 ],
                 "PROSE": [
                         "Sie distanzieren sich von allen Entscheidungen mit der Begründung, mit dem Brexit zu beschäftigt zu sein. Lassen Sie Ihren Gesundheitsminister und den Schatzkanzler die Prügel einstecken. Jede schlechte Nachricht bezüglich des NHS ist viel zu giftig, als dass Sie sich davon besudeln lassen könnten.",
@@ -11061,7 +11061,7 @@
                 ],
                 "GOTO": [
                         "[IF keyword:DODO] \"Weiter\" ►431",
-                        "[ELSE] [EFFECT getItem:the NHS] \"Weiter\" ►450"
+                        "[ELSE] [EFFECT getItem:The NHS] \"Weiter\" ►450"
                 ]
         },
         "825": {
@@ -11425,7 +11425,7 @@
                 ],
                 "GOTO": [
                         "[IF keyword:DODO] \"Weiter\" ►431",
-                        "[ELSE] [EFFECT getItem:the NHS] \"Weiter\" ►450"
+                        "[ELSE] [EFFECT getItem:The NHS] \"Weiter\" ►450"
                 ]
         },
         "855": {
@@ -11723,7 +11723,7 @@
 
         function resumeGame() {
             document.getElementById('header').style.display = 'flex';
-            renderSection(gameState.currentSection);
+            renderSection(gameState.currentSection, true);
         }
 
         function resetGame() {
@@ -11916,7 +11916,7 @@
         }
 
         // Render section
-        function renderSection(sectionNum) {
+        function renderSection(sectionNum, isResume = false) {
             gameState.currentSection = sectionNum;
             saveGame();
 
@@ -11935,8 +11935,10 @@
                 }
             }
 
-            // Process ONENTER
-            if (section.ONENTER) {
+            // Process ONENTER (skipped when resuming a save: these arrival effects were
+            // already applied on first arrival and many are non-idempotent — stat changes
+            // and tick:.next — so re-running them on Resume would corrupt the game state).
+            if (section.ONENTER && !isResume) {
                 processOnEnter(section.ONENTER);
             }
 
@@ -12195,97 +12197,67 @@
 
         function renderOptions(optionLines) {
             let html = '<div class="options">';
+
+            const renderButton = (line) => {
+                const text = extractButtonText(line);
+                const dest = extractDestination(line);
+                const effects = extractEffects(line);
+                html += `<button class="option-button" data-dest="${dest}" data-effects='${JSON.stringify(effects)}'>${text}</button>`;
+            };
+
             let i = 0;
-            
             while (i < optionLines.length) {
                 const line = optionLines[i];
                 const condition = extractCondition(line);
                 const elseIfCondition = extractElseIf(line);
-                
-                if (elseIfCondition) {
-                    // This is an ELSEIF - should have been handled in previous IF chain
-                    // Skip it (this shouldn't happen if logic is correct)
-                    i++;
-                    continue;
-                }
-                
-                if (condition) {
-                    // Check if next line is ELSEIF or ELSE (indicating a chain)
-                    const nextLine = i + 1 < optionLines.length ? optionLines[i + 1] : null;
-                    const isChain = nextLine && (nextLine.includes('[ELSEIF') || nextLine.includes('[ELSE]'));
-                    
-                    if (isChain) {
-                        // Handle as IF/ELSEIF/ELSE chain (mutually exclusive)
-                        let foundMatch = false;
-                        let j = i;
-                        
-                        while (j < optionLines.length) {
-                            const currentLine = optionLines[j];
-                            const currentCond = extractCondition(currentLine) || extractElseIf(currentLine);
-                            
-                            if (currentCond) {
-                                if (evaluateCondition(currentCond)) {
-                                    // Render this option
-                                    const text = extractButtonText(currentLine);
-                                    const dest = extractDestination(currentLine);
-                                    const effects = extractEffects(currentLine);
-                                    html += `<button class="option-button" data-dest="${dest}" data-effects='${JSON.stringify(effects)}'>${text}</button>`;
-                                    foundMatch = true;
-                                    break;
-                                }
-                            } else if (isElse(currentLine)) {
-                                // ELSE - render this
-                                const text = extractButtonText(currentLine);
-                                const dest = extractDestination(currentLine);
-                                const effects = extractEffects(currentLine);
-                                html += `<button class="option-button" data-dest="${dest}" data-effects='${JSON.stringify(effects)}'>${text}</button>`;
-                                foundMatch = true;
-                                break;
-                            } else {
-                                // Not part of IF chain, break
-                                break;
-                            }
-                            
+
+                // An [IF] whose next line is [ELSEIF]/[ELSE] starts a mutually-exclusive chain.
+                const nextLine = i + 1 < optionLines.length ? optionLines[i + 1] : null;
+                const startsChain = condition && nextLine &&
+                    (nextLine.includes('[ELSEIF') || nextLine.includes('[ELSE]'));
+
+                if (startsChain) {
+                    // Render only the first matching branch (IF, then ELSEIFs, then optional
+                    // ELSE), then advance past the whole chain so trailing branches aren't
+                    // emitted as duplicates and a following plain option isn't swallowed.
+                    let matched = false;
+                    if (evaluateCondition(condition)) { renderButton(line); matched = true; }
+
+                    let j = i + 1;
+                    while (j < optionLines.length) {
+                        const currentLine = optionLines[j];
+                        const ei = extractElseIf(currentLine);
+                        if (ei) {
+                            if (!matched && evaluateCondition(ei)) { renderButton(currentLine); matched = true; }
                             j++;
-                            
-                            // Check if next line continues the chain
-                            if (j < optionLines.length) {
-                                const nextLine = optionLines[j];
-                                if (!nextLine.includes('[ELSEIF') && !nextLine.includes('[ELSE]')) {
-                                    break;
-                                }
-                            }
+                            continue;
                         }
-                        
-                        // Skip all lines in this IF/ELSEIF/ELSE chain
-                        i = j + 1;
-                    } else {
-                        // Independent IF condition - evaluate and show/hide independently
-                        if (evaluateCondition(condition)) {
-                            const text = extractButtonText(line);
-                            const dest = extractDestination(line);
-                            const effects = extractEffects(line);
-                            html += `<button class="option-button" data-dest="${dest}" data-effects='${JSON.stringify(effects)}'>${text}</button>`;
+                        if (isElse(currentLine)) {
+                            if (!matched) { renderButton(currentLine); matched = true; }
+                            j++;        // [ELSE] terminates the chain
+                            break;
                         }
-                        i++;
+                        break;          // any other line ends the chain (and is left for the outer loop)
                     }
+                    i = j;
+                } else if (condition) {
+                    // Independent [IF] — show/hide on its own.
+                    if (evaluateCondition(condition)) renderButton(line);
+                    i++;
+                } else if (elseIfCondition) {
+                    // Stray [ELSEIF] outside a chain — skip.
+                    i++;
                 } else if (isElse(line)) {
-                    // Standalone ELSE (shouldn't happen, but handle it)
-                    const text = extractButtonText(line);
-                    const dest = extractDestination(line);
-                    const effects = extractEffects(line);
-                    html += `<button class="option-button" data-dest="${dest}" data-effects='${JSON.stringify(effects)}'>${text}</button>`;
+                    // Standalone [ELSE] (defensive).
+                    renderButton(line);
                     i++;
                 } else {
-                    // Regular option (no condition)
-                    const text = extractButtonText(line);
-                    const dest = extractDestination(line);
-                    const effects = extractEffects(line);
-                    html += `<button class="option-button" data-dest="${dest}" data-effects='${JSON.stringify(effects)}'>${text}</button>`;
+                    // Regular option (no condition).
+                    renderButton(line);
                     i++;
                 }
             }
-            
+
             html += '</div>';
             return html;
         }
